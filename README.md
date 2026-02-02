@@ -1,20 +1,17 @@
-## 👋 Hi, I’m Kamran Khalid
+# Kamran Khalid
+### Senior Backend Developer
 
-I am a **Senior Backend Developer** with over a decade of experience building and scaling production systems. My expertise lies in **PHP (Laravel, CodeIgniter)** and **Node.js**, with a strong focus on API design, microservices architecture, and long-term code maintainability.
+I am a backend engineer with over 10 years of experience specializing in the design and implementation of scalable production systems. My core expertise lies in **PHP (Laravel, CodeIgniter)** and **Node.js**, with a deep focus on API architecture, microservices, and system maintainability.
 
-Throughout my career, I’ve specialised in solving complex business logic problems — particularly in **payment automation**, **CRM workflows**, and **document management systems**. I believe in pragmatic engineering: writing code that is high-performing, readable, and easy for teams to evolve over time.
+Throughout my career, I have focused on solving complex business logic challenges, specifically in payment automation (PayByLink, webhooks), CRM onboarding workflows, and document management. I advocate for pragmatic engineering—prioritizing code that is performant, testable, and easy for teams to evolve.
 
----
+### Technical Writing & Implementations
+I believe that technical concepts are best understood through execution. I am currently working on a project to translate the architecture and patterns discussed in my [Medium articles](https://medium.com/@kamrankhalid06) into runnable code examples. 
 
-### 🚀 What I’m building right now
-I believe technical writing is most valuable when accompanied by working code. I’m currently translating my **Medium articles** into **practical, runnable implementations**. These examples — along with other projects such as the **GT project** — are available in the pinned repositories below. Each project is designed to demonstrate clean architecture and real-world application.
+These implementations, along with the **GT project**, are pinned below to demonstrate real-world applications of backend patterns, clean architecture, and robust error handling.
 
----
-
-### 🔧 Core Expertise
-- **Backend:** PHP (Laravel, CodeIgniter), Node.js (TypeScript / Express), Go  
-- **Architecture:** Microservices, event-driven systems, API gateway patterns  
-- **Domain Knowledge:** Payment gateway integrations (PayByLink, webhooks), CRM onboarding, scaling legacy systems  
-- **Community:** Technical speaker (GDG Manchester) and contributor to backend engineering best practices
-
-⬇️ **Pinned repositories below showcase working implementations and real-world examples**
+### Technical Focus
+* **Core Stack:** PHP (Laravel, CodeIgniter), Node.js (TypeScript), Go.
+* **Architecture:** Microservices, Event-driven systems, and API Gateway patterns.
+* **Domains:** Payment gateway integrations, CRM workflows, and legacy system refactoring.
+* **Speaking:** Technical speaker at events such as GDG Manchester, focusing on tech stack strategy and product development.
