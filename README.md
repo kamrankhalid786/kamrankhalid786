@@ -1,6 +1,6 @@
 ## Senior Backend Architect & Technical Leader
 
-I build reliable backend systems and help teams turn complex requirements into software that actually works. With over 12 years of hands-on experience, I focus on scalability, security, and long-term maintainability in production systems.
+I build reliable backend systems and turn complex requirements into software that actually works. With over 12 years of hands-on experience, I focus on scalability, security, and long-term maintainability in production systems.
 
 ## What I do
 
