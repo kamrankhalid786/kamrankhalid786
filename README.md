@@ -2,7 +2,7 @@
 
 I build reliable backend systems and help teams turn complex requirements into software that actually works. With over 12 years of hands-on experience, I focus on scalability, security, and long-term maintainability in production systems.
 
-## What I do (selected highlights)
+## What I do
 - **Fintech (Verofy®):** Backend Lead working on payment and onboarding systems for **Verofy® Enterprise payments platform®**, an **FCA-regulated Payment Institution**. My work supports secure onboarding, transaction processing, and internal decision logic used by UK SMEs.  
 - **Innovate UK (ProConvey):** Lead architect on an Innovate UK Smart Grant–funded platform that reduced routine legal enquiries by around 80% through secure, automated workflows.  
 - **Global events (MyWhoosh):** Designed the verification architecture for the UCI Cycling Esports World Championships, supporting real-time participation across 100+ countries.
