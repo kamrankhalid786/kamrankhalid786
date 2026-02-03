@@ -29,9 +29,9 @@ I actively contribute to the PHP/Laravel ecosystem and the wider UK tech communi
 
 <img src="https://img.icons8.com/color/48/000000/source-code.png" alt="Stack" width="18" style="vertical-align:middle;"/> <strong>Primary stack:</strong> Laravel/PHP, Node.js (NestJS), and Go.
 
-
+<!-- 
 ## Connect
 
 <a href="https://www.linkedin.com/in/kamran-khalid-4310973a/" target="_blank" rel="noopener"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="28" style="vertical-align:middle; margin-right:8px;"/></a>
 <a href="https://medium.com/@kamrankhalid06" target="_blank" rel="noopener"><img src="https://img.icons8.com/ios-filled/50/000000/medium-monogram.png" alt="Medium" width="28" height="28" style="vertical-align:middle; margin-right:8px; background:#fff; border-radius:6px;"/></a>
-<a href="https://github.com/kamrankhalid786" target="_blank" rel="noopener"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="28" style="vertical-align:middle; background:#fff; border-radius:6px; margin-right:8px;"/></a>
+<a href="https://github.com/kamrankhalid786" target="_blank" rel="noopener"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="28" style="vertical-align:middle; background:#fff; border-radius:6px; margin-right:8px;"/></a> -->
