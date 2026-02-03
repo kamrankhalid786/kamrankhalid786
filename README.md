@@ -24,6 +24,7 @@ I actively contribute to the PHP/Laravel ecosystem and the wider UK tech communi
 ## Tech focus
 
 Backend architecture, APIs, event-driven systems, and security (OAuth2/JWT).
+
 Primary stack: Laravel/PHP, Node.js (NestJS), and Go.
 
 ## Connect
