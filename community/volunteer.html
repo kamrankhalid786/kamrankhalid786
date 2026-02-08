@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education - Kamran Khalid</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Volunteer Work - Kamran Khalid</title>
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
     <div class="page-rail"><div class="rail-progress" id="railProgress"></div></div>
@@ -15,15 +15,15 @@
                 <span></span><span></span><span></span>
             </button>
             <ul class="nav-links" id="navLinks">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="experience.html">Experience</a></li>
-                <li><a href="education.html" class="active">Education</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="certifications.html">Certifications</a></li>
-                <li><a href="recommendations.html">Recommendations</a></li>
-                <li><a href="community.html">Community</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../experience.html">Experience</a></li>
+                <li><a href="../education.html">Education</a></li>
+                <li><a href="../projects.html">Projects</a></li>
+                <li><a href="../certifications.html">Certifications</a></li>
+                <li><a href="../recommendations.html">Recommendations</a></li>
+                <li><a href="../community.html" class="active">Community</a></li>
+                <li><a href="../contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -31,18 +31,18 @@
     <section class="page-hero">
         <div class="container">
             <span class="page-label">Coder · AI · ML</span>
-            <h1 class="page-title">Education</h1>
+            <h1 class="page-title">Volunteer Work</h1>
             <p class="page-subtitle">
-                Combining business strategy with technical expertise
+                Supporting developer communities through mentoring, reviews, and platform enablement.
             </p>
             <div class="mini-timeline">
                 <div class="mini-timeline-item">
-                    <div class="mini-timeline-title">2006–2010 · Software Engineering</div>
-                    <div class="mini-timeline-desc">Foundation in architecture, OOP, databases</div>
+                    <div class="mini-timeline-title">Mentorship</div>
+                    <div class="mini-timeline-desc">Career support, code reviews, technical guidance</div>
                 </div>
                 <div class="mini-timeline-item">
-                    <div class="mini-timeline-title">2023–2024 · Data & Business</div>
-                    <div class="mini-timeline-desc">Analytics, strategy, AI-ready decision making</div>
+                    <div class="mini-timeline-title">Community Ops</div>
+                    <div class="mini-timeline-desc">Organizing meetups and technical sessions</div>
                 </div>
             </div>
         </div>
@@ -50,27 +50,19 @@
 
     <section class="section">
         <div class="container">
-            <div class="education-card">
-                <div class="education-degree">MSc International Business With Data Analytics</div>
-                <div class="education-school">Ulster University</div>
-                <div class="education-period">April 2023 - February 2024</div>
-                <span class="badge">Distinction</span>
-                <p class="content-text" style="margin-top: 16px;">
-                    Bridging business strategy with tech-driven solutions. Specialized in leveraging data analytics 
-                    for strategic decision-making with comprehensive understanding of global markets. Featured Alumni 
-                    Story by QA Higher Education.
-                </p>
-            </div>
-
-            <div class="education-card">
-                <div class="education-degree">BS Software Engineering</div>
-                <div class="education-school">University of Engineering and Technology, Taxila</div>
-                <div class="education-period">2006 - 2010</div>
-                <span class="badge" style="background: var(--bg-tertiary); color: var(--text-primary);">Grade B</span>
-                <p class="content-text" style="margin-top: 16px;">
-                    Foundation in software design, development, and engineering principles. Member of Computer Society. 
-                    Focused on backend development, web applications, and object-oriented programming.
-                </p>
+            <div class="card-grid">
+                <div class="link-card">
+                    <div class="link-card-title">Mentorship Programs</div>
+                    <div class="link-card-desc">1:1 mentoring for junior engineers and career switchers.</div>
+                </div>
+                <div class="link-card">
+                    <div class="link-card-title">Open Source Guidance</div>
+                    <div class="link-card-desc">Pull request reviews and system design feedback.</div>
+                </div>
+                <div class="link-card">
+                    <div class="link-card-title">Community Enablement</div>
+                    <div class="link-card-desc">Helping teams scale processes and platform engineering.</div>
+                </div>
             </div>
         </div>
     </section>
@@ -102,8 +94,20 @@
 
     <script>
         function toggleMenu() {
-            document.getElementById('navLinks').classList.toggle('active');
+            document.getElementById("navLinks").classList.toggle("active");
         }
+
+        function updateRail() {
+            var progress = document.getElementById("railProgress");
+            if (!progress) return;
+            var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            var ratio = docHeight > 0 ? window.scrollY / docHeight : 0;
+            progress.style.height = (ratio * 100) + "%";
+        }
+
+        window.addEventListener("scroll", updateRail);
+        window.addEventListener("resize", updateRail);
+        window.addEventListener("load", updateRail);
     </script>
 </body>
 </html>

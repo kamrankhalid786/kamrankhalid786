@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education - Kamran Khalid</title>
+    <title>Contact - Kamran Khalid</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,12 +18,12 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="experience.html">Experience</a></li>
-                <li><a href="education.html" class="active">Education</a></li>
+                <li><a href="education.html">Education</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="certifications.html">Certifications</a></li>
                 <li><a href="recommendations.html">Recommendations</a></li>
                 <li><a href="community.html">Community</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -31,18 +31,22 @@
     <section class="page-hero">
         <div class="container">
             <span class="page-label">Coder · AI · ML</span>
-            <h1 class="page-title">Education</h1>
+            <h1 class="page-title">Contact</h1>
             <p class="page-subtitle">
-                Combining business strategy with technical expertise
+                Open to senior backend roles, consulting, and complex architecture challenges
             </p>
             <div class="mini-timeline">
                 <div class="mini-timeline-item">
-                    <div class="mini-timeline-title">2006–2010 · Software Engineering</div>
-                    <div class="mini-timeline-desc">Foundation in architecture, OOP, databases</div>
+                    <div class="mini-timeline-title">Discovery</div>
+                    <div class="mini-timeline-desc">Understand the problem and constraints</div>
                 </div>
                 <div class="mini-timeline-item">
-                    <div class="mini-timeline-title">2023–2024 · Data & Business</div>
-                    <div class="mini-timeline-desc">Analytics, strategy, AI-ready decision making</div>
+                    <div class="mini-timeline-title">Build</div>
+                    <div class="mini-timeline-desc">Design APIs, ship production systems</div>
+                </div>
+                <div class="mini-timeline-item">
+                    <div class="mini-timeline-title">Scale</div>
+                    <div class="mini-timeline-desc">Performance, observability, reliability</div>
                 </div>
             </div>
         </div>
@@ -50,27 +54,45 @@
 
     <section class="section">
         <div class="container">
-            <div class="education-card">
-                <div class="education-degree">MSc International Business With Data Analytics</div>
-                <div class="education-school">Ulster University</div>
-                <div class="education-period">April 2023 - February 2024</div>
-                <span class="badge">Distinction</span>
-                <p class="content-text" style="margin-top: 16px;">
-                    Bridging business strategy with tech-driven solutions. Specialized in leveraging data analytics 
-                    for strategic decision-making with comprehensive understanding of global markets. Featured Alumni 
-                    Story by QA Higher Education.
-                </p>
-            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p>contact@kamrankhalid.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Location</h3>
+                        <p>Manchester, United Kingdom</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>LinkedIn</h3>
+                        <p>linkedin.com/in/kamrankhalid</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Availability</h3>
+                        <p>Open to full-time roles and select consulting engagements</p>
+                    </div>
+                </div>
 
-            <div class="education-card">
-                <div class="education-degree">BS Software Engineering</div>
-                <div class="education-school">University of Engineering and Technology, Taxila</div>
-                <div class="education-period">2006 - 2010</div>
-                <span class="badge" style="background: var(--bg-tertiary); color: var(--text-primary);">Grade B</span>
-                <p class="content-text" style="margin-top: 16px;">
-                    Foundation in software design, development, and engineering principles. Member of Computer Society. 
-                    Focused on backend development, web applications, and object-oriented programming.
-                </p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label class="form-label" for="name">Full Name</label>
+                        <input class="form-input" type="text" id="name" name="name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="email">Email Address</label>
+                        <input class="form-input" type="email" id="email" name="email" placeholder="you@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="company">Company</label>
+                        <input class="form-input" type="text" id="company" name="company" placeholder="Company or organization">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="message">Project Details</label>
+                        <textarea class="form-textarea" id="message" name="message" placeholder="Tell me about the role, project, or challenge."></textarea>
+                    </div>
+                    <button class="btn btn-full" type="submit">Send Message</button>
+                </form>
             </div>
         </div>
     </section>

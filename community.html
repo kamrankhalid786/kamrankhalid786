@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education - Kamran Khalid</title>
+    <title>Community - Kamran Khalid</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,11 +18,11 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="experience.html">Experience</a></li>
-                <li><a href="education.html" class="active">Education</a></li>
+                <li><a href="education.html">Education</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="certifications.html">Certifications</a></li>
                 <li><a href="recommendations.html">Recommendations</a></li>
-                <li><a href="community.html">Community</a></li>
+                <li><a href="community.html" class="active">Community</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
@@ -31,18 +31,22 @@
     <section class="page-hero">
         <div class="container">
             <span class="page-label">Coder · AI · ML</span>
-            <h1 class="page-title">Education</h1>
+            <h1 class="page-title">Workshops, Volunteer & Awards</h1>
             <p class="page-subtitle">
-                Combining business strategy with technical expertise
+                Speaking, mentoring, and contributing to the engineering community.
             </p>
             <div class="mini-timeline">
                 <div class="mini-timeline-item">
-                    <div class="mini-timeline-title">2006–2010 · Software Engineering</div>
-                    <div class="mini-timeline-desc">Foundation in architecture, OOP, databases</div>
+                    <div class="mini-timeline-title">Workshops</div>
+                    <div class="mini-timeline-desc">Technical sessions and deep-dives</div>
                 </div>
                 <div class="mini-timeline-item">
-                    <div class="mini-timeline-title">2023–2024 · Data & Business</div>
-                    <div class="mini-timeline-desc">Analytics, strategy, AI-ready decision making</div>
+                    <div class="mini-timeline-title">Volunteer</div>
+                    <div class="mini-timeline-desc">Community support and mentorship</div>
+                </div>
+                <div class="mini-timeline-item">
+                    <div class="mini-timeline-title">Awards</div>
+                    <div class="mini-timeline-desc">Recognition and certifications</div>
                 </div>
             </div>
         </div>
@@ -50,27 +54,48 @@
 
     <section class="section">
         <div class="container">
-            <div class="education-card">
-                <div class="education-degree">MSc International Business With Data Analytics</div>
-                <div class="education-school">Ulster University</div>
-                <div class="education-period">April 2023 - February 2024</div>
-                <span class="badge">Distinction</span>
-                <p class="content-text" style="margin-top: 16px;">
-                    Bridging business strategy with tech-driven solutions. Specialized in leveraging data analytics 
-                    for strategic decision-making with comprehensive understanding of global markets. Featured Alumni 
-                    Story by QA Higher Education.
-                </p>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">Guest Speaker Sessions</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">1</div>
+                    <div class="stat-label">Featured Alumni Story</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Awards & Recognitions</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">2025</div>
+                    <div class="stat-label">Most Active Year</div>
+                </div>
             </div>
+        </div>
+    </section>
 
-            <div class="education-card">
-                <div class="education-degree">BS Software Engineering</div>
-                <div class="education-school">University of Engineering and Technology, Taxila</div>
-                <div class="education-period">2006 - 2010</div>
-                <span class="badge" style="background: var(--bg-tertiary); color: var(--text-primary);">Grade B</span>
-                <p class="content-text" style="margin-top: 16px;">
-                    Foundation in software design, development, and engineering principles. Member of Computer Society. 
-                    Focused on backend development, web applications, and object-oriented programming.
-                </p>
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4V6zm2 2v8h12V8H6z"/></svg>
+                </span>
+                Community Tracks
+            </h2>
+            <div class="card-grid">
+                <a class="link-card" href="community/workshops.html">
+                    <div class="link-card-title">Workshops & Speaking</div>
+                    <div class="link-card-desc">Sessions, talks, and technical deep-dives I delivered.</div>
+                </a>
+                <a class="link-card" href="community/volunteer.html">
+                    <div class="link-card-title">Volunteer Work</div>
+                    <div class="link-card-desc">Mentorship, community support, and engineering outreach.</div>
+                </a>
+                <a class="link-card" href="community/awards.html">
+                    <div class="link-card-title">Awards & Recognition</div>
+                    <div class="link-card-desc">Highlights of awards, recognitions, and special mentions.</div>
+                </a>
             </div>
         </div>
     </section>
@@ -102,8 +127,20 @@
 
     <script>
         function toggleMenu() {
-            document.getElementById('navLinks').classList.toggle('active');
+            document.getElementById("navLinks").classList.toggle("active");
         }
+
+        function updateRail() {
+            var progress = document.getElementById("railProgress");
+            if (!progress) return;
+            var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            var ratio = docHeight > 0 ? window.scrollY / docHeight : 0;
+            progress.style.height = (ratio * 100) + "%";
+        }
+
+        window.addEventListener("scroll", updateRail);
+        window.addEventListener("resize", updateRail);
+        window.addEventListener("load", updateRail);
     </script>
 </body>
 </html>

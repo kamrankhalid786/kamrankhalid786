@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="page-rail"><div class="rail-progress" id="railProgress"></div></div>
     <nav>
         <div class="nav-container">
             <div class="logo">Kamran Khalid</div>
@@ -18,10 +19,10 @@
                 <li><a href="about.html" class="active">About</a></li>
                 <li><a href="experience.html">Experience</a></li>
                 <li><a href="education.html">Education</a></li>
-                <li><a href="skills.html">Skills</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="certifications.html">Certifications</a></li>
                 <li><a href="recommendations.html">Recommendations</a></li>
+                <li><a href="community.html">Community</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
@@ -29,11 +30,25 @@
 
     <section class="page-hero">
         <div class="container">
-            <span class="page-label">About Me</span>
+            <span class="page-label">Coder · AI · ML</span>
             <h1 class="page-title">My Story</h1>
             <p class="page-subtitle">
                 A journey through technology, innovation, and continuous learning across three continents
             </p>
+            <div class="mini-timeline">
+                <div class="mini-timeline-item">
+                    <div class="mini-timeline-title">Start · Backend foundations</div>
+                    <div class="mini-timeline-desc">PHP, MVC, database design</div>
+                </div>
+                <div class="mini-timeline-item">
+                    <div class="mini-timeline-title">Scale · Enterprise platforms</div>
+                    <div class="mini-timeline-desc">Microservices, event systems, high traffic</div>
+                </div>
+                <div class="mini-timeline-item">
+                    <div class="mini-timeline-title">Now · AI-enabled products</div>
+                    <div class="mini-timeline-desc">Risk scoring, fraud signals, automation</div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -41,7 +56,12 @@
         <div class="container">
             <div class="content-grid">
                 <div>
-                    <h2 class="section-title">Who I Am</h2>
+                    <h2 class="section-title">
+                        <span class="section-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12c2.7 0 4.5-1.8 4.5-4.5S14.7 3 12 3 7.5 4.8 7.5 7.5 9.3 12 12 12zm0 2.25c-3 0-9 1.5-9 4.5V21h18v-2.25c0-3-6-4.5-9-4.5z"/></svg>
+                        </span>
+                        Who I Am
+                    </h2>
                     <p class="content-text">
                         I am a seasoned software engineer with over a decade of experience building scalable, 
                         high-performance applications. My journey started as a Backend developer in Pakistan, 
@@ -58,13 +78,42 @@
                         expertise spanning Laravel, Node.js, Vue.js, React, and increasingly AI/ML integration.
                     </p>
 
-                    <h2 class="section-title" style="margin-top: 48px;">Philosophy</h2>
+                    <h2 class="section-title" style="margin-top: 48px;">
+                        <span class="section-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.5 7.1L23 10l-5.5 5.3L18.8 23 12 19.3 5.2 23l1.3-7.7L1 10l7.5-0.9L12 2z"/></svg>
+                        </span>
+                        Philosophy
+                    </h2>
                     <p class="content-text">
                         I believe great software is not just functional—it's elegant, maintainable, and empowering. 
                         Code should tell a story, architectures should evolve gracefully, and solutions should enable 
                         teams to move faster. My approach combines deep technical expertise with pragmatic decision-making, 
                         always keeping the end goal in sight while enjoying the journey of problem-solving.
                     </p>
+
+                    <h2 class="section-title" style="margin-top: 48px;">
+                        <span class="section-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v4H4V5zm0 5h16v4H4v-4zm0 5h16v4H4v-4z"/></svg>
+                        </span>
+                        Core Skills
+                    </h2>
+                    <div class="skills-grid">
+                        <div class="skill-tag">Laravel</div>
+                        <div class="skill-tag">PHP</div>
+                        <div class="skill-tag">Node.js</div>
+                        <div class="skill-tag">NestJS</div>
+                        <div class="skill-tag">REST APIs</div>
+                        <div class="skill-tag">GraphQL</div>
+                        <div class="skill-tag">MySQL</div>
+                        <div class="skill-tag">MongoDB</div>
+                        <div class="skill-tag">Redis</div>
+                        <div class="skill-tag">Docker</div>
+                        <div class="skill-tag">AWS</div>
+                        <div class="skill-tag">React</div>
+                        <div class="skill-tag">Vue.js</div>
+                        <div class="skill-tag">TypeScript</div>
+                        <div class="skill-tag">AI/ML Integration</div>
+                    </div>
                 </div>
 
                 <div>
@@ -129,6 +178,40 @@
         function toggleMenu() {
             document.getElementById('navLinks').classList.toggle('active');
         }
+
+        function setSkillLogos() {
+            var map = {
+                "Laravel": { file: "laravel.svg" },
+                "PHP": { file: "php.svg" },
+                "Node.js": { file: "nodedotjs.svg" },
+                "NestJS": { file: "nestjs.svg" },
+                "REST APIs": { file: "graphql.svg" },
+                "GraphQL": { file: "graphql.svg" },
+                "MySQL": { file: "mysql.svg" },
+                "MongoDB": { file: "mongodb.svg" },
+                "Redis": { file: "redis.svg" },
+                "Docker": { file: "docker.svg" },
+                "AWS": { file: "amazonwebservices.svg" },
+                "React": { file: "react.svg" },
+                "Vue.js": { file: "vuedotjs.svg" },
+                "TypeScript": { file: "typescript.svg" },
+                "AI/ML Integration": { file: "openai.svg" }
+            };
+
+            document.querySelectorAll('.skill-tag').forEach(function (tag) {
+                if (tag.querySelector('img')) return;
+                var text = tag.textContent.trim();
+                var item = map[text];
+                if (!item) return;
+                var img = document.createElement('img');
+                img.className = 'skill-logo';
+                img.src = 'assets/tech/' + item.file;
+                img.alt = text + ' logo';
+                tag.insertBefore(img, tag.firstChild);
+            });
+        }
+
+        setSkillLogos();
     </script>
 </body>
 </html>

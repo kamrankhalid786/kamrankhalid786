@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="page-rail"><div class="rail-progress" id="railProgress"></div></div>
     <nav>
         <div class="nav-container">
             <div class="logo">Kamran Khalid</div>
@@ -18,10 +19,10 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="experience.html" class="active">Experience</a></li>
                 <li><a href="education.html">Education</a></li>
-                <li><a href="skills.html">Skills</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="certifications.html">Certifications</a></li>
                 <li><a href="recommendations.html">Recommendations</a></li>
+                <li><a href="community.html">Community</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
@@ -29,23 +30,37 @@
 
     <section class="page-hero">
         <div class="container">
-            <span class="page-label">Career Journey</span>
+            <span class="page-label">Coder · AI · ML</span>
             <h1 class="page-title">Work Experience</h1>
             <p class="page-subtitle">
                 15+ years building enterprise solutions across fintech, healthcare, and digital platforms
             </p>
+            <div class="mini-timeline">
+                <div class="mini-timeline-item">
+                    <div class="mini-timeline-title">2010–2016 · Core engineering</div>
+                    <div class="mini-timeline-desc">Web apps, CMS, backend systems</div>
+                </div>
+                <div class="mini-timeline-item">
+                    <div class="mini-timeline-title">2016–2021 · Scalable platforms</div>
+                    <div class="mini-timeline-desc">Microservices, APIs, enterprise clients</div>
+                </div>
+                <div class="mini-timeline-item">
+                    <div class="mini-timeline-title">2021–Now · Fintech & AI</div>
+                    <div class="mini-timeline-desc">Payments, fraud detection, compliance</div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="section">
         <div class="container">
             <div class="timeline">
-                <div class="timeline-item">
+                <div class="timeline-item" id="exp-verofy">
                     <div class="timeline-header">
-                        <div class="timeline-company">Verofy®</div>
-                        <div class="timeline-role">Senior Software Engineer</div>
-                        <div class="timeline-period">April 2024 - Present · Manchester, UK</div>
-                    </div>
+                            <div class="timeline-company"><a class="inline-link" href="projects.html#project-verofy">Verofy®</a></div>
+                            <div class="timeline-role">Senior Software Engineer</div>
+                            <div class="timeline-period">April 2024 - Present · Manchester, UK</div>
+                        </div>
                     <p class="timeline-description">
                         Building next-generation payments platform empowering SMEs with enterprise-grade infrastructure. 
                         Designed machine-decisioning onboarding engine (90% faster approvals), developed AI-driven Fraud 
@@ -62,12 +77,12 @@
                     </div>
                 </div>
 
-                <div class="timeline-item">
+                <div class="timeline-item" id="exp-proconvey">
                     <div class="timeline-header">
-                        <div class="timeline-company">ProConvey®</div>
-                        <div class="timeline-role">Senior Software Developer</div>
-                        <div class="timeline-period">June 2023 - April 2024 · Greater London, UK</div>
-                    </div>
+                            <div class="timeline-company"><a class="inline-link" href="projects.html#project-proconvey">ProConvey®</a></div>
+                            <div class="timeline-role">Senior Software Developer</div>
+                            <div class="timeline-period">June 2023 - April 2024 · Greater London, UK</div>
+                        </div>
                     <p class="timeline-description">
                         Enhanced property conveyancing platform using full-stack approach. Implemented customizable 
                         email templates, automated PDF generation, integrated Yoti secure signing, and developed 
@@ -82,12 +97,12 @@
                     </div>
                 </div>
 
-                <div class="timeline-item">
+                <div class="timeline-item" id="exp-mywhoosh">
                     <div class="timeline-header">
-                        <div class="timeline-company">MyWhoosh</div>
-                        <div class="timeline-role">Back End Developer</div>
-                        <div class="timeline-period">October 2021 - February 2023 · Abu Dhabi, UAE</div>
-                    </div>
+                            <div class="timeline-company"><a class="inline-link" href="projects.html#project-mywhoosh">MyWhoosh</a></div>
+                            <div class="timeline-role">Back End Developer</div>
+                            <div class="timeline-period">October 2021 - February 2023 · Abu Dhabi, UAE</div>
+                        </div>
                     <p class="timeline-description">
                         Designed and developed server-side components for virtual cycling platform. Built high-performance, 
                         scalable applications using microservices architecture. Implemented RESTful APIs with Laravel, 
@@ -102,12 +117,12 @@
                     </div>
                 </div>
 
-                <div class="timeline-item">
+                <div class="timeline-item" id="exp-index">
                     <div class="timeline-header">
-                        <div class="timeline-company">INDEX Holding</div>
-                        <div class="timeline-role">Web Application Developer</div>
-                        <div class="timeline-period">May 2019 - October 2021 · Dubai, UAE</div>
-                    </div>
+                            <div class="timeline-company"><a class="inline-link" href="projects.html#project-index-holding">INDEX Holding</a></div>
+                            <div class="timeline-role">Web Application Developer</div>
+                            <div class="timeline-period">May 2019 - October 2021 · Dubai, UAE</div>
+                        </div>
                     <p class="timeline-description">
                         Developed event management systems (Maestro) with real-time capabilities. Built microservices 
                         architecture using Laravel and Vue.js. Created CRM, CMS, and custom solutions for event-based 
@@ -122,12 +137,12 @@
                     </div>
                 </div>
 
-                <div class="timeline-item">
+                <div class="timeline-item" id="exp-at-tech">
                     <div class="timeline-header">
-                        <div class="timeline-company">AT Tech</div>
-                        <div class="timeline-role">Software Design and Development Engineer</div>
-                        <div class="timeline-period">June 2016 - July 2018 · Rawalpindi, Pakistan</div>
-                    </div>
+                            <div class="timeline-company"><a class="inline-link" href="projects.html#project-at-tech">AT Tech</a></div>
+                            <div class="timeline-role">Software Design and Development Engineer</div>
+                            <div class="timeline-period">June 2016 - July 2018 · Rawalpindi, Pakistan</div>
+                        </div>
                     <p class="timeline-description">
                         First employee of AT Tech (AT Medics technology arm). Led migration of 30 NHS GP practice 
                         websites. Contributed to EZ Doc development (reduced GP admin time from 2 hours to 10 minutes, 
@@ -141,12 +156,12 @@
                     </div>
                 </div>
 
-                <div class="timeline-item">
+                <div class="timeline-item" id="exp-everymile">
                     <div class="timeline-header">
-                        <div class="timeline-company">Everymile Productions, LLC</div>
-                        <div class="timeline-role">Web Application Developer</div>
-                        <div class="timeline-period">June 2012 - July 2016 · Phoenix, Arizona</div>
-                    </div>
+                            <div class="timeline-company"><a class="inline-link" href="projects.html#project-everymile">Everymile Productions, LLC</a></div>
+                            <div class="timeline-role">Web Application Developer</div>
+                            <div class="timeline-period">June 2012 - July 2016 · Phoenix, Arizona</div>
+                        </div>
                     <p class="timeline-description">
                         Focused on backend development and MVC architecture. Worked on CMS and shopping cart 
                         implementations for various client projects.
@@ -159,12 +174,12 @@
                     </div>
                 </div>
 
-                <div class="timeline-item">
+                <div class="timeline-item" id="exp-s3">
                     <div class="timeline-header">
-                        <div class="timeline-company">S3 TECHNOLOGY</div>
-                        <div class="timeline-role">Software Engineer</div>
-                        <div class="timeline-period">April 2010 - April 2011 · Islamabad, Pakistan</div>
-                    </div>
+                            <div class="timeline-company"><a class="inline-link" href="projects.html#project-s3">S3 TECHNOLOGY</a></div>
+                            <div class="timeline-role">Software Engineer</div>
+                            <div class="timeline-period">April 2010 - April 2011 · Islamabad, Pakistan</div>
+                        </div>
                     <p class="timeline-description">
                         Entry-level position focused on web development, database management, and Google Maps API 
                         integration. Built store management systems with inventory and customer retention features.
@@ -209,6 +224,44 @@
         function toggleMenu() {
             document.getElementById('navLinks').classList.toggle('active');
         }
+
+        function setTechLogos() {
+            var map = {
+                "Laravel": { file: "laravel.svg" },
+                "Node.js": { file: "nodedotjs.svg" },
+                "React": { file: "react.svg" },
+                "MySQL": { file: "mysql.svg" },
+                "Redis": { file: "redis.svg" },
+                "AI/ML": { file: "openai.svg" },
+                "TypeScript": { file: "typescript.svg" },
+                "GraphQL": { file: "graphql.svg" },
+                "Docker": { file: "docker.svg" },
+                "Vue.js": { file: "vuedotjs.svg" },
+                "NestJS": { file: "nestjs.svg" },
+                "MongoDB": { file: "mongodb.svg" },
+                "RabbitMQ": { file: "rabbitmq.svg" },
+                "AWS": { file: "amazonwebservices.svg" },
+                "WordPress": { file: "wordpress.svg" },
+                "PHP": { file: "php.svg" },
+                "CodeIgniter": { file: "codeigniter.svg" },
+                "JavaScript": { file: "javascript.svg" },
+                "Google Maps": { file: "googlemaps.svg" }
+            };
+
+            document.querySelectorAll('.tech-tag').forEach(function (tag) {
+                if (tag.querySelector('img')) return;
+                var text = tag.textContent.trim();
+                var item = map[text];
+                if (!item) return;
+                var img = document.createElement('img');
+                img.className = 'tech-logo';
+                img.src = 'assets/tech/' + item.file;
+                img.alt = text + ' logo';
+                tag.insertBefore(img, tag.firstChild);
+            });
+        }
+
+        setTechLogos();
     </script>
 </body>
 </html>

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="page-rail"><div class="rail-progress" id="railProgress"></div></div>
     <nav>
         <div class="nav-container">
             <div class="logo">Kamran Khalid</div>
@@ -18,10 +19,10 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="experience.html">Experience</a></li>
                 <li><a href="education.html">Education</a></li>
-                <li><a href="skills.html">Skills</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="certifications.html">Certifications</a></li>
                 <li><a href="recommendations.html">Recommendations</a></li>
+                <li><a href="community.html">Community</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
@@ -29,34 +30,41 @@
 
     <section class="page-hero">
         <div class="container">
-            <span class="page-label">Senior Software Engineer</span>
+            <span class="page-label">Coder · AI · ML</span>
             <h1 class="page-title">Kamran Khalid</h1>
             <p class="page-subtitle">
-                I architect scalable backend systems, build high-performance APIs, and integrate 
-                AI-powered solutions for fintech and enterprise platforms. With 15+ years of experience, 
-                I turn complex challenges into elegant, production-ready solutions.
+                Senior software engineer focused on backend systems, AI-enabled platforms, and resilient
+                API architectures. I turn complex challenges into clean, maintainable software that scales.
             </p>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container">
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-number">15+</div>
-                    <div class="stat-label">Years Experience</div>
+            <div class="mini-timeline">
+                <div class="mini-timeline-item">
+                    <div class="mini-timeline-title">2010 · First production systems</div>
+                    <div class="mini-timeline-desc">PHP, JavaScript, MySQL, Google Maps APIs</div>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-number">50+</div>
-                    <div class="stat-label">Projects Delivered</div>
+                <div class="mini-timeline-item">
+                    <div class="mini-timeline-title">2016 · Healthcare & enterprise platforms</div>
+                    <div class="mini-timeline-desc">Laravel migrations, NHS-scale deployments</div>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-number">8</div>
-                    <div class="stat-label">Companies</div>
+                <div class="mini-timeline-item">
+                    <div class="mini-timeline-title">2021 · Microservices & real-time systems</div>
+                    <div class="mini-timeline-desc">RabbitMQ, MongoDB, event platforms</div>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-number">20+</div>
-                    <div class="stat-label">Certifications</div>
+                <div class="mini-timeline-item">
+                    <div class="mini-timeline-title">2024 · AI-driven payments</div>
+                    <div class="mini-timeline-desc">Risk workflows, fraud detection, compliance tooling</div>
+                </div>
+            </div>
+            <div class="code-panel">
+                <div class="terminal-header">
+                    <span class="terminal-dot"></span>
+                    <span class="terminal-dot"></span>
+                    <span class="terminal-dot"></span>
+                </div>
+                <div class="code-lines">
+                    <div class="typing-line delay-1"><span>const</span> mission = "Ship reliable systems";</div>
+                    <div class="typing-line delay-2"><span>stack</span>: ["Laravel", "Node.js", "Redis"]</div>
+                    <div class="typing-line delay-3"><span>ai</span>: fraud_signals(), risk_score()</div>
+                    <div class="typing-line delay-4"><span>focus</span>: "Scale, performance, clean architecture"</div>
                 </div>
             </div>
         </div>
@@ -64,7 +72,23 @@
 
     <section class="section">
         <div class="container">
-            <h2 class="section-title">What I Do</h2>
+            <div class="impact-tiles">
+                <div class="impact-tile"><span class="impact-num">15+</span> <span class="impact-label">years in backend engineering</span></div>
+                <div class="impact-tile"><span class="impact-num">50+</span> <span class="impact-label">delivered platforms</span></div>
+                <div class="impact-tile"><span class="impact-num">8</span> <span class="impact-label">companies across 3 regions</span></div>
+                <div class="impact-tile"><span class="impact-num">20+</span> <span class="impact-label">certifications</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v2H3V5zm0 6h18v2H3v-2zm0 6h18v2H3v-2z"/></svg>
+                </span>
+                What I Do
+            </h2>
             <div class="content-grid">
                 <div>
                     <p class="content-text">
@@ -80,13 +104,43 @@
                     </p>
                 </div>
                 <div>
-                    <div class="sidebar-card">
-                        <div class="sidebar-title">Current Focus</div>
-                        <p class="content-text">Payment Systems, AI/ML Integration, API Architecture, Microservices</p>
+                    <div class="terminal-card">
+                        <div class="terminal-header">
+                            <span class="terminal-dot"></span>
+                            <span class="terminal-dot"></span>
+                            <span class="terminal-dot"></span>
+                        </div>
+                        <div class="terminal-text">
+                            $ stack --focus<br>
+                            <span class="code-key">backend</span>: <span class="code-value">Laravel, Node.js, NestJS</span><br>
+                            <span class="code-key">data</span>: <span class="code-value">MySQL, MongoDB, Redis</span><br>
+                            <span class="code-key">infra</span>: <span class="code-value">Docker, AWS, CI/CD</span><br>
+                            <span class="code-key">ai</span>: <span class="code-value">risk models, fraud signals</span>
+                        </div>
                     </div>
-                    <div class="sidebar-card">
-                        <div class="sidebar-title">Location</div>
-                        <p class="content-text">Manchester, United Kingdom</p>
+                    <div class="sidebar-card" style="margin-top: 24px;">
+                        <div class="sidebar-title">Quick Info</div>
+                        <div class="fact-item">
+                            <span class="fact-label">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 6h16v4H4V6zm0 6h10v6H4v-6z"/></svg>
+                                Current Focus
+                            </span>
+                            <span class="fact-value">Payment Systems, AI/ML Integration, API Architecture</span>
+                        </div>
+                        <div class="fact-item">
+                            <span class="fact-label">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg>
+                                Location
+                            </span>
+                            <span class="fact-value">Manchester, United Kingdom</span>
+                        </div>
+                        <div class="fact-item">
+                            <span class="fact-label">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 3h10a2 2 0 0 1 2 2v4h-2V5H7v14h10v-4h2v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm9 6h6v6h-6v-6zm2 2v2h2v-2h-2z"/></svg>
+                                AI & Data
+                            </span>
+                            <span class="fact-value">Fraud detection, decisioning engines, risk models</span>
+                        </div>
                     </div>
                 </div>
             </div>

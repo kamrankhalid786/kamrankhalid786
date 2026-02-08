@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Kamran Khalid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-rail"><div class="rail-progress" id="railProgress"></div></div>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Kamran Khalid</div>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="recommendations.html">Recommendations</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="container">
+            <span class="page-label">Coder · AI · ML</span>
+            <h1 class="page-title">Projects</h1>
+            <p class="page-subtitle">
+                Selected platforms and products built across fintech, property, and enterprise software
+            </p>
+            <div class="mini-timeline">
+                <div class="mini-timeline-item">
+                    <div class="mini-timeline-title">Fintech</div>
+                    <div class="mini-timeline-desc">Payments, fraud, compliance</div>
+                </div>
+                <div class="mini-timeline-item">
+                    <div class="mini-timeline-title">Property tech</div>
+                    <div class="mini-timeline-desc">Onboarding, document automation</div>
+                </div>
+                <div class="mini-timeline-item">
+                    <div class="mini-timeline-title">Enterprise</div>
+                    <div class="mini-timeline-desc">Event platforms, B2B systems</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="projects-list">
+                <div class="project-card" id="project-verofy">
+                    <div class="project-header">
+                        <div>
+                            <div class="project-company"><a class="inline-link" href="experience.html#exp-verofy">Verofy</a></div>
+                            <h3 class="project-title">Next-Gen Payments Infrastructure</h3>
+                            <div class="project-period">Apr 2024 - Present</div>
+                        </div>
+
+                    </div>
+                    <p class="project-description">
+                        Verofy is a next-generation payments platform for SMEs, delivering enterprise-grade infrastructure,
+                        lightning-fast transactions, and seamless integrations. I design the end-to-end merchant journey from
+                        instant onboarding to next-day settlement, and build AI-driven fraud detection and compliance tooling.
+                    </p>
+                    <p class="project-description">
+                        Key work includes a machine-decisioning onboarding engine that reduced approval times from days to minutes,
+                        the Fraud AI Sentinel for real-time risk detection, Verofy Connect for ePOS-to-terminal automation, and a PCI+
+                        toolkit that embeds PCI DSS checks directly into the platform. Outcomes: 90% faster onboarding, materially lower
+                        chargebacks in the first quarter, 99.99% terminal uptime, and 75% less PCI audit prep.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Laravel</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">Redis</span>
+                        <span class="tech-tag">AI/ML</span>
+                    </div>
+                    <div class="meta-links">
+                        <a class="link-button" href="https://verofy.com" target="_blank">Show project</a>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project-proconvey">
+                    <div class="project-header">
+                        <div>
+                            <div class="project-company"><a class="inline-link" href="experience.html#exp-proconvey">ProConvey</a></div>
+                            <h3 class="project-title">Conveyancing Onboarding Platform</h3>
+                            <div class="project-period">Jun 2023 - Apr 2024</div>
+                        </div>
+
+                    </div>
+                    <p class="project-description">
+                        Enhanced property conveyancing workflows with end-to-end onboarding, automated document packs, and secure signing.
+                        Built customisable email templates, protocol form interfaces with PDF generation, Yoti integration, and data ingestion
+                        from Sprift with automated image handling.
+                    </p>
+                    <p class="project-description">
+                        Full-stack delivery using React.js and TypeScript on the front end, Laravel (PHP) on the back end, and GraphQL for
+                        efficient data access. Introduced granular permissions, automated naming conventions, and Laravel Jobs/Queues to improve
+                        throughput and reliability.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">Laravel</span>
+                        <span class="tech-tag">GraphQL</span>
+                        <span class="tech-tag">Docker</span>
+                    </div>
+                    <div class="meta-links">
+                        <a class="link-button" href="https://www.proconvey.co.uk" target="_blank">Show project</a>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project-mywhoosh">
+                    <div class="project-header">
+                        <div>
+                            <div class="project-company"><a class="inline-link" href="experience.html#exp-mywhoosh">MyWhoosh</a></div>
+                            <h3 class="project-title">Virtual Cycling Event Platform</h3>
+                            <div class="project-period">Oct 2021 - Feb 2023</div>
+                        </div>
+
+                    </div>
+                    <p class="project-description">
+                        Built backend services for a web-based virtual events platform. Delivered scalable APIs and real-time systems,
+                        supporting registration, live event management, chat, streaming, and analytics. Implemented integrations across
+                        MongoDB and MySQL, with RabbitMQ for message-driven workflows.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Laravel</span>
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">NestJS</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">RabbitMQ</span>
+                    </div>
+                    <div class="meta-links">
+                        <a class="link-button" href="https://event.mywhoosh.com" target="_blank">Show project</a>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project-index-holding">
+                    <div class="project-header">
+                        <div>
+                            <div class="project-company"><a class="inline-link" href="experience.html#exp-index">INDEX Holding</a></div>
+                            <h3 class="project-title">Maestro - Real-Time Event Platform</h3>
+                            <div class="project-period">Jul 2019 - Oct 2021</div>
+                        </div>
+
+                    </div>
+                    <p class="project-description">
+                        Designed and delivered a Laravel + MySQL platform built for real-time, high-volume event operations.
+                        Implemented an event-driven architecture to keep feeds, notifications, and participant workflows synced
+                        at scale, with reliable data consistency across large traffic spikes.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Laravel</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">REST APIs</span>
+                        <span class="tech-tag">Microservices</span>
+                        <span class="tech-tag">AWS</span>
+                    </div>
+                    <div class="meta-links">
+                        <a class="link-button" href="https://maestro.index.ae" target="_blank">Show project</a>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project-at-tech">
+                    <div class="project-header">
+                        <div>
+                            <div class="project-company"><a class="inline-link" href="experience.html#exp-at-tech">AT Tech</a></div>
+                            <h3 class="project-title">EZ DOC - NHS Workflow Automation</h3>
+                            <div class="project-period">Feb 2016 - Nov 2017</div>
+                        </div>
+
+                    </div>
+                    <p class="project-description">
+                        Delivered EZ Doc, a GP practice workflow product that reduced admin time from hours to minutes. Built
+                        scalable systems used across 30+ surgeries and 16 London CCGs to streamline correspondence intake and
+                        data processing with auditability and secure access.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Laravel</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">REST APIs</span>
+                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">Docker</span>
+                    </div>
+                    <div class="meta-links">
+                        <a class="link-button" href="https://www.ezdoc.co.uk" target="_blank">Show project</a>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project-cal-cap">
+                    <div class="project-header">
+                        <div>
+                            <div class="project-company">Cal Cap Financial</div>
+                            <h3 class="project-title">Mortgage Investor Platform</h3>
+                            <div class="project-period">Jun 2015 - Mar 2016</div>
+                        </div>
+
+                    </div>
+                    <p class="project-description">
+                        Built a WordPress + Laravel platform for investor lending workflows, including custom CMS modules,
+                        marketing automation, and operational tooling. Focused on performance, security, and extensibility.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">WordPress</span>
+                        <span class="tech-tag">Laravel</span>
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="meta-links">
+                        <a class="link-button" href="https://www.calcapfinancial.com" target="_blank">Show project</a>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project-everymile">
+                    <div class="project-header">
+                        <div>
+                            <div class="project-company"><a class="inline-link" href="experience.html#exp-everymile">Everymile Productions</a></div>
+                            <h3 class="project-title">EverymilePro - Lead Gen Portal</h3>
+                            <div class="project-period">Jan 2011 - Feb 2011</div>
+                        </div>
+
+                    </div>
+                    <p class="project-description">
+                        Built a lead generation and reservation platform with event workflows and WordPress-based content
+                        management. Delivered a lightweight, SEO-friendly experience with a custom booking flow.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">WordPress</span>
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">AWS</span>
+                    </div>
+                    <div class="meta-links">
+                        <a class="link-button" href="https://www.everymilepro.com" target="_blank">Show project</a>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project-s3">
+                    <div class="project-header">
+                        <div>
+                            <div class="project-company"><a class="inline-link" href="experience.html#exp-s3">S3 Technology</a></div>
+                            <h3 class="project-title">NVD Stores - Retail Management Suite</h3>
+                            <div class="project-period">Apr 2010 - Oct 2010</div>
+                        </div>
+
+                    </div>
+                    <p class="project-description">
+                        Delivered a store management system with inventory, customer retention, event scheduling, and memo
+                        workflows. Integrated mapping, analytics, and automation for multi-branch retail ops.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Google Maps</span>
+                    </div>
+                    <div class="meta-links">
+                        <a class="link-button" href="https://www.s-tools.co.uk" target="_blank">Show project</a>
+                    </div>
+                </div>
+            </div></div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v4H4V4zm0 6h16v4H4v-4zm0 6h10v4H4v-4z"/></svg>
+                </span>
+                Delivery Stack
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-tag">Backend Architecture</div>
+                <div class="skill-tag">Laravel</div>
+                <div class="skill-tag">Node.js</div>
+                <div class="skill-tag">Microservices</div>
+                <div class="skill-tag">REST APIs</div>
+                <div class="skill-tag">GraphQL</div>
+                <div class="skill-tag">MySQL</div>
+                <div class="skill-tag">MongoDB</div>
+                <div class="skill-tag">Redis</div>
+                <div class="skill-tag">Docker</div>
+                <div class="skill-tag">AWS</div>
+                <div class="skill-tag">React</div>
+                <div class="skill-tag">Vue.js</div>
+                <div class="skill-tag">TypeScript</div>
+                <div class="skill-tag">AI/ML Integration</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">© 2026 Kamran Khalid. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/kamrankhalid" class="social-link" target="_blank">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/kamrankhalid" class="social-link" target="_blank">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:contact@kamrankhalid.com" class="social-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+
+        function setTechLogos() {
+            var map = {
+                "Laravel": { file: "laravel.svg" },
+                "Node.js": { file: "nodedotjs.svg" },
+                "React": { file: "react.svg" },
+                "MySQL": { file: "mysql.svg" },
+                "Redis": { file: "redis.svg" },
+                "AI/ML": { file: "openai.svg" },
+                "TypeScript": { file: "typescript.svg" },
+                "GraphQL": { file: "graphql.svg" },
+                "Docker": { file: "docker.svg" },
+                "Vue.js": { file: "vuedotjs.svg" },
+                "MongoDB": { file: "mongodb.svg" },
+                "RabbitMQ": { file: "rabbitmq.svg" },
+                "AWS": { file: "amazonwebservices.svg" },
+                "WordPress": { file: "wordpress.svg" },
+                "PHP": { file: "php.svg" },
+                "API": { file: "graphql.svg" },
+                "REST APIs": { file: "graphql.svg" },
+                "Microservices": { file: "docker.svg" },
+                "Google Maps": { file: "googlemaps.svg" }
+            };
+
+            document.querySelectorAll('.tech-tag').forEach(function (tag) {
+                if (tag.querySelector('img')) return;
+                var text = tag.textContent.trim();
+                var item = map[text];
+                if (!item) return;
+                var img = document.createElement('img');
+                img.className = 'tech-logo';
+                img.src = 'assets/tech/' + item.file;
+                img.alt = text + ' logo';
+                tag.insertBefore(img, tag.firstChild);
+            });
+        }
+
+        function setSkillLogos() {
+            var map = {
+                "Backend Architecture": { file: "laravel.svg" },
+                "Laravel": { file: "laravel.svg" },
+                "Node.js": { file: "nodedotjs.svg" },
+                "Microservices": { file: "docker.svg" },
+                "REST APIs": { file: "graphql.svg" },
+                "GraphQL": { file: "graphql.svg" },
+                "MySQL": { file: "mysql.svg" },
+                "MongoDB": { file: "mongodb.svg" },
+                "Redis": { file: "redis.svg" },
+                "Docker": { file: "docker.svg" },
+                "AWS": { file: "amazonwebservices.svg" },
+                "React": { file: "react.svg" },
+                "Vue.js": { file: "vuedotjs.svg" },
+                "TypeScript": { file: "typescript.svg" },
+                "AI/ML Integration": { file: "openai.svg" }
+            };
+
+            document.querySelectorAll('.skill-tag').forEach(function (tag) {
+                if (tag.querySelector('img')) return;
+                var text = tag.textContent.trim();
+                var item = map[text];
+                if (!item) return;
+                var img = document.createElement('img');
+                img.className = 'skill-logo';
+                img.src = 'assets/tech/' + item.file;
+                img.alt = text + ' logo';
+                tag.insertBefore(img, tag.firstChild);
+            });
+        }
+
+        setTechLogos();
+        setSkillLogos();
+    </script>
+</body>
+</html>
