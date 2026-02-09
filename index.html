@@ -16,7 +16,6 @@
             </button>
                         <ul class="nav-links" id="navLinks">
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About</a></li>
                 <li><a href="experience.html">Experience</a></li>
                 <li><a href="education.html">Education</a></li>
                 <li><a href="projects.html">Projects</a></li>
@@ -130,6 +129,103 @@
         </div>
     </section>
 
+    <section class="section">
+        <div class="container">
+            <div class="content-grid">
+                <div>
+                    <h2 class="section-title">
+                        <span class="section-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12c2.7 0 4.5-1.8 4.5-4.5S14.7 3 12 3 7.5 4.8 7.5 7.5 9.3 12 12 12zm0 2.25c-3 0-9 1.5-9 4.5V21h18v-2.25c0-3-6-4.5-9-4.5z"/></svg>
+                        </span>
+                        My Story
+                    </h2>
+                    <p class="content-text">
+                        I am a seasoned software engineer with over a decade of experience building scalable,
+                        high-performance applications. My journey started as a Backend developer in Pakistan,
+                        where I honed my craft working on everything from store management systems to healthcare platforms.
+                    </p>
+                    <p class="content-text">
+                        My career took me to the UAE, where I spent years building enterprise event management platforms
+                        and virtual cycling applications that handled thousands of concurrent users. This experience
+                        taught me the importance of microservices architecture, real-time systems, and building for scale.
+                    </p>
+                    <p class="content-text">
+                        Now based in the UK, I'm currently at Verofy building next-generation payment infrastructure.
+                        I specialize in creating powerful abstractions that elegantly solve complex problems, with
+                        expertise spanning Laravel, Node.js, Vue.js, React, and increasingly AI/ML.
+                    </p>
+
+                    <h2 class="section-title" style="margin-top: 48px;">
+                        <span class="section-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.5 7.1L23 10l-5.5 5.3L18.8 23 12 19.3 5.2 23l1.3-7.7L1 10l7.5-0.9L12 2z"/></svg>
+                        </span>
+                        Philosophy
+                    </h2>
+                    <p class="content-text">
+                        I believe great software is not just functional—it's elegant, maintainable, and empowering.
+                        Code should tell a story, architectures should evolve gracefully, and solutions should enable
+                        teams to move faster. My approach combines deep technical expertise with pragmatic decision-making,
+                        always keeping the end goal in sight while enjoying the journey of problem-solving.
+                    </p>
+
+                    <h2 class="section-title" style="margin-top: 48px;">
+                        <span class="section-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v4H4V5zm0 5h16v4H4v-4zm0 5h16v4H4v-4z"/></svg>
+                        </span>
+                        Core Skills
+                    </h2>
+                    <div class="skills-grid">
+                        <div class="skill-tag">Laravel</div>
+                        <div class="skill-tag">PHP</div>
+                        <div class="skill-tag">Node.js</div>
+                        <div class="skill-tag">NestJS</div>
+                        <div class="skill-tag">REST APIs</div>
+                        <div class="skill-tag">GraphQL</div>
+                        <div class="skill-tag">MySQL</div>
+                        <div class="skill-tag">MongoDB</div>
+                        <div class="skill-tag">Redis</div>
+                        <div class="skill-tag">Docker</div>
+                        <div class="skill-tag">AWS</div>
+                        <div class="skill-tag">React</div>
+                        <div class="skill-tag">Vue.js</div>
+                        <div class="skill-tag">TypeScript</div>
+                        <div class="skill-tag">AI/ML</div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="sidebar-card">
+                        <div class="sidebar-title">Quick Facts</div>
+                        <div class="fact-item">
+                            <span class="fact-label">Location</span>
+                            <span class="fact-value">Manchester, UK</span>
+                        </div>
+                        <div class="fact-item">
+                            <span class="fact-label">Experience</span>
+                            <span class="fact-value">15+ Years</span>
+                        </div>
+                        <div class="fact-item">
+                            <span class="fact-label">Specialization</span>
+                            <span class="fact-value">Backend Engineering</span>
+                        </div>
+                        <div class="fact-item">
+                            <span class="fact-label">Current Role</span>
+                            <span class="fact-value">Senior Engineer</span>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <div class="sidebar-title">Interests</div>
+                        <p class="content-text" style="font-size: 14px;">
+                            AI/ML • Neural Networks • Cloud Architecture •
+                            Mentoring Teams • Open Source • Tech Speaking
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <div class="footer-content">
@@ -159,6 +255,40 @@
         function toggleMenu() {
             document.getElementById('navLinks').classList.toggle('active');
         }
+
+        function setSkillLogos() {
+            var map = {
+                "Laravel": { file: "laravel.svg" },
+                "PHP": { file: "php.svg" },
+                "Node.js": { file: "nodedotjs.svg" },
+                "NestJS": { file: "nestjs.svg" },
+                "REST APIs": { file: "graphql.svg" },
+                "GraphQL": { file: "graphql.svg" },
+                "MySQL": { file: "mysql.svg" },
+                "MongoDB": { file: "mongodb.svg" },
+                "Redis": { file: "redis.svg" },
+                "Docker": { file: "docker.svg" },
+                "AWS": { file: "amazonwebservices.svg" },
+                "React": { file: "react.svg" },
+                "Vue.js": { file: "vuedotjs.svg" },
+                "TypeScript": { file: "typescript.svg" },
+                "AI/ML": { file: "openai.svg" }
+            };
+
+            document.querySelectorAll('.skill-tag').forEach(function (tag) {
+                if (tag.querySelector('img')) return;
+                var text = tag.textContent.trim();
+                var item = map[text];
+                if (!item) return;
+                var img = document.createElement('img');
+                img.className = 'skill-logo';
+                img.src = 'assets/tech/' + item.file;
+                img.alt = text + ' logo';
+                tag.insertBefore(img, tag.firstChild);
+            });
+        }
+
+        setSkillLogos();
     </script>
 </body>
 </html>
