@@ -1052,11 +1052,64 @@ footer {
     line-height: 1.7;
 }
 
+/* Sidebar Fact Card */
+.sidebar-card {
+    background: var(--terminal);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 22px;
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.4);
+}
+
+.sidebar-card .terminal-text {
+    margin-bottom: 16px;
+}
+
+.fact-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.fact-item:last-child {
+    border-bottom: none;
+}
+
+.fact-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--text-muted);
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.fact-value {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
 /* Mini Timeline */
 .mini-timeline {
     margin-top: 40px;
     border-left: 2px solid var(--border);
     padding-left: 24px;
+}
+
+.terminal-card .mini-timeline {
+    margin-top: 16px;
+}
+
+.terminal-section-title {
+    margin-top: 18px;
+    margin-bottom: 6px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 /* Cards */
@@ -1205,6 +1258,97 @@ footer {
 
 .impact-label {
     color: var(--text-secondary);
+}
+
+/* Metric Chips */
+.metric-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.metric-chip {
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: rgba(51, 214, 159, 0.12);
+    border: 1px solid rgba(51, 214, 159, 0.35);
+    color: var(--text-primary);
+    font-size: 12px;
+    font-family: 'IBM Plex Mono', monospace;
+    letter-spacing: 0.4px;
+}
+
+.mini-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.mini-info-card {
+    padding: 14px 16px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
+.mini-info-label {
+    font-size: 12px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 6px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.mini-info-value {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.stack-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: flex-start;
+}
+
+.stack-row {
+    justify-content: flex-start;
+    flex-wrap: nowrap !important;
+    overflow-x: auto;
+    padding-bottom: 6px;
+    scrollbar-width: none;
+    white-space: nowrap;
+}
+
+.stack-row::-webkit-scrollbar {
+    display: none;
+}
+
+.stack-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: rgba(51, 214, 159, 0.08);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.stack-icon:hover {
+    transform: translateY(-2px);
+}
+
+.stack-logo {
+    width: 20px;
+    height: 20px;
+    display: block;
+    filter: brightness(0) saturate(100%) invert(69%) sepia(27%) saturate(861%) hue-rotate(108deg) brightness(92%) contrast(92%);
 }
 
 .code-key {
