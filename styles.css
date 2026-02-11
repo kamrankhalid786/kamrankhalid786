@@ -256,12 +256,11 @@ nav {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 48px;
-    background: transparent;
+    color: var(--text-primary);
     letter-spacing: -0.5px;
     display: flex;
     align-items: center;
     gap: 12px;
-    text-shadow: 0 2px 8px rgba(0,0,0,0.18);
 }
 
 .section-title::before {
@@ -270,7 +269,6 @@ nav {
     font-size: 18px;
     color: var(--accent);
     letter-spacing: 2px;
-    text-shadow: 0 2px 8px rgba(0,0,0,0.12);
 }
 
 .section-icon {
@@ -1562,14 +1560,7 @@ footer {
     font-size: 12px;
     font-family: 'IBM Plex Mono', monospace;
     text-decoration: none;
-    font-weight: 700;
-    letter-spacing: 0.5px;
     transition: all 0.2s ease;
-    cursor: pointer;
-    margin-right: 8px;
-    margin-bottom: 8px;
-    box-shadow: 0 2px 8px rgba(51, 214, 159, 0.08);
-    outline: none;
 }
 
 .link-button:hover, .link-button:focus {
