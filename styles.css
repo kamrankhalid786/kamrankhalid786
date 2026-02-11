@@ -256,11 +256,12 @@ nav {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 48px;
-    color: var(--text-primary);
+    color: #fff;
     letter-spacing: -0.5px;
     display: flex;
     align-items: center;
     gap: 12px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.18);
 }
 
 .section-title::before {
@@ -269,6 +270,7 @@ nav {
     font-size: 18px;
     color: var(--accent);
     letter-spacing: 2px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.12);
 }
 
 .section-icon {
@@ -1552,21 +1554,29 @@ footer {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 6px 12px;
+    padding: 6px 16px;
     border-radius: 999px;
-    background: rgba(51, 214, 159, 0.12);
-    border: 1px solid rgba(51, 214, 159, 0.35);
-    color: var(--accent);
-    font-size: 12px;
+    background: var(--accent);
+    border: 1px solid var(--accent);
+    color: #111824;
+    font-size: 13px;
     font-family: 'IBM Plex Mono', monospace;
     text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0.5px;
     transition: all 0.2s ease;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    box-shadow: 0 2px 8px rgba(51, 214, 159, 0.08);
+    outline: none;
 }
 
-.link-button:hover {
-    border-color: var(--accent);
-    color: #ffffff;
-    background: rgba(51, 214, 159, 0.3);
+.link-button:hover, .link-button:focus {
+    background: var(--accent-hover);
+    color: #111824;
+    border-color: var(--accent-hover);
+    text-decoration: none;
 }
 
 .is-hidden {
@@ -1785,6 +1795,59 @@ footer {
 }
 
 /* Responsive */
+/* Custom Table Styles for Stats & PRs */
+.stats-table table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: var(--bg-secondary);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(51,214,159,0.08);
+    margin-bottom: 32px;
+}
+.stats-table th, .stats-table td {
+    padding: 16px 18px;
+    text-align: left;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;
+}
+.stats-table th {
+    background: var(--bg-tertiary);
+    color: var(--accent);
+    font-weight: 700;
+    border-bottom: 2px solid var(--border);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.stats-table td {
+    color: var(--text-primary);
+    border-bottom: 1px solid var(--border-subtle);
+}
+.stats-table tr:last-child td {
+    border-bottom: none;
+}
+.stats-table tr:hover td {
+    background: rgba(51,214,159,0.04);
+    transition: background 0.2s;
+}
+.stats-table table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+.stats-table thead th:first-child {
+    border-top-left-radius: 10px;
+}
+.stats-table thead th:last-child {
+    border-top-right-radius: 10px;
+}
+.stats-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+.stats-table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+/* Custom Table Styles for Stats & PRs */
 @media (max-width: 968px) {
     .content-grid,
     .contact-grid {
