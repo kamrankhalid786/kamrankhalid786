@@ -1563,11 +1563,10 @@ footer {
     transition: all 0.2s ease;
 }
 
-.link-button:hover, .link-button:focus {
-    background: var(--accent-hover);
-    color: #111824;
-    border-color: var(--accent-hover);
-    text-decoration: none;
+.link-button:hover {
+    border-color: var(--accent);
+    color: #ffffff;
+    background: rgba(51, 214, 159, 0.3);
 }
 
 .is-hidden {
