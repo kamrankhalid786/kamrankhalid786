@@ -256,7 +256,7 @@ nav {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 48px;
-    color: #fff;
+    background: transparent;
     letter-spacing: -0.5px;
     display: flex;
     align-items: center;
@@ -1554,12 +1554,12 @@ footer {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 6px 16px;
+    padding: 6px 12px;
     border-radius: 999px;
-    background: var(--accent);
-    border: 1px solid var(--accent);
-    color: #111824;
-    font-size: 13px;
+    background: rgba(51, 214, 159, 0.12);
+    border: 1px solid rgba(51, 214, 159, 0.35);
+    color: var(--accent);
+    font-size: 12px;
     font-family: 'IBM Plex Mono', monospace;
     text-decoration: none;
     font-weight: 700;
