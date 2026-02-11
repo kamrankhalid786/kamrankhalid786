@@ -1785,6 +1785,59 @@ footer {
 }
 
 /* Responsive */
+/* Custom Table Styles for Stats & PRs */
+.stats-table table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: var(--bg-secondary);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(51,214,159,0.08);
+    margin-bottom: 32px;
+}
+.stats-table th, .stats-table td {
+    padding: 16px 18px;
+    text-align: left;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;
+}
+.stats-table th {
+    background: var(--bg-tertiary);
+    color: var(--accent);
+    font-weight: 700;
+    border-bottom: 2px solid var(--border);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.stats-table td {
+    color: var(--text-primary);
+    border-bottom: 1px solid var(--border-subtle);
+}
+.stats-table tr:last-child td {
+    border-bottom: none;
+}
+.stats-table tr:hover td {
+    background: rgba(51,214,159,0.04);
+    transition: background 0.2s;
+}
+.stats-table table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+.stats-table thead th:first-child {
+    border-top-left-radius: 10px;
+}
+.stats-table thead th:last-child {
+    border-top-right-radius: 10px;
+}
+.stats-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+.stats-table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+/* Custom Table Styles for Stats & PRs */
 @media (max-width: 968px) {
     .content-grid,
     .contact-grid {

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProConvey: Technical Contribution - Kamran Khalid</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="proconvey-mermaid.css">
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.0/dist/mermaid.min.js"></script>
     <script>mermaid.initialize({ startOnLoad: true });</script>
@@ -15,6 +16,7 @@
     <div class="page-rail">
         <div class="rail-progress" id="railProgress"></div>
     </div>
+            <!-- Card/Grid layout for stats and PRs (Option 2) -->
     <nav>
         <div class="nav-container">
             <div class="logo">Kamran Khalid</div>
@@ -39,10 +41,21 @@
     </nav>
 
     <section class="page-hero">
-        <div class="container">
+        <div class="container hero-container">
             <span class="page-label">LegalTech · SaaS · AI</span>
-            <h1 class="page-title">ProConvey: Technical Contribution</h1>
-            <div class="hero-meta-inline" style="margin-bottom:1.5em;">
+            <h1 class="page-title hero-title">
+                ProConvey: Technical Contribution
+                <span class="hero-svg-accent">
+                    <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="60" cy="60" r="56" stroke="#33d69f" stroke-width="8" fill="none"/>
+                        <rect x="35" y="35" width="50" height="50" rx="12" stroke="#5fe3b6" stroke-width="4" fill="none"/>
+                    </svg>
+                </span>
+            </h1>
+            <div class="page-subtitle hero-subtitle">
+                A deep dive into the technical architecture, features, and impact of ProConvey’s legal-tech SaaS platform.
+            </div>
+            <div class="hero-meta-inline">
                 <div class="meta-block">
                     <strong>Role:</strong> Senior Software Developer<br>
                     <strong>Period:</strong> May 2023 – April 2024<br>
@@ -50,20 +63,22 @@
                 </div>
                 <div class="meta-block">
                     <strong>Organization:</strong> ProConvey Limited<br>
-                    <strong>Website:</strong> <a href="https://proconvey.co.uk/" target="_blank"
-                        rel="noopener">proconvey.co.uk</a><br>
-                    <strong>About:</strong> ProConvey is a legal-tech SaaS platform that digitizes and automates the UK
-                    property conveyancing process, reducing manual paperwork, improving compliance, and accelerating
-                    onboarding for conveyancers, buyers, and sellers.
+                    <strong>Website:</strong> <a href="https://proconvey.co.uk/" target="_blank" rel="noopener">proconvey.co.uk</a><br>
+                    <strong>About:</strong> ProConvey digitizes and automates the UK property conveyancing process, reducing manual paperwork, improving compliance, and accelerating onboarding for conveyancers, buyers, and sellers.
                 </div>
             </div>
         </div>
+        <div class="hero-bottom-spacer"></div>
     </section>
 
     <section class="section">
-        <div class="container">
-            <h2 class="section-title">High-Level Architecture</h2>
-            <div class="diagram-block">
+            <div class="container">
+                <h2 class="section-title">High-Level Architecture</h2>
+                <div class="page-subtitle" style="margin-bottom: 2em; max-width: 700px;">
+                    Overview of the platform’s main components and how they interact to deliver a seamless conveyancing experience.
+                </div>
+            <div class="diagram-card" style="background: var(--bg-tertiary); border: 1px solid var(--border); border-radius: 12px; padding: 28px 24px 18px 24px; margin-bottom: 32px; box-shadow: 0 2px 12px rgba(51,214,159,0.06);">
+                <div style="font-size: 15px; color: var(--accent); font-family: 'IBM Plex Mono', monospace; margin-bottom: 10px; letter-spacing: 1px;">High-Level Architecture Diagram</div>
                 <div class="mermaid">
                     flowchart LR
                     A["Web Frontend (Next.js, React)"] -- API Calls --> B["API Backend (Laravel, PHP)"]
@@ -77,9 +92,13 @@
     </section>
 
     <section class="section">
-        <div class="container">
-            <h2 class="section-title">Backend Structure & Code Organization</h2>
-            <div class="diagram-block">
+            <div class="container">
+                <h2 class="section-title">Backend Structure & Code Organization</h2>
+                <div class="page-subtitle" style="margin-bottom: 2em; max-width: 700px;">
+                    A breakdown of the backend’s modular design, showing how services, jobs, and helpers are organized for maintainability.
+                </div>
+            <div class="diagram-card" style="background: var(--bg-tertiary); border: 1px solid var(--border); border-radius: 12px; padding: 28px 24px 18px 24px; margin-bottom: 32px; box-shadow: 0 2px 12px rgba(51,214,159,0.06);">
+                <div style="font-size: 15px; color: var(--accent); font-family: 'IBM Plex Mono', monospace; margin-bottom: 10px; letter-spacing: 1px;">Backend Structure Diagram</div>
                 <div class="mermaid">
                     graph TD
                     Backend[API Backend]
@@ -103,8 +122,11 @@
     </section>
 
     <section class="section">
-        <div class="container">
-            <h2 class="section-title">Features Developed & Led</h2>
+            <div class="container">
+                <h2 class="section-title">Features Developed & Led</h2>
+                <div class="page-subtitle" style="margin-bottom: 2em; max-width: 700px;">
+                    Key technical features I designed and delivered, each contributing to automation, compliance, and user experience.
+                </div>
             <div class="feature-list">
                 <section style="margin-bottom:2.5em;">
                     <h3 style="margin-bottom:0.7em;">1. AI-Driven Compliance Logic <span style="font-weight:400;font-size:0.85em;">(KYC/KYB Automation)</span></h3>
@@ -113,7 +135,8 @@
                         <li><strong>Importance:</strong> Directly impacts compliance, risk, and onboarding speed; core to platform’s legal-tech value.</li>
                         <li><strong>Uniqueness:</strong> Integrates multiple APIs, applies AI/business rules, and automates legal checks.</li>
                     </ul>
-                    <div class="diagram-block" style="margin-bottom:1.2em;">
+                    <div class="diagram-card">
+                        <div class="diagram-caption">Compliance Logic Sequence</div>
                         <div class="mermaid">
                             sequenceDiagram
                             participant User
@@ -146,15 +169,14 @@
                         </ul>
                     </div>
                 </section>
-
                 <h3>2. Protocol Pack Automation (TA6, TA10, etc.)</h3>
                 <ul>
                     <li><strong>Purpose:</strong> Aggregates legal forms into digital bundles for conveyancers.</li>
-                    <li><strong>Importance:</strong> Reduces onboarding from weeks to hours, automates document
-                        handling.</li>
+                    <li><strong>Importance:</strong> Reduces onboarding from weeks to hours, automates document handling.</li>
                     <li><strong>Uniqueness:</strong> Dynamic aggregation, PDF generation, and digital delivery.</li>
                 </ul>
-                <div class="diagram-block">
+                <div class="diagram-card">
+                    <div class="diagram-caption">Protocol Pack Automation Flow</div>
                     <div class="mermaid">
                         flowchart TD
                         A["User completes forms"] --> B["Job aggregates TA6, TA10, etc."]
@@ -173,16 +195,14 @@
                         <li>Services/PdfService.php</li>
                     </ul>
                 </div>
-
                 <h3>3. Yoti IDV Integration (Secure Identity Verification)</h3>
                 <ul>
                     <li><strong>Purpose:</strong> Enables secure, legally binding onboarding via Yoti.</li>
-                    <li><strong>Importance:</strong> Ensures compliance, reduces fraud, and streamlines user
-                        verification.</li>
-                    <li><strong>Uniqueness:</strong> Real-time IDV, webhook handling, session completion automation.
-                    </li>
+                    <li><strong>Importance:</strong> Ensures compliance, reduces fraud, and streamlines user verification.</li>
+                    <li><strong>Uniqueness:</strong> Real-time IDV, webhook handling, session completion automation.</li>
                 </ul>
-                <div class="diagram-block">
+                <div class="diagram-card">
+                    <div class="diagram-caption">Yoti IDV Integration Flow</div>
                     <div class="mermaid">
                         flowchart LR
                         A[API Backend] --> B[Initiate Yoti IDV Session]
@@ -200,14 +220,14 @@
                         <li>config/webhook-client.php</li>
                     </ul>
                 </div>
-
                 <h3>4. Sprift Property Data & Images Automation</h3>
                 <ul>
                     <li><strong>Purpose:</strong> Automates property data/image retrieval for onboarding.</li>
                     <li><strong>Importance:</strong> Reduces manual entry, improves data accuracy.</li>
                     <li><strong>Uniqueness:</strong> Async jobs, API integration, dynamic property enrichment.</li>
                 </ul>
-                <div class="diagram-block">
+                <div class="diagram-card">
+                    <div class="diagram-caption">Sprift Property Data & Images Flow</div>
                     <div class="mermaid">
                         flowchart LR
                         A[Property Created/Updated] --> B[Trigger SpriftDataJob]
@@ -226,14 +246,14 @@
                         <li>Services/SpriftService.php</li>
                     </ul>
                 </div>
-
                 <h3>5. Stripe Payment Integration & Webhooks</h3>
                 <ul>
                     <li><strong>Purpose:</strong> Handles digital payments, webhook events, and payment status.</li>
                     <li><strong>Importance:</strong> Enables seamless payment flows, automates financial tracking.</li>
                     <li><strong>Uniqueness:</strong> Custom webhook jobs, event-driven updates.</li>
                 </ul>
-                <div class="diagram-block">
+                <div class="diagram-card">
+                    <div class="diagram-caption">Stripe Payment Integration Sequence</div>
                     <div class="mermaid">
                         sequenceDiagram
                         participant User
@@ -259,14 +279,14 @@
                         <li>Providers/AppServiceProvider.php</li>
                     </ul>
                 </div>
-
                 <h3>6. Automated Overview PDF Generation</h3>
                 <ul>
                     <li><strong>Purpose:</strong> Generates summary PDFs for properties and cases.</li>
                     <li><strong>Importance:</strong> Provides legal documentation, improves client experience.</li>
                     <li><strong>Uniqueness:</strong> Dynamic data aggregation, PDF rendering, media management.</li>
                 </ul>
-                <div class="diagram-block">
+                <div class="diagram-card">
+                    <div class="diagram-caption">Overview PDF Generation Flow</div>
                     <div class="mermaid">
                         flowchart LR
                         A[Property/Case Data] --> B[Aggregate Data]
@@ -282,15 +302,14 @@
                         <li>Services/PdfService.php</li>
                     </ul>
                 </div>
-
                 <h3>7. Notification & Email Automation</h3>
                 <ul>
-                    <li><strong>Purpose:</strong> Sends automated notifications for onboarding, document status, and
-                        payments.</li>
+                    <li><strong>Purpose:</strong> Sends automated notifications for onboarding, document status, and payments.</li>
                     <li><strong>Importance:</strong> Keeps users informed, reduces manual follow-ups.</li>
                     <li><strong>Uniqueness:</strong> Event-driven, customizable templates.</li>
                 </ul>
-                <div class="diagram-block">
+                <div class="diagram-card">
+                    <div class="diagram-caption">Notification & Email Automation Flow</div>
                     <div class="mermaid">
                         flowchart LR
                         A["Event Occurs (e.g., Payment, Status Change)"] --> B["Trigger Notification"]
@@ -312,9 +331,13 @@
     </section>
 
     <section class="section">
-        <div class="container">
-            <h2 class="section-title">Linking Features to Main Product Flow</h2>
-            <div class="diagram-block">
+            <div class="container">
+                <h2 class="section-title">Linking Features to Main Product Flow</h2>
+                <div class="page-subtitle" style="margin-bottom: 2em; max-width: 700px;">
+                    How my contributions integrate with and enhance the overall product workflow.
+                </div>
+            <div class="diagram-card" style="background: var(--bg-tertiary); border: 1px solid var(--border); border-radius: 12px; padding: 28px 24px 18px 24px; margin-bottom: 32px; box-shadow: 0 2px 12px rgba(51,214,159,0.06);">
+                <div style="font-size: 15px; color: var(--accent); font-family: 'IBM Plex Mono', monospace; margin-bottom: 10px; letter-spacing: 1px;">Product Flow: Core vs. Contributions</div>
                 <div class="mermaid">
                     %% Swimlane diagram: Core Product vs Kamran's Contributions
                     flowchart LR
@@ -355,8 +378,11 @@
     </section>
 
     <section class="section">
-        <div class="container">
-            <h2 class="section-title">Importance & Uniqueness</h2>
+            <div class="container">
+                <h2 class="section-title">Importance & Uniqueness</h2>
+                <div class="page-subtitle" style="margin-bottom: 2em; max-width: 700px;">
+                    What sets ProConvey apart in the legal-tech market and why these features matter.
+                </div>
             <ul>
                 <li>Each feature is architected for scalability, compliance, and automation.</li>
                 <li>Integrations with third-party APIs (Yoti, Stripe, Sprift, Royal Mail, Companies House) are rare in
@@ -369,7 +395,24 @@
     <section class="section">
         <div class="container">
             <h2 class="section-title">PR & Commit Stats</h2>
-            <div class="stats-table">
+            <div class="page-subtitle" style="margin-bottom: 2em; max-width: 700px;">
+                Key metrics and sample pull requests demonstrating my technical impact on the project.
+            </div>
+            <div class="stats-icons-row" style="display:flex;gap:2.5em;margin-bottom:2em;align-items:center;">
+                <div style="display:flex;align-items:center;gap:0.7em;">
+                    <span style="font-size:1.7em;vertical-align:middle;">🔀</span>
+                    <span style="font-size:1.1em;">Merged PRs</span>
+                </div>
+                <div style="display:flex;align-items:center;gap:0.7em;">
+                    <span style="font-size:1.7em;vertical-align:middle;">📝</span>
+                    <span style="font-size:1.1em;">Commits</span>
+                </div>
+                <div style="display:flex;align-items:center;gap:0.7em;">
+                    <span style="font-size:1.7em;vertical-align:middle;">💡</span>
+                    <span style="font-size:1.1em;">Contributions</span>
+                </div>
+            </div>
+            <div class="stats-table polished-stats-table">
                 <table>
                     <thead>
                         <tr>
@@ -395,8 +438,10 @@
                     </tbody>
                 </table>
             </div>
-            <h3>Sample PRs</h3>
-            <div class="stats-table">
+            <h3 style="display:flex;align-items:center;gap:0.6em;margin-top:2.2em;margin-bottom:1em;font-size:1.18em;">
+                <span style="font-size:1.3em;">📦</span> Sample PRs
+            </h3>
+            <div class="stats-table polished-stats-table">
                 <table>
                     <thead>
                         <tr>
@@ -429,6 +474,37 @@
                     </tbody>
                 </table>
             </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">External Links</h2>
+            <div class="page-subtitle" style="margin-bottom: 2em; max-width: 700px;">
+                Explore more about ProConvey and my professional presence.
+            </div>
+            <ul class="external-links-list polished-external-links-list">
+                <li style="display:flex;align-items:center;gap:0.7em;background:var(--bg-tertiary);border-radius:8px;padding:0.7em 1em;">
+                    <span style="font-size:1.5em;">📚</span>
+                    <a href="https://stackademic.com/" target="_blank">Stackademic Profile</a>
+                </li>
+                <li style="display:flex;align-items:center;gap:0.7em;background:var(--bg-tertiary);border-radius:8px;padding:0.7em 1em;">
+                    <span style="font-size:1.5em;">💼</span>
+                    <a href="https://www.linkedin.com/in/kamrankhalid786/" target="_blank">LinkedIn</a>
+                </li>
+                <li style="display:flex;align-items:center;gap:0.7em;background:var(--bg-tertiary);border-radius:8px;padding:0.7em 1em;">
+                    <span style="font-size:1.5em;">🌐</span>
+                    <a href="https://proconvey.co.uk/" target="_blank">ProConvey Website</a>
+                </li>
+                <li style="display:flex;align-items:center;gap:0.7em;background:var(--bg-tertiary);border-radius:8px;padding:0.7em 1em;">
+                    <span style="font-size:1.5em;">🐙</span>
+                    <a href="https://github.com/kamrankhalid786?tab=overview&from=2023-12-01&to=2023-12-31" target="_blank">GitHub Contributions 2023</a>
+                </li>
+                <li style="display:flex;align-items:center;gap:0.7em;background:var(--bg-tertiary);border-radius:8px;padding:0.7em 1em;">
+                    <span style="font-size:1.5em;">🐙</span>
+                    <a href="https://github.com/kamrankhalid786?tab=overview&from=2024-12-01&to=2024-12-31" target="_blank">GitHub Contributions 2024</a>
+                </li>
+            </ul>
         </div>
     </section>
 

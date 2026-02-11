@@ -1,0 +1,265 @@
+.mermaid text.actor,
+.mermaid text.actor > tspan {
+    fill: #e6f0ff !important;
+    stroke: none !important;
+}
+.mermaid .actor text,
+.mermaid .actor > text,
+.mermaid .actor > g > text,
+.mermaid .actor > g > g > text,
+.mermaid .actor > g > g > g > text,
+.mermaid .actor > g > g > g > g > text,
+.mermaid .actor > g > g > g > g > g > text,
+.mermaid .actor > g > g > g > g > g > g > text,
+.mermaid .actor > g > g > g > g > g > g > g > text,
+.mermaid .actor > g > g > g > g > g > g > g > g > text {
+    fill: #e6f0ff !important;
+    color: #e6f0ff !important;
+    font-family: 'IBM Plex Mono', 'Space Grotesk', 'Segoe UI', Arial, sans-serif !important;
+    font-size: 16px !important;
+    text-shadow: 0 1px 2px #11182455;
+}
+.mermaid .actor,
+.mermaid .actor rect,
+.mermaid .actor > rect,
+.mermaid .actor > g > rect,
+.mermaid .actor > g > g > rect,
+.mermaid .actor > g > g > g > rect {
+    fill: #222e44 !important;
+    stroke: #33d69f !important;
+}
+.mermaid .actor text,
+.mermaid .actor > text,
+.mermaid .actor > g > text,
+.mermaid .actor > g > g > text,
+.mermaid .actor > g > g > g > text {
+    fill: #e6f0ff !important;
+    color: #e6f0ff !important;
+    font-family: 'IBM Plex Mono', 'Space Grotesk', 'Segoe UI', Arial, sans-serif !important;
+    font-size: 16px !important;
+    text-shadow: 0 1px 2px #11182455;
+}
+.mermaid .actor rect {
+    fill: #222e44 !important;
+    stroke: #33d69f !important;
+}
+/* Mermaid dark mode override for proconvey.html only */
+.mermaid .node text,
+.mermaid .nodeLabel,
+.mermaid .label,
+.mermaid .label text,
+.mermaid .edgeLabel,
+.mermaid .edgeLabel tspan,
+.mermaid .label tspan,
+.mermaid .actor text,
+.mermaid .messageText,
+.mermaid .titleText,
+.mermaid .sectionTitle,
+.mermaid .sectionTitle text,
+.mermaid .sectionTitle tspan,
+.mermaid .sectionTitleLabel,
+.mermaid .sectionTitleLabel tspan {
+    fill: #e6f0ff !important;
+    color: #e6f0ff !important;
+    font-family: 'IBM Plex Mono', 'Space Grotesk', 'Segoe UI', Arial, sans-serif !important;
+    font-size: 16px !important;
+    text-shadow: 0 1px 2px #11182455;
+}
+
+.mermaid .node rect,
+.mermaid .node polygon,
+.mermaid .node ellipse,
+.mermaid .actor,
+.mermaid .section,
+.mermaid .sectionTitle {
+    fill: #222e44 !important;
+    stroke: #33d69f !important;
+    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.18));
+}
+
+.mermaid .edgePath path,
+.mermaid .messageLine0,
+.mermaid .messageLine1,
+.mermaid .link,
+.mermaid .arrowheadPath {
+    stroke: #33d69f !important;
+    fill: #33d69f !important;
+}
+
+.mermaid .edgeLabel {
+    background: #182233 !important;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+.mermaid .edgeLabel {
+    fill: #e6f0ff !important;
+    font-family: var(--mermaid-font-family) !important;
+    font-size: var(--mermaid-font-size) !important;
+}
+
+.mermaid .edgeLabel {
+    background: var(--mermaid-edge-label-bg) !important;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.mermaid .actor {
+    fill: #22314a !important;
+    stroke: #33d69f !important;
+}
+
+.mermaid .messageLine0,
+.mermaid .messageLine1 {
+    stroke: #33d69f !important;
+}
+/* Code Structure Block */
+.code-structure {
+    background: var(--bg-tertiary);
+    border-radius: 8px;
+    padding: 18px 24px;
+    margin: 24px 0 0 0;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'IBM Plex Mono', monospace;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    border: 1px solid var(--border);
+}
+/* --- Polished ProConvey Section Styles --- */
+.polished-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.polished-feature-card {
+    background: var(--bg-secondary);
+    border: 1.5px solid var(--border);
+    border-radius: 14px;
+    box-shadow: 0 4px 24px rgba(51,214,159,0.08);
+    padding: 32px 28px 24px 28px;
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.18s;
+    position: relative;
+}
+.polished-feature-card:hover {
+    border-color: var(--accent);
+    box-shadow: 0 8px 32px rgba(51,214,159,0.13);
+    transform: translateY(-3px) scale(1.012);
+}
+.polished-feature-card h3 {
+    font-size: 1.25em;
+    font-weight: 700;
+    margin-bottom: 0.6em;
+    color: var(--accent);
+    letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+}
+.feature-subtitle {
+    font-size: 0.95em;
+    font-weight: 400;
+    color: var(--text-secondary);
+    margin-left: 0.5em;
+}
+.polished-feature-card ul {
+    margin-bottom: 1.2em;
+    margin-left: 1.2em;
+    color: var(--text-secondary);
+    font-size: 1em;
+}
+.polished-feature-card .diagram-card {
+    margin-bottom: 1.2em;
+}
+.diagram-caption {
+    font-size: 0.98em;
+    color: var(--accent);
+    font-family: 'IBM Plex Mono', monospace;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+.polished-feature-card .code-structure {
+    margin-top: 0.5em;
+    font-size: 0.98em;
+    color: var(--text-muted);
+}
+.polished-feature-card .code-structure ul {
+    margin-left: 1.1em;
+    margin-bottom: 0;
+    font-size: 0.97em;
+}
+
+/* Stats Table Polished */
+.polished-stats-table table {
+    font-size: 1.04em;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(51,214,159,0.07);
+}
+.polished-stats-table th, .polished-stats-table td {
+    padding: 15px 20px;
+}
+.polished-stats-table th {
+    background: var(--bg-tertiary);
+    color: var(--accent);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.polished-stats-table tr:hover td {
+    background: rgba(51,214,159,0.07);
+}
+
+/* External Links Polished */
+.polished-external-links-list {
+    gap: 1.3em;
+}
+.polished-external-links-list li {
+    background: var(--bg-secondary);
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.18s;
+    box-shadow: 0 2px 12px rgba(51,214,159,0.07);
+}
+.polished-external-links-list li:hover {
+    border-color: var(--accent);
+    box-shadow: 0 6px 24px rgba(51,214,159,0.13);
+    transform: translateY(-2px) scale(1.01);
+}
+.polished-external-links-list a {
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 1.08em;
+    text-decoration: none;
+    transition: color 0.18s;
+}
+.polished-external-links-list a:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+}
+
+/* Hero Section Tweaks */
+.hero-container {
+    position: relative;
+}
+.hero-title {
+    position: relative;
+    z-index: 2;
+    font-size: 2.8em;
+    margin-bottom: 0.5em;
+}
+.hero-svg-accent {
+    position: absolute;
+    left: -32px;
+    top: -32px;
+    z-index: -1;
+    opacity: 0.12;
+}
+.hero-subtitle {
+    margin-bottom: 2.5em;
+    max-width: 700px;
+}
+.hero-meta-inline {
+    margin-bottom: 2.5em;
+}
+.hero-bottom-spacer {
+    height: 32px;
+}
