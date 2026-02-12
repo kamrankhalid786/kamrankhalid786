@@ -25,6 +25,23 @@
                 edgeLabelBackground: "#182233"
             }
         });
+
+        function openShowcaseVideo() {
+            var modal = document.getElementById('showcaseVideoModal');
+            if (!modal) return;
+            modal.classList.add('active');
+            modal.style.display = 'flex';
+            modal.setAttribute('aria-hidden', 'false');
+        }
+
+        function closeShowcaseVideo() {
+            var modal = document.getElementById('showcaseVideoModal');
+            if (!modal) return;
+            modal.classList.remove('active');
+            modal.style.display = 'none';
+            modal.setAttribute('aria-hidden', 'true');
+        }
+
     </script>
 </head>
 <body>
@@ -59,46 +76,22 @@
             <p class="page-subtitle hero-subtitle">
                 A focused breakdown of the technical architecture, features, and measurable impact delivered at ProConvey.
             </p>
-            
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/kamran-khalid-4310973a/" class="social-link" target="_blank" aria-label="LinkedIn">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                        </svg>
-                    </a>
-                    <a href="https://medium.com/@kamrankhalid06" class="social-link" target="_blank" aria-label="Medium">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M3 6.5C3 5.67 3.67 5 4.5 5h15c.83 0 1.5.67 1.5 1.5v11c0 .83-.67 1.5-1.5 1.5h-15C3.67 19 3 18.33 3 17.5v-11zm4.5 9.5c1.93 0 3.5-2.24 3.5-5s-1.57-5-3.5-5-3.5 2.24-3.5 5 1.57 5 3.5 5zm7 0c1.52 0 2.75-2.24 2.75-5s-1.23-5-2.75-5-2.75 2.24-2.75 5 1.23 5 2.75 5zm4.25-.39c.55 0 1-.95 1-2.11s-.45-2.11-1-2.11-1 .95-1 2.11.45 2.11 1 2.11z"/>
-                        </svg>
-                    </a>
-                    <a href="mailto:contact@kamrankhalid.com" class="social-link" aria-label="Email">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/>
-                        </svg>
-                    </a>
-                    <span class="social-divider"></span>
-                    <div class="social-group">
-                        <span class="social-label personal">Personal</span>
-                        <a href="https://github.com/kamrankhalid786" class="social-link" target="_blank" aria-label="GitHub Personal" title="GitHub Personal">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                            </svg>
-                        </a>
-                    </div>
-                    <div class="social-group">
-                        <span class="social-label pro">Pro (Last 2 Years)</span>
-                        <a href="https://github.com/kamran-khalid-v9" class="social-link" target="_blank" aria-label="GitHub Pro" title="GitHub Pro">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-<div class="hero-meta-clean">
+            <div class="hero-meta-clean">
                 <div class="hero-meta-row"><span>Role</span>Senior Software Developer</div>
                 <div class="hero-meta-row"><span>Period</span>May 2023 – April 2024</div>
-                <div class="hero-meta-row"><span>Focus</span>Backend architecture, compliance automation, grant-critical delivery</div>
-                <div class="hero-meta-row"><span>Organization</span>ProConvey Limited (<a href="https://proconvey.co.uk/" target="_blank" rel="noopener">proconvey.co.uk</a>)</div>
+                <div class="hero-meta-row"><span>Focus</span>Backend architecture, compliance automation, grant‑critical delivery</div>
+                <div class="hero-meta-row">
+                    <span>Organization</span>
+                    <span class="hero-meta-links">
+                        <a href="https://proconvey.co.uk/" target="_blank" rel="noopener">ProConvey Limited</a>
+                        <span class="hero-meta-divider">•</span>
+                        <a href="https://www.linkedin.com/company/proconvey/" target="_blank" rel="noopener">LinkedIn</a>
+                        <span class="hero-meta-divider">•</span>
+                        <a href="https://github.com/kamrankhalid786?tab=overview&from=2023-12-01&to=2023-12-31" target="_blank" rel="noopener">GitHub ’23</a>
+                        <span class="hero-meta-divider">•</span>
+                        <a href="https://github.com/kamrankhalid786?tab=overview&from=2024-12-01&to=2024-12-31" target="_blank" rel="noopener">GitHub ’24</a>
+                    </span>
+                </div>
             </div>
         </div>
         <div class="hero-bottom-spacer"></div>
@@ -110,6 +103,41 @@
             <p class="section-intro">
                 ProConvey is a cloud-based, all-in-one conveyancing portal for law firms and estate agents. The platform digitizes onboarding,
                 compliance, and case management to reduce manual paperwork, improve data accuracy, and accelerate the UK property transaction flow.
+            </p>
+            <div class="showcase">
+                <div class="showcase-header">
+                    <span class="showcase-badge">Quick showcase</span>
+                    <h3>Conveyancing software in action</h3>
+                    <p>Take a look at ProConvey conveyancing software in action and see how simple it is to streamline onboarding and conveyancing services.</p>
+                </div>
+                <div class="showcase-video">
+                    <button class="showcase-video-link" type="button" aria-label="Watch ProConvey demo video" onclick="openShowcaseVideo()">
+                        <img src="https://www.proconvey.co.uk/_next/image?url=%2Fimages%2FPhotos%2FProConvey-dashboard-video-placeholder.webp&w=1920&q=75" alt="ProConvey conveyancing software demo video">
+                        <span class="showcase-play">
+                            <span class="showcase-play-outer">
+                                <span class="showcase-play-inner">
+                                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <polygon points="6 3 20 12 6 21 6 3"></polygon>
+                                    </svg>
+                                </span>
+                            </span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="media-embed">
+                <iframe
+                    src="https://www.youtube.com/embed/-fce5ifNpG4?si=z_ic8un7PjqdPdo0"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                ></iframe>
+            </div>
+            <p class="section-intro">
+                If the video doesn’t load, watch it on YouTube:
+                <a class="inline-link" href="https://www.youtube.com/watch?v=-fce5ifNpG4" target="_blank" rel="noopener">Watch video on YouTube</a>
             </p>
             <h3 class="section-subtitle">Leadership Story</h3>
             <div class="content-single">
@@ -604,12 +632,35 @@
         });
 
 
+
+        function openShowcaseVideo() {
+            document.getElementById('showcaseVideoModal').classList.add('active');
+        }
+
+        function closeShowcaseVideo() {
+            document.getElementById('showcaseVideoModal').classList.remove('active');
+        }
+
     </script>
 
     <div class="diagram-zoom-overlay" id="diagramZoom" aria-hidden="true">
         <div class="diagram-zoom-content">
             <button class="diagram-zoom-close" type="button">Close</button>
             <div class="diagram-zoom-canvas"></div>
+        </div>
+    </div>
+
+    <div id="showcaseVideoModal" class="video-modal" aria-hidden="true">
+        <div class="video-modal-content">
+            <button class="video-modal-close" type="button" onclick="closeShowcaseVideo()">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M18 6 6 18"></path>
+                    <path d="m6 6 12 12"></path>
+                </svg>
+            </button>
+            <div class="video-modal-frame">
+                <iframe src="https://www.youtube.com/embed/-fce5ifNpG4" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            </div>
         </div>
     </div>
 </body>
