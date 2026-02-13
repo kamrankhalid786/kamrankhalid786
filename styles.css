@@ -1709,6 +1709,37 @@ nav {
     color: var(--text-primary);
 }
 
+.evidence-links {
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.evidence-links a {
+    color: var(--text-primary);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: rgba(51, 214, 159, 0.35);
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.evidence-links a::after {
+    content: " \2197";
+    color: var(--accent);
+    font-size: 12px;
+}
+
+.evidence-links a:hover {
+    color: var(--accent);
+}
+
 .evidence-card-wide {
     grid-column: 1 / -1;
 }
