@@ -1,0 +1,23 @@
+{
+  "name": "fintech-api-demo",
+  "version": "1.0.0",
+  "description": "Student demo project for a fintech-style API with idempotency, ledger posting, and audit trails.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "fintech",
+    "api",
+    "demo",
+    "ledger",
+    "idempotency"
+  ],
+  "license": "MIT"
+}
