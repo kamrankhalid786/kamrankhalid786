@@ -659,61 +659,83 @@ nav {
     max-width: 820px;
 }
 
+.hero-split-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.45fr) minmax(320px, 1fr);
+    gap: clamp(20px, 3vw, 42px);
+    align-items: center;
+}
+
+.hero-main-pane {
+    min-width: 0;
+    padding-right: 4px;
+}
+
+.hero-side-pane {
+    min-width: 0;
+    display: flex;
+    align-items: center;
+}
+
+.hero-side-pane .hero-innovation-hook {
+    margin-top: 0;
+    max-width: none;
+    width: 100%;
+}
+
 .hero-innovation-hook {
-    margin-top: 14px;
-    max-width: 860px;
-    padding: 12px 14px;
-    border-radius: 12px;
-    border: 1px solid rgba(51, 214, 159, 0.4);
-    background: linear-gradient(145deg, rgba(51, 214, 159, 0.12), rgba(24, 34, 51, 0.5));
+    margin-top: 0;
+    max-width: none;
+    position: relative;
+    overflow: hidden;
+    padding: 22px 24px 20px;
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    background: linear-gradient(140deg, rgba(51, 214, 159, 0.1), rgba(24, 34, 51, 0.76) 45%, rgba(11, 15, 20, 0.96));
+    box-shadow: 0 14px 30px rgba(8, 12, 20, 0.28);
+}
+
+.hero-innovation-hook::after {
+    content: "";
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: -85px;
+    right: -60px;
+    border-radius: 999px;
+    background: radial-gradient(circle, rgba(95, 227, 182, 0.22) 0%, rgba(95, 227, 182, 0) 70%);
+    pointer-events: none;
 }
 
 .hero-innovation-kicker {
     display: inline-flex;
-    margin-bottom: 7px;
-    padding: 4px 9px;
+    margin-bottom: 12px;
+    padding: 5px 10px;
     border-radius: 999px;
     border: 1px solid rgba(51, 214, 159, 0.4);
-    background: rgba(11, 15, 20, 0.42);
+    background: rgba(11, 15, 20, 0.6);
     color: var(--accent);
     font-family: 'IBM Plex Mono', monospace;
     font-size: 11px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.7px;
     text-transform: uppercase;
+    position: relative;
+    z-index: 1;
 }
 
 .hero-innovation-hook p {
     margin: 0;
     color: var(--text-secondary);
-    font-size: 14px;
-    line-height: 1.65;
+    font-size: 15px;
+    line-height: 1.7;
+    position: relative;
+    z-index: 1;
 }
 
-.proconvey-part-nav {
-    margin-top: 22px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.proconvey-part-link {
-    display: inline-flex;
-    align-items: center;
-    padding: 8px 12px;
-    border-radius: 999px;
-    background: rgba(51, 214, 159, 0.08);
-    border: 1px solid rgba(51, 214, 159, 0.3);
+.hero-innovation-hook p strong {
     color: var(--text-primary);
-    font-size: 12px;
-    font-family: 'IBM Plex Mono', monospace;
-    text-decoration: none;
-    transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
-}
-
-.proconvey-part-link:hover {
-    border-color: rgba(51, 214, 159, 0.7);
-    background: rgba(51, 214, 159, 0.15);
-    color: var(--accent-hover);
+    font-weight: 600;
 }
 
 .proconvey-part-section {
@@ -736,21 +758,6 @@ nav {
 
 .part-header {
     margin-bottom: 24px;
-}
-
-.part-kicker {
-    display: inline-flex;
-    align-items: center;
-    padding: 6px 10px;
-    border-radius: 999px;
-    border: 1px solid rgba(51, 214, 159, 0.35);
-    background: rgba(51, 214, 159, 0.08);
-    color: var(--accent);
-    font-size: 11px;
-    letter-spacing: 0.8px;
-    text-transform: uppercase;
-    font-family: 'IBM Plex Mono', monospace;
-    margin-bottom: 12px;
 }
 
 .part-title {
@@ -847,11 +854,16 @@ nav {
     background: #fff;
 }
 
-.linkedin-embed iframe {
+.linkedin-post-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.linkedin-post-link img {
     width: 100%;
     max-width: 100%;
-    height: 670px;
-    border: 0;
+    height: auto;
     display: block;
 }
 
@@ -1004,19 +1016,6 @@ nav {
     font-size: 12px;
 }
 
-.hero-meta-inline {
-    margin-top: 18px;
-    color: var(--text-secondary);
-    font-size: 15px;
-    display: grid;
-    gap: 6px;
-}
-
-.hero-meta-inline strong {
-    color: var(--text-primary);
-    font-weight: 600;
-}
-
 .metric-chips-tight {
     margin-top: 18px;
 }
@@ -1150,84 +1149,18 @@ nav {
 
 .architecture-diagram-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 18px;
+    grid-template-columns: 1fr;
+    gap: 20px;
     align-items: start;
 }
 
 .architecture-diagram-grid .diagram-card {
     margin-top: 0;
+    overflow-x: auto;
 }
 
-.zoomable-diagram {
-    position: relative;
-}
-
-.diagram-zoom-btn {
-    position: absolute;
-    top: 18px;
-    right: 18px;
-    background: rgba(51, 214, 159, 0.12);
-    border: 1px solid rgba(51, 214, 159, 0.4);
-    color: var(--text-primary);
-    font-size: 12px;
-    font-family: 'IBM Plex Mono', monospace;
-    padding: 6px 10px;
-    border-radius: 999px;
-    cursor: pointer;
-}
-
-.diagram-zoom-btn:hover {
-    background: rgba(51, 214, 159, 0.2);
-}
-
-.diagram-zoom-overlay {
-    position: fixed;
-    inset: 0;
-    background: rgba(5, 8, 12, 0.85);
-    display: none;
-    align-items: center;
-    justify-content: center;
-    z-index: 2000;
-    padding: 24px;
-}
-
-.diagram-zoom-overlay.active {
-    display: flex;
-}
-
-.diagram-zoom-content {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    max-width: 1200px;
-    width: 100%;
-    max-height: 90vh;
-    overflow: auto;
-    padding: 20px;
-}
-
-.diagram-zoom-close {
-    background: transparent;
-    border: 1px solid var(--border);
-    color: var(--text-secondary);
-    font-size: 12px;
-    font-family: 'IBM Plex Mono', monospace;
-    padding: 6px 10px;
-    border-radius: 999px;
-    cursor: pointer;
-    margin-bottom: 12px;
-}
-
-.diagram-zoom-canvas {
-    background: var(--bg-tertiary);
-    border-radius: 12px;
-    padding: 16px;
-}
-
-.diagram-zoom-canvas svg {
-    width: 100%;
-    height: auto;
+.architecture-diagram-grid .diagram-card svg {
+    min-width: 860px;
 }
 
 
@@ -1747,7 +1680,7 @@ nav {
 
 .evidence-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 24px;
     margin-top: 24px;
 }
@@ -1774,6 +1707,10 @@ nav {
 
 .evidence-card figcaption strong {
     color: var(--text-primary);
+}
+
+.evidence-card-wide {
+    grid-column: 1 / -1;
 }
 
 .figma-flow-grid {
@@ -1832,6 +1769,22 @@ nav {
 
 .figma-flow-card figcaption strong {
     color: var(--text-primary);
+}
+
+.figma-contribution-note {
+    display: block;
+    margin-top: 10px;
+    padding: 9px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(51, 214, 159, 0.4);
+    background: rgba(51, 214, 159, 0.08);
+    color: var(--text-primary);
+    font-size: 13px;
+    line-height: 1.55;
+}
+
+.figma-contribution-note strong {
+    color: var(--accent);
 }
 
 .quote-grid {
@@ -2173,6 +2126,25 @@ nav {
 }
 
 @media (max-width: 900px) {
+    .hero-split-layout {
+        grid-template-columns: 1fr;
+        gap: 18px;
+        align-items: start;
+    }
+
+    .hero-main-pane {
+        padding-right: 0;
+    }
+
+    .hero-side-pane {
+        display: block;
+    }
+
+    .hero-side-pane .hero-innovation-hook {
+        margin-top: 0;
+        max-width: 760px;
+    }
+
     .part-title {
         font-size: 30px;
     }
@@ -2192,6 +2164,14 @@ nav {
 
     .impact-compact-grid {
         grid-template-columns: 1fr;
+    }
+
+    .evidence-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .evidence-card-wide {
+        grid-column: auto;
     }
 
     .timeline-body {
@@ -2275,22 +2255,13 @@ nav {
         font-size: 26px;
     }
 
-    .proconvey-part-nav {
-        gap: 8px;
-    }
-
-    .proconvey-part-link {
-        width: 100%;
-        justify-content: center;
-        text-align: center;
-    }
-
     .hero-innovation-hook {
-        padding: 10px 11px;
+        padding: 16px 14px 14px;
     }
 
     .hero-innovation-kicker {
         font-size: 10px;
+        margin-bottom: 9px;
     }
 
     .impact-compact-item {
@@ -2340,10 +2311,6 @@ nav {
 
     .linkedin-post-card {
         padding: 10px;
-    }
-
-    .linkedin-embed iframe {
-        height: 620px;
     }
 
     .innovation-validation-card {
