@@ -123,7 +123,7 @@ nav {
     position: absolute;
     top: calc(100% + 8px);
     left: 0;
-    min-width: 180px;
+    min-width: 240px;
     background: var(--bg-secondary);
     border: 1px solid var(--border);
     border-radius: 8px;
@@ -154,6 +154,8 @@ nav {
     color: var(--text-secondary);
     text-decoration: none;
     font-family: 'IBM Plex Mono', monospace;
+    display: block;
+    white-space: nowrap;
 }
 
 .nav-dropdown a:hover {
@@ -2921,8 +2923,6 @@ footer {
 }
 
 .typing-line {
-    display: block;
-    white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid rgba(51, 214, 159, 0.7);
     width: 0;
