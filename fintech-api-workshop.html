@@ -7,31 +7,14 @@
     <title>Fintech API Engineering Workshop - Kamran Khalid</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <script src="assets/js/menu-loader.js" defer></script>
 </head>
 
-<body class="fintech-workshop-page">
+<body class="fintech-workshop-page" data-menu-root="." data-menu-active="fintech-api-workshop" data-menu-variant="fintech">
     <div class="page-rail">
         <div class="rail-progress" id="railProgress"></div>
     </div>
-
-    <nav>
-        <div class="nav-container">
-            <div class="logo">Kamran Khalid</div>
-            <button class="menu-toggle" onclick="toggleMenu()">
-                <span></span><span></span><span></span>
-            </button>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="community.html">Community</a></li>
-                <li><a href="education.html">Education</a></li>
-                <li><a href="experience.html">Experience</a></li>
-                <li><a href="proconvey.html">ProConvey</a></li>
-                <li><a href="recommendations.html">Recommendations</a></li>
-                <li><a href="fintech-api.html">Fintech API</a></li>
-                <li><a href="fintech-api-workshop.html" class="active">Workshop</a></li>
-            </ul>
-        </div>
-    </nav>
+    <div id="site-menu"></div>
 
     <section class="page-hero">
         <div class="container">

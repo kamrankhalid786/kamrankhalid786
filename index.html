@@ -6,30 +6,11 @@
     <title>Kamran Khalid - Senior Software Engineer</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <script src="assets/js/menu-loader.js" defer></script>
 </head>
-<body>
+<body data-menu-root="." data-menu-active="home" data-menu-variant="default">
     <div class="page-rail"><div class="rail-progress" id="railProgress"></div></div>
-    <nav>
-        <div class="nav-container">
-            <div class="logo">Kamran Khalid</div>
-            <button class="menu-toggle" onclick="toggleMenu()">
-                <span></span><span></span><span></span>
-            </button>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li class="nav-item dropdown">
-                    <a href="experience.html">Experience</a>
-                    <div class="nav-dropdown">
-                        <a href="experience.html">Experience Overview</a>
-                        <a href="proconvey.html">ProConvey</a>
-                    </div>
-                </li>
-                <li><a href="education.html">Education</a></li>
-                <li><a href="recommendations.html">Recommendations</a></li>
-                <li><a href="community.html">Community</a></li>
-            </ul>
-        </div>
-    </nav>
+    <div id="site-menu"></div>
 
     <section class="page-hero">
         <div class="container">
