@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech API vs General API – Kamran Khalid</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <div class="page-rail"><div class="rail-progress" id="railProgress"></div></div>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Kamran Khalid</div>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="proconvey.html">ProConvey</a></li>
+                <li><a href="recommendations.html">Recommendations</a></li>
+                <li><a href="fintech-api.html" class="active">Fintech API</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="container">
+            <span class="page-label">API Engineering · Fintech · Security</span>
+            <h1 class="page-title">Fintech API vs General API</h1>
+            <p class="page-subtitle">
+                What makes a fintech API different? A deep dive into engineering for compliance, security, and reliability, with a real project example.
+            </p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Quick Summary</h2>
+            <div style="overflow-x:auto;">
+            <table class="stats-grid" style="min-width: 600px;">
+                <thead>
+                    <tr>
+                        <th>Area</th>
+                        <th>General API</th>
+                        <th>Fintech API</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Security</td><td>Standard</td><td>Very high</td></tr>
+                    <tr><td>Compliance</td><td>Low</td><td>Mandatory</td></tr>
+                    <tr><td>Reliability</td><td>Important</td><td>Critical</td></tr>
+                    <tr><td>Data sensitivity</td><td>Moderate</td><td>Extreme</td></tr>
+                    <tr><td>Auditing</td><td>Optional</td><td>Required</td></tr>
+                    <tr><td>Failure impact</td><td>Low–medium</td><td>High (financial loss, legal risk)</td></tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Key Differences</h2>
+            <ol>
+                <li><b>Core Goal:</b> General APIs focus on usability; fintech APIs focus on secure, compliant financial transactions.</li>
+                <li><b>Security:</b> Fintech APIs require strong encryption, tokenization, MFA, secure key management, and fraud detection.</li>
+                <li><b>Compliance:</b> Fintech APIs must meet regulations (AML, KYC, GDPR, Open Banking), with audit trails and tamper-resistant logs.</li>
+                <li><b>Reliability:</b> Fintech APIs demand atomic, idempotent, highly reliable transactions (e.g., no double-charging).</li>
+                <li><b>Data Sensitivity:</b> Fintech APIs handle bank accounts, card numbers, and identity documents—requiring strict storage, encryption, and logging policies.</li>
+                <li><b>Auditing:</b> Every fintech API request may need a traceable, immutable audit record.</li>
+                <li><b>Testing & Deployment:</b> Fintech APIs require regulatory certification, sandboxes, penetration testing, and controlled releases.</li>
+                <li><b>Example:</b> <code>POST /orders</code> (general) vs <code>POST /payments</code> (fintech) – the latter must handle idempotency, fraud, ledger, logging, settlement, and reconciliation.</li>
+                <li><b>Mindset:</b> General API = software engineering; Fintech API = software + security + regulatory engineering.</li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Case Study: Fintech API Demo Project</h2>
+            <p>
+                For workshops and teaching, I built a <b>fintech API demo</b> (<a href="https://github.com/kamrankhalid786/fintech-api-demo" target="_blank">source</a>) that demonstrates these principles in practice. It’s a Node.js project with no dependencies, focused on architecture and behavior.
+            </p>
+            <ul>
+                <li><b>Idempotency:</b> <code>POST /v1/payments</code> supports <code>Idempotency-Key</code> to prevent double-charging.</li>
+                <li><b>Compliance:</b> KYC/AML gates before funds movement.</li>
+                <li><b>Fraud Detection:</b> Simple velocity and pattern checks.</li>
+                <li><b>Ledger:</b> Double-entry posting for every payment.</li>
+                <li><b>Audit:</b> Tamper-evident audit log chain (<code>prevHash</code> + <code>hash</code>).</li>
+                <li><b>Data Redaction:</b> Sensitive fields are masked in logs.</li>
+            </ul>
+            <p>See <a href="https://github.com/kamrankhalid786/fintech-api-demo" target="_blank">project README</a> for API details and code samples.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Fintech API: What Happens Behind the Scenes?</h2>
+            <div class="content-grid">
+                <div>
+                    <h3>Normal API</h3>
+                    <pre>POST /orders
+// Create an order
+// Return confirmation</pre>
+                </div>
+                <div>
+                    <h3>Fintech API</h3>
+                    <pre>POST /payments
+// Idempotency check
+// Fraud checks
+// Ledger entries
+// Regulatory logging
+// Settlement flow
+// Reconciliation</pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                &copy; 2026 Kamran Khalid. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+        function updateRail() {
+            var rail = document.getElementById('railProgress');
+            var scrollTop = window.scrollY;
+            var docHeight = document.body.scrollHeight - window.innerHeight;
+            var percent = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+            rail.style.height = percent + '%';
+        }
+        window.addEventListener("scroll", updateRail);
+        window.addEventListener("resize", updateRail);
+        window.addEventListener("load", updateRail);
+    </script>
+</body>
+</html>

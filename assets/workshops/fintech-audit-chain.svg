@@ -1,0 +1,65 @@
+<svg width="1280" height="560" viewBox="0 0 1280 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Audit hash chain integrity diagram</title>
+  <desc id="desc">Shows chained audit entries where each entry references previous hash and can be verified end to end.</desc>
+  <defs>
+    <linearGradient id="bg" x1="60" y1="40" x2="1220" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1A2A"/>
+      <stop offset="1" stop-color="#09111D"/>
+    </linearGradient>
+    <linearGradient id="chain" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#33D69F"/>
+      <stop offset="1" stop-color="#5CAAFF"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 34px 'IBM Plex Mono', monospace; fill: #E6F0FF; }
+      .subtitle { font: 500 16px 'Space Grotesk', sans-serif; fill: #A6B4C8; }
+      .entry { fill: #122032; stroke: #2A3A55; stroke-width: 2; }
+      .entryHead { font: 600 14px 'IBM Plex Mono', monospace; fill: #33D69F; letter-spacing: 0.5px; }
+      .entryTitle { font: 600 18px 'Space Grotesk', sans-serif; fill: #E6F0FF; }
+      .entryMeta { font: 500 13px 'IBM Plex Mono', monospace; fill: #9FB0C9; }
+      .chainLine { stroke: url(#chain); stroke-width: 4; stroke-linecap: round; }
+      .verify { fill: rgba(51,214,159,0.12); stroke: rgba(51,214,159,0.5); }
+      .verifyTitle { font: 600 20px 'Space Grotesk', sans-serif; fill: #E6F0FF; }
+      .verifyCopy { font: 500 14px 'Space Grotesk', sans-serif; fill: #9FB0C9; }
+    </style>
+  </defs>
+
+  <rect x="40" y="36" width="1200" height="488" rx="24" fill="url(#bg)" stroke="#22314A"/>
+
+  <text x="88" y="102" class="title">Tamper-Evident Audit Chain</text>
+  <text x="88" y="132" class="subtitle">From src/core/auditLog.js and /v1/audit-logs/verify endpoint.</text>
+
+  <line x1="190" y1="286" x2="1088" y2="286" class="chainLine"/>
+
+  <rect x="90" y="190" width="230" height="190" rx="16" class="entry"/>
+  <text x="112" y="224" class="entryHead">ENTRY 00</text>
+  <text x="112" y="252" class="entryTitle">GENESIS</text>
+  <text x="112" y="282" class="entryMeta">prevHash: GENESIS</text>
+  <text x="112" y="306" class="entryMeta">event: payment.created</text>
+  <text x="112" y="330" class="entryMeta">hash: 6f2a...d91b</text>
+
+  <rect x="360" y="190" width="230" height="190" rx="16" class="entry"/>
+  <text x="382" y="224" class="entryHead">ENTRY 01</text>
+  <text x="382" y="252" class="entryTitle">AUDIT A</text>
+  <text x="382" y="282" class="entryMeta">prevHash: 6f2a...d91b</text>
+  <text x="382" y="306" class="entryMeta">event: payment.ledger_posted</text>
+  <text x="382" y="330" class="entryMeta">hash: a402...4c12</text>
+
+  <rect x="630" y="190" width="230" height="190" rx="16" class="entry"/>
+  <text x="652" y="224" class="entryHead">ENTRY 02</text>
+  <text x="652" y="252" class="entryTitle">AUDIT B</text>
+  <text x="652" y="282" class="entryMeta">prevHash: a402...4c12</text>
+  <text x="652" y="306" class="entryMeta">event: account.created</text>
+  <text x="652" y="330" class="entryMeta">hash: 9f7e...8bb9</text>
+
+  <rect x="900" y="190" width="230" height="190" rx="16" class="entry"/>
+  <text x="922" y="224" class="entryHead">ENTRY 03</text>
+  <text x="922" y="252" class="entryTitle">AUDIT C</text>
+  <text x="922" y="282" class="entryMeta">prevHash: 9f7e...8bb9</text>
+  <text x="922" y="306" class="entryMeta">event: customer.created</text>
+  <text x="922" y="330" class="entryMeta">hash: c317...21af</text>
+
+  <rect x="88" y="414" width="1044" height="78" rx="14" class="verify"/>
+  <text x="112" y="447" class="verifyTitle">Integrity check endpoint: GET /v1/audit-logs/verify</text>
+  <text x="112" y="472" class="verifyCopy">The chain is valid only if each entry's prevHash matches the previous hash and every hash recalculates correctly.</text>
+</svg>

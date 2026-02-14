@@ -1,0 +1,86 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Fintech payment request lifecycle diagram</title>
+  <desc id="desc">A six-step lifecycle showing idempotency, compliance, fraud checks, ledger posting, audit chain, and API response.</desc>
+  <defs>
+    <linearGradient id="bg" x1="80" y1="40" x2="1200" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1A2A"/>
+      <stop offset="1" stop-color="#0A131F"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#33D69F"/>
+      <stop offset="1" stop-color="#5CAAFF"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .title { font: 700 34px 'IBM Plex Mono', monospace; fill: #E6F0FF; }
+      .subtitle { font: 500 16px 'Space Grotesk', sans-serif; fill: #A6B4C8; }
+      .box { fill: #121C2B; stroke: #2A3A55; stroke-width: 2; }
+      .step { font: 600 16px 'IBM Plex Mono', monospace; fill: #33D69F; }
+      .label { font: 600 20px 'Space Grotesk', sans-serif; fill: #E6F0FF; }
+      .copy { font: 500 14px 'Space Grotesk', sans-serif; fill: #9AA9BF; }
+      .arrow { stroke: url(#line); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .chip { fill: rgba(51,214,159,0.16); stroke: rgba(51,214,159,0.5); }
+      .chipText { font: 600 12px 'IBM Plex Mono', monospace; fill: #7FEAC3; letter-spacing: 0.6px; }
+    </style>
+  </defs>
+
+  <rect x="40" y="36" width="1200" height="648" rx="24" fill="url(#bg)" stroke="#22314A"/>
+
+  <text x="88" y="102" class="title">Payment Lifecycle (from src/routes/payments.js)</text>
+  <text x="88" y="132" class="subtitle">Request orchestration in the demo API with security/compliance checkpoints.</text>
+
+  <rect x="88" y="164" width="250" height="34" rx="17" class="chip"/>
+  <text x="108" y="186" class="chipText">POST /v1/payments FLOW</text>
+
+  <rect x="90" y="220" width="300" height="120" rx="18" class="box"/>
+  <text x="112" y="255" class="step">STEP 01</text>
+  <text x="112" y="286" class="label">Auth + Idempotency</text>
+  <text x="112" y="312" class="copy">Bearer token and Idempotency-Key</text>
+
+  <rect x="490" y="220" width="300" height="120" rx="18" class="box"/>
+  <text x="512" y="255" class="step">STEP 02</text>
+  <text x="512" y="286" class="label">Compliance Gate</text>
+  <text x="512" y="312" class="copy">KYC + AML risk evaluation</text>
+
+  <rect x="890" y="220" width="300" height="120" rx="18" class="box"/>
+  <text x="912" y="255" class="step">STEP 03</text>
+  <text x="912" y="286" class="label">Fraud Screening</text>
+  <text x="912" y="312" class="copy">Velocity and pattern checks</text>
+
+  <rect x="890" y="400" width="300" height="120" rx="18" class="box"/>
+  <text x="912" y="435" class="step">STEP 04</text>
+  <text x="912" y="466" class="label">Ledger Posting</text>
+  <text x="912" y="492" class="copy">Double-entry debit + credit</text>
+
+  <rect x="490" y="400" width="300" height="120" rx="18" class="box"/>
+  <text x="512" y="435" class="step">STEP 05</text>
+  <text x="512" y="466" class="label">Audit Log Chain</text>
+  <text x="512" y="492" class="copy">prevHash -&gt; hash integrity</text>
+
+  <rect x="90" y="400" width="300" height="120" rx="18" class="box"/>
+  <text x="112" y="435" class="step">STEP 06</text>
+  <text x="112" y="466" class="label">Status Response</text>
+  <text x="112" y="492" class="copy">201 / 202 / 422 with trace id</text>
+
+  <path d="M390 280H470" class="arrow" marker-end="url(#arrowhead)"/>
+  <path d="M790 280H870" class="arrow" marker-end="url(#arrowhead)"/>
+  <path d="M1040 340V382" class="arrow" marker-end="url(#arrowhead)"/>
+  <path d="M890 460H810" class="arrow" marker-end="url(#arrowhead)"/>
+  <path d="M490 460H410" class="arrow" marker-end="url(#arrowhead)"/>
+
+  <rect x="88" y="566" width="1104" height="78" rx="14" fill="#101A28" stroke="#24344F"/>
+  <text x="110" y="602" class="label" style="font-size:18px;">Outcome Rule</text>
+  <text x="110" y="625" class="copy" style="font-size:15px;">posted -&gt; ledger transfer executed | manual_review / declined -&gt; ledger skip, audit still written.</text>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto-start-reverse">
+      <path d="M1 1L11 6L1 11V1Z" fill="#33D69F" filter="url(#glow)"/>
+    </marker>
+  </defs>
+</svg>

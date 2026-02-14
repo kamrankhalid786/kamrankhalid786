@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech API Engineering Workshop - Kamran Khalid</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+
+<body class="fintech-workshop-page">
+    <div class="page-rail">
+        <div class="rail-progress" id="railProgress"></div>
+    </div>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Kamran Khalid</div>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="proconvey.html">ProConvey</a></li>
+                <li><a href="recommendations.html">Recommendations</a></li>
+                <li><a href="fintech-api.html">Fintech API</a></li>
+                <li><a href="fintech-api-workshop.html" class="active">Workshop</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <a href="fintech-api.html">Fintech API</a>
+                <span>/</span>
+                <span>Workshop</span>
+            </div>
+
+            <span class="page-label">UoM GDG · Fintech API Workshop</span>
+            <h1 class="page-title">Fintech API Engineering</h1>
+            <p class="page-subtitle">
+                Hands-on workshop on building payment APIs in a regulated environment, where security, compliance,
+                reliability, and auditability are system-level requirements.
+            </p>
+
+            <div class="hero-meta-clean">
+                <div class="hero-meta-row">
+                    <span>Host</span>
+                    <div>GDG on Campus, University of Manchester</div>
+                </div>
+                <div class="hero-meta-row">
+                    <span>Date</span>
+                    <div>February 25, 2025</div>
+                </div>
+                <div class="hero-meta-row">
+                    <span>Projects</span>
+                    <div class="hero-meta-links">
+                        <a href="fintech-api.html">Portfolio page</a>
+                        <span class="hero-meta-divider">|</span>
+                        <a href="https://github.com/kamrankhalid786/fintech-api-demo" target="_blank"
+                            rel="noopener">fintech-api-demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="meta-links workshop-anchor-links">
+                <a class="link-button" href="#intro">Intro</a>
+                <a class="link-button" href="#presenter">Presenter</a>
+                <a class="link-button" href="#concepts">Concepts</a>
+                <a class="link-button" href="#demo">Demo</a>
+                <a class="link-button" href="#workshop">Workshop</a>
+                <a class="link-button" href="#code-steps"><code>Code Steps</code></a>
+                <a class="link-button" href="#cli">CLI</a>
+                <a class="link-button" href="#architecture">Architecture</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="intro">
+        <div class="container">
+            <h2 class="section-title">Intro</h2>
+            <div class="content-grid">
+                <div>
+                    <p class="content-text">
+                        This page connects two projects: the portfolio website itself and a live demo project used
+                        during
+                        the workshop. The same API fundamentals apply in both fintech and non-fintech systems, but
+                        fintech adds strict controls around money movement, identity, and legal accountability.
+                    </p>
+                    <p class="content-text">
+                        We frame the session around one idea: writing a normal <code>API</code> is mostly a product
+                        engineering task,
+                        while writing a fintech <code>API</code> is product engineering plus security engineering plus
+                        regulatory engineering.
+                    </p>
+                    <div class="mindset-banner">
+                        <strong>Session focus:</strong> <code>POST /orders</code> vs <code>POST /payments</code>.
+                        In fintech, <code>idempotency</code>, <code>fraud</code> checks, <code>ledger</code> entries,
+                        <code>audit</code> logs, <code>settlement</code>, and <code>reconciliation</code>
+                        must happen consistently and safely.
+                    </div>
+                </div>
+                <div>
+                    <div class="sidebar-card plain-panel">
+                        <div class="sidebar-title">Workshop Outcomes</div>
+                        <ul class="learning-list">
+                            <li>Understand where fintech API requirements diverge from general APIs.</li>
+                            <li>See <code>idempotency</code>, <code>compliance</code>, <code>fraud</code>,
+                                <code>ledger</code>, and <code>audit</code> in one request flow.</li>
+                            <li>Run and test the local API demo using CLI and curl/Postman.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="presenter">
+        <div class="container">
+            <h2 class="section-title">Presenter</h2>
+            <div class="content-grid">
+                <div class="presenter-card">
+                    <img src="assets/profile.jpeg" alt="Kamran Khalid profile photo" class="presenter-photo">
+                    <div>
+                        <h3 class="section-subtitle-tight">Kamran Khalid</h3>
+                        <p class="content-text presenter-role">Senior Backend Architect and Technical Leader</p>
+                        <p class="content-text presenter-copy">
+                            I build backend systems for reliability, scalability, and maintainability across fintech,
+                            legal-tech, and event platforms. This workshop is based on real production patterns,
+                            adapted into a teaching demo for API engineering practice.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="sidebar-card plain-panel">
+                        <div class="sidebar-title">What I emphasize</div>
+                        <ul class="learning-list">
+                            <li><strong><code>Design</code>:</strong> clear contracts, <code>idempotent</code> writes,
+                                failure-safe workflows.</li>
+                            <li><strong><code>Security</code>:</strong> least privilege, <code>redaction</code>, safe
+                                handling of sensitive fields.</li>
+                            <li><strong><code>Operations</code>:</strong> <code>auditability</code>,
+                                <code>traceability</code>, practical testing strategy.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="concepts">
+        <div class="container">
+            <h2 class="section-title">Concepts</h2>
+            <p class="section-intro">
+                At a high level, the API interface can look similar. The difference is the risk envelope: financial
+                data,
+                customer identity, legal obligations, and irreversible money impact.
+            </p>
+
+            <div class="concepts-matrix">
+                <article class="concepts-matrix-row">
+                    <div class="matrix-area"><code>Security</code></div>
+                    <div class="matrix-general"><span class="matrix-kicker">General</span>Standard</div>
+                    <div class="matrix-fintech"><span class="matrix-kicker">Fintech</span>Very high</div>
+                </article>
+                <article class="concepts-matrix-row">
+                    <div class="matrix-area"><code>Compliance</code></div>
+                    <div class="matrix-general"><span class="matrix-kicker">General</span>Low</div>
+                    <div class="matrix-fintech"><span class="matrix-kicker">Fintech</span>Mandatory</div>
+                </article>
+                <article class="concepts-matrix-row">
+                    <div class="matrix-area"><code>Reliability</code></div>
+                    <div class="matrix-general"><span class="matrix-kicker">General</span>Important</div>
+                    <div class="matrix-fintech"><span class="matrix-kicker">Fintech</span>Critical</div>
+                </article>
+                <article class="concepts-matrix-row">
+                    <div class="matrix-area"><code>Data sensitivity</code></div>
+                    <div class="matrix-general"><span class="matrix-kicker">General</span>Moderate</div>
+                    <div class="matrix-fintech"><span class="matrix-kicker">Fintech</span>Extreme</div>
+                </article>
+                <article class="concepts-matrix-row">
+                    <div class="matrix-area"><code>Auditing</code></div>
+                    <div class="matrix-general"><span class="matrix-kicker">General</span>Optional</div>
+                    <div class="matrix-fintech"><span class="matrix-kicker">Fintech</span>Required</div>
+                </article>
+                <article class="concepts-matrix-row">
+                    <div class="matrix-area"><code>Failure impact</code></div>
+                    <div class="matrix-general"><span class="matrix-kicker">General</span>Low to medium</div>
+                    <div class="matrix-fintech"><span class="matrix-kicker">Fintech</span>High (<code>financial loss</code>, <code>legal risk</code>)</div>
+                </article>
+            </div>
+
+            <div class="concepts-pillars">
+                <article class="concepts-pillar">
+                    <h3><code>Security</code> and <code>Compliance</code></h3>
+                    <ul class="learning-list compact-list">
+                        <li>Strong encryption, secure key management, and tokenization of sensitive fields.</li>
+                        <li><code>KYC</code>/<code>AML</code> checks before funds movement.</li>
+                        <li>Regulatory reporting and traceability requirements by jurisdiction.</li>
+                    </ul>
+                </article>
+                <article class="concepts-pillar">
+                    <h3><code>Reliability</code> and <code>Data Handling</code></h3>
+                    <ul class="learning-list compact-list">
+                        <li>Atomic and <code>idempotent</code> transaction behavior.</li>
+                        <li><code>Exactly-once</code> intent for payment side effects.</li>
+                        <li>Strict storage and logging discipline for sensitive identity/payment data.</li>
+                    </ul>
+                </article>
+                <article class="concepts-pillar">
+                    <h3><code>Audit</code> and <code>Release Controls</code></h3>
+                    <ul class="learning-list compact-list">
+                        <li>Tamper-evident audit trails and fraud monitoring in real time.</li>
+                        <li>Sandbox and certification-style environments for partner/testing flows.</li>
+                        <li>Controlled production releases with security and penetration testing.</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="demo">
+        <div class="container">
+            <h2 class="section-title">Demo</h2>
+            <div class="content-grid">
+                <div>
+                    <p class="content-text">
+                        The workshop uses <a href="https://github.com/kamrankhalid786/fintech-api-demo" target="_blank"
+                            rel="noopener">fintech-api-demo</a>,
+                        a dependency-light Node.js project focused on behavior and architecture clarity.
+                    </p>
+                    <div class="ai-points">
+                        <div class="ai-point"><strong><code>Idempotency</code>:</strong> <code>Idempotency-Key</code>
+                            support on <code>POST /v1/payments</code> to avoid double charging.</div>
+                        <div class="ai-point"><strong><code>Compliance</code>:</strong>
+                            <code>KYC</code>/<code>AML</code> gates before moving money.</div>
+                        <div class="ai-point"><strong><code>Fraud</code>:</strong> Velocity and pattern checks.</div>
+                        <div class="ai-point"><strong><code>Ledger</code>:</strong> Double-entry posting for every
+                            successful payment.</div>
+                        <div class="ai-point"><strong>Audit:</strong> Tamper-evident log chain using
+                            <code>prevHash</code> and <code>hash</code>.</div>
+                        <div class="ai-point"><strong><code>Data redaction</code>:</strong> Sensitive fields are masked
+                            in operational logs.</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="sidebar-card plain-panel">
+                        <div class="sidebar-title">Demo Links</div>
+                        <div class="meta-links">
+                            <a class="link-button" href="https://github.com/kamrankhalid786/fintech-api-demo"
+                                target="_blank" rel="noopener">GitHub Repo</a>
+                            <a class="link-button" href="https://github.com/kamrankhalid786/fintech-api-demo#readme"
+                                target="_blank" rel="noopener">README</a>
+                        </div>
+                    </div>
+                    <div class="sidebar-card plain-panel">
+                        <div class="sidebar-title">Primary Endpoints</div>
+                        <ul class="learning-list endpoint-list">
+                            <li><code>GET /health</code></li>
+                            <li><code>GET /v1/accounts</code></li>
+                            <li><code>POST /v1/payments</code></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="workshop-code-grid">
+                <div class="workshop-code-card">
+                    <h3>General API endpoint</h3>
+                    <pre class="workshop-code"><code>POST /orders
+
+-> validate payload
+-> create order record
+-> return confirmation</code></pre>
+                </div>
+                <div class="workshop-code-card">
+                    <h3>Fintech API endpoint</h3>
+                    <pre class="workshop-code"><code>POST /payments
+
+-> auth and idempotency gate
+-> KYC/AML and fraud checks
+-> ledger post when approved
+-> audit chain write
+-> deterministic response</code></pre>
+                </div>
+            </div>
+
+            <h3 class="section-subtitle">Clean <code>Diagrams</code></h3>
+            <div class="clean-diagram-grid">
+                                <article class="clean-diagram-card">
+                                        <h4>Request flow for <code>POST /v1/payments</code> (Mermaid)</h4>
+                                        <div class="diagram-caption">A sequence diagram showing the journey of a payment request through all key fintech controls.</div>
+                                        <pre class="mermaid">
+sequenceDiagram
+        participant Client
+        participant API
+        participant Idempotency
+        participant Compliance
+        participant Fraud
+        participant Ledger
+        participant Audit
+        Client->>API: POST /v1/payments
+        API->>Idempotency: Check key & payload
+        Idempotency-->>API: Replay/cached or proceed
+        API->>Compliance: KYC/AML checks
+        Compliance-->>API: Pass/Fail
+        API->>Fraud: Fraud checks
+        Fraud-->>API: Pass/Fail
+        API->>Ledger: Post transaction (if approved)
+        Ledger-->>API: Success/Fail
+        API->>Audit: Log request, result, hash
+        Audit-->>API: Log receipt
+        API->>Client: Payment result (201/202/422)
+                                        </pre>
+                                </article>
+                                <article class="clean-diagram-card">
+                                        <h4><code>Idempotency-Key</code> decision (Mermaid)</h4>
+                                        <div class="diagram-caption">A flowchart for how idempotency keys are checked and enforced in the payment API.</div>
+                                        <pre class="mermaid">
+flowchart TD
+        A[Idempotency-Key present?]
+        A -- No --> B[400 IDEMPOTENCY_KEY_REQUIRED]
+        A -- Yes --> C[Lookup (scope + key)]
+        C -- Not found --> D[Process request & save response]
+        C -- Found --> E[Fingerprint matches payload?]
+        E -- Yes --> F[Return cached response\nIdempotency-Replayed: true]
+        E -- No --> G[409 KEY_REUSED_WITH_DIFFERENT_PAYLOAD]
+                                        </pre>
+                                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="workshop">
+        <div class="container">
+            <h2 class="section-title">Workshop</h2>
+            <p class="section-intro">Hands-on steps used during the session.</p>
+            <div class="workshop-step-list learning-steps">
+                <article class="workshop-step">
+                    <h3>Clone and enter the project</h3>
+                    <pre class="workshop-code"><code>git clone https://github.com/kamrankhalid786/fintech-api-demo.git
+cd fintech-api-demo</code></pre>
+                </article>
+                <article class="workshop-step">
+                    <h3>Prepare local config</h3>
+                    <pre class="workshop-code"><code>cp .env.example .env</code></pre>
+                    <p class="content-text step-note">Default demo token: <code>demo-fintech-token</code></p>
+                </article>
+                <article class="workshop-step">
+                    <h3>Run tests and start server</h3>
+                    <pre class="workshop-code"><code>npm test
+npm start</code></pre>
+                    <p class="content-text step-note">Default local URL: <code>http://localhost:3000</code></p>
+                </article>
+                <article class="workshop-step">
+                    <h3>Validate endpoints</h3>
+                    <pre class="workshop-code"><code>curl -s http://localhost:3000/health
+
+curl -s http://localhost:3000/v1/accounts \
+  -H "Authorization: Bearer demo-fintech-token"</code></pre>
+                </article>
+            </div>
+
+            <h3 class="section-subtitle" id="code-steps"><code>Code Steps</code>: <code>Route</code> ->
+                <code>Controller</code> -> <code>Model</code> -> <code>Validation</code></h3>
+            <div class="code-step-stack">
+                <article class="code-step-card">
+                    <h4><code>Route</code></h4>
+                    <p class="visual-note">File: <code>src/routes/router.js</code></p>
+                    <pre class="workshop-code"><code>if (req.method === "POST" && path === "/v1/payments") {
+  createPayment(req, res);
+  return true;
+}</code></pre>
+                </article>
+
+                <article class="code-step-card">
+                    <h4><code>Controller</code></h4>
+                    <p class="visual-note">File: <code>src/routes/payments.js</code></p>
+                    <pre class="workshop-code"><code>export function createPayment(req, res) {
+  const payload = req.body ?? {};
+  validatePaymentPayload(payload);
+
+  const idempotencyKey = req.headers["idempotency-key"];
+  const replay = getIdempotencyResult("POST:/v1/payments", idempotencyKey, payload);
+  if (replay) return sendJson(res, replay.statusCode, replay.body, { "Idempotency-Replayed": "true" });
+
+  // compliance + fraud + ledger + audit
+}</code></pre>
+                </article>
+
+                <article class="code-step-card">
+                    <h4><code>Model</code> (In-memory store)</h4>
+                    <p class="visual-note">File: <code>src/core/store.js</code></p>
+                    <pre class="workshop-code"><code>export const store = {
+  customers: seedCustomers(),
+  accounts: seedAccounts(),
+  payments: new Map(),
+  ledgerEntries: [],
+  auditLogs: [],
+  idempotencyKeys: new Map(),
+  recentPaymentAttempts: []
+};</code></pre>
+                </article>
+
+                <article class="code-step-card">
+                    <h4><code>Validation</code></h4>
+                    <p class="visual-note">File: <code>src/utils/validation.js</code></p>
+                    <pre class="workshop-code"><code>export function validatePaymentPayload(payload) {
+  if (!isNonEmptyString(payload.sourceAccountId)) throw new ApiError(400, "VALIDATION_ERROR");
+  if (!isNonEmptyString(payload.destinationAccountId)) throw new ApiError(400, "VALIDATION_ERROR");
+  if (payload.sourceAccountId === payload.destinationAccountId) throw new ApiError(400, "VALIDATION_ERROR");
+  if (!Number.isInteger(payload.amountCents) || payload.amountCents <= 0) throw new ApiError(400, "VALIDATION_ERROR");
+}</code></pre>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="cli">
+        <div class="container">
+            <h2 class="section-title">CLI</h2>
+            <div class="terminal-card">
+                <div class="terminal-header">
+                    <span class="terminal-dot"></span>
+                    <span class="terminal-dot"></span>
+                    <span class="terminal-dot"></span>
+                </div>
+                <div class="terminal-text">
+                    $ git clone https://github.com/kamrankhalid786/fintech-api-demo.git<br>
+                    $ cd fintech-api-demo<br>
+                    $ cp .env.example .env<br>
+                    $ npm test<br>
+                    $ npm start<br>
+                    $ curl -s http://localhost:3000/health<br>
+                    $ curl -s http://localhost:3000/v1/accounts -H "Authorization: Bearer demo-fintech-token"<br>
+                    $ curl -s -X POST http://localhost:3000/v1/payments ...<br>
+                </div>
+                <div class="terminal-section-title">Exercise</div>
+                <div class="terminal-text">
+                    Repeat the same payment request with the same <code>Idempotency-Key</code> and observe
+                    how the API avoids duplicate financial side effects.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="architecture">
+        <div class="container">
+            <h2 class="section-title">Architecture</h2>
+            <p class="section-intro">
+                End-to-end request flow for a fintech payment endpoint.
+            </p>
+
+            <div class="clean-diagram-grid">
+                <article class="clean-diagram-card">
+                    <h4>System architecture</h4>
+                        <pre class="mermaid">
+    flowchart TD
+        A[HTTP Request\nPOST /v1/payments]
+        B[Router\nsrc/routes/router.js]
+        C[Controller\nsrc/routes/payments.js]
+        D[Validation\nsrc/utils/validation.js]
+        E[Compliance/Fraud\nsrc/core/*.js]
+        F[Model Store\nsrc/core/store.js]
+        G[Ledger + Audit]
+        H[API Response\n201/202/422]
+        A --> B --> C
+        C --> D
+        C --> E
+        C --> F
+        C --> G
+        G --> H
+                        </pre>
+                </article>
+                <article class="clean-diagram-card">
+                    <h4>Audit chain</h4>
+                        <pre class="mermaid">
+    sequenceDiagram
+        participant API
+        participant AuditLog
+        API->>AuditLog: Write entry (prevHash, hash)
+        AuditLog-->>API: Store entry
+        Note over AuditLog: Each entry links to previous by hash
+        API->>AuditLog: GET /v1/audit-logs/verify
+        AuditLog-->>API: Verify chain integrity
+                        </pre>
+                </article>
+            </div>
+
+            <p class="content-text step-note">
+                Any step can fail safely. Failures return a traceable error and still emit an audit event.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                &copy; 2026 Kamran Khalid. All rights reserved.<br>
+                Fintech API Engineering Workshop · February 25, 2025 · University of Manchester GDG
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("active");
+        }
+
+        function updateRail() {
+            var rail = document.getElementById("railProgress");
+            if (!rail) return;
+            var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            var percent = docHeight > 0 ? (window.scrollY / docHeight) * 100 : 0;
+            rail.style.height = percent + "%";
+        }
+
+        window.addEventListener("scroll", updateRail);
+        window.addEventListener("resize", updateRail);
+        window.addEventListener("load", updateRail);
+    </script>
+</body>
+
+</html>

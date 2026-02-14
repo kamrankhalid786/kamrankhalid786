@@ -1,0 +1,91 @@
+<svg width="1280" height="760" viewBox="0 0 1280 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Idempotency replay decision tree</title>
+  <desc id="desc">Decision tree showing how POST payment requests are replayed or rejected depending on key and payload fingerprint.</desc>
+  <defs>
+    <linearGradient id="bg" x1="60" y1="40" x2="1220" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1A2A"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 34px 'IBM Plex Mono', monospace; fill: #E6F0FF; }
+      .subtitle { font: 500 16px 'Space Grotesk', sans-serif; fill: #A6B4C8; }
+      .box { fill: #122032; stroke: #2A3A55; stroke-width: 2; }
+      .diamond { fill: #16253B; stroke: #2F4568; stroke-width: 2; }
+      .ok { fill: rgba(51,214,159,0.14); stroke: rgba(51,214,159,0.55); }
+      .warn { fill: rgba(255,107,107,0.12); stroke: rgba(255,107,107,0.55); }
+      .step { font: 600 15px 'IBM Plex Mono', monospace; fill: #33D69F; }
+      .label { font: 600 20px 'Space Grotesk', sans-serif; fill: #E6F0FF; }
+      .copy { font: 500 14px 'Space Grotesk', sans-serif; fill: #9AA9BF; }
+      .decision { font: 600 15px 'IBM Plex Mono', monospace; fill: #9FC7FF; }
+      .edge { stroke: #5CAAFF; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .edgeYes { font: 700 13px 'IBM Plex Mono', monospace; fill: #7FEAC3; }
+      .edgeNo { font: 700 13px 'IBM Plex Mono', monospace; fill: #FF9A9A; }
+    </style>
+  </defs>
+
+  <rect x="40" y="36" width="1200" height="688" rx="24" fill="url(#bg)" stroke="#22314A"/>
+
+  <text x="88" y="102" class="title">Idempotency-Key Decision Tree</text>
+  <text x="88" y="132" class="subtitle">Based on src/core/idempotency.js fingerprint and replay logic.</text>
+
+  <rect x="490" y="178" width="300" height="84" rx="14" class="box"/>
+  <text x="512" y="212" class="step">ENTRY</text>
+  <text x="512" y="238" class="label" style="font-size:22px;">POST /v1/payments</text>
+
+  <polygon points="640,292 790,380 640,468 490,380" class="diamond"/>
+  <text x="584" y="377" class="decision">Idempotency-Key</text>
+  <text x="598" y="398" class="decision">header present?</text>
+
+  <rect x="80" y="346" width="290" height="84" rx="14" class="warn"/>
+  <text x="104" y="381" class="step" style="fill:#FF9A9A;">ERROR</text>
+  <text x="104" y="406" class="label" style="font-size:20px;">400 KEY REQUIRED</text>
+
+  <polygon points="940,292 1090,380 940,468 790,380" class="diamond"/>
+  <text x="891" y="377" class="decision">Key already in</text>
+  <text x="882" y="398" class="decision">idempotency store?</text>
+
+  <rect x="905" y="524" width="300" height="96" rx="14" class="ok"/>
+  <text x="929" y="559" class="step">NEW KEY PATH</text>
+  <text x="929" y="584" class="label" style="font-size:20px;">Process + Save Response</text>
+  <text x="929" y="604" class="copy">store { fingerprint, statusCode, body }</text>
+
+  <polygon points="640,524 790,612 640,700 490,612" class="diamond"/>
+  <text x="573" y="609" class="decision">Fingerprint</text>
+  <text x="556" y="630" class="decision">matches payload?</text>
+
+  <rect x="80" y="566" width="300" height="96" rx="14" class="warn"/>
+  <text x="104" y="601" class="step" style="fill:#FF9A9A;">CONFLICT</text>
+  <text x="104" y="626" class="label" style="font-size:20px;">409 PAYLOAD MISMATCH</text>
+
+  <rect x="900" y="566" width="305" height="96" rx="14" class="ok"/>
+  <text x="924" y="601" class="step">REPLAY</text>
+  <text x="924" y="626" class="label" style="font-size:20px;">Return Cached Response</text>
+  <text x="924" y="646" class="copy">Header: Idempotency-Replayed: true</text>
+
+  <path d="M640 262V284" class="edge" marker-end="url(#arrowhead)"/>
+  <path d="M490 380H370" class="edge" marker-end="url(#arrowhead)"/>
+  <text x="424" y="362" class="edgeNo">NO</text>
+
+  <path d="M790 380H782" class="edge" marker-end="url(#arrowhead)"/>
+  <text x="796" y="362" class="edgeYes">YES</text>
+
+  <path d="M940 468V522" class="edge" marker-end="url(#arrowhead)"/>
+  <text x="952" y="502" class="edgeNo">NO</text>
+
+  <path d="M865 380H790" class="edge" marker-end="url(#arrowhead)"/>
+  <text x="816" y="362" class="edgeYes">YES</text>
+
+  <path d="M640 468V516" class="edge" marker-end="url(#arrowhead)"/>
+
+  <path d="M490 612H380" class="edge" marker-end="url(#arrowhead)"/>
+  <text x="430" y="594" class="edgeNo">NO</text>
+
+  <path d="M790 612H900" class="edge" marker-end="url(#arrowhead)"/>
+  <text x="838" y="594" class="edgeYes">YES</text>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto-start-reverse">
+      <path d="M1 1L11 6L1 11V1Z" fill="#5CAAFF"/>
+    </marker>
+  </defs>
+</svg>
