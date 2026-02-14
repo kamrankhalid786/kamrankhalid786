@@ -1,0 +1,131 @@
+GDG ON CAMPUS - THE UNIVERSITY OF MANCHESTER
+WORKSHOP AGENDA (COMMITTEE COPY)
+
+Title:
+Engineering a Fintech Payment API
+How Payment Systems Differ from Normal Web APIs
+
+Host:
+GDG on Campus, The University of Manchester
+Manchester, United Kingdom
+
+Presenter:
+Kamran Khalid
+Senior Backend Architect and Technical Leader
+Sr Software Architect | Lead: UCI Esports and Innovate UK Grant Platform @ProConvey | Fintech AI @Verofy | Technical Author
+
+Workshop Type:
+Hands-on technical workshop for university students (CS Year 1-2 friendly)
+
+Project and Materials:
+Workshop Page:
+file:///Users/kamrankhalid/Desktop/Projects/kamrankhalid786/fintech-api-workshop.html
+
+Student Demo Repository:
+https://github.com/kamrankhalid786/fintech-payment-api-architecture/tree/main
+
+README:
+https://github.com/kamrankhalid786/fintech-payment-api-architecture/blob/main/README.md
+
+------------------------------------------------------------
+WORKSHOP OBJECTIVE
+------------------------------------------------------------
+A normal API handles data. A fintech API handles money and legal responsibility.
+Students will learn why fintech APIs require security, compliance, fraud controls,
+ledger entries, and auditability in a single request flow.
+
+------------------------------------------------------------
+WHO SHOULD ATTEND
+------------------------------------------------------------
+- Computer Science Year 1-2 students
+- Students with basic REST/HTTP understanding
+- Anyone curious about backend systems and fintech engineering
+
+------------------------------------------------------------
+PREREQUISITES
+------------------------------------------------------------
+- What an API is
+- Basic HTTP methods (GET, POST)
+- JSON format
+- Basic Node.js concepts
+
+------------------------------------------------------------
+LEARNING OUTCOMES
+------------------------------------------------------------
+After this workshop, students will be able to:
+- Explain how fintech APIs differ from regular APIs
+- Understand idempotency and why it prevents double charges
+- Understand basic compliance and fraud concepts
+- Test and run a local payment API project
+- Read and follow a backend request flow end-to-end
+
+------------------------------------------------------------
+AGENDA AND TIMELINE (90 MINUTES)
+------------------------------------------------------------
+0:00 - 0:10  | Opening and context
+             | - Why payment APIs are different from general APIs
+             | - Real-world risk: money, regulation, and trust
+
+0:10 - 0:25 | Core concepts
+             | - Validation and request safety
+             | - Idempotency and retry behavior
+             | - Compliance checks (KYC/AML) and fraud screening
+
+0:25 - 0:45 | Architecture walkthrough
+             | - Request workflow: Router -> Controller -> Validation
+             |   -> Idempotency -> Compliance/Fraud -> Ledger -> Audit -> Response
+             | - Why audit logs and ledger entries matter in production
+
+0:45 - 1:05 | Live coding and demo (repo walkthrough)
+             | - Run local API
+             | - Execute payment request
+             | - Replay same request with same Idempotency-Key
+             | - Verify no duplicate side effects
+
+1:05 - 1:20 | New module: AI fraud detection with Gemini
+             | - Add AI-assisted fraud scoring for transaction review
+             | - Use Gemini to classify suspicious payment patterns
+             | - Example output: approve / manual_review / decline recommendation
+             | - Discuss guardrails: explainability, false positives, audit trail
+
+1:20 - 1:30 | Q and A + student challenge
+             | - Students test scenarios and compare outcomes
+             | - Follow-up tasks and repository exercises
+
+------------------------------------------------------------
+NEW SECTION TO ADD IN WEB + REPO (POST-WORKSHOP UPDATE)
+------------------------------------------------------------
+Section Name:
+AI Fraud Detection with Gemini
+
+Recommended Scope:
+- Endpoint extension for fraud decision support
+- Prompt template for risk signals (velocity, amount anomalies, patterns)
+- Structured AI response schema (risk score + reason + recommendation)
+- Human-in-the-loop final decision for high-risk cases
+- Logging AI decision context into audit trail
+
+Student-Friendly Deliverable:
+- Simple demo request that triggers Gemini fraud analysis
+- Clear output fields for students to inspect
+- README instructions to run and test locally
+
+------------------------------------------------------------
+EXPECTED IMPACT FOR GDG STUDENTS
+------------------------------------------------------------
+- Practical understanding of secure fintech backend engineering
+- Exposure to real architecture patterns used in regulated environments
+- Clear bridge between classic API development and AI-assisted risk controls
+- Portfolio-ready project experience with production-style concepts
+
+------------------------------------------------------------
+CONTACT
+------------------------------------------------------------
+Kamran Khalid
+LinkedIn: https://www.linkedin.com/in/kamran-khalid-4310973a/
+GitHub:   https://github.com/kamrankhalid786
+Medium:   https://medium.com/@kamrankhalid06
+
+Document version: 1.0
+Prepared for: GDG UoM Committee
+Date: February 14, 2026

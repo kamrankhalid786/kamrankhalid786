@@ -106,6 +106,7 @@ nav {
     letter-spacing: -0.5px;
     text-transform: uppercase;
     font-family: 'IBM Plex Mono', monospace;
+    text-decoration: none;
 }
 
 .nav-links {

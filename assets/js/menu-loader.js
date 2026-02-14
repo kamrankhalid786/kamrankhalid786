@@ -3,7 +3,7 @@
         "default": [
             '<nav>',
             '    <div class="nav-container">',
-            '        <div class="logo">Kamran Khalid</div>',
+            '        <a class="logo" href="{{ROOT}}/index.html">Kamran Khalid</a>',
             '        <button class="menu-toggle" onclick="toggleMenu()">',
             '            <span></span><span></span><span></span>',
             '        </button>',
@@ -31,7 +31,7 @@
         "fintech": [
             '<nav>',
             '    <div class="nav-container">',
-            '        <div class="logo">Kamran Khalid</div>',
+            '        <a class="logo" href="{{ROOT}}/index.html">Kamran Khalid</a>',
             '        <button class="menu-toggle" onclick="toggleMenu()">',
             '            <span></span><span></span><span></span>',
             '        </button>',
