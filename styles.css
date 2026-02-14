@@ -3694,30 +3694,100 @@ footer {
 }
 
 /* Fintech Workshop Page */
-#intro,
 #presenter,
-#concepts,
+#concepts-architecture,
 #demo,
 #workshop,
 #code-steps,
-#cli,
-#architecture {
+#run-execution {
     scroll-margin-top: 110px;
 }
 
-.workshop-anchor-links {
-    margin-top: 22px;
+.hero-split {
+    display: grid;
+    grid-template-columns: minmax(0, 1.65fr) minmax(320px, 1fr);
+    gap: 44px;
+    align-items: start;
 }
 
-.mindset-banner {
-    margin-top: 8px;
-    padding: 14px 16px;
-    border-left: 3px solid rgba(51, 214, 159, 0.75);
-    border-radius: 10px;
-    border: 1px solid var(--border);
-    background: rgba(51, 214, 159, 0.08);
-    color: var(--text-secondary);
-    line-height: 1.7;
+.hero-main .content-text {
+    max-width: 860px;
+}
+
+.hero-main .hero-meta-clean {
+    margin-top: 22px;
+    margin-bottom: 20px;
+}
+
+.hero-side {
+    padding-top: 2px;
+}
+
+.hero-side .section-title {
+    margin-bottom: 14px;
+    font-size: 24px;
+}
+
+.hero-side .presenter-card {
+    margin-bottom: 14px;
+    padding: 14px;
+    display: block;
+}
+
+.hero-side .presenter-photo {
+    width: 88px;
+    height: 88px;
+}
+
+.hero-side .presenter-head {
+    display: grid;
+    grid-template-columns: 88px minmax(0, 1fr);
+    gap: 12px;
+    align-items: center;
+}
+
+.hero-side .section-subtitle-tight {
+    margin: 0 0 4px;
+}
+
+.hero-side .presenter-role {
+    margin: 0 0 6px;
+}
+
+.hero-side .presenter-copy {
+    margin: 10px 0 0;
+    font-size: 15px;
+    line-height: 1.65;
+}
+
+.hero-side .sidebar-card.plain-panel {
+    margin-bottom: 0;
+}
+
+.hero-focus-flow {
+    margin-top: 14px;
+    display: grid;
+    gap: 10px;
+}
+
+.hero-focus-block {
+    padding: 8px 0 4px;
+    border-top: 1px solid var(--border-subtle);
+}
+
+.hero-focus-block .section-subtitle-tight {
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+
+.hero-list {
+    margin-top: 6px;
+    gap: 7px;
+    padding-left: 18px;
+}
+
+.hero-list li {
+    line-height: 1.62;
 }
 
 .presenter-card {
@@ -3896,6 +3966,58 @@ footer {
 }
 
 /* Fintech workshop clean layout */
+.fintech-workshop-page .section {
+    border-top: 1px solid var(--border-subtle);
+}
+
+.fintech-workshop-page .section .section-title::before {
+    content: "//";
+    color: var(--accent);
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+    background: transparent;
+}
+
+.fintech-workshop-page .section .sidebar-card.plain-panel,
+.fintech-workshop-page .section .presenter-card,
+.fintech-workshop-page .section .learning-steps .workshop-step,
+.fintech-workshop-page .section .code-step-card {
+    border-left-color: var(--border-subtle);
+}
+
+.fintech-workshop-page .section .workshop-code,
+.fintech-workshop-page .section .terminal-card,
+.fintech-workshop-page .section .clean-diagram {
+    border-color: var(--border-subtle);
+    background: rgba(9, 15, 24, 0.58);
+}
+
+.fintech-workshop-page #presenter .presenter-card,
+.fintech-workshop-page #presenter .sidebar-card.plain-panel {
+    border-left-style: solid;
+}
+
+.fintech-workshop-page #concepts-architecture .concepts-matrix {
+    border-top-style: double;
+    border-top-width: 3px;
+}
+
+.fintech-workshop-page #concepts-architecture .concepts-pillar {
+    border-top-style: dashed;
+}
+
+.fintech-workshop-page #demo .ai-point {
+    border-style: dashed;
+}
+
+.fintech-workshop-page #run-execution .terminal-card {
+    border-style: solid;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.02);
+}
+
 .fintech-workshop-page .sidebar-card.plain-panel {
     background: transparent;
     border: 0;
@@ -3953,8 +4075,8 @@ footer {
 .fintech-workshop-page .concepts-pillars {
     margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 20px 26px;
+    grid-template-columns: 1fr;
+    gap: 16px;
 }
 
 .fintech-workshop-page .concepts-pillar {
@@ -3962,14 +4084,107 @@ footer {
     border-top: 1px solid var(--border-subtle);
 }
 
+.fintech-workshop-page .concepts-pillar:first-child {
+    padding-top: 0;
+    border-top: 0;
+}
+
 .fintech-workshop-page .concepts-pillar h3 {
     margin-bottom: 8px;
     font-size: 18px;
 }
 
+.concepts-architecture-split {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+    gap: 28px;
+    align-items: start;
+}
+
+.concepts-column {
+    border-right: 1px solid var(--border-subtle);
+    padding-right: 18px;
+}
+
+.architecture-column .section-subtitle {
+    margin-top: 0;
+}
+
+.diagram-caption {
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: var(--text-muted);
+    font-size: 13px;
+    line-height: 1.6;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
 .fintech-workshop-page .compact-list {
     margin-top: 0;
     gap: 6px;
+}
+
+.demo-split {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 0.72fr);
+    gap: 28px;
+    align-items: start;
+}
+
+.demo-main .content-text {
+    margin-bottom: 12px;
+}
+
+.inline-project-link {
+    color: var(--text-primary);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.inline-project-link:hover {
+    color: var(--accent);
+}
+
+.demo-feature-list {
+    margin-top: 0;
+    padding-left: 18px;
+    gap: 9px;
+}
+
+.demo-side .sidebar-card.plain-panel {
+    margin-bottom: 14px;
+}
+
+.endpoint-comparison-split {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 26px;
+    align-items: start;
+    margin-top: 8px;
+}
+
+.endpoint-flow {
+    padding-top: 10px;
+    border-top: 1px dotted var(--border-subtle);
+}
+
+.endpoint-comparison-split .endpoint-flow + .endpoint-flow {
+    border-left: 1px dotted var(--border-subtle);
+    padding-left: 18px;
+}
+
+.endpoint-flow h4 {
+    margin: 0 0 4px;
+    font-size: 18px;
+}
+
+.endpoint-title {
+    margin: 0;
+}
+
+.endpoint-flow-list {
+    margin-top: 6px;
+    gap: 8px;
 }
 
 .endpoint-list {
@@ -3979,6 +4194,16 @@ footer {
 
 .endpoint-list li + li {
     margin-top: 6px;
+}
+
+.endpoint-url {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    color: var(--text-secondary);
+}
+
+.endpoint-url:hover {
+    color: var(--accent);
 }
 
 .fintech-workshop-page .workshop-code-grid {
@@ -3994,28 +4219,53 @@ footer {
 
 .fintech-workshop-page .workshop-step-list.learning-steps {
     padding-left: 0;
-    gap: 26px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px 26px;
 }
 
 .fintech-workshop-page .learning-steps .workshop-step {
     background: transparent;
     border: 0;
-    border-left: 2px solid var(--border-subtle);
     border-radius: 0;
     margin: 0;
-    padding: 4px 0 4px 16px;
+    padding: 0;
 }
 
 .fintech-workshop-page .code-step-stack {
     gap: 24px;
 }
 
+.workshop-pair-list {
+    position: relative;
+    display: grid;
+    gap: 24px;
+}
+
+.workshop-pair-list::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    background: var(--border-subtle);
+    pointer-events: none;
+}
+
+.workshop-pair-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 28px;
+    align-items: start;
+}
+
 .fintech-workshop-page .code-step-card {
     background: transparent;
     border: 0;
-    border-left: 2px solid rgba(51, 214, 159, 0.35);
+    border-top: 1px solid var(--border-subtle);
     border-radius: 0;
-    padding: 4px 0 4px 16px;
+    padding: 12px 0 4px;
 }
 
 .fintech-workshop-page .clean-diagram-card {
@@ -4028,6 +4278,28 @@ footer {
 
 .fintech-workshop-page .clean-diagram-card h4 {
     margin-bottom: 10px;
+}
+
+.workshop-pair-row .clean-diagram-card {
+    border-top: 1px solid var(--border-subtle);
+    padding-top: 12px;
+}
+
+.workshop-pair-list .workshop-pair-row:first-child .code-step-card,
+.workshop-pair-list .workshop-pair-row:first-child .clean-diagram-card {
+    border-top: 0;
+    padding-top: 0;
+}
+
+.workshop-pair-row .mermaid {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.workshop-pair-row .mermaid svg {
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: 260px;
 }
 
 .fintech-workshop-page .clean-diagram {
@@ -4048,6 +4320,11 @@ footer {
 }
 /* Custom Table Styles for Stats & PRs */
 @media (max-width: 968px) {
+    .hero-split {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
     .content-grid,
     .contact-grid {
         grid-template-columns: 1fr;
@@ -4144,6 +4421,47 @@ footer {
     .fintech-workshop-page .concepts-pillars {
         grid-template-columns: 1fr;
         gap: 14px;
+    }
+
+    .concepts-architecture-split {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .workshop-pair-row {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .workshop-pair-list::before {
+        display: none;
+    }
+
+    .demo-split {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .fintech-workshop-page .workshop-step-list.learning-steps {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .endpoint-comparison-split {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .endpoint-comparison-split .endpoint-flow + .endpoint-flow {
+        border-left: 0;
+        padding-left: 0;
+    }
+
+    .concepts-column {
+        border-right: 0;
+        padding-right: 0;
+        padding-bottom: 6px;
+        border-bottom: 1px solid var(--border-subtle);
     }
 
     .clean-diagram-grid {

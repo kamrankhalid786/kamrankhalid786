@@ -18,7 +18,12 @@
             '            </li>',
             '            <li><a href="{{ROOT}}/education.html" data-menu-key="education">Education</a></li>',
             '            <li><a href="{{ROOT}}/recommendations.html" data-menu-key="recommendations">Recommendations</a></li>',
-            '            <li><a href="{{ROOT}}/community.html" data-menu-key="community">Community</a></li>',
+            '            <li class="nav-item dropdown">',
+            '                <a href="{{ROOT}}/community.html" data-menu-key="community">Community</a>',
+            '                <div class="nav-dropdown">',
+            '                    <a href="{{ROOT}}/fintech-api-workshop.html" data-menu-key="fintech-api-workshop" title="GDG on Campus The University of Manchester - Manchester, United Kingdom">GDG UOM Workshop: Fintech API</a>',
+            '                </div>',
+            '            </li>',
             '        </ul>',
             '    </div>',
             '</nav>'
