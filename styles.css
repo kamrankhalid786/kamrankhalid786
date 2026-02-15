@@ -13,6 +13,14 @@
     --border-subtle: #1a2638;
     --terminal: #0f151f;
     --glow: rgba(51, 214, 159, 0.2);
+    --fs-page-label: 13px;
+    --fs-page-title: clamp(38px, 5vw, 56px);
+    --fs-page-subtitle: 20px;
+    --fs-section-title: 32px;
+    --fs-section-intro: 16px;
+    --fs-content-text: 16px;
+    --fs-timeline-company: 20px;
+    --fs-timeline-description: 16px;
 }
 
 * {
@@ -214,7 +222,7 @@ nav {
 
 .page-label {
     display: inline-block;
-    font-size: 13px;
+    font-size: var(--fs-page-label);
     font-weight: 600;
     color: var(--accent);
     text-transform: uppercase;
@@ -234,7 +242,7 @@ nav {
 }
 
 .page-title {
-    font-size: 64px;
+    font-size: var(--fs-page-title);
     font-weight: 800;
     line-height: 1.1;
     letter-spacing: -2px;
@@ -243,7 +251,7 @@ nav {
 }
 
 .page-subtitle {
-    font-size: 20px;
+    font-size: var(--fs-page-subtitle);
     color: var(--text-secondary);
     line-height: 1.6;
     max-width: 700px;
@@ -262,7 +270,7 @@ nav {
 }
 
 .section-title {
-    font-size: 32px;
+    font-size: var(--fs-section-title);
     font-weight: 700;
     margin-bottom: 48px;
     color: var(--text-primary);
@@ -409,7 +417,7 @@ nav {
 }
 
 .content-text {
-    font-size: 16px;
+    font-size: var(--fs-content-text);
     line-height: 1.7;
     color: var(--text-secondary);
     margin-bottom: 24px;
@@ -478,7 +486,7 @@ nav {
     margin-bottom: 20px;
     max-width: 760px;
     color: var(--text-secondary);
-    font-size: 15px;
+    font-size: var(--fs-section-intro);
     line-height: 1.7;
 }
 
@@ -2243,6 +2251,7 @@ nav {
     background: linear-gradient(120deg, rgba(51, 214, 159, 0.12), transparent 40%);
     opacity: 0;
     transition: opacity 0.2s ease;
+    pointer-events: none;
 }
 
 .timeline-item:hover::before {
@@ -2255,8 +2264,21 @@ nav {
     z-index: 1;
 }
 
+.timeline-head-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.timeline-head-meta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
 .timeline-company {
-    font-size: 20px;
+    font-size: var(--fs-timeline-company);
     font-weight: 700;
     color: var(--text-primary);
     margin-bottom: 8px;
@@ -2283,7 +2305,7 @@ nav {
 }
 
 .timeline-description {
-    font-size: 15px;
+    font-size: var(--fs-timeline-description);
     line-height: 1.7;
     color: var(--text-secondary);
     margin-bottom: 16px;
@@ -3366,6 +3388,293 @@ footer {
     color: var(--text-secondary);
 }
 
+.workshop-media-grid {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+}
+
+.workshop-event-layout {
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: minmax(0, 1.45fr) minmax(320px, 1fr);
+    gap: 16px;
+    align-items: start;
+}
+
+.workshop-event-copy {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.workshop-event-embed {
+    min-width: 0;
+}
+
+.workshop-event-layout > :last-child {
+    border-left: 1px solid var(--border-subtle);
+    padding-left: 16px;
+}
+
+.text-only-layout {
+    grid-template-columns: minmax(0, 1.3fr) minmax(260px, 1fr);
+}
+
+.text-only-layout > :last-child {
+    background: rgba(11, 15, 20, 0.42);
+    border: 1px solid var(--border-subtle);
+    border-radius: 10px;
+    padding: 14px 14px 12px;
+}
+
+.workshop-info-list {
+    display: grid;
+    gap: 8px;
+}
+
+.workshop-info-row {
+    display: grid;
+    grid-template-columns: 84px minmax(0, 1fr);
+    gap: 10px;
+    align-items: start;
+}
+
+.workshop-info-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: var(--text-muted);
+}
+
+.workshop-info-value {
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--text-primary);
+}
+
+.workshop-note {
+    margin: 0;
+    padding-top: 8px;
+    border-top: 1px dashed var(--border);
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text-secondary);
+}
+
+.workshop-event-layout .learning-list.compact-list {
+    margin-top: 2px;
+}
+
+.workshop-media-row {
+    margin-top: 14px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+}
+
+.workshop-event-brand {
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid var(--border-subtle);
+    background: rgba(11, 15, 20, 0.5);
+}
+
+.workshop-event-brand img {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.workshop-event-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.workshop-issued-text {
+    font-size: 12px;
+    color: var(--text-muted);
+    font-family: 'IBM Plex Mono', monospace;
+    line-height: 1.45;
+}
+
+.workshop-mini-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    border-radius: 6px;
+    border: 1px solid rgba(95, 227, 182, 0.35);
+    background: rgba(95, 227, 182, 0.1);
+    color: var(--accent-hover);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.45px;
+    text-transform: uppercase;
+}
+
+.workshop-media-card {
+    margin: 0;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.workshop-media-card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+}
+
+.workshop-media-face-focus {
+    object-position: center 18%;
+}
+
+.workshop-media-card figcaption {
+    padding: 10px 12px;
+    font-size: 13px;
+    color: var(--text-muted);
+    border-top: 1px solid var(--border-subtle);
+}
+
+.workshop-media-embed iframe {
+    width: 100%;
+    height: 420px;
+    border: 0;
+    display: block;
+    background: #fff;
+}
+
+.community-highlight-item .timeline-header {
+    margin-bottom: 16px;
+}
+
+.community-highlight-item .workshop-event-layout {
+    margin-top: 12px;
+    gap: 16px;
+}
+
+.community-highlight-item .workshop-media-row {
+    margin-top: 14px;
+    gap: 14px;
+}
+
+.community-extra-highlights {
+    margin-top: 0;
+}
+
+body[data-menu-active="community"] #workshops .timeline {
+    margin-top: 20px;
+}
+
+body[data-menu-active="community"] #workshops.section {
+    padding-bottom: 24px;
+}
+
+body[data-menu-active="community"] #volunteer.section {
+    padding-top: 0;
+}
+
+.community-clean-block {
+    border-top: 1px solid var(--border-subtle);
+}
+
+.community-clean-item {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.community-clean-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.45;
+}
+
+.community-clean-meta {
+    margin-top: 3px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.community-clean-summary {
+    margin: 6px 0 4px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.community-inline-label {
+    display: inline-block;
+    margin-right: 8px;
+    padding: 1px 6px;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    background: rgba(11, 15, 20, 0.5);
+    color: var(--text-muted);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    vertical-align: 1px;
+}
+
+.community-clean-block.no-top-divider {
+    border-top: 0;
+}
+
+@media (max-width: 900px) {
+    .timeline-head-top {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .workshop-event-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .workshop-event-layout > :last-child {
+        border-left: 0;
+        padding-left: 0;
+    }
+
+    .text-only-layout > :last-child {
+        border: 0;
+        border-top: 1px solid var(--border-subtle);
+        border-radius: 0;
+        background: transparent;
+        padding: 12px 0 0;
+    }
+
+    .workshop-info-row {
+        grid-template-columns: 80px minmax(0, 1fr);
+    }
+
+    .workshop-media-row {
+        grid-template-columns: 1fr;
+    }
+
+    .workshop-media-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .workshop-media-card img {
+        height: 220px;
+    }
+}
+
 .meta-links {
     display: flex;
     flex-wrap: wrap;
@@ -3995,12 +4304,6 @@ footer {
 }
 
 /* Fintech workshop clean layout */
-.fintech-workshop-page .page-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1.15;
-}
-
 .fintech-workshop-page .section {
     border-top: 1px solid var(--border-subtle);
 }

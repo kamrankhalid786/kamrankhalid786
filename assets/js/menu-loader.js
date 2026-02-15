@@ -12,7 +12,6 @@
             '            <li class="nav-item dropdown">',
             '                <a href="{{ROOT}}/experience.html" data-menu-key="experience">Experience</a>',
             '                <div class="nav-dropdown">',
-            '                    <a href="{{ROOT}}/experience.html" data-menu-key="experience-overview">Experience Overview</a>',
             '                    <a href="{{ROOT}}/proconvey.html" data-menu-key="proconvey">ProConvey</a>',
             '                </div>',
             '            </li>',
