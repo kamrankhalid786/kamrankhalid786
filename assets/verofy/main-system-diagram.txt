@@ -1,0 +1,88 @@
+flowchart TD
+    subgraph Portals
+        Admin["Admin Portal"]
+        Partner["Partner Portal"]
+        Customer["Customer Portal"]
+        Supplier["Supplier Portal"]
+        ISV["ISV App"]
+        TMS["TMS App"]
+        Softpay["Softpay App"]
+    end
+
+    subgraph API_Layer
+        API["RESTful APIs & Webhooks"]
+    end
+
+    subgraph Core_Services
+        Auth["Authentication & 2FA"]
+        KYC["KYC / Compliance"]
+        Payment["Payment Integrations"]
+        Onboarding["Onboarding / Boarding Rules"]
+        Reporting["Reporting & SL / Recap"]
+        Bespoke["Bespoke Pricing / Logic"]
+        Messaging["Email / SMS / Notifications"]
+        Audit["Audit Logs"]
+        File["File Storage (S3 / Minio)"]
+    end
+
+    subgraph Data_Layer
+        MySQL[("MySQL DB")]
+        Redis[("Redis")]
+        S3[("S3 / Minio")]
+    end
+
+    subgraph Integrations
+        GoCardless
+        Cardstream
+        PaymentIQ
+        Experian
+        W2
+        Authy
+        VTiger
+        Recapx
+        SFTP
+        AWS
+    end
+
+    Admin -->|API| API
+    Partner -->|API| API
+    Customer -->|API| API
+    Supplier -->|API| API
+    ISV -->|API| API
+    TMS -->|API| API
+    Softpay -->|API| API
+
+    API -->|Business Logic| Auth
+    API -->|Business Logic| KYC
+    API -->|Business Logic| Payment
+    API -->|Business Logic| Onboarding
+    API -->|Business Logic| Reporting
+    API -->|Business Logic| Bespoke
+    API -->|Business Logic| Messaging
+    API -->|Business Logic| Audit
+    API -->|Business Logic| File
+
+    Auth -->|DB| MySQL
+    KYC -->|DB| MySQL
+    Payment -->|DB| MySQL
+    Onboarding -->|DB| MySQL
+    Reporting -->|DB| MySQL
+    Bespoke -->|DB| MySQL
+    Messaging -->|DB| MySQL
+    Audit -->|DB| MySQL
+    File -->|Storage| S3
+
+    Auth -->|Cache| Redis
+    Messaging -->|Queue| Redis
+    Reporting -->|Cache| Redis
+
+    Payment -->|Integrates| GoCardless
+    Payment -->|Integrates| Cardstream
+    Payment -->|Integrates| PaymentIQ
+    KYC -->|Integrates| Experian
+    KYC -->|Integrates| W2
+    Auth -->|Integrates| Authy
+    Onboarding -->|Integrates| VTiger
+    Reporting -->|Integrates| Recapx
+    File -->|Integrates| SFTP
+    File -->|Integrates| AWS

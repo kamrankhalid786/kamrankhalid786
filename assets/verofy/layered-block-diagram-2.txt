@@ -1,0 +1,69 @@
+Legend: ★ = Feature contributed by Kamran Khalid
+
+[Portals]
+  - Admin Portal ★
+  - Partner Portal ★
+  - Customer Portal ★
+  - Supplier Portal
+  - ISV Portal ★
+  - TMS Portal
+  - Softpay Portal
+  - Mobile App
+
+[Core Modules]
+  - Onboarding ★
+  - KYC ★
+  - Payment ★
+  - Reporting ★
+  - Bespoke ★
+  - Partner ★
+  - Customer ★
+  - Notification ★
+  - Auth ★
+  - Audit ★
+  - File ★
+
+[Business Modules]
+  - Transaction ★
+  - Product ★
+  - Service Logistics ★
+  - Card Rates ★
+  - Commission ★
+  - Residuals ★
+  - Recapx ★
+  - Terminal Order ★
+  - Chargeback ★
+  - Package Pricing ★
+  - Business Hub ★
+  - Admin Cash Advance ★
+  - Loans ★
+
+[Data & Integrations]
+  - MySQL, Redis, S3/Minio
+  - VTiger CRM ★
+  - Payment IQ ★
+  - Cardstream ★
+  - GoCardless ★
+  - Experian ★
+  - W2 ★
+  - Authy ★
+  - SFTP ★
+  - AWS
+
+[Flows]
+  - Customer Onboarding ★
+  - Partner Creation ★
+  - Payment Processing ★
+  - Terminal Dispatch ★
+  - Recapx Split Settlement ★
+  - Messaging Events ★
+  - Audit Logging ★
+  - Chargeback Sync ★
+  - Package Pricing ★
+  - Service Logistics ★
+  - Card Rates Management ★
+  - Residuals Management ★
+  - Admin Cash Advance ★
+  - Loans Management ★
+  - Chargeback Sync ★
+  - Package Pricing ★

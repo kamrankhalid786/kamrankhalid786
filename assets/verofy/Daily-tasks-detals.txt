@@ -1,0 +1,1177 @@
+I think there are allot of things are missing, Like recap
+bespoke
+SL reporting
+
+Here more tasks details which I have worked in last more then a year:
+
+
+
+
+
+
+Project Name	Description	Estimated Timing	% Outstanding
+POS Integration	Send Payment Link: Trigger messaging events	4 H	0%
+POS Integration	Payment Confirmation: Implemented status	3.5 H	0%
+Orders API Schema Update	Adjusted schema for Sole Traders and Partner business types.	0.5 H	0%
+
+
+Project Name	Description	Estimated Timing	% Outstanding
+Orders API	Integrated ISV products into the existing product structure.	5 H	0%
+Awaiting Payment Tab	Created a new tab to filter applications based on payment status.	3 H	0%
+Manual Payment Status Update	Update manually payment done from front end	4 H	80%
+
+
+
+Project Name	Description	Estimated Timing	% Completed
+Orders API	Added ISV products and updated schema.	2H	0%
+Manual Payment Link	Created an endpoint for manual payment status updates.	5.5H	0%
+Update Documentation	Updated Jira documentaiton for oders api	0.5	0%
+
+
+
+
+
+Task	Description	Estimated Timing	% Completed
+Orders API Schema Update	Removed unnecessary fields from Verofy & ISV product arrays	.5H	0%
+Partner Portal	Created endpoint for Upfront Payment Made to update payment manually	2.5H	0%
+Partner Portal	Implemented Monthly Payment Made to update payment manually 	4H	0%
+Webhook Update	Updating webhook implementation based on new structure	In Progress	40%
+
+
+Task	Description	Estimated Timing	% Outstanding
+Service for Transaction Update	Ensured upfront payments update transaction service	2h	0%
+Payment Logic Update	Mark upfront payment as done after completion	2h	0%
+Admin Notification for Upfront Payment	Sent confirmation message to admin	2.5	0%
+Assisted Frontend	Helped Vyshanvi with data setup for customer tab & PBL	1h	0%
+
+
+Task	Description	Estimated Timing	% Outstanding
+PayLinks Hotfix	Added reference short code	1h	0%
+Payment Status for Customer Section	Updated status logic for payment buttons	2h	0%
+Messaging Events Update	Upfront payment confirmation for customer & admin	2h	0%
+MP Go Cardless Event Update	Merged separate events into one for partner, admin & customer	2.5	0%
+
+
+Task	Description	Estimated Timing	% Outstanding
+MP - Go Cardless	Message event for acquiring approval.	2h	0%
+Upfront Payment	Added required product list data.	1.5h	0%
+Customer Section	Updated query, status, response, and payment method.	2h	0%
+MP - Go Cardless	Send ISV partner notification with merchant details.	3h	50%
+
+
+Task	Description	Estimated Timing	% Outstanding
+Upfront - Settlement	Add customer contract lenght	1.5h	0%
+MP - Go Cardless	Send daily message until "Monthly Setup Complete" is clicked.	3h	0%
+Monthly Payment - Go Cardless	Integrated monthly payment flow using GoCardless.	2.5h	0%
+FE - PBL Url	New customer tab send pbl url	2h	30%
+
+
+Task	Description	Estimated Timing	% Outstanding
+Customer Tab	Send PBL link to front end	3h	0%
+Added New Short Codes for Messaging Event	Added short codes for daily messaging event.	3h	0%
+Create Command for Daily Messaging Event	Created: pos:go-cardless-send-monthly-setup-reminder	2h	0%
+
+	.
+
+Task	Description	Estimated Timing	Status	% Outstanding
+PBL Generation Link via Customer Contract	Added PBL link and Payment IQ relationship.	2.5h	✅ Done	0%
+Update Contract When PBL is Generated	Generate and link PBL when customer MID is created.	3h	✅ Done	0%
+Update Contract After Payment Completion	Update contract after PBL/manual payment.	0.5h	✅ Done	0%
+Update Contract Once Monthly Payment is Done	Update contract after monthly/manual payment from FE.	1h	✅ Done
+Card Payment & Bank Transfer	Update contract when manually approved via FE.	0.5h	✅ Done
+Customer	Update Response	1 h	In progress	90%
+
+
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Hotfix	Add CC Email Option and option & updated messaging events.	3h	✅ Done	0%
+Fetch Upfront Total Amount for PBL	Used new method to calculate upfront payment total.	1h	✅ Done	0%
+Customer	Linked Payment IQ & contract in API response.	1h	✅ Done	0%
+Add New Payment Rules	Allowed partners to update manual payment events for PBL.	3h	In progress	40%
+
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Pos: Monthly Payment	Updated conditions, model changes, and removed order terminal.	3h	✅ Done	0%
+New Short Codes for Messaging Event	Added Primary Contact, Merchant Trading, Amount, List of Products.	3h	✅ Done	0%
+Add New Payment Rules	Allowed manual updates for PBL & Monthly Payments.	1h	✅ Done	0%
+Go Cardless: Partner Messaging Update	Added customer detail page link and new short code.	0.5h	🚧 WIP	40%
+
+
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Go Cardless: Partner Messaging Update	Added customer detail page link and short code.	0.5h	✅ Done	0%
+Monthly Payment Approved → Order Terminal	Trigger terminal ordering after manual approval & setup complete.	4h	✅ Done	0%
+Upfront Payment → Terminal Order	Trigger terminal order when upfront payment is completed.	4h	🚧 In Progress	30%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Upfront → Terminal Order	Trigger terminal order when "Upfront Payment Complete" status is set.	2.5h	✅ Done	0%
+Determine ISV Application Status	Added logic to determine and return ISV application status.	1.5h	✅ Done	0%
+Enable PBL for Staging	Refactored and enabled PBL generation on staging; updated conditions and cleaned up logic.	4h	🚧 In Progress	90%
+
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Enable PBL for Staging	Added Verofy customer and package; moved PBL into Verofy Connect on MID approval.	2h	✅ Done	0%
+Modify Customer & Application APIs	Updated logic for customers and applications visibility based on payment and MID status.	1.5h	✅ Ready for Review	0%
+Manual PBL Generation (Partner)	In progress: Allow partner to manually generate Payment By Link.	5h	🚧 Work in Progress	60%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Fix Customer & PaymentIQ Issues	Fixed customer, location ID, PaymentIQ, and stream merchant bugs.	1h	✅ Done on Stage	0%
+Manual PBL Generation (Partner)	Created endpoint to allow partners to manually generate PBL links.	4h	✅ Done on Dev	0%
+Webhook: Order & Status Update	Synced order creation with customer status; linked app ID to main service.	2h	✅ Ready for Review	0%
+Webhook: Order Enhancements	Continued development on webhook-triggered order creation.	1h	🚧 Work in Progress	60%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Webhook: Order & Status Update	Merge webhook changes with Dev	2h	✅ Done on Dev	0%
+Signed Contract Filter	Updated logic to only include signed contracts for payment handling.	1h	✅ Ready for Review	0%
+Monthly Payment Update (GoCardless)	Added monthly_requested_at , verified contracts & triggered notification methods.	2h	✅ Ready for Review	0%
+GoCardless Messaging Events	Connected payment method events with GoCardless messaging flow.	1h	✅ Ready for Review	0%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+POS Integration: Card Payment Events	Added messaging for ISV and merchant after upfront card payment confirmation.	2h	✅ Ready for Review	0%
+Verofy Cardless Messaging Events	Customer and partner messaging for monthly payments with relevant details.	3h	✅ Ready for Review	0%
+ISV Payment Messaging Enhancement	Dynamic product dispatch messaging and shortcode based on upfront product inclusion.	5h	🚧 Work in Progress	40%
+
+
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Verofy Cardless Messaging Events	Added new messaging for customer and partner with monthly amount and trading info.	2h	✅ Ready for Review	0%
+PBL Customer Product List	Included list of products in PBL message for applicants.	1h	✅ Ready for Review	0%
+PBL Admin ISV Product Messaging	Dynamic section added to admin messages for ISV products dispatch.	1h	✅ Ready for Review	0%
+Staging Hotfix	Updated manual payment logic and query in staging.	1h	✅ Done on Staging	0%
+Bank Transfer Messaging Events	Began implementing event flow and logic for bank transfer messaging.	3h	🚧 Work in Progress	60%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Manual Payments – Registration Flow	Updated registration, pre-reg, fetch unpaid, and manual collection methods.	3h	✅ Done on Staging	0%
+ISV Type in Customer API	Added commercial_setup_type for mobile response.	0.5h	✅ Done on Staging	0%
+PBL Feedback	GBP currency symbol fix and archive link post-payment.	2h	✅ Ready for Review	0%
+New Statuses – Partner Portal	Added new filters: Cancellation and Terminal Issues.	0.5h	✅ Done on Production	0%
+Actions Tracking	Working on implementing actions tracking feature.	3h	🚧 Work in Progress	50%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Bank Transfer – Messaging Events	Customer + recurring partner messages including ISV/product details.	5h	✅ Ready for Review	0%
+PBL – New Messaging for Customer	Separate customer message for PBL with product list shortcode.	2h	✅ Ready for Review	0%
+PBL – Admin Messaging Update	Dynamic product dispatch message shown only if ISV products exist.	1h	✅ Ready for Review	0%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Customer PBL – Product List Injection	Added dynamic product list to customer PBL messaging.	1h	✅ Done on Dev	0%
+Card Payment – Message Events	Two new events created for customer and admin post-card payment.	5h	✅ Ready for Review	0%
+Bank Transfer – Message Enhancements	Finalized and deployed messaging events related to upfront approval and partner reminders.	1h	✅ Done on Dev	0%
+PBL Tracking – Paylink Status	Started building endpoint for tracking Paylink usage under "Link Status" in partner portal.	—	🚧 Work in Progress	40%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Card Payment – Message Events	Reused all Bank Transfer message templates for Card Payments.	2h	✅ Done on Dev	0%
+Card Payment – ISV Chase Event	Created recurring daily reminder to partners regarding ISV payments.	3.5h	✅ Ready for Review	0%
+Customer Payment – Query Update	Skipped VEROFY_CARDLESS monthly payment types from payment query.	0.5h	✅ Ready for Review	0%
+Paylinks Status – New Endpoint	Began building endpoint to reflect status of Paylinks in Partner Portal under "Link Status" label.	2h	🚧 Work in Progress	50%
+
+
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Paylinks Status Endpoint	Built Dev endpoint to show Paylink status under "Link Status" in Partner Portal.	2h	✅ Done on Dev	0%
+Verofy Cardless Customer Query	Updated query logic to support Verofy Cardless customers without monthly_payment_type	1h	✅ Done on Dev	0%
+Actions Tracking in Admin	Added tracking for manual "Setup Complete" and "Payment Received" actions with user/time logs.	1h	✅ Ready for Review	0%
+GoCardless Daily Chase Update	Updated query and daily event logic for monthly VEROFY_CARDLESS follow-ups.	2.5h	✅ Ready for Review	0%
+Bespoke Enhancements	Started initial work on enhancement tasks.	4h	🚧 Work in Progress	30%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+PBL Price Fix	Updated contract pricing logic to exclude certain fees.	0.5h	✅ Done on Staging	0%
+Payment Customers Query	Included records with null monthly_payment_type	0.5h	✅ Done on Staging	0%
+Bank Transfer ISV Chase	Created cron to chase ISV daily on pending bank transfer.	4h	✅ Ready for Review	0%
+Finance Messaging Event	Trigger message to customer after MID approval.	3h	✅ Ready for Review	0%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+ISV Messaging Event Update	Linked product and pricing details with Verofy Cardless messaging event.	2h	✅ Ready for Review	0%
+Partner Card Rates Management	Allow partner to set rates (not below admin min) in bespoke pricing feature.	5h	✅ Ready for Review	0%
+Orders API Product Code Mapping	Assign codes to Verofy products in API response.	-	🚧 In Progress	30%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Partner Card Rates Validation	Updated bespoke logic for partner card rates check.	3h	✅ Done on Dev	0%
+Orders API Authentication	Moved API to Verofy Connect and secured with authentication.	2h	✅ Ready for Review	0%
+Verofy Product Code Assignment	Assigning codes to Verofy products in the Orders API.	4h	🚧 In Progress	40%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Orders API Enhancement	Added MCC codes and updated labels.	2h	✅ Done on Dev	0%
+Verofy Codes in Portals	Added Verofy codes to Partner and Admin panels.	1.5h	✅ Ready for Review	0%
+Orders API Documentation	Updated documentation based on latest API changes.	3h	✅ Done	0%
+ISV Product Codes	Implementing method for assigning standard ISV product codes.	3h	🚧 In Progress	40%
+
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Fix Seller Exception	Resolved seller flow exception.	1h	✅ Done on Dev	0%
+Partner Product Selection	Enabled full product selection for partners and added tracking flag.	3.5h	✅ Ready for Review	0%
+MID Approved Messaging Event	Started implementation of customer notification on MID approval.	1h	🚧 In Progress	50%
+Orders API Documentation Update	Refreshed schema for all partner types.	2h	✅ Done	0%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+MID Approved Messaging	Notify customer when MID is approved.	1h	✅ Done on Dev	0%
+Orders API – Services Update	Added active and fee fields to all service-related costs.	4h	✅ Done on Dev	0%
+User Removal & New Seller Logic	Assign new seller and log audit trail with old/new partner IDs.	4h	🚧 In Progress	40%
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Remove User & Set Seller	Reassign seller and record change audit trail.	4h	✅ Ready for Review	0%
+Monthly Payment + Product Matrix	Renamed finance types and realigned structure table as per new matrix.	6h	🚧 In Progress	40%
+
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Update Payment Methods	Refined global and partner-specific payment method logic.	4h	✅ Ready for Review	0%
+Sandbox Orders API – Customer Status	Built new endpoint for customer status in sandbox.	3h	✅ Ready for Review	0%
+Vtiger – Partner Payment Config	Started: Enable config of all payment types at partner level and expose endpoint to Vtiger.	4h	🚧 In Progress	30%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Pop-up Info for Commercial Types	Modal loaded dynamically per partner’s available options.	1h	✅ Done on Dev	0%
+Package Updates (via Enums)	Adjusted monthly prices per combinations.	0.5h	✅ Done on Dev	0%
+Tracker Fix	Resolved loading issue.	0.5h	✅ Done on Dev	0%
+Webhook Dispatch Refactor	Improved logic, added sandbox/observer parity.	4h	✅ Done on Dev	0%
+Upfront Payment Methods – Term Length	Add and expose term length per method (cardless, card, transfer).	—	🚧 In Progress	40%
+
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Upfront Payment Methods – Term Length	Add and expose actual term length (was defaulting to 36 months) for upfront methods.	1h	✅ Done on Dev	0%
+Monthly Payment Methods – FD/Partner	Update logic for FD Finance and Partner Finance monthly payment methods.	2h	✅ Done on Dev	0%
+Payment Methods – Vtiger Integration	Partner-level configuration for all payment methods, with endpoint for Vtiger setup.	5h	✅ Done, Ready Review	0%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+ISV – IPOSG Agreement Issue	Fixed issue with loading PDF during KYC in mobile app.	1h	✅ Done on Dev	0%
+ISV – Card Payment Screen	Display partner name in 2FA verification app API.	0.5h	✅ Done on Dev	0%
+ISV – Contract Display Logic	Show new agreement only when ISV products are selected.	1h	✅ Done on Dev	0%
+Payment Methods – Vtiger Permissions	Implemented partner-specific permissions for payment setup options in Vtiger.	4h	✅ Done, Ready Review	0%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Update Package Types	Refactored package types and Monthly Collection updates.	4h	✅ Done on Stage	0%
+Update PosPackageType Labels	Updated PosPackageType labels with correct pricing.	0.5h	✅ Done on Stage	0%
+Update PosPaymentType	Adjusted payment type values.	0.5h	✅ Done on Dev	0%
+Update Package Text	Added descriptions for packages.	0.5h	✅ Done on Dev	0%
+Add New Commercial Type Option	Added option for Upfront Cost + Verofy® Finance.	3h	🚧 Work in Progress	40%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Verofy Top-up – Add	Added top-up function for FD Finance on Verofy Move products.	3h	✅ Done on Stage	0%
+New Commercial Type Option	Added Upfront Cost + Verofy® Finance commercial option.	1h	✅ Done on Stage	0%
+Hotfix/Update POS Permissions	Fixed query for POS payment methods permissions.	0.5h	✅ Done on Stage	0%
+Verofy Finance Labels	Corrected Verofy® Finance package labels.	0.5h	✅ Done on Dev	0%
+Pricing Template – ISV Verofy	Created pricing template for ISV Verofy Move.	3h	🚧 Work in Progress	40%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Upload CSV & Create ISV Package Template	Migration, model, resource creation & media upload.	2h	✅ Done Ready for Review	0%
+Read CSV & Import Records	Table creation, model setup, and business logic to import records.	2h	✅ Done Ready for Review	0%
+Update Main Portal Sync	Sync ISVPackageTemplate ID in partner table during partner creation.	2h	✅ Done Ready for Review	0%
+Cron Job – Transaction Service	Fetched daily dispatch terminals, band, and sent to transaction API.	2h	✅ Done Ready for Review	0%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Verofy Merchant Tenancy Fee Template	Created new VTiger template for partner tenancy fees.	7h	✅ Ready for Review	0%
+Upload CSV & Create ISV Package Template	Migration, model, resource creation & media upload.	2h	✅ Ready for Review	0%
+Read CSV & Import Records	Table creation, model setup, and business logic to import records.	2h	✅ Ready for Review	0%
+VTiger Manage ISV Pricing Template	Store templates, dropdown on partner creation, sync to main service.	2h	✅ Ready for Review	0%
+Verofy Finance – Daily Collection Flag	Add flag to Verofy Finance option and integrate with settlements service.	1h	🚧 Work in Progress	40%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Verofy Finance – Add Daily Collection	Added flag to Verofy Finance for daily finance cost.	3h	✅ Done on Dev	0%
+Daily Collection	Introduce New Flag: Migration, model, and POS payment method update.	1h	✅ Done on Dev	0%
+Daily Collection	Send Data to Settlement Service: Created data, updated ISV payment method and contract.	4h	✅ Done on Dev	0%
+ISV Merchants – Services Agreement	Update services agreement to support ISV merchants.	1h	🚧 Work in Progress	20%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+PBL – New Events	Payment received notifications for partner and customer.	2h	✅ Done Ready for Review	0%
+Direct Debit – Customer Confirm	Message trigger when direct debit is set up.	2h	✅ Done Ready for Review	0%
+ISV Package Price – VTiger Link	Linked ISV package pricing to VTiger.	1h	✅ Done on Dev	0%
+Verofy Finance – Fix Bug	Fixed pricing issue for Verofy Finance.	0.5h	✅ Done on Dev	0%
+Card Payment – Message Event	Merchant confirmation message using customer/partner tags.	1.5h	🚧 Work in Progress	60%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Card Payment – Message Event	Confirmation message to merchant with partner/customer tags.	2h	✅ Done on Stage	0%
+Notify Seller & Admin – Message Events	Send messages to partner admin and seller for key events.	4h	✅ Done on Dev	0%
+PBL Tracker – Fix Status Issue	Corrected 'link opened' tracker status logic.	1.5h	✅ Done Ready for Review	0%
+ISV Dashboard	UI and backend logic implementation.	1.5h	🚧 Work in Progress	30%
+
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+ISV Services Agreement	Full update to services agreement for ISV merchants.	-	✅ Done on Dev	0%
+Total Cost Display	Show total only when applicable; formatting fix.	1h	✅ Done on Dev	0%
+Payment Method Section	Added price and term for each payment method.	5h	✅ Done on Dev	0%
+Verofy Finance Fee	Include monthly Verofy Finance fee in agreement.	2h	✅ Done Ready for Review	0%
+
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Verofy Finance Labels	Label updates on Verofy finance services.	0.5h	✅ Done on Stage	0%
+Payment Method Enums	Added new payment method enum options in API.	1h	✅ Done on Dev	0%
+Manual PBL Generation Fix	Fixed logic for manual generation of PayByLink.	1h	✅ Done on Stage	0%
+Hotfix – PBL Email Issue	Enabled manual link, fixed salesperson & email issues.	4h	✅ Done on Stage	0%
+
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Payment Confirmation – Send Email Button	Trigger message event via new button next to copy link.	3h	✅ Done on Dev	0%
+Daily Package Cost Column	Added new column, updated model, integrated with application flow.	1h	✅ Done on Dev	0%
+PBL Tracking Updates	Updated UI, added SMS, removed IQ status from tracker.	4h	✅ Done Ready for Review	0%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+PBL to ISV Message Event	Message on MID approval and PBL sent with relevant tags.	2h	✅ Done on Stage	0%
+Add Tag Enhancements	Added merchant first name and ISV trading name to existing event.	0.5h	✅ Done on Stage	0%
+Await PBL Payment	Restricted manual override; now dependent on actual PBL payment status.	0.5h	✅ Done on Stage	0%
+SMS for PBL Event	Created new SMS template for PBL payment collection.	0.5h	✅ Done on Stage	0%
+Message Format and Tag Updates	Updated product list formatting and added contact tags for specific events.	4h	✅ Done Ready for Review	0%
+
+
+Task	Description	Estimated Timing	Status	% Outstanding
+Update Payment Settings	Enabled Chase events + fixed bug in payment settings.	1h	✅ Done on Stage	0%
+Message Event Cleanup	Updated product list formatting, added contact tags.	1h	✅ Done on Dev	0%
+Daily Collection Flag	Pulled from vTiger and passed to front end.	3h	✅ Done Ready for Review	0%
+Daily Collection – PDF Update	Update PDF layout and values based on collection type.	4h	🔄 Work in Progress	40%
+
+
+Task	Description	Time	Status	% Outstanding
+Messaging + Tag Fixes	Message trigger, tag updates, formatting cleanup, tag bug fixes	5h	✅ Done on Stage	0%
+Collection PDF Update	Switched PDF content based on daily/monthly collection flag	2h	✅ Done Ready for Review	0%
+
+Task	Description	Time	Status	% Outstanding
+Daily Collection Flag	Sent daily flag to services	1h	✅ Done on Stage	0%
+Collection PDF Update	Updated PDF content based on daily/monthly	2h	✅ Done on Stage	0%
+PBL Expiry	Extended expiry for PBL link	0.5h	✅ Done on Stage	0%
+Payment Settings	Updated settings to allow null values	0.5h	✅ Done on Stage	0%
+Hotfix – Messaging Format	Format cleanup & assign pos_collection_type	2h	✅ Done on Stage	0%
+PBL Tracking Updates	Label, link status, and IQ tracking	4h	🔧 Work in Progress	50%
+
+
+Task	Description	Time	Status	% Outstanding
+Upfront + Verofy Finance	Enabled combination for app	1h	✅ Done on Stage	0%
+Package Daily Type Enum	Updated enum	0.5h	✅ Done on Stage	0%
+PBL Tracking	Label/UI cleanup & status updates	4h	✅ Done on Dev	0%
+Monthly Payment Type	Logic update	0.5h	✅ Done on Dev	0%
+Verofy Finance – Settlement Sync	Updated finance service for settlement support	1h	✅ Done on Dev	0%
+
+Task	Description	Time	Status	% Outstanding
+Verofy Finance Model Update	Add package cost logic to customer model	0.5h	✅ Done on Stage	0%
+Product Name Update	Cleaned up and corrected product names	0.5h	✅ Done on Dev	0%
+Contract Length Value	Updated ongoing contract length logic	1h	✅ Done on Dev	0%
+Payment Tab Figure	Added overview figure to confirmation tab	2h	✅ Done on Dev	0%
+Application Tracker Audit Log	Improved tracking post-application	4h	🔧 Work in Progress	0%
+
+Task	Description	Time	Status	% Outstanding
+Merge Messaging Events	Trigger same events for Verofy Finance and Cardless	2h	✅ Done on Stage	0%
+Upfront + Verofy Finance (Free Daily Price Fix)	Fixed ongoing term with free daily price issue	2h	✅ Done on Stage	0%
+Messaging Events by Collection Type	Set distinct message events for daily and monthly Verofy Finance	4h	✅ Done on Stage	0%
+
+Task	Description	Time	Status	% Outstanding
+Application Audit Log Update	Extend audit log for post-application actions	8h	🔄 Work in Progress	0%
+Settlement Enable/Disable Logging	Track settlement & transaction toggles with user info	2h	✅ Done Ready for Review	0%
+
+
+Task	Description	Time	Status	% Outstanding
+Bespoke Pricing: Application Types	Lookup and return allowed application types for ISV	4h	✅ Done on Dev	0%
+Messaging Event Bug	Fixed triple trigger of monthly fee event	2h	🐞 Done on Stage	0%
+Application Audit Log	Extended with new actions for improved visibility	2h	📋 Done Ready for Review	0%
+
+Task	Description	Time	Status	% Outstanding
+Application Status Label	Updated label to “Reset - Seller to complete”	0.5h	🔧 Done on Dev	0%
+Services Agreement	Added payment, pricing, and DD page placement	3h	📄 Done Ready for Review	0%
+SL Cron Job Documentation	Detailed cron job descriptions for SL operations	7h	🛠️ Work in Progress	0%
+
+Task	Description	Time	Status	% Outstanding
+POS Bank Transfer Fix	Prevent duplicate messaging events	1h	🔧 Done on Stage	0%
+Verofy Cardless Daily Collection	Fix mismatch in collection data type	2h	🔍 Done on Stage	0%
+ISV Debit Card Link Condition	Apply logic only for ISV	1h	🔐 Done on Dev	0%
+SL Documentation	Completed and shared documentation with Adam	3h	📄 Done Ready for Review	0%
+
+
+Task	Description	Time	Status	% Outstanding
+Payment Confirmation Filters	Method filter and 500 bug fix	3h	🧾 Done on Dev	0%
+Customer Grid Fix	Fixed exception in payment grid	2h	🛠️ Done on Stage	0%
+SL Documentation	Tables, columns, and XLS mapping added	3h	📑 Done Ready for Review	0%
+
+Task	Description	Time	Status	% Outstanding
+Daily Verofy Cardless Email	New message event for daily payment format	5h	📧 Done on Dev	0%
+New Status: Dissolved	Status created, selectable and treated like “Unwound”	3h	🏷️ Done on Stage	0%
+
+Task	Description	Time	Status	% Outstanding
+Direct Debit Email Service	New service for Direct Debit email triggers	3h	📧 Done on Stage	0%
+Fixed Verofy Cardless Duplication	Prevented repeated messages on same trigger	3h	🔁 Done on Stage	0%
+Updated Verofy Finance Events	Refined logic for daily/monthly event routing	2h	🔧 In Progress	0%
+
+Task	Description	Time	Status	% Outstanding
+Contract Payment Processing Logic	Enhanced logic in handlePaymentProcess to support method-specific contract handling rules	4h	⚙️ Done on Dev	0%
+Monthly Trigger Post Upfront	Automatically trigger monthly contract once upfront is confirmed for multi-contract customers	1.5h	🔁 Done on Dev	0%
+Hotfix: Additional Products	Fixed ISVPOSCustomersController for additional product	0.5h	🛠️ Done on Dev	0%
+Partner Portal Overview Values	Added new metrics: ‘Awaiting DD confirmation’, refined ‘Awaiting payment’ and non-transacting	4h	📊 In Progress	40%
+
+Task	Description	Time	Status	% Outstanding
+Manual Payment Process Changes	Logic updates for status change, vTiger sync, Verofy finance handling	6h	⚙️ Done on Staging	0%
+Seller Name in Messages	Updated UPFRONT_PAYMENT_COMPLETED and MONTHLY_PAYMENT_COMPLETED messages	1h	✉️ Done Ready for Review	0%
+Partner Portal Overview Values	Overview stats for payment and transaction states	4h	📊 In Progress	40%
+
+Task	Description	Time	Status	% Outstanding
+Hotfix: SL Messaging Events	Commented out all SL messaging event triggers in production	0.5h	🚑 Done on Production	0%
+Messaging Service Parameter Fix	Passed customer data to support proper ISV message population	4.5h	💬 Done on Dev	0%
+POS App Restriction in Bespoke	Blocked standard and and platinum	1h	🧩 Done on Dev	0%
+Partner VAT Flag via App Endpoint	Exposed is_partner_vat_registered flag on /auth/2fa-verification-app	1h	💼 Done on Dev	0%
+Transactions Tab: Inactive Merchants	Show merchant count marked as 'non-transacting'	2h	📊 In Progress	60%
+
+
+Task	Description	Time	Status	% Outstanding
+Verofy Cardless VAT Message Events	Applied VAT-based pricing in customer and partner messages for Verofy Cardless	4h	📨 Done on Stage	0%
+Verofy Product Grouping & Quantity	Grouped Verofy products and added quantity logic in messaging events	4h	🛍️ Done on Stage	0%
+
+
+Task	Description	Time	Status	% Outstanding
+Reset Function Logic Review	Checked reset handling for ISV application type using available_terms and enable_cnp	1.5h	✅ Reviewed	0%
+Exception Log Validation	Investigated MID mismatch between Excel and DB values, recommended fix via pf_account_id	2h	🔍 Done on Dev	0%
+RECAP Schema Planning	Started schema work for Recap integration, confirmed 3 required sections, requested API docs	5h	🏗️ Work in Progress	70%
+
+Task	Description	Time	Status	% Outstanding
+Proof of Address – Validation + Reset	Added support for POA document or Site Visit validation; enabled reset compatibility for both flows	4h	✅ Done on Dev	0%
+Partner Portal – Inactive Count	Updated API to include inactive customer count in transactions summary	3h	📊 Done on Dev	0%
+POA – Messaging Events	Started implementation of message events when POA/Site Visit is completed	1h	🛠️ In Progress	80%
+
+Task	Description	Time	Status	% Outstanding
+Webhook – POA Scraper Response	Consume scraper response and update POA boarding status	4h	✅ Done Ready for Review	0%
+Update POA Boarding Rules on Match	Mark POA rule satisfied and bypass POA upload/site visit	3h	✅ Done Ready for Review	0%
+Dynamic SMS on Match	Send SMS with app link upon successful POA match	3h	🛠️ Work in Progress	50%
+
+Task	Description	Time	Status	% Outstanding
+SMS – Customer POA Match	SMS with app link when POA matched	2.5h	✅ Done Ready for Review	0%
+SMS – Customer POA No Match	SMS with POA instructions when POA not matched	2.5h	✅ Done Ready for Review	0%
+Message – Partner POA Failed	Message event to notify partner of failed POA match	2.5h	✅ Done Ready for Review	0%
+Short Code – VAT Text Adjustment	Removed VAT line from overview short code for daily collection event	1h	🛠️ Work in Progress	60%
+
+Task	Description	Time	Status	% Outstanding
+Short Code – VAT Update	Removed VAT-related text from applicable short codes	3.5h	✅ Done Ready for Review	0%
+POA – Separate Upload Endpoint	Created new endpoint to independently upload POA documents	4h	✅ Done Ready for Review	0%
+POA – Webhook Request Update	Updating webhook payloads for enhanced POA integration	1h	🔧 Work in Progress	50%
+
+
+Web2	Web3
+Node.js, PHP, MySQL	Solidity, Ethereum, IPFS
+OAuth, JWT	MetaMask, WalletConnect
+Firebase, S3	The Graph, Filecoin
+
+
+Task	Description	Time	Status	% Outstanding
+POA Webhook Response Update	Added checks for customer creation & verification, stored response, and messaging event handling	4h	✅ Done Ready for Review	0%
+Removed Additional KYC ID	Migrated logic to use customer object and updated customer registration routing	2h	✅ Done Ready for Review	0%
+
+Task	Description	Time	Status	% Outstanding
+Empty PBL Tracking Response	Return empty object if PBL tracking data not found	0.5h	✅ Done on Dev	0%
+Customer Data Refactor	Updated registration route to use customer object instead of additional KYC	2h	✅ Done on Dev	0%
+Chargeback Sync to Vtiger	Send chargeback info to Vtiger including amount, reference, and customer details	4h	🚧 Work in Progress	50%
+
+Task	Description	Time	Status	% Outstanding
+Chargeback Sync	Sends chargeback data to Vtiger (amount, ref no., customer info)	4h	✅ Done on Dev	0%
+PayLinks – ISV Fixes	Refined application filtering and resolved PBL generation blocker due to missing customer ID in env	4h	✅ Done on Dev	0%
+
+
+Task	Description	Time	Status	% Outstanding
+Hotfix – Currency Symbol	Show customer’s currency symbol on PBL page instead of GBP	0.5h	✅ Done, Ready for Review	0%
+Fix Tracking Log on PBL	Ensure tracking events (email, SMS, link open, payment) are visible on front-end	3.5h	✅ Done, Ready for Review	0%
+POA Endpoint – Partner Portal	Create secure POA upload endpoint under partner-portal namespace	4h	🚧 Work in Progress	40%
+
+
+
+Task	Description	Time	Status	% Outstanding
+PBL Currency Symbol Update	Show customer currency symbol on PayByLink page	1h	✅ Done on Prod	0%
+PBL Tracking Log Fix	Added logging on payment link creation and payment success	3.5h	✅ Done, Ready for Review	0%
+Chargeback Vtiger Sync Update	Updated category and template mapping, reason type fallback	2h	✅ Done on Dev	0%
+
+
+Task	Description	Time	Status	% Outstanding
+POA Endpoint for Partners	Implemented secure upload endpoint for Proof of Address	4h	✅ Done on Dev	0%
+Chargeback vTiger Sync Update	Updated reason-based chargeback sync with correct mappings	2h	✅ Done, Ready for Review	0%
+PBL Tracking Log Hotfix	Fixed tracking log event issue in production	0.5h	✅ Done on Prod	0%
+
+
+
+Task	Description	Time	Status	% Outstanding
+Commented PBL Link Functionality	Disabled PBL link generation in SL report	1h	✅ Done on Prod	0%
+Upfront – PBL Email Fix	Fixed multiple email notifications issues	4h	✅ Done, Ready for Review	0%
+Arrears Module Updates	Reduced arrears rule & added PF account ID column	6h	🔄 Work in Progress	50%
+
+
+Task	Description	Time	Status	% Outstanding
+Arrears Hotfix	Reduced arrears rule and added PF account ID	5h	✅ Done on Production	0%
+Proof of Address API Update	Added new doc types and updated naming	2h	✅ Done on Dev	0%
+ChargeBack Sync	Work in progress	—	🔄 In Progress	50%
+
+Task	Description	Time	Status	% Outstanding
+Arrears Report	Updated query, added FD payments, formatted fund amount	2h	✅ Done on Production	0%
+ChargeBack Sync	Updated response, tested on stage	1h	✅ Done on Dev	0%
+PBL Fixes	Fixed multi-email issue, contract state update, confirmation email	4h	✅ Done, Ready for Review	0%
+
+Task	Description	Time	Status	% Outstanding
+Customer Status Update	Move to customers tab, update overall status to 50	2h	✅ Done, Ready for Review	0%
+Welcome Email	Send email to customer, partner, and seller post payment	2h	✅ Done, Ready for Review	0%
+Payment Confirmation Emails	Email confirmations on successful payment	2h	✅ Done, Ready for Review	0%
+Terminal Order Trigger	Auto-initiate terminal order after payment	3h	🚧 Work in Progress	60%
+
+
+Task	Description	Time	Status	% Outstanding
+PBL Tracker + Terminal	Fix tracker not updating, trigger terminal order on payment	5h	✅ Done, Ready for Review	0%
+Chargeback Update	Update amount value type	1h	✅ Done on Dev	0%
+POA Response Update	Modify response structure for partner portal document upload	3h	🚧 Work in Progress	70%
+
+Task	Description	Time	Status	% Outstanding
+ISV Upfront Payment Messaging	Messaging event and status update logic refinement	4h	✅ Done, Ready for Review	0%
+Webhook & Registration Update	Webhook response + registration logic updates and Dev testing	3.5h	✅ Done on Dev	0%
+
+Task	Description	Time	Status	% Outstanding
+Partner Permissions & Tracking	Fixed partner permission and resolved tracking exception	2h	✅ Done on Production	0%
+PBL Request Generation & Tracking	Fix multiple PBL generation and correct tracking timestamps	5h	🚧 Work in Progress	0%
+
+
+Task	Description	Time	Status	% Outstanding
+Fix Child PBL Records	Prevented duplicate child PBL creation on refresh	3h	✅ Done on Production	0%
+Fix Customer Application Query	Updated application query logic for payment status	3h	✅ Done on Production	0%
+PBL Enhancements	Timezone fix, step visibility, VAT addition on payment link	3h	🚧 Work in Progress	60%
+
+
+Task	Description	Time	Status	% Outstanding
+Skip Finance Agreement for Upfront	Bypass finance agreement for specific upfront payment types	4.5h	✅ Done, Ready for Review	0%
+Show PBL Steps Before Contract	Return all pending steps in tracking flow before contract generation	2h	✅ Done, Ready for Review	0%
+VAT on Paylink	Add VAT details to PBL pay link	1.5h+	🚧 Work in Progress	80%
+
+
+Task	Description	Time	Status	% Outstanding
+VAT on Paylink	Auto-check VAT through partner and update PBL amount	3h	✅ Done, Ready for Review	0%
+Timezone Fixes	Fixed link_opened and amount_paid time to proper UTC format	3h	✅ Done, Ready for Review	0%
+Comment POA from Dev	Commented POA feature temporarily from Dev	1h	✅ Done on Dev	0%
+
+Task	Description	Time	Status	% Outstanding
+TID in Order Process	Ensure TID is assigned for all contract types, not just FD	4h	✅ Done, Ready for Review	0%
+Boarding Rule Exception	Fixed boarding rule error on staging	1h	✅ Done on Staging	0%
+Error Message (can-transact)	Investigating incorrect message trigger for non-virtual product customers	3h	🔧 Work in Progress	50%
+
+Task	Description	Time	Status	% Outstanding
+Service Logistics Order Exception	Fixed MID lookup for charging cradle when terminal & cradle on different contracts (ISV onboarding)	1h	✅ Done on Staging	0%
+Actions Tracking	Added seller name in tracking messages	3h	✅ Done, Ready for Review	0%
+Assign TID for Monthly	Assign TID for monthly contracts in production	2.5h	✅ Done on Production	0%
+
+
+
+Task	Description	Time	Status	% Outstanding
+HTV – Refactor Customer Update	Store both old and new values in update logic	3.5h	✅ Done on Dev	0%
+Fix – Tenancy Fee Import Template	Resolved formatting and data handling issues in import sheet	4h	✅ Done, Ready for Review	0%
+
+Task	Description	Time	Status	% Outstanding
+Template – Add Tenancy & Verofy Move	Added templates and records to DB	3h	✅ Done on Prod	0%
+ChargeBack – Uncomment Logic	Re-enabled full functionality on Dev and Staging	1h	✅ Done on Dev & Staging	0%
+POA – Deploy on Dev	Deployment started, testing ongoing	3h	🔄 In Progress on Dev	40%
+
+
+Task	Description	Time	Status	% Outstanding
+ISV - Bank Details Event	Fixed tag data pulling for bank transfer event	1h	✅ Done on Prod	0%
+Tracker Issue	Fixed tracker to show relevant PBL steps only	1.5h	✅ Ready for Review	0%
+ISV - Upfront Bank Transfer Event	Fixed messaging and bank short codes	1.5h	✅ Done on Prod	0%
+VAT Email Issues	Troubleshooting email issues related to VAT	4h	🔄 Work in Progress	40%
+
+
+Task	Description	Time	Status	% Outstanding
+VAT Email Issues	Fixed email issues for pos-upfront-partner-pbl-mid-approved and pos-customer-upfront-pbl-payment-collection	4h	✅ Done on Prod	0%
+ISV	Monthly Fix Cardless TID Issue Assign Pax TID for monthly cardless payments	2h	🔄 Work in Progress	0%
+Partner Portal Customer Application Visibility	"Investigating missing application after payment	"	1h	🔄 Work in Progress	50%
+				40%
+
+Task	Description	Time	Status	% Outstanding
+App Values Incorrect	Fixed finance values being sent to app with VAT included (hotfix)	3.5h	✅ Done on Prod	0%
+POA – Update Webhook Response	Updated webhook response, tested in Dev, and updated customer registration	4h	✅ Done on Dev	0%
+
+Task	Description	Time	Status	% Outstanding
+Verofy Finance – Stuck	Removed click requirement, applied same rules as Cardless for status updates	2h	✅ Done – Ready for Review	0%
+Verofy Finance – Terminal Order	Implement terminal ordering logic	2h	🔄 Work in Progress	40%
+POA – Update Customer Logic (POA)	Updated proof of address logic and tested on Dev	2.5h	✅ Done on Dev	0%
+
+Task	Description	Time	Status	% Outstanding
+Verofy Finance	Removed click requirement, applied Cardless rules for status + contract updates, added terminal ordering	6h	✅ Done on Prod	0%
+Enum – Account Activity Statement	Created enum and applied filter	2h	🔄 Work in Progress	0%
+
+Task	Description	Time	Status	% Outstanding
+Deductions – PBL: Identify & Assign Paylink	Retrieved negative balances, determined arrears settlement	3.5h	🔄 Work in Progress	30%
+Deductions – PBL: Create Paylink	Generated Paylink with MID reference, added custom messages, set to never expire	4h	🔄 Work in Progress	40%
+
+Task	Description	Time	Status	% Outstanding
+Create Paylink with Customer Reference	Generated Paylink, set MID reference, added custom messages, never expires	3.5h	✅ Ready for Review	0%
+Assign Balance to Transactions Service	Record arrears, link Paylink to transaction entry, email notification pending	4h	🔄 Work in Progress	40%
+
+Task	Description	Time	Status	% Outstanding
+POA Webhook Request	Added logging for tracing, implemented security layer for protection	4h	✅ Done on STG	0%
+Deductions – PBL	Display link in Admin Portal, email on balance cleared, include PBL & status in table	4h	🔄 Work in Progress	40%
+
+Task	Description	Time	Status	% Outstanding
+Assign Balance to Transactions Service	Record arrears, link Paylink details for reconciliation	4h	✅ Done, Ready for Review	0%
+Admin Portal Display Link	Display Paylink, include PBL & status in table, configure email notification	4.5h	🔄 Work in Progress	40%
+
+
+Task	Description	Time	Status	% Outstanding
+Enum – Account Activity Statement	Created enum & applied filter	2h	✅ Done on DEV	0%
+HTV – Customer Details Update	Updated method, stored old & new values	3h	✅ Done on DEV	0%
+VTiger Trace Service	Added contact name & updated SMS message	3h	✅ Done on STG	0%
+
+Task	Description	Time	Status	% Outstanding
+SMS Fixes	Capitalize first letter of name, fix special characters in SMS	2h	✅ Done on STG	0%
+Account Activity Statement Enum	Added new enum and applied filters	1h	✅ Done on DEV	0%
+Deductions – PBL	Updated messages for negative transaction types	4.5h	🟡 Ready for Review	0%
+
+
+Task	Description	Time	Status	% Outstanding
+Card Rates Debugging	Fixed registration issue by correcting MOTO/MOVE card rate logic and adding uplift	4.5h	In prgoress	0%
+Card Rate Logs	Implemented detailed logging to trace card rate values	1h	In prgoress	0%
+
+
+Task	Description	Time	Status	% Outstanding
+Card Rates – Condition Fix	Added uplift in MOTO card rates to validate against default minimum rate (follow-up from yesterday)	2.5h	✅ Done on DEV	0%
+Blended Card Rates	Started implementation of blended card rates logic	3.5h	🔄 Work in Progress	0%
+
+
+Task	Description	Time	Status	% Outstanding
+VTiger – Chargeback Enhancements	Added chargeback_evidence_review_deadline & chargeback_final_deadline for (Type A only)	3h	✅ Done on STG	0%
+Chargeback Cron Job	Enabled cron job for chargebacks	1h	✅ Done on STG	0%
+Order API Update	Linked with customer UUID as Verofy Connect ID	1h	✅ Done on STG	0%
+Card Rates – Blended	Continued implementation of blended card rates logic	2.5h	🔄 Work in Progress	60%
+
+Task	Description	Time	Status	% Outstanding
+Card Rates – Admin Portal	Assign multiple templates to partner	1.5h	✅ Done on DEV	0%
+Card Rates – Admin Portal	Updated AP assigning partner template validation	1h	✅ Done on DEV	0%
+Chargebacks Hotfix	Updated IDs for chargeback to VTiger	2h	✅ Done on STG	0%
+POA Webhook Controller	Fixed security check	1h	✅ Done on STG	0%
+Card Rates – Blended	Continued implementation of blended card rates logic	2.5h	🔄 Work in Progress	50%
+
+Task	Description	Time	Status	% Outstanding
+Card Rates – Partner Pricing Models	Updated toggle-expose to accept multiple templates	3.5h	✅ Done on DEV	0%
+Orders API	Linked Verofy Connect ID and updated app documentation	3h	✅ Done on DEV	0%
+Card Rates – Uplift Service	Create service to transform uplift collection	2h	🔄 Work in Progress	40%
+
+Task	Description	Time	Status	% Outstanding
+Uplift – Card Rates Logic	Create Moto card rates based on Move, add uplift, pass to validation	6h	✅ Done on DEV	0%
+Hotfix – VTiger Sync	Update chargeback request	1.5h	✅ Done on STG	0%
+
+Task	Description	Time	Status	% Outstanding
+POA – Update Customer Registration	Added webhook handling logic on registration level	3h	✅ Done on STG	0%
+Blended – Default Values	Updated API, added blended defaults, new column in card_rates_templates	4h	✅ Done on DEV	0%
+VTiger Sync Cron Job	Updated cron job logic	0.5h	✅ Done on STG	0%
+
+Task	Description	Time	Status	% Outstanding
+POA Fixes	Fixed messaging short code issue and site visit condition	6h	✅ Done on STG	0%
+Blended Rates	Restricted blended rates to MOVE and PayLinks	1.5h	✅ Done on DEV	0%
+
+Task	Description	Time	Status	% Outstanding
+POA – Messaging Event Fix	Adjusted event handling, added seller message, applied address checks	1h	✅ Done on STG	0%
+Blended – Bug Fixes	Fixed uplift array, seller template updates, restricted to MOVE & PayLinks	3h	✅ Done on DEV	0%
+Hotfix – Dispatch Terminal Query	Updated query for dispatch terminal data	4h	✅ Done on PROD	0%
+
+
+Task	Description	Time	Status	% Outstanding
+App – Uplift Values	Added new columns for uplift and send to app endpoint	5h	✅ Done on DEV	0%
+Hotfix – Site Visit Logic	Fixed seller messaging and removed overwrite condition	1h	✅ Done on STG	0%
+Blended Card Rates	Implement blended card rates logic	2h	🔄 Work in Progress	50%
+
+Task	Description	Time	Status	% Outstanding
+POA – Update Customer Status	Fixed and updated customer status	2.5h	✅ Done on STG	0%
+Blended – Card Rates	Completed default card rates	2.5h	✅ Done on DEV	0%
+Customer Invoices	Extend invoices to customer portal with APIs (Month, Amount, Status, Download)	6h	🔄 Work in Progress	50%
+
+Task	Description	Time	Status	% Outstanding
+Hotfix – POA Boarding Rules	Updated POA & seller site visit boarding rules	3h	✅ Done on STG	0%
+Customer Invoices	Extended to customer portal, fetch by customer ID, added APIs (Month, Amount, Status, Download)	5h	✅ Done – Ready for Review	0%
+POA Updates	Restricted partner POA completion to one time only	1h	✅ Done – Ready for Review	20%
+
+Task	Description	Time	Status	% Outstanding
+POA Updates	Limited partner POA completion to one time only	1h	✅ Done on DEV	0%
+Card Rates	Updated default values on Dev	1h	✅ Done on DEV	0%
+Recap – Merchant API	Preparing merchant data for API integration	5h	🔄 Work in Progress	70%
+
+Task	Description	Time	Status	% Outstanding
+Invoices	Fixed collection error, updated invoice download & detailed invoice endpoints	2h	✅ Done on DEV	0%
+Recap – Merchant API	Updated Sole Proprietor JSON handling, entity type, registration date	5h	🔄 Work in Progress	50%
+
+Task	Description	Time	Status	% Outstanding
+Merchant API	Created basic structure for merchant API	4h	🔄 Work in Progress	0%
+App – Uplift Values	Debugged uplift issue for Zdenek Dolak	1h	✅ Done on DEV	0%
+Card Rates	Fixed validation issue, pushed updates	2h	✅ Done on DEV	50%
+
+Task	Description	Time	Status	% Outstanding
+Card Rates	Discard calculation on main-service, updated validation using MOVE rates	3.5h	✅ Done on STG	0%
+Recap – Merchant API	Started initial work, paused	1h	⏸️ On Hold	0%
+Package Pricing	Add 3 package options with assigned IDs and pricing logic	8h	🔄 Work in Progress	30%
+
+Task	Description	Time	Status	% Outstanding
+Package Pricing	Create enum, add new, package, column, update model, enhance CSV import for package assignment	8h	🔄 Work in Progress	20%
+
+Task	Description	Time	Status	% Outstanding
+Package Pricing	Implemented package pricing functionality	2h	✅ Ready for Review	0%
+Package Pricing – VTiger Sync	Updated main service partner table with package & delivery price	2h	✅ Ready for Review	0%
+Package Pricing – Settlement Service	Send package & delivery pricing to settlement service	2h	✅ Ready for Review	20%
+
+Task	Description	Time	Status	% Outstanding
+Updates to Delivery Fee	Add secondary fee (£14.99 first package, £4.99 each additional)	6h	🔄 Work in Progress (70%)	30%
+Hotfix – Uplift Columns	Updated column properties for uplift fields to 4 decimals (STG/PROD)	2h	✅ Done	0%
+
+
+Task	Description	Time	Status	% Outstanding
+POA Update Boarding Rules	Updated rules for customer & seller flows	5h	✅ Done on STG	0%
+Update Customer Flags	Prevent repeat document upload prompts	2h	✅ Done on STG	0%
+
+Task	Description	Time	Status	% Outstanding
+Update Pricing Template Assignment Process	Implemented new package classification rules (Premium, Move, Virtual)	5h	✅ Done – Ready Review	0%
+Updates to Delivery Fee	Added secondary fee for additional packages (£14.99 first, £4.99 each after)	4h	⚙️ Work in Progress	30%
+
+Task	Description	Time	Status	% Outstanding
+Hotfix – Update Boarding Rules	Applied fix to customer & seller boarding rules	1h	✅ Done on DEV	0%
+Package Pricing – vTiger & Transaction	Integrated pricing updates with vTiger sync and Transaction Service	4h	✅ Done – Ready Review	0%
+Debug – App Upload Site Visit Image	Fixed image upload issue in site visit flow on app	2h	✅ Fixed on STG	0%
+
+Task	Description	Time	Status	% Outstanding
+Data Mapping – References	Mapped customer & merchant references with entity type logic	2h	✅ Ready for Review	0%
+Data Mapping – Industry & Onboarding	Added onboarded date, MCC industry type & MCC code mapping	2h	✅ Ready for Review	0%
+
+
+Task	Description	Time	Status	% Outstanding
+Settlement Data – FTP Setup	Created FTP connection for settlement CSV upload	2h	✅ Ready for Review	0%
+Settlement Data – Cron Job	Automated daily upload with cron scheduling	2h	✅ Ready for Review	0%
+Settlement Data – CSV File	Generate new daily CSV file for upload	2h	✅ Ready for Review	0%
+Hotfix – POA Updates	Updated POA doc condition & status sync	1h	✅ Done on STG	0%
+
+Task	Description	Time	Status	% Outstanding
+Customer Data – Cron Job	Automated upload with cron scheduling	4h	✅ Ready for Review	0%
+Customer Data – CSV File	Generate new daily customer CSV file	2h	✅ Ready for Review	0%
+Handle Incoming Offers	Initial work on offer handling logic	2h	🚧 Work in Progress	80%
+
+Task	Description	Time	Status	% Outstanding
+Merchant API – Business	Base business details + registered/trading addresses	2h	🚧 Work in Progress	0%
+Merchant API – Bank Account	Bank account structure with validation fields	2h	🚧 Work in Progress	0%
+Merchant API – Applicant	Applicant contact info + address mapping	2h	🚧 Work in Progress	40%
+Merchant API – Directors/Owners	Array handling for directors & owners, ownership mapping	2h	🚧 Work in Progress	50%
+
+Task	Description	Time	Status	% Outstanding
+Merchant API Completion	Finalized all components and JSON mapping validation	5h	✅ Done – Ready for Review	0%
+Merchant API Authentication	Implemented OAuth 2.0 client credentials flow and tested token generation	2h	✅ Done – Ready for Review	0%
+
+Task	Description	Time	Status	% Outstanding
+Customer Offers Table	Created table to store offers by location	2h	✅ Ready for Review	0%
+Customer-Location-Offer Relations	Set up relationships between customer, location, and offers	2h	✅ Ready for Review	0%
+Import Offers File	Imported offers file and updated related customer & transaction data	2h	✅ Ready for Review	0%
+SFTP Test & Folder Rename	Tested SFTP upload and renamed folder according to datetime	1h	✅ Ready for Review	0%
+
+Task	Description	Time	Status	% Outstanding
+POA Delay	Added 60s delay for ML response	2.5h	Done on PROD	0%
+Chargeback & POA Updates	File upload, pricing fix, cron update	1h	Done on PROD	0%
+Application Tracker Fix	Removed incorrect PayLinks references	0.5h	Ready for Review	0%
+Message Tag Issue	Fixed formatting and corrected value	1h	Ready for Review	0%
+Recap Offers CSV	Continued reading logic and validation	2.5h	Work in Progress	70%
+
+Task	Description	Time	Status	% Outstanding
+VT + PBL Access	Restricted Pay tab before upfront payment	2.5h	Done on PROD	0%
+Package Price Fix	Corrected app price display for £4.85 package	2.5h	Done on PROD	0%
+MID Missing	Logged and assigned frontend fix	0.5h	Done	0%
+Recap Offers CSV	Continued offer data validation and linking	2.5h	Work in Progress	50%
+				70%
+
+Task	Description	Time	Status	% Outstanding
+Recap – Offers Import	Read file from SFTP, import offers, create relationships	6h	Ready for Review	0%
+Hotfix – POA Delay Logic	Handle webhook delay and POA request timing	2h	Ready for Review	0%
+
+Task	Description	Time	Status	% Outstanding
+ISV – Customer Contract Update (Verofy Cardless)	Update contract, payment, and settings tables when MID approved	6h	Wrok in progress	40%
+
+Task	Description	Time	Status	% Outstanding
+Package Pricing	Hotfix deployment with fixed pricing bands	2h	Done on PROD	0%
+ISV – Verofy Cardless Contract	Contract + settings updates, auto-activation, daily payment skip check	4h	Done on PROD	0%
+Cron Jobs	Commented Recap (STG), uncommented Chargeback (PROD)	1h	Done	0%
+Tenancy Template Support	Assisted Ismail with template updates	1h	Support	0%
+
+Task	Description	Time	Status	% Outstanding
+Activity Statement	Fixed date ordering issue on pagination/filter	2h	Done on DEV	0%
+Customer Negative Balance	Added filter + sorting for balance & settlement date	2h	Done on PROD	0%
+Opening Balance	Investigating calculation discrepancies	1h	Work in Progress	0%
+is_isv_paying_for_fee	Fixed incorrect flag value propagation	2h	Ready for Review	0%
+
+
+Task	Description	Time	Status	% Outstanding
+Fast Payment	Fixed partner payment logic & DB storage for is_isv_paying_for_fee	2h	Done on PROD	0%
+Package Pricing	Fixed delivery price & terminal count issues	2h	Done on PROD	0%
+Business Hub VAT	Corrected VAT/subtotal logic and synced XLS + FE	4h	Ready for Review	0%
+
+Task	Description	Time	Status	% Outstanding
+Business Hub – Upfront Bugs	Fixed VAT, added subtotal, corrected contract length	6h	Done on DEV	0%
+Income Collection Fees	Corrected mixed-up labels on Activity Statement	2h	Work in Progress	40%
+
+Task	Description	Time	Status	% Outstanding
+Income Collection Fees	Corrected label mix-up and ensured £0.27 fee displayed properly	4h	Done on PROD	0%
+Detail Page Records	Fixed missing record issue on Activity Statement detail page	3.5h	Done on PROD	0%
+
+
+Task	Description	Time	Status	% Outstanding
+Transaction Service – Verofy Move Invoice Bugs	Fixed calculation, delivery, and data completeness issues	6h	Wrok in progress	20%
+Hotfix – Recap STG Test	Uncommented endpoints, fixed UUID issue	2.5h	Done on STG	0%
+
+Task	Description	Time	Status	% Outstanding
+Transaction Service – Verofy Move Invoice Bugs	Fixed invoice calculation, delivery, and item data issues	2h	Done on DEV	0%
+Recap API – Endpoint & OAuth Fixes	Updated HTTP codes and token response per RFC 6749	6h	Ready for Review	0%
+
+Task	Description	Time	Status	% Outstanding
+Handle Incoming Offers	Process SFTP offer data for App, Cloud, and Functions	4h	Work in Progress	60%
+Error Codes & Consent	Fixed error codes, added consent, skipped partner ID check	4h	Done on STG	0%
+
+Task	Description	Time	Status	% Outstanding
+Customer Location & Addresses	Fetch merchant addresses, format MCC codes, display business type	7h	✅ Done on STG	0%
+Handle Incoming Offers	Process SFTP offer data for App, Cloud, and Functions	1h	Work in Progress	40%
+
+Task	Description	Time	Status	% Outstanding
+Recap Merchant Data Fixes	Updated sort code, applicant type, sole proprietorship logic	3.5h	Done on STG	0%
+Recap Offers Integration	Made offers accessible to app, cloud, and messaging functions	4h	Ready for Review	0%
+
+Task	Description	Time	Status	% Outstanding
+Implement Consent Token	Generate and attach consent token to offer URLs	3h	Done on Dev	0%
+Receiving Merchant Percentage Split	Partner-managed split-settlement logic setup	4.5h	Work in Progress	50%
+
+Task	Description	Time	Status	% Outstanding
+Receiving Merchant Percentage Split	Implemented Partner-Managed Split-Settlement flow	4h	Done, Ready for Review	0%
+Project Setup (Sandbox)	Environment setup for Recap Split-Settlement	2h	Done, Ready for Review	0%
+Send Data to Transaction Service	Data integration with Transaction Service	2h	Done, Ready for Review	0%
+
+Task	Description	Time	Status	% Outstanding
+Recapx Settlement Percentage: Fixes	Updated config, logs, webhook, and SplitSettlementService with detailed error handling	6h	Done on Dev	0%
+Upfront Contract Payment Validation	Ensure upfront contracts are paid before approving overall status	6h	Work in Progress	40%
+
+Task	Description	Time	Status	% Outstanding
+Upfront Contract Payment Validation	Updated logic to ensure upfront contracts must be paid before APPLICATION_APPROVED	6h	Done, Ready for Review	0%
+Recapx – Fixed Offer Link	Moved offer link into the correct route block	1h	Done on Dev	0%
+
+Task	Description	Time	Status	% Outstanding
+Chargeback Deadline Automation	Dynamic adjustment of review and final deadlines for weekends/holidays	6h	Done, Ready for Review	0%
+Add Chargeback Location	Added location field using customer city and postcode	1h	Done, Ready for Review	0%
+Recap – Update Transaction Request	Added status and action in transaction request	1h	Done, Ready for Review	0%
+
+Task	Description	Time	Status	% Outstanding
+Add Chargeback Location	Added customer city and postcode to Vtiger field chargeback_location	2h	Done on Stg	0%
+Split Settlement – Add Merchant Reference	Added merchant_reference field and updated database/service logic	4h	Done on Dev	0%
+Bug Investigation – Payment Schedule	Analyzed and clarified	2h	Done	0%
+
+Task	Description	Time	Status	% Outstanding
+Transaction Service – Actions & Status	Added status and action fields and implemented logic handling	4h	Done on Dev	0%
+VTiger Sync – Templates	Fixed update logic for ISV tenancy templates in CSV import	5h	Done, Local Testing	40%
+Recapx Update	Shared progress and next steps with Recapx team	—	Communication Sent	0%
+
+Task	Description	Time	Status	% Outstanding
+Production Deployment	Deployed merchant & settlement data, activated crons, fixed settlement issue	6h	Done on Prod	0%
+VTiger Sync – Templates	Fixed CSV import update logic for ISV tenancy templates	2h	Done, Ready for Review	0%
+
+Task	Description	Time	Status	% Outstanding
+Transaction Service (Split Settlement)	Enabled on Dev for split settlement testing	3h	Done on Prod	0%
+Offers Endpoint (Web)	Updated to return success with null data if no offer found	1h	Done on Dev	0%
+Split Settlement Mock Data	Reviewing mock data approach for transaction testing	2h	Done on Prod	0%
+Recapx Settlement Data	Added and passed customer main location	2h	Done on Prod	0%
+
+Task	Description	Time	Status	% Outstanding
+Recap Partner Split Commission	Initiated development and data mapping for partner split commission	3h	In Progress	50%
+Customer Split Records	Listed all customers and corresponding split records	1h	Done	0%
+Admin Portal API	Created API for managing split commission	2h	In Progress	40%
+Transaction Service Endpoint	Added endpoint to fetch split payment data by customer	2h	In Progress	10%
+
+Task	Description	Time	Status	% Outstanding
+Admin Cash Advance View	New reporting section & initial loan view setup	1h	In Progress	30%
+Offers API	New endpoint returning all offers for Admin Portal	3h	Done	0%
+Loans Module	Table structure + backend work for loan retrieval	4h	In Progress	40%
+
+Task	Description	Time	Status	% Outstanding
+Admin Cash Advance View	Added new reporting section and prepared layout for loan data	2h	In Progress	10%
+Loans Route	Implemented new route for recapx loans	1h	Done	0%
+API for Admin Portal	Endpoint to retrieve and serve loan data	1.5h	Done	0%
+API in Transaction Service	Endpoint to calculate repaid & remaining loan amounts	3.5h	Done	0%
+
+Task	Description	Time	Status	% Outstanding
+Fetch Contract Details	GET API call to retrieve contract information	2h	Done, Ready for Review	0%
+Fetch Contract Balance	GET API call to retrieve contract balance	2h	Done, Ready for Review	0%
+Merge API + Webhook Data	Merge contract and balance info into webhook payload	2h	Done, Ready for Review	0%
+Enhance Payload & Normalize IDs	Normalize contract IDs and enhance payload for Transaction Service	2h	Done, Ready for Review	0%
+
+Task	Description	Time	Status	% Outstanding
+Contract Detail Endpoint	Created separate endpoint to fetch contract details	2h	Done on Dev	0%
+Contract Balance Endpoint	Created separate endpoint to fetch contract balance	2h	Done on Dev	0%
+Store Contract Data	Store Recapx contract detail records	2h	Done	0%
+Store Balance Data	Store Recapx contract balance records	2h	Done	0%
+
+Task	Description	Time	Status	% Outstanding
+Admin Portal – SIC Endpoints	Created CRUD endpoints for SIC list & Refer flag management	4h	Done on Dev	0%
+Customer SIC Assignment	Added relationship + customer table column	2h	Ready for Review	0%
+Onboarding Referral Logic	Auto-route to referral for Refer=On SIC codes	2h	Ready for Review	10%
+
+Task	Description	Time	Status	% Outstanding
+Create SIC Referral Rule	Added new rule to route based on Refer flag	2h	Done	0%
+Update Boarding Rules Config	Included new SIC referral logic in config	2h	Done	0%
+Enhance Boarding Rules Service	Applied updated logic to service layer	2h	Done	0%
+
+Task	Description	Time	Status	% Outstanding
+Resolution Mapping – Verofy Alerts	Created mapping table and updated alert statuses	4h	Done on Dev	0%
+Recapx Missing Data Audit	Fetch merchants with missing customer details	4h	In Progress	40%
+
+Task	Description	Time	Status	% Outstanding
+Residual Switch-Off	Disable partner residual collections & update UI behaviour	4h	Done, Ready for Review	0%
+SIC Code – Frontend Updates	Update rule order & apply LTD-only logic	2h	Done on STG	0%
+Recapx Data Audit	Fetch and identify missing customer/applicant/address data	2h	In Progress	50%
+
+Task	Description	Time	Status	% Outstanding
+Residual Switch-Off – API Check	Added backend validation for partner lock & residual disabled states	4h	Done on Dev	0%
+Fix Product Costs	Corrected upfront & monthly cost values for Verofy products	1h	Done on STG	0%
+Dispatch Terminal VT Fix	Add checks for payment/contract completion before dispatch	2h	Work in Progress	40%
+
+
+Task	Description	Time	Status	% Outstanding
+Dispatch Terminal – VT Record Fix	Added payment/contract completion checks before dispatch terminal event	3.5h	Done on Prod	0%
+Orders API – Customer Status Webhook	Updated webhook logic, customer lookup, POS provider checks	4h	Work in Progress	30%
+
+Task	Description	Time	Status	% Outstanding
+Customer Package Pricing Hotfix (VT)	Fixed mid-approved logic, dispatch query & cradle counting	3.5h	Done on Prod	0%
+Orders API – Customer Status Webhook	Converted to POST, updated request body, added provider check	4h	Work in Progress	40%
+
+Task	Description	Time	Status	% Outstanding
+Residual – Backend Fixes	Merged Prod fixes and updated locked-partner behaviour	4h	Done on Prod	0%
+Orders API – Sandbox Endpoint	Added new POST sandbox endpoint for test orders	3h	Done on Prod	0%
+Dispatch Terminal Cron Update	Updated cron strategy; created PR for daily execution	1h	Work in Progress	20%
+
+Task	Description	Time	Status	% Outstanding
+Residual – Show History	Add logic to store disable timestamp and allow fetching past residual data	6h	Work in Progress	30%
+Business Hub – Cron Update	Updated daily cron and ran manual sync for missed days	2h	Done on Prod	0%
+
+
+Task	Description	Time	Status	% Outstanding
+Webhook & Status Updates	Fixed multi-location webhook dispatch + email pusher & sandbox order status updates	8h	Done on Dev	0%
+Residual – Show History	Add timestamp logic to fetch historic residual data before disable date	In Progress	Work in Progress	30%
+
+Task	Description	Time	Status	% Outstanding
+Residual – Show History	Implemented history logic across major endpoints; remaining two still in progress	8h	Work in Progress	20%
+
+
+Task	Description	Time	Status	% Outstanding
+Residual – Show History	Merged to Dev; history logic completed for all implemented parts	2h	Done	0%
+Orders API – Documentation	Updated webhook status section; webhook details still pending	4h	Work in Progress	50%
+Customer Invoices PDF	Updated layout + branding colours; PDF build still ongoing	2h	Work in Progress	80%
+
+
+Task	Description	Time	Status	% Outstanding
+Order API Updates	Removed Sandbox check; updated application status; updated docs	6h	Done	0%
+Second Split – Response Segmentation	Added type-based response filtering; full response fallback remains	5h	Work in Progress	60%
+
+Task	Description	Time	Status	% Outstanding
+Documentation Updates	Updated Orders API, business sections, products & services, fees	5h	Done	0%
+Webhook Documentation	Updated customer status webhook and receiver pages	2h	Done	0%
+Schema Pages	Updated all company type schema pages	1h	Done	0%
+
+
+Task	Description	Time	Status	% Outstanding
+Orders API – Product & Service Details	Started implementing new contract-based JSON structure	8h	Work in Progress	60%
+
+Task	Description	Time	Status	% Outstanding
+Orders API – Product & Service Details	Continued building the new contract-based structure in global_config	6h	Work in Progress	40%
+Webhook Documentation Update	Updated documentation for webhook changes	2h	Done	0%
+
+
+Task	Description	Time	Status	% Outstanding
+Orders API – Product & Service Details	Completed full implementation of the new contract-based structure & global_config	6h	Done – Ready for Review	0%
+Customer Observer – Webhook Status Filter	Updated observer to trigger webhook only for specific customer overall statuses	2h	Done	0%
+
+Task	Description	Time	Status	% Outstanding
+Standard User – Graph Visibility	Hid realtime income and support graphs for standard and related user groups	5h	Done – Ready for Review	0%
+Residual Emails – Stop on Flag	Blocked residual email events when partner residuals are disabled	2h	Done on Prod	0%
+
+Task	Description	Time	Status	% Outstanding
+Recapx – Loan Records API (Transaction Service)	New endpoint to fetch loan records	4h	Done – Ready for Review	0%
+Recapx – Admin Portal Loan Endpoint	Endpoint for customer and loan data; waiting on calculation changes	3h	On Hold	40%
+Recapx – Missing Data Script	Script to derive month/year from raw responses	1h	Work in Progress	70%
+
+Task	Description	Time	Status	% Outstanding
+Orders API – Service Codes Update	Replaced package-based config with new service codes & payment structure	8h	Done – Ready for Review	0%
+
+Task	Description	Time	Status	% Outstanding
+Orders API – Service Documentation	Updated documentation for service-related configuration	3h	Done	0%
+Recapx – Customer Applicant Data Cleanup	Organising missing DOB/email/phone data and defining fallback logic	5h	Work in Progress	60%
+
+Task	Description	Time	Status	% Outstanding
+DOB Backfill Script	Filled missing DOBs for valid customer applicants	3h	Done	0%
+Invalid Data Review & XLS Export	Identified incorrect records and shared details with Ops	2h	Done	0%
+Recapx Exclusion Logic	Skip customers with unresolved applicant data	3h	Work in Progress	40%
+
+Task	Description	Time	Status	% Outstanding
+DOB Backfill Script (Dev → Prod PR)	Script merged to Dev and PR created for Production	3h	Done	0%
+Customer Exclusion Feature	Prevent sharing merchant data with Recapx for excluded customers	3h	Done	0%
+DOB Fallback Logic	Added dummy DOB value when DOB is unavailable	2h	Done	0%
+
+Task	Description	Time	Status	% Outstanding
+Recapx – PRs & Script Readiness	PRs created; awaiting Ops CSV to run backfill script	4h	Done	0%
+VPayments – Home Page Flow	Checked flow and links for all payment sections	4h	Done	0%
+
+Task	Description	Time	Status	% Outstanding
+Customer Locations Endpoint	Endpoint to return customer locations for transaction advanced search	5h	Done	0%
+Transaction Filter by Location	Updated queries to filter transactions by customer_location_id	3h	Done on Dev	0%
+
+Task	Description	Time	Status	% Outstanding
+Messaging Event 133 – Keywords	Added app link short_code to messaging template	1h	Done on Dev	0%
+Partner – Remove Seller Flow	Requirement analysis for seller reassignment and audit trail	4h	On Hold	70%
+Cardstream – Documentation	Initial documentation work	3h	Work in Progress	50%
+
+Task	Description	Time	Status	% Outstanding
+Cardstream API Hierarchy	Corrected Cardstream API route hierarchy	3h	Done	0%
+Cardstream Documentation Mapping	Mapped API routes to documentation, ensured alignment and clarity	3h	Done	0%
+General Code Review	Review FE routes implementation	2h	Work in Progress	80%
+
+Task	Description	Time	Status	% Outstanding
+PBL Hosted Payment Documentation	Documented webhook/API grid and Blade payment flow	4h	Done	0%
+Cardstream Boarding Cron Job	Documented cron scheduling, execution flow, and onboarding logic	3h	Done	0%
+Cardstream - vT	Continued Cardstream documentation for vT FE	1h	Work in Progress	70%
+
+Task	Description	Time	Status	% Outstanding
+Kill Token – VT & PBL	Admin ability to block refunds using token_killed flag	5h	Done (Dev)	0%
+Recapx Dummy Offer Link	Support and setup for dummy offer link in app	1h	Done (STG)	0%
+
+Task	Description	Time	Status	% Outstanding
+Cardstream Unused Endpoints	Identified and documented unused Cardstream endpoints	3h	Done	0%
+Recapx Offer Cron Update	Enabled test/prod support and added dummy sample files	4h	Done (Testing Pending)	20%
+
+Task	Description	Time	Status	% Outstanding
+Experian / W2 Re-check	Scope and start implementation of system re-check button and result status display	4h (Scoped)	Done	0%
+Experian / W2 Re-check	Initial development and flow setup	4h	Work in Progress	70%
+
+Task	Description	Time	Status	% Outstanding
+Boarding Rule – W2 PEP	Implemented W2 PEP boarding rule for customer applicants	4h	Done – Ready for review	0%
+Boarding Rule – Experian	Implemented Experian boarding rule for customer applicants	4h	Done – Ready for review	0%
+
+Task	Description	Time	Status	% Outstanding
+Boarding Rule – Review scraper	Implemented re-check Review scraper rule logic	6h	Done – Ready for review	0%
+Boarding Rules Re-check Endpoint	Created endpoint and reviewing FE response handling	2h	Work in Progress	40%
+
+Task	Description	Time	Status	% Outstanding
+Boarding Rules – Re-check Endpoint	Created endpoint to fetch re-checked boarding rules list	4h	Done – Ready for review	0%
+Transaction Stop Refund	Added BE-side validation to block refund if token is killed	4h	Done – Ready for review	0%
+
+Task	Description	Time	Status	% Outstanding
+Tenancy Fees Generation	Excluded non-ISV customers, fixed wrong package assignment, excluded Verofy Finance payment type	5h	Done – Ready for review	0%
+Kill Token – Refund Check	Updated canRefund method to block refund if token is killed	3h	Done on Dev	0%
+
+Task	Description	Time	Status	% Outstanding
+Tenancy Fees – Logic Fixes	Continued fixes: Verofy Finance handling	4h	Done on Prod	0%
+Tenancy Fees – Package Assignment Update	Updated package assignment to use all customer products	2h	Done on Prod	0%
+Production Hotfix & Testing	Deployed hotfix on Prod and validated results across multiple dates	2h	Done on Prod	0%
+
+Task	Description	Time	Status	% Outstanding
+PDF Generator – Failure Investigation	Investigated intermittent PDF generation and sending failures	3h	Done	0%
+PDF Generator – Error Handling	Added reliable error handling and logging for ops visibility	3h	Done	0%
+PDF Generator – Validation	Verified consistent behavior with normal review commentary	2h	Done – Ready for review	0%
+
+Task	Description	Time	Status	% Outstanding
+PDF Generator – API Update	Updated API to support PDF generation without mandatory email/commentary flow	6h	Done	0%
+PDF Generator – Generate & Send Step	Added final step to append commentary and send PDF via email	2h	Done – Ready for review	0%
+
+Task	Description	Time	Status	% Outstanding
+PDF Generator – Net Asset Value	Added NAV to PDF using existing data where applicable	3h	Done – Ready for review	0%
+Recheck Boarding Rules	Added rule label and fixed Experian API response issue	3h	Done on STG	0%
+Payment Terms – Display	Display upfront / in-arrears payment terms in Admin Portal products	1h	Done – Ready for review	0%
+
+Task	Description	Time	Status	% Outstanding
+PDF Generator – Bug Fixes	Fixed validation and save-part action issues	2h	Done on Dev	0%
+Payment Terms – Display	Updated product sent new parameter monthly_payment_collection to FE	1h	Done on Dev	0%
+Net Settlement Mandate	Updated mandate to use legal name instead of trading name	2.5h	Done on Prod	0%
+Bank Name – Admin	Minor admin update and cleanup	0.5h	Done – Closed	0%
+Weekly Emails – Messaging Event	Updated sender, reviewed rules, started exclusion list & lookup by customer ID	2h	Work in Progress	35%
+
+Task	Description	Time	Status	% Outstanding
+Weekly Email – Sender	Updated sender email	2h	Done – Ready for review	0%
+Messaging Event – Exclusion List	Implemented customer exclusion functionality	2h	Done – Ready for review	0%
+Messaging Event – Customer Lookup	Added customer lookup with exclusion status	2h	Done – Ready for review	0%
+Messaging Event – Exclusion APIs	Created add/remove/list exclusion APIs	2h	Done – Ready for review	0%
+
+Task	Description	Time	Status	% Outstanding
+Agreements / Documents – Admin Portal	Implemented delete, replace, and add-additional logic in Admin Portal	7h	Done - Ready for review	30%
+Agreements / Documents – Customer & Partner	Customer and partner-side implementation	1h	Work in Progress (to continue)	70%
+
+Task	Description	Time	Status	% Outstanding
+Agreements / Documents – Multiple Documents	Allow multiple documents per customer and enable admin upload for all document types	3.5h	Work in Progress	45%
+TMS – Transaction Endpoint	Added reference id, auth code, card number, and status label	3.5h	Done on STG	0%
+Boarding Review PDF – Bug Fix	Fixed Experian scoring issue due to mixed data types	1h	Done	0%
+
+Task	Description	Time	Status	% Outstanding
+PayLinks – Creation Issue	Investigated and fixed PayLink creation issue; shared details with Simon	3h	Done	0%
+Agreements / Documents – Partner Portal	Restored services agreement and aligned agreement actions in Partner Portal	5h	Done – Ready for review	0%
+
+Task	Description	Time	Status	% Outstanding
+PBL Policy Fixes (TMS)	Fixed gate policy bug	3h	Done on STG	0%
+RecapX – DOB Fix	Fixed DOB handling issue	1.5h	Done on STG	0%
+Documents – Customer Portal	Added missing documents in partner portal	3h	Ready for review	0%
+
+
+Task	Description	Time	Status	% Outstanding
+Customer Portal – UI Updates	UI improvements and deployment	1.5h	Done on Prod	0%
+Services Agreement – Paytek	Updated agreements (PDF & HTML) for Paytek funding scenarios	1.5h	Done on STG	0%
+TMS – Transaction APIs	Fixed transaction API errors	2.5h	Done on STG	0%
+PBL – Archive / Resend Link	Implement archive and resend PayLink APIs in TMS	2h	Work in Progress	25%
+
+Task	Description	Time	Status	% Outstanding
+Partner Portal – UI Updates	Updated Admin and Standard user descriptions	1h	Done on Prod	0%
+Services Agreement – ISV	Updated ISV service agreement for web and app	1.5h	Done on STG	0%
+PBL – Archive / Resend Link	Implemented archive and send link endpoints; archive listing ongoing	5h	Work in Progress	40%
+
+
+Task	Description	Time	Status	% Outstanding
+PBL – Archive / Resend Link	Completed archive and send link endpoints and merged to STG	5h	Done on STG	0%
+Messaging Events – Exclusion Fixes	Fixed response issues and added flag to support exclusion methods	2h	Done – Ready for review	0%
+TMX – Transaction Update	Adding card_scheme_name to transaction response	1h	Work in Progress	60%
+
+Task	Description	Time	Status	% Outstanding
+Partner Tenancy Template	Investigating ID passed from vTiger with Nish	3h	Work in Progress	50%
+TMS – Transaction Update	Added card_scheme_name in transaction and main services	3h	Done – Ready for review	0%
+TMS – Dashboard API	Fixing bug	2h	Work in Progress	60%
+
+Task	Description	Time	Status	% Outstanding
+TMS – Transaction API	Added card_scheme_name in transaction service	0.5h	Done on STG	0%
+PayTech Agreement – Web	Updated PayTech service agreement for web	3.5h	Done on STG	0%
+PayTech Agreement – Mobile	Updated PayTech service agreement for mobile app	3.5h	Done on STG	0%
+
+Task	Description	Time	Status	% Outstanding
+ISV Agreements – Pdf	Updated PDF	3h	Done on STG	0%
+ISV Agreements – html	Updated App HTML	3h	Done on STG	0%
+Card Rates API – NON-ISV	Investigating issue in STG	2h	Work in Progress	50%
+
+Task	Description	Time	Status	% Outstanding
+User Groups / Add User APIs	Exposed required endpoints using existing cloud logic	6h	Ready for review	0%
+Blended Card Rates	Implement grouping logic for debit/credit & business rates	2h	Work in Progress	70%
+
+Task	Description	Time	Status	% Outstanding
+Blended Card Rates	Implement debit/credit and business grouping logic	6h	Done on Dev	0%
+Blended Rates – DB Update	Updated partner_id 27 configuration and restructured blended JSON	2h	Done	0%
+
+Task	Description	Time	Status	% Outstanding
+PayTek Agreements & Logging	Updated PayTek agreements and added ISV tenancy template logging; PR created for Prod	1h	Done	0%
+Softpay – Auth Setup	Configured authentication data and verified on STG	3h	Done	0%
+Card Rates – Blended JSON	Added default JSON and restructured standard_trans_fee	3h	Done	0%
+
+Task	Description	Time	Status	% Outstanding
+PayTech App Agreement – Hotfix	Fixed and deployed app agreement issue	1h	Done on Prod	0%
+Blended Default Card Rates	Updated JSON structure and configured Dev & STG data	3h	Done on Dev & STG	0%
+Card Rate Amendments	Align amendments with blended + uplift logic and expose Admin APIs	4h	Work in Progress	70%

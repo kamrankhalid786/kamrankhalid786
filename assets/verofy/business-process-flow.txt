@@ -1,0 +1,286 @@
+sequenceDiagram
+    participant Admin as Admin Portal
+    participant VTiger as VTiger CRM
+    participant Partner as Partner Portal
+    participant Customer as Customer Portal/App
+    participant Product as Product Module
+    participant Service as Service Logistics
+    participant CardRates as Card Rates Module
+    participant Commission as Commission Module
+    participant KYC as KYC/Compliance
+    participant Transaction as Transaction Service
+    participant Reporting as Reporting/Notification
+
+    Admin->>VTiger: Create/Manage Partner
+    VTiger-->>Admin: Partner Created/Updated
+
+    Admin->>Partner: Grant Access/Invite
+
+    Partner->>Product: Define Products/Services
+    Partner->>Service: Set Service Logistics
+    Partner->>CardRates: Set Card Rates
+    Partner->>Commission: Set Commission Structure
+
+    Partner->>Customer: Invite Customer (Merchant)
+    Customer->>Customer: Register via Portal/App
+
+    Customer->>KYC: Complete KYC (in App)
+    KYC-->>Partner: Notify KYC Result
+    KYC-->>Admin: Notify KYC Result
+
+    Customer->>Partner: Upload Documents
+    Partner->>Admin: Review/Approve Customer
+
+    Admin->>Customer: Approve/Reject Onboarding
+
+    Customer->>Transaction: Initiate Transactions
+    Transaction->>Product: Reference Product Details
+    Transaction->>Service: Reference Service Logistics
+    Transaction->>CardRates: Apply Card Rates
+    Transaction->>Commission: Calculate Commission
+    Transaction-->>Customer: Transaction Data
+
+    Customer->>Customer: View Transactions in Portal
+
+    Reporting-->>Admin: Send Reports/Notifications
+    Reporting-->>Partner: Send Reports/Notifications
+    Reporting-->>Customer: Send Status Updates
+
+
+
+/////
+
+sequenceDiagram
+    participant Partner
+    participant Customer
+    participant Portal as Main Portal/API
+    participant App as MobileApp/Auth
+    participant Onboarding
+    participant KYC
+    participant Payment
+    participant Transaction as TransactionService
+    participant Settlement as SettlementService
+    participant VTiger as VTigerCRM
+    participant Notify as Notification
+
+    Partner->>Portal: Refer/Invite Customer
+    Portal->>Onboarding: Start Onboarding (with Partner)
+    Onboarding->>VTiger: Sync/Push to CRM
+    Onboarding-->>Portal: Onboarding Started
+
+    Customer->>Portal: Register/Sign Up (Web/App)
+    Portal->>App: 2FA/Auth (Authy, OTP)
+    App-->>Portal: Auth Success/Fail
+
+    Portal->>Onboarding: Continue Onboarding
+    Onboarding->>Portal: Update Status
+
+    Customer->>Portal: Upload Documents
+    Portal->>Onboarding: Store Documents
+
+    Portal->>KYC: Trigger KYC/Compliance
+    KYC->>Portal: KYC Result
+
+    Portal->>Partner: Notify for Review (if needed)
+    Partner->>Portal: Approve/Reject
+
+    Portal->>Onboarding: Update Status (Approved/Rejected)
+    Onboarding->>Portal: Update Customer Status
+
+    Portal->>Payment: Setup Payment Account
+    Payment->>Transaction: Register Merchant/Account
+    Transaction->>Settlement: Link for Settlements
+    Payment-->>Portal: Payment Setup Result
+
+    Portal->>Notify: Send Email/SMS Notification
+    Notify->>Customer: Registration/Onboarding Status
+
+    Customer->>Portal: Login/Access Portal or App
+    Portal->>App: 2FA/Auth Check
+    App-->>Portal: Auth Success/Fail
+    Portal-->>Customer: Dashboard/Services Access
+
+
+////
+
+Legend: ★ = Feature contributed by Kamran Khalid
+
+[Portals]
+  - Admin Portal ★
+  - Partner Portal ★
+  - Customer Portal ★
+  - Supplier Portal
+  - ISV Portal ★
+  - TMS Portal
+  - Softpay Portal
+  - Mobile App
+
+[Core Modules]
+  - Onboarding ★
+  - KYC ★
+  - Payment ★
+  - Reporting ★
+  - Bespoke ★
+  - Partner ★
+  - Customer ★
+  - Notification ★
+  - Auth ★
+  - Audit ★
+  - File ★
+
+[Business Modules]
+  - Transaction ★
+  - Product ★
+  - Service Logistics ★
+  - Card Rates ★
+  - Commission ★
+  - Residuals ★
+  - Recapx ★
+  - Terminal Order ★
+  - Chargeback ★
+  - Package Pricing ★
+  - Business Hub ★
+  - Admin Cash Advance ★
+  - Loans ★
+
+[Data & Integrations]
+  - MySQL, Redis, S3/Minio
+  - VTiger CRM ★
+  - Payment IQ ★
+  - Cardstream ★
+  - GoCardless ★
+  - Experian ★
+  - W2 ★
+  - Authy ★
+  - SFTP ★
+  - AWS
+
+[Flows]
+  - Customer Onboarding ★
+  - Partner Creation ★
+  - Payment Processing ★
+  - Terminal Dispatch ★
+  - Recapx Split Settlement ★
+  - Messaging Events ★
+  - Audit Logging ★
+  - Chargeback Sync ★
+  - Package Pricing ★
+  - Service Logistics ★
+  - Card Rates Management ★
+  - Residuals Management ★
+  - Admin Cash Advance ★
+  - Loans Management ★
+  - Chargeback Sync ★
+  - Package Pricing ★
+
+
+////
++-------------------+         +---------------------------------------------------------------+
+|   Portals/Apps    |         |           Main Service Feature Modules                        |
++-------------------+         +---------------------------------------------------------------+
+| Admin Portal      |-------> | Onboarding | KYC | Payment | Reporting | Transaction | Product |
+| Partner Portal    |-------> | Bespoke    | Partner | Customer | Notification | Commission   |
+| Customer Portal   |-------> | Auth       | Audit | File | Card Rates | Service Logistics    |
+| Supplier Portal   |         +---------------------------------------------------------------+
+| ISV App           |
+| TMS App           |
+| Softpay App       |
+| Mobile App        |
++-------------------+
+
+(Data flows: All modules connect to MySQL/Redis/S3 as needed)
+
+
+//////
+
+flowchart TD
+    subgraph Portals
+        Admin["Admin Portal"]
+        Partner["Partner Portal"]
+        Customer["Customer Portal"]
+        Supplier["Supplier Portal"]
+        ISV["ISV App"]
+        TMS["TMS App"]
+        Softpay["Softpay App"]
+    end
+
+    subgraph API_Layer
+        API["RESTful APIs & Webhooks"]
+    end
+
+    subgraph Core_Services
+        Auth["Authentication & 2FA"]
+        KYC["KYC / Compliance"]
+        Payment["Payment Integrations"]
+        Onboarding["Onboarding / Boarding Rules"]
+        Reporting["Reporting & SL / Recap"]
+        Bespoke["Bespoke Pricing / Logic"]
+        Messaging["Email / SMS / Notifications"]
+        Audit["Audit Logs"]
+        File["File Storage (S3 / Minio)"]
+    end
+
+    subgraph Data_Layer
+        MySQL[("MySQL DB")]
+        Redis[("Redis")]
+        S3[("S3 / Minio")]
+    end
+
+    subgraph Integrations
+        GoCardless
+        Cardstream
+        PaymentIQ
+        Experian
+        W2
+        Authy
+        VTiger
+        Recapx
+        SFTP
+        AWS
+    end
+
+    Admin -->|API| API
+    Partner -->|API| API
+    Customer -->|API| API
+    Supplier -->|API| API
+    ISV -->|API| API
+    TMS -->|API| API
+    Softpay -->|API| API
+
+    API -->|Business Logic| Auth
+    API -->|Business Logic| KYC
+    API -->|Business Logic| Payment
+    API -->|Business Logic| Onboarding
+    API -->|Business Logic| Reporting
+    API -->|Business Logic| Bespoke
+    API -->|Business Logic| Messaging
+    API -->|Business Logic| Audit
+    API -->|Business Logic| File
+
+    Auth -->|DB| MySQL
+    KYC -->|DB| MySQL
+    Payment -->|DB| MySQL
+    Onboarding -->|DB| MySQL
+    Reporting -->|DB| MySQL
+    Bespoke -->|DB| MySQL
+    Messaging -->|DB| MySQL
+    Audit -->|DB| MySQL
+    File -->|Storage| S3
+
+    Auth -->|Cache| Redis
+    Messaging -->|Queue| Redis
+    Reporting -->|Cache| Redis
+
+    Payment -->|Integrates| GoCardless
+    Payment -->|Integrates| Cardstream
+    Payment -->|Integrates| PaymentIQ
+    KYC -->|Integrates| Experian
+    KYC -->|Integrates| W2
+    Auth -->|Integrates| Authy
+    Onboarding -->|Integrates| VTiger
+    Reporting -->|Integrates| Recapx
+    File -->|Integrates| SFTP
+    File -->|Integrates| AWS
+
+
+

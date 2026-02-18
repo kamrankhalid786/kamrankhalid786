@@ -1,0 +1,49 @@
+sequenceDiagram
+    participant Partner
+    participant Customer
+    participant Portal as Main Portal/API
+    participant App as MobileApp/Auth
+    participant Onboarding
+    participant KYC
+    participant Payment
+    participant Transaction as TransactionService
+    participant Settlement as SettlementService
+    participant VTiger as VTigerCRM
+    participant Notify as Notification
+
+    Partner->>Portal: Refer/Invite Customer
+    Portal->>Onboarding: Start Onboarding (with Partner)
+    Onboarding->>VTiger: Sync/Push to CRM
+    Onboarding-->>Portal: Onboarding Started
+
+    Customer->>Portal: Register/Sign Up (Web/App)
+    Portal->>App: 2FA/Auth (Authy, OTP)
+    App-->>Portal: Auth Success/Fail
+
+    Portal->>Onboarding: Continue Onboarding
+    Onboarding->>Portal: Update Status
+
+    Customer->>Portal: Upload Documents
+    Portal->>Onboarding: Store Documents
+
+    Portal->>KYC: Trigger KYC/Compliance
+    KYC->>Portal: KYC Result
+
+    Portal->>Partner: Notify for Review (if needed)
+    Partner->>Portal: Approve/Reject
+
+    Portal->>Onboarding: Update Status (Approved/Rejected)
+    Onboarding->>Portal: Update Customer Status
+
+    Portal->>Payment: Setup Payment Account
+    Payment->>Transaction: Register Merchant/Account
+    Transaction->>Settlement: Link for Settlements
+    Payment-->>Portal: Payment Setup Result
+
+    Portal->>Notify: Send Email/SMS Notification
+    Notify->>Customer: Registration/Onboarding Status
+
+    Customer->>Portal: Login/Access Portal or App
+    Portal->>App: 2FA/Auth Check
+    App-->>Portal: Auth Success/Fail
+    Portal-->>Customer: Dashboard/Services Access
