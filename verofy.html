@@ -40,17 +40,15 @@
         <div class="container hero-container">
             <div class="hero-split-layout">
                 <div class="hero-main-pane">
-                    <span class="page-label">FinTech · Payments Infrastructure · Compliance</span>
-                    <h1 class="page-title">Verofy</h1>
+                    <span class="page-label">Payments built to power your business growth</span>
+                    <h1 class="page-title">Verofy<sup>®</sup></h1>
                     <p class="page-subtitle hero-subtitle">
-                        Verofy is a next-generation payments infrastructure platform that orchestrates onboarding,
-                        payments, settlement integrations, compliance controls, and partner-facing operations
-                        across Admin, Partner, and Customer channels.
+                        Simpler. Faster. Smarter. Verofy<sup>®</sup> is an FCA Authorised and Regulated Payment Institution, delivering next-generation payment solutions and enterprise infrastructure for SMEs. Experience effortless card payments, next-day funding, real-time insights, and fanatical UK-based support—all in one platform.
                     </p>
                     <div class="hero-meta-clean">
-                        <div class="hero-meta-row"><span>Role</span>Senior Software Engineer (Technical Architecture Ownership Across Core Flows)</div>
+                        <div class="hero-meta-row"><span>Role</span>Senior Software Engineer (Technical Architecture Ownership)</div>
                         <div class="hero-meta-row"><span>Period</span>April 2024 – Present</div>
-                        <div class="hero-meta-row"><span>Focus</span>Payment orchestration, integrations, pricing intelligence, and operational reliability</div>
+                        <div class="hero-meta-row"><span>Focus</span>Enterprise payments, onboarding, settlements, compliance, and support innovation</div>
                         <div class="hero-meta-row">
                             <span>Organization</span>
                             <span class="hero-meta-links">
@@ -61,15 +59,19 @@
                                 <a href="experience.html" rel="noopener">Experience Timeline</a>
                             </span>
                         </div>
+                        <div class="hero-meta-row">
+                            <span>Regulatory</span>
+                            <span class="hero-meta-links">
+                                FCA Authorised (Ref: 785762) • PCI+ Compliance • UK & EU Trademarked
+                            </span>
+                        </div>
                     </div>
                 </div>
                 <div class="hero-side-pane">
                     <div class="hero-innovation-hook">
-                        <span class="hero-innovation-kicker">Technical Architect Evidence Pack</span>
+                        <span class="hero-innovation-kicker">What is Verofy?</span>
                         <p>
-                            This page documents product-critical contributions with architecture-first evidence,
-                            including advanced integration domains, code-backed flow diagrams, and delivery scope
-                            split into <strong>Advanced</strong> and <strong>Medium</strong> complexity feature sets.
+                            Verofy<sup>®</sup> is redefining payments for SMEs—combining lightning-fast transactions, next-day settlements, and real-time business management in the cloud and app. Our platform empowers businesses with mobile, in-store, phone, and online payments, advanced fraud AI, and seamless ePOS integration. Supported by a UK-based team, Verofy<sup>®</sup> is your partner for growth, compliance, and innovation.
                         </p>
                     </div>
                 </div>
@@ -81,24 +83,31 @@
     <section class="section proconvey-part-section part-two-section" id="part-2-verofy-overview">
         <div class="container">
             <div class="part-header">
-                <h2 class="part-title">Verofy Product Overview & Technical Scope</h2>
+                <h2 class="part-title">Verofy<sup>®</sup> Platform Overview</h2>
                 <p class="part-intro">
-                    Verofy combines platform APIs, asynchronous processing, and external service integrations
-                    to deliver a resilient merchant lifecycle from onboarding to settlement and ongoing operations.
+                    Verofy<sup>®</sup> is the single provider for acquiring and payment needs—offering a full suite of solutions: Move (mobile payments), PayLinks (online links), Moto (phone payments), PCI+ (compliance), Faster Settlements, Fraud AI, and more. Our enterprise cloud and app deliver real-time insights, onboarding, and business management. All products are supported by UK-based Concierge and Tracker services, ensuring you’re always in control and supported at every step.
                 </p>
+                <ul class="verofy-keypoints">
+                    <li><strong>Next-day funding</strong> for improved cash flow</li>
+                    <li><strong>Real-time insights</strong> via cloud and app</li>
+                    <li><strong>PCI+ compliance</strong> made simple</li>
+                    <li><strong>Fanatical UK-based support</strong> (Concierge)</li>
+                    <li><strong>FCA Authorised & Regulated</strong> (Ref: 785762)</li>
+                </ul>
             </div>
 
             <div class="leadership-grid">
                 <div class="leadership-story">
                     <h3 class="section-subtitle section-subtitle-tight">Architecture Summary</h3>
                     <p class="content-text">
-                        I contributed across the core orchestration layer where business-critical flows converge:
-                        Orders API synchronization, transfer-webhook bridge integration, Recapx settlement workflows,
-                        advanced card-rate logic, and Verofy Finance collection automation.
+                        VTiger is used to onboard partners, then synced into the main platform where partners can
+                        create sales teams and onboard merchants through Partner and Merchant portals. Those merchants
+                        activate payment products (Move, MOTO, VT, PBL) and then run through transaction and settlement pipelines.
                     </p>
                     <p class="content-text">
-                        My contribution spans multi-service integration boundaries, strict compliance and status transitions,
-                        idempotent processing patterns, and production-grade scheduling/retry behavior.
+                        My ownership focused on the cross-service orchestration points: Orders API + webhook synchronization
+                        for external ISVs, financial state transitions, transfer/settlement bridges, and commission-linked
+                        operational flows with production-grade idempotency and retry safety.
                     </p>
                 </div>
                 <div class="leadership-metrics">
@@ -115,50 +124,119 @@
             </div>
 
             <h3 class="section-subtitle">Main Product Architecture</h3>
-            <div class="diagram-card">
-                <div class="diagram-caption">Verofy Core Platform Topology</div>
+            <div class="diagram-card topology-diagram-card">
+                <div class="diagram-caption">General Business View</div>
                 <div class="mermaid">
                     flowchart LR
-                        subgraph CH[Channels]
-                            AP[Admin Portal]
-                            PP[Partner Portal]
-                            CP[Customer Portal]
-                            APPS[ISV/TMS/Mobile]
-                        end
-
-                        subgraph CORE[Laravel Core]
-                            API[API + Auth + Webhooks]
-                            SVC[Domain Services]
-                            JOB[Queues + Scheduler]
-                        end
-
-                        subgraph DATA[Data]
-                            DB[(MySQL)]
-                            REDIS[(Redis)]
-                            OBJ[(S3/MinIO)]
-                        end
-
-                        subgraph EXT[External Integrations]
-                            VT[VTiger]
-                            PAY[PaymentIQ/Cardstream/GoCardless]
-                            FIN[Settlement/Transactions/Money Transfer]
-                            ECO[Recapx/Paytek/SFTP/KYC]
-                        end
-
-                        AP --> API
-                        PP --> API
-                        CP --> API
-                        APPS --> API
-
-                        API --> SVC --> JOB
-                        SVC --> DB
-                        SVC --> REDIS
-                        SVC --> OBJ
-                        SVC --> VT
-                        SVC --> PAY
-                        SVC --> FIN
-                        SVC --> ECO
+                        O1[Partner Origination<br/>in VTiger] --> O2[Portal Operations<br/>Admin + Partner + Merchant]
+                        O2 --> O3[Merchant Onboarding<br/>by Partner and Sales Team]
+                        O3 --> O4[Payment Product Activation<br/>Move + MOTO + VT + PBL]
+                        O4 --> O5[Transactions and Settlements]
+                        O5 --> O6[Commissions and Support]
+                        O4 --> O7[ISV Enablement<br/>Orders API + Status Webhooks]
                 </div>
+                <div class="diagram-attribution-line">Business narrative view for recommendation/evidence readers.</div>
+            </div>
+
+            <div class="diagram-card topology-diagram-card">
+                <div class="diagram-caption">Technical Runtime View</div>
+                <div class="mermaid">
+                    flowchart TD
+                        %% ==========================
+                        %% 1 - PORTALS
+                        %% ==========================
+
+                        %% Set vertical direction for all subgraphs
+                        subgraph Portals
+                            direction TB
+                            Admin["Admin Portal (Angular)"]
+                            Partner["Partner Portal (Angular)"]
+                            Merchant["Merchant Portal (Angular)"]
+                            Mobile["Mobile App (React Native)"]
+                        end
+
+                        %% ==========================
+                        %% 2 - CORE BACKEND
+                        %% ==========================
+                        subgraph Core_Backend[Core Backend Services]
+                            direction TB
+                            CoreAPI["API Backend (Laravel)"]
+                            Orders["Orders API & Webhooks"]
+                            Messaging["Messaging & Tracker"]
+                            Recapx["Recapx Split Settlement"]
+                            Finance["Finance Service"]
+                        end
+
+                        %% ==========================
+                        %% 3 - OPERATIONAL SERVICES
+                        %% ==========================
+                        subgraph Ops[Operational Services]
+                            direction TB
+                            Transactions["Transactions"]
+                            Settlements["Settlements"]
+                            MID["MID Management"]
+                            Products["Product Management"]
+                            Status["Status & Logistics"]
+                            Email["Email Service"]
+                            Cron["Scheduled Jobs"]
+                        end
+
+                        %% ==========================
+                        %% 4 - INTEGRATIONS
+                        %% ==========================
+
+                        KYC["KYC/AML"]
+                        Payments["Payments (PaymentIQ, Cardstream, GoCardless)"]
+                        CRM["CRM (VTiger)"]
+                        SFTP["SFTP/CSV"]
+                        Bank["ClearBank"]
+
+                        %% ==========================
+                        %% 5 - DATA & STORAGE
+                        %% ==========================
+                        subgraph Data_Storage[Data & Storage]
+                            direction TB
+                            DB["MySQL Database"]
+                            Redis["Redis"]
+                            Storage["Object Storage (S3/Minio)"]
+                        end
+
+                        %% ==========================
+                        %% FLOWS (VERTICAL)
+                        %% ==========================
+                        Admin --> CoreAPI
+                        Partner --> CoreAPI
+                        Merchant --> CoreAPI
+                        Mobile --> CoreAPI
+
+                        CoreAPI --> Orders
+                        CoreAPI --> Messaging
+                        CoreAPI --> Recapx
+                        CoreAPI --> Finance
+                        CoreAPI --> Ops
+                        CoreAPI --> Orders
+                        CoreAPI --> Messaging
+                        CoreAPI --> Recapx
+                        CoreAPI --> Finance
+                        CoreAPI --> Ops
+
+                        Orders --> Ops
+                        Messaging --> Ops
+                        Recapx --> Ops
+                        Finance --> Ops
+
+                        Ops --> Data_Storage
+                        Email --> Data_Storage
+                        Cron --> Data_Storage
+
+                        %% Integrations (direct links, no subgraph)
+                        CoreAPI --> KYC
+                        CoreAPI --> Payments
+                        CoreAPI --> CRM
+                        Recapx --> SFTP
+                        Finance --> Bank
+                </div>
+                <div class="diagram-attribution-line">Technical flow view aligned with current implementation in main portal and connected services.</div>
             </div>
         </div>
     </section>
@@ -179,6 +257,9 @@
                     These advanced domains required cross-service orchestration, secure webhook/event contracts,
                     idempotent financial processing, and controlled state transitions under production load.
                 </p>
+                <p class="content-text">
+                    Verification scope: Laravel core + Partner Portal + Merchant Portal + Admin Portal + Transactions API.
+                </p>
             </div>
 
             <div class="feature-stack feature-stack-clean">
@@ -195,26 +276,29 @@
                             </div>
                         </div>
                     </div>
+                    <p class="content-text">
+                        <strong>Feature Story:</strong> Verofy productized its internal merchant lifecycle for external ISV ecosystems.
+                        ISVs can onboard merchants on Verofy, pull full merchant setup details through the Orders API for their own POS products,
+                        and then stay synchronized through status webhooks as merchant states change.
+                    </p>
                     <ul class="feature-points">
-                        <li><strong>Purpose:</strong> Deliver both pull-based and push-based external order synchronization.</li>
-                        <li><strong>Complexity:</strong> Location-level webhook fan-out, status mapping, and integration safety via sandbox triggers.</li>
-                        <li><strong>Importance:</strong> Keeps external POS systems aligned with live customer lifecycle states.</li>
+                        <li><strong>Purpose:</strong> Expose merchant onboarding data to ISV systems and keep ISV POS state synchronized in near real-time.</li>
+                        <li><strong>Complexity:</strong> Pull + push integration model, location-scoped webhook fan-out, status mapping from <code>overall_status</code>, and sandbox/production parity.</li>
+                        <li><strong>Importance:</strong> Lets merchants transact on external POS platforms while Verofy remains the source of truth for onboarding and lifecycle state.</li>
+                        <li><strong>Verified Flow:</strong> 1) Partner/Sales onboard merchant in Verofy, 2) ISV calls <code>/orders</code> with <code>verofy_connect_id</code> and <code>pos_provider_id</code>, 3) Orders API returns full merchant snapshot, 4) customer status changes trigger observer, 5) status is mapped and pushed per location webhook, 6) ISV POS updates merchant state (active, transacting, terminal lifecycle, declined/termination paths where applicable).</li>
                     </ul>
 
                     <div class="diagram-card">
                         <div class="diagram-caption">Architecture Flow</div>
                         <div class="mermaid">
                             flowchart LR
-                                subgraph PULL[Pull]
-                                    ISV[POS Platform] --> ORD[/orders API/]
-                                    ORD --> SNAP[(Customer Snapshot)]
-                                end
-                                subgraph PUSH[Push]
-                                    CHG[overall_status update] --> MAP[Status Mapping]
-                                    MAP --> WEB[Webhook Dispatcher]
-                                    WEB --> POS[POS Webhook URL]
-                                end
-                                SBOX[Sandbox trigger] --> WEB
+                                A1[1 Partner or Sales Team Onboards Merchant] --> A2[2 Merchant Lifecycle Managed in Verofy]
+                                A2 --> B1[3 ISV POS Calls Orders API]
+                                B1 --> B2[4 Merchant Snapshot Returned]
+                                A2 --> C1[5 Customer overall_status Changes]
+                                C1 --> C2[6 Observer Maps Status per Location]
+                                C2 --> C3[7 Webhook Sent to ISV Endpoint]
+                                C3 --> D1[8 ISV POS Updates Merchant State]
                         </div>
                     </div>
 
@@ -228,30 +312,33 @@
                                 participant OBS as Customer Observer
                                 participant WH as Webhook Dispatcher
 
-                                POS->>API: POST /orders
+                                POS->>API: POST /orders (verofy_connect_id, pos_provider_id)
                                 API->>CRM: getCustomerDetails()
                                 CRM-->>POS: customer snapshot
 
                                 OBS->>WH: status changed event
-                                WH-->>POS: customer-status webhook
+                                WH-->>POS: customer-status webhook (active/transacting/terminal/declined/termination)
                         </div>
                     </div>
 
                     <div class="diagram-card">
-                        <div class="diagram-caption">Data/Ownership View</div>
+                        <div class="diagram-caption">State Diagram</div>
                         <div class="mermaid">
-                            erDiagram
-                                CUSTOMER ||--o{ CUSTOMER_LOCATION : has
-                                CUSTOMER }o--|| POS_PROVIDER : linked_to
-                                CUSTOMER ||--o{ SENT_WEBHOOK : emits
-                                CUSTOMER_LOCATION ||--o{ SENT_WEBHOOK : scoped_by
+                            stateDiagram-v2
+                                direction LR
+                                [*] --> Onboarding
+                                Onboarding --> Active : Merchant Created
+                                Active --> Synced : Orders API Called
+                                Synced --> WebhookSent : Status Changed
+                                WebhookSent --> Updated : ISV Updates State
+                                Updated --> [*]
                         </div>
                     </div>
                 </article>
 
                 <article class="feature-block">
                     <div class="feature-heading-row">
-                        <h4>Transfer Payment Pipeline (CbPayment Bridge)</h4>
+                        <h4>Transfer Payment Pipeline (ClearBank Bridge)</h4>
                         <div class="pr-evidence pr-evidence-corner">
                             <span class="pr-evidence-label">Representative Sources</span>
                             <div class="pr-evidence-badges">
@@ -264,6 +351,7 @@
                         <li><strong>Purpose:</strong> Bridge ClearBank webhooks into dedicated transfer-service state orchestration.</li>
                         <li><strong>Complexity:</strong> Signed payload boundary, pass-through signature handling, and retry operations.</li>
                         <li><strong>Importance:</strong> Critical reliability path for payment transfer lifecycle continuity.</li>
+                        <li><strong>Verified Flow:</strong> 1) ClearBank posts signed webhook, 2) main API captures raw payload/signature, 3) bridge forwards to transfer service, 4) signed response is returned unchanged, 5) retry endpoints cover failed paths.</li>
                     </ul>
 
                     <div class="diagram-card">
@@ -297,16 +385,17 @@
                     </div>
 
                     <div class="diagram-card">
-                        <div class="diagram-caption">Bridge State</div>
+                        <div class="diagram-caption">State Diagram</div>
                         <div class="mermaid">
                             stateDiagram-v2
+                                direction LR
                                 [*] --> Received
-                                Received --> SignatureCaptured
-                                SignatureCaptured --> Forwarded
-                                Forwarded --> Accepted
-                                Forwarded --> Failed
-                                Failed --> RetryQueued
-                                RetryQueued --> Forwarded
+                                Received --> SignatureCaptured : Webhook Received
+                                SignatureCaptured --> Forwarded : Signature Verified
+                                Forwarded --> Accepted : Success
+                                Forwarded --> Failed : Error
+                                Failed --> RetryQueued : Retry
+                                RetryQueued --> Forwarded : Retry Sent
                                 Accepted --> [*]
                         </div>
                     </div>
@@ -329,6 +418,7 @@
                         <li><strong>Purpose:</strong> Handle split-settlement webhooks securely and ingest Recapx offers via SFTP.</li>
                         <li><strong>Complexity:</strong> Signature + replay protection, idempotency guard, outbound signed partner response.</li>
                         <li><strong>Importance:</strong> Protects financial correctness while enabling settlement and offer intelligence.</li>
+                        <li><strong>Verified Flow:</strong> 1) signature/replay validation, 2) idempotency by webhook ID, 3) OPEN/UPDATE/CLOSE settlement upsert, 4) sync to transactions API, 5) signed callback to Recapx, 6) offers imported from SFTP.</li>
                     </ul>
 
                     <div class="diagram-card">
@@ -366,16 +456,17 @@
                     </div>
 
                     <div class="diagram-card">
-                        <div class="diagram-caption">Settlement State</div>
+                        <div class="diagram-caption">State Diagram</div>
                         <div class="mermaid">
                             stateDiagram-v2
+                                direction LR
                                 [*] --> EventReceived
-                                EventReceived --> Open : OPEN
-                                EventReceived --> Open : UPDATE
+                                EventReceived --> Open : OPEN/UPDATE
                                 EventReceived --> Closed : CLOSE
                                 Open --> Open : UPDATE
                                 Open --> Closed : CLOSE
-                                Closed --> Open : OPEN
+                                Closed --> Open : REOPEN
+                                Closed --> [*]
                         </div>
                     </div>
                 </article>
@@ -398,6 +489,7 @@
                         <li><strong>Purpose:</strong> Enable custom pricing while enforcing strict template guardrails.</li>
                         <li><strong>Complexity:</strong> Multi-dimensional validation (rate, transaction fee, uplift, blended profiles).</li>
                         <li><strong>Importance:</strong> Direct commercial impact on contracts, quotes, and partner competitiveness.</li>
+                        <li><strong>Verified Flow:</strong> 1) partner template resolved, 2) min/max and uplift/blended constraints validated, 3) pending set persisted, 4) activation cron promotes accepted sets, 5) active rates propagate to contracts and MID usage.</li>
                     </ul>
 
                     <div class="diagram-card">
@@ -434,15 +526,16 @@
                     </div>
 
                     <div class="diagram-card">
-                        <div class="diagram-caption">Activation State</div>
+                        <div class="diagram-caption">State Diagram</div>
                         <div class="mermaid">
                             stateDiagram-v2
+                                direction LR
                                 [*] --> Draft
-                                Draft --> Validated
-                                Validated --> Rejected
-                                Validated --> Pending
-                                Pending --> Activated
-                                Pending --> Cancelled
+                                Draft --> Validated : Validate
+                                Validated --> Rejected : Reject
+                                Validated --> Pending : Submit
+                                Pending --> Activated : Approve
+                                Pending --> Cancelled : Cancel
                                 Activated --> [*]
                         </div>
                     </div>
@@ -465,6 +558,7 @@
                         <li><strong>Purpose:</strong> Automate collection setup with daily/monthly branching.</li>
                         <li><strong>Complexity:</strong> Asynchronous finder/processor jobs, eligibility filters, and collection payload orchestration.</li>
                         <li><strong>Importance:</strong> Core monetization and payment lifecycle enablement for finance contracts.</li>
+                        <li><strong>Verified Flow:</strong> 1) finder job selects eligible contracts, 2) processor dispatches per contract, 3) branch by <code>daily_collection</code>, 4) transactions fee collection is created, 5) collection IDs and setup timestamps persist.</li>
                     </ul>
 
                     <div class="diagram-card">
@@ -504,19 +598,21 @@
                     </div>
 
                     <div class="diagram-card">
-                        <div class="diagram-caption">Processing State</div>
+                        <div class="diagram-caption">State Diagram</div>
                         <div class="mermaid">
                             stateDiagram-v2
+                                direction LR
                                 [*] --> CompletedContract
-                                CompletedContract --> Eligible
-                                Eligible --> Queued
-                                Queued --> DailyMode
-                                Queued --> MonthlyMode
-                                DailyMode --> CollectionCreated
-                                MonthlyMode --> CollectionCreated
-                                CollectionCreated --> SetupCompleted
-                                CollectionCreated --> RetryPending
-                                RetryPending --> Queued
+                                CompletedContract --> Eligible : Eligible
+                                Eligible --> Queued : Queue
+                                Queued --> DailyMode : Daily
+                                Queued --> MonthlyMode : Monthly
+                                DailyMode --> CollectionCreated : Collect
+                                MonthlyMode --> CollectionCreated : Collect
+                                CollectionCreated --> SetupCompleted : Complete
+                                CollectionCreated --> RetryPending : Retry
+                                RetryPending --> Queued : Requeue
+                                SetupCompleted --> [*]
                         </div>
                     </div>
                 </article>
@@ -589,44 +685,206 @@
                 </article>
             </div>
 
+            <div class="feature-stack feature-stack-clean">
+                <article class="feature-block">
+                    <div class="feature-heading-row">
+                        <h4>PBL + Manual Payment Orchestration</h4>
+                    </div>
+                    <ul class="feature-points">
+                        <li><strong>Purpose:</strong> Ensure reliable upfront collection using generated pay links, manual fallback, and operational visibility.</li>
+                        <li><strong>Flow:</strong> 1) Partner requests PBL, 2) PaymentIQ link is generated and traced, 3) customer pays, 4) contract/payment status is updated, 5) tracker and operation logs are exposed to Partner/Admin.</li>
+                    </ul>
+                    <div class="diagram-card">
+                        <div class="diagram-caption">Feature Flow</div>
+                        <div class="mermaid">
+                            flowchart LR
+                                A1[1 Partner/Admin Generate Link] --> A2[2 POSUpfrontPblService Create PaymentIQ Link]
+                                A2 --> A3[3 Customer Opens and Pays]
+                                A3 --> A4[4 POSPblPaymentCollectionService Updates Contract and Settings]
+                                A4 --> A5[5 Tracker and Operation Log in Portals]
+                        </div>
+                    </div>
+                </article>
+
+                <article class="feature-block">
+                    <div class="feature-heading-row">
+                        <h4>Monthly GoCardless Automation</h4>
+                    </div>
+                    <ul class="feature-points">
+                        <li><strong>Purpose:</strong> Automate monthly setup requests and recurring reminders until completion.</li>
+                        <li><strong>Flow:</strong> 1) Acquiring-approved event starts monthly setup, 2) contract stores <code>monthly_requested_at</code>, 3) reminder cron selects incomplete records, 4) daily reminders continue until payment completion.</li>
+                    </ul>
+                    <div class="diagram-card">
+                        <div class="diagram-caption">Feature Flow</div>
+                        <div class="mermaid">
+                            flowchart LR
+                                B1[1 Monthly Contract Approved] --> B2[2 GoCardless and DirectDebit Services Trigger Messaging]
+                                B2 --> B3[3 Contract Monthly Requested Timestamp Saved]
+                                B3 --> B4[4 Reminder Cron and Job Run Daily]
+                                B4 --> B5[5 Reminder Stops When Contract is Completed]
+                        </div>
+                    </div>
+                </article>
+
+                <article class="feature-block">
+                    <div class="feature-heading-row">
+                        <h4>POA Automation + Site Visit Trigger</h4>
+                    </div>
+                    <ul class="feature-points">
+                        <li><strong>Purpose:</strong> Convert POA verification results into deterministic onboarding actions and seller notifications.</li>
+                        <li><strong>Flow:</strong> 1) signed POA webhook is validated, 2) application POA flags are updated, 3) customer POA/site-visit flags are recalculated, 4) rejected POA path can trigger site visit initiation and tracking.</li>
+                    </ul>
+                    <div class="diagram-card">
+                        <div class="diagram-caption">Feature Flow</div>
+                        <div class="mermaid">
+                            flowchart LR
+                                C1[1 POA Webhook Received] --> C2[2 Signature and Payload Validated]
+                                C2 --> C3[3 CustomerApplication and Customer Flags Updated]
+                                C3 --> C4{4 POA Rejected or Rule Fails}
+                                C4 -->|Yes| C5[5 Initiate Site Visit and Notify Seller]
+                                C4 -->|No| C6[5 Continue Standard Completion]
+                        </div>
+                    </div>
+                </article>
+
+                <article class="feature-block">
+                    <div class="feature-heading-row">
+                        <h4>Chargeback + VTiger Sync</h4>
+                    </div>
+                    <ul class="feature-points">
+                        <li><strong>Purpose:</strong> Keep financial risk/support views synchronized between transactions data and support CRM.</li>
+                        <li><strong>Flow:</strong> 1) partner chargeback endpoint serves filtered records, 2) arrears enrichment is merged from transactions service, 3) daily cron pulls chargeback feed, 4) support cases are synced to VTiger.</li>
+                    </ul>
+                    <div class="diagram-card">
+                        <div class="diagram-caption">Feature Flow</div>
+                        <div class="mermaid">
+                            flowchart LR
+                                D1[1 Chargebacks Enter Transactions Domain] --> D2[2 Partner API Lists and Enriches Arrears]
+                                D2 --> D3[3 Daily VTiger Sync Command Runs]
+                                D3 --> D4[4 Support Cases Created or Updated in VTiger]
+                                D4 --> D5[5 Support and Partner Teams Share Same View]
+                        </div>
+                    </div>
+                </article>
+
+                <article class="feature-block">
+                    <div class="feature-heading-row">
+                        <h4>Package Pricing + ISV Template Operations</h4>
+                    </div>
+                    <ul class="feature-points">
+                        <li><strong>Purpose:</strong> Standardize package pricing management through controlled CSV templates and automated synchronization.</li>
+                        <li><strong>Flow:</strong> 1) admin uploads template CSV, 2) rows are validated and mapped, 3) package type is derived from product mix, 4) records and media are stored, 5) observer syncs template data to VTiger.</li>
+                    </ul>
+                    <div class="diagram-card">
+                        <div class="diagram-caption">Feature Flow</div>
+                        <div class="mermaid">
+                            flowchart LR
+                                E1[1 Admin Uploads ISV Template CSV] --> E2[2 Controller and Trait Validate and Parse Rows]
+                                E2 --> E3[3 Package Classification and Record Persistence]
+                                E3 --> E4[4 Template File Stored as Media]
+                                E4 --> E5[5 Observer Triggers VTiger Synchronization]
+                        </div>
+                    </div>
+                </article>
+
+                <article class="feature-block">
+                    <div class="feature-heading-row">
+                        <h4>Terminal Order Fulfillment Automation</h4>
+                    </div>
+                    <ul class="feature-points">
+                        <li><strong>Purpose:</strong> Run deterministic hardware lifecycle transitions with synchronized customer status and notifications.</li>
+                        <li><strong>Flow:</strong> 1) terminal ordered, 2) dispatched with tracking/serial update, 3) in-transit and delivered events update package state, 4) product becomes live, 5) customer status and operation logs remain aligned.</li>
+                    </ul>
+                    <div class="diagram-card">
+                        <div class="diagram-caption">Feature Flow</div>
+                        <div class="mermaid">
+                            flowchart LR
+                                F1[1 Ordered] --> F2[2 Dispatched]
+                                F2 --> F3[3 In Transit]
+                                F3 --> F4[4 Delivered]
+                                F4 --> F5[5 Live and Transacting]
+                                F5 --> F6[6 Overall Status and Tracker Updated]
+                        </div>
+                    </div>
+                </article>
+
+                <article class="feature-block">
+                    <div class="feature-heading-row">
+                        <h4>Messaging, Tracker & Audit Trail</h4>
+                    </div>
+                    <ul class="feature-points">
+                        <li><strong>Purpose:</strong> Provide full operational transparency for customer lifecycle decisions and communications.</li>
+                        <li><strong>Flow:</strong> 1) domain event occurs, 2) messaging events are triggered, 3) operation log entry is persisted, 4) status tracking history is updated, 5) Partner/Admin tracker endpoints expose timeline context.</li>
+                    </ul>
+                    <div class="diagram-card">
+                        <div class="diagram-caption">Feature Flow</div>
+                        <div class="mermaid">
+                            flowchart LR
+                                G1[1 Domain Event] --> G2[2 MessagingEventsService Dispatch]
+                                G2 --> G3[3 CustomerOperationLogService Record]
+                                G3 --> G4[4 CustomerStatusTrackingService Record]
+                                G4 --> G5[5 Application Tracker and Operation Log APIs]
+                        </div>
+                    </div>
+                </article>
+
+                <article class="feature-block">
+                    <div class="feature-heading-row">
+                        <h4>Code Quality + Security Hardening</h4>
+                    </div>
+                    <ul class="feature-points">
+                        <li><strong>Purpose:</strong> Maintain engineering reliability and platform security posture with measurable evidence.</li>
+                        <li><strong>Flow:</strong> 1) quality/security findings collected, 2) remediation is prioritized and implemented, 3) services and flows are re-validated, 4) evidence reports capture outcomes for governance and GTV documentation.</li>
+                    </ul>
+                    <div class="diagram-card">
+                        <div class="diagram-caption">Feature Flow</div>
+                        <div class="mermaid">
+                            flowchart LR
+                                H1[1 Quality and Security Audits] --> H2[2 Risk Ranked Remediation]
+                                H2 --> H3[3 Code and Workflow Hardening]
+                                H3 --> H4[4 Verification and Evidence Reports]
+                        </div>
+                    </div>
+                </article>
+            </div>
+
             <div class="diagram-card">
                 <div class="diagram-caption">Medium Feature Capability Map</div>
                 <div class="mermaid">
                     flowchart LR
-                        subgraph M1[Payments & Billing]
-                            A[PBL + Manual Payment]
+                        subgraph M1[Payments and Billing]
+                            A[PBL and Manual Payment]
                             B[Monthly GoCardless]
-                            C[Verofy Finance Ops Support]
                         end
 
-                        subgraph M2[Compliance & Risk]
-                            D[POA Automation]
-                            E[Chargeback + VTiger]
-                            F[Security Hardening]
+                        subgraph M2[Compliance and Risk]
+                            C[POA and Site Visit]
+                            D[Chargeback and VTiger]
+                            E[Security Hardening]
                         end
 
-                        subgraph M3[Commercial & Operations]
-                            G[ISV Package Templates]
-                            H[Terminal Order Automation]
-                            I[Messaging + Audit Tracking]
+                        subgraph M3[Commercial and Operations]
+                            F[Package Template Ops]
+                            G[Terminal Fulfillment]
+                            H[Messaging and Tracker]
                         end
 
-                        A --> I
-                        B --> I
-                        C --> I
-                        D --> I
-                        E --> I
+                        A --> H
+                        B --> H
+                        C --> H
+                        D --> H
+                        E --> H
+                        F --> G
                         G --> H
-                        H --> I
-                        F --> I
                 </div>
             </div>
 
             <h3 class="section-subtitle">Importance & Uniqueness</h3>
             <ul class="clean-list">
-                <li>Cross-service orchestration joins APIs, scheduled jobs, and webhook pipelines into one resilient platform runtime.</li>
-                <li>Advanced domains demonstrate architectural ownership over financial state correctness, external integration reliability, and commercial logic controls.</li>
-                <li>Medium domains show breadth across payment operations, compliance automation, fulfillment, and engineering governance.</li>
+                <li>Cross-service orchestration joins APIs, scheduled jobs, webhooks, and multi-portal surfaces into one resilient platform runtime.</li>
+                <li>Advanced domains show architectural ownership of integration-critical and financially sensitive workflows.</li>
+                <li>Medium domains show broad product delivery across billing, compliance, operations, and support reliability.</li>
+                <li>Feature flows are now code-verified against backend, Partner, Merchant, Admin, and Transactions projects.</li>
             </ul>
         </div>
     </section>
