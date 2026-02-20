@@ -57,6 +57,110 @@
         navLinks.classList.toggle('active');
     }
 
+    function createImageZoomModal() {
+        var existing = document.getElementById('siteImageZoomModal');
+        if (existing) return existing;
+
+        var modal = document.createElement('div');
+        modal.id = 'siteImageZoomModal';
+        modal.className = 'image-zoom-modal';
+        modal.setAttribute('aria-hidden', 'true');
+        modal.innerHTML = [
+            '<button type="button" class="image-zoom-close" aria-label="Close image preview">',
+            '  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>',
+            '</button>',
+            '<figure class="image-zoom-figure">',
+            '  <img class="image-zoom-modal-img" alt="">',
+            '  <figcaption class="image-zoom-caption"></figcaption>',
+            '</figure>'
+        ].join('');
+        document.body.appendChild(modal);
+        return modal;
+    }
+
+    function initImageZoom() {
+        if (document.body && document.body.getAttribute('data-image-zoom') === 'off') return;
+
+        var modal = createImageZoomModal();
+        var modalImg = modal.querySelector('.image-zoom-modal-img');
+        var modalCaption = modal.querySelector('.image-zoom-caption');
+        var closeBtn = modal.querySelector('.image-zoom-close');
+
+        function openImage(img) {
+            if (!img) return;
+            var src = img.getAttribute('data-zoom-src') || img.currentSrc || img.src;
+            if (!src) return;
+
+            modalImg.src = src;
+            modalImg.alt = img.alt || '';
+            modalCaption.textContent = img.getAttribute('data-zoom-caption') || '';
+
+            modal.classList.add('active');
+            modal.setAttribute('aria-hidden', 'false');
+            modal.setAttribute('data-open', 'true');
+            document.body.classList.add('image-zoom-open');
+        }
+
+        function closeImage() {
+            modal.classList.remove('active');
+            modal.setAttribute('aria-hidden', 'true');
+            modal.setAttribute('data-open', 'false');
+            document.body.classList.remove('image-zoom-open');
+            modalImg.removeAttribute('src');
+            modalImg.removeAttribute('alt');
+            modalCaption.textContent = '';
+        }
+
+        var selector = [
+            'img.media-img',
+            'img.media-img-large',
+            '.workshop-media-card img',
+            '.clean-diagram-card img'
+        ].join(',');
+
+        var images = Array.prototype.slice.call(document.querySelectorAll(selector)).filter(function (img) {
+            if (img.getAttribute('data-no-zoom') === 'true') return false;
+            if (img.closest('.workshop-media-embed')) return false;
+            return true;
+        });
+
+        images.forEach(function (img) {
+            if (img.getAttribute('data-zoom-bound') === 'true') return;
+            img.setAttribute('data-zoom-bound', 'true');
+            img.classList.add('zoomable-image');
+            img.setAttribute('title', img.getAttribute('title') || 'Click to zoom');
+            img.addEventListener('click', function (event) {
+                event.preventDefault();
+                openImage(img);
+            });
+        });
+
+        if (closeBtn && !closeBtn.getAttribute('data-zoom-bound')) {
+            closeBtn.setAttribute('data-zoom-bound', 'true');
+            closeBtn.addEventListener('click', function () {
+                closeImage();
+            });
+        }
+
+        if (!modal.getAttribute('data-overlay-bound')) {
+            modal.setAttribute('data-overlay-bound', 'true');
+            modal.addEventListener('click', function (event) {
+                if (event.target === modal) {
+                    closeImage();
+                }
+            });
+        }
+
+        if (!document.body.getAttribute('data-zoom-key-bound')) {
+            document.body.setAttribute('data-zoom-key-bound', 'true');
+            document.addEventListener('keydown', function (event) {
+                if (event.key === 'Escape' && modal.classList.contains('active')) {
+                    closeImage();
+                }
+            });
+        }
+    }
+
     window.toggleMenu = window.toggleMenu || toggleMenu;
 
     function resolveRoot(value) {
@@ -87,6 +191,7 @@
         var menuMarkup = templateMarkup.replace(/\{\{ROOT\}\}/g, root || '.');
         container.innerHTML = menuMarkup;
         setActiveLinks();
+        initImageZoom();
     }
 
     function templateFromHtml(html, variant) {
@@ -128,8 +233,12 @@
     }
 
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', loadMenu);
+        document.addEventListener('DOMContentLoaded', function () {
+            loadMenu();
+            initImageZoom();
+        });
     } else {
         loadMenu();
+        initImageZoom();
     }
 })();
