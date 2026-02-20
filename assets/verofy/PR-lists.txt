@@ -1,0 +1,2611 @@
+
+Hotfix/onboarding pdf review 20260129 enhancement
+#8155 by kamran-khalid-v9 was merged 19 hours ago
+1
+@kamran-khalid-v9
+Fixed experian_scoring issue bug
+#8154 by kamran-khalid-v9 was merged 19 hours ago
+8100 emails to all customerspartners enhancement
+#8118 by kamran-khalid-v9 was merged yesterday
+1
+@kamran-khalid-v9
+Hotfix/8072 net settlement mandate add legal name enhancement
+#8098 by kamran-khalid-v9 was merged 4 days ago
+1
+@kamran-khalid-v9
+Hotfix/8072 net settlement mandate add legal name enhancement
+#8097 by kamran-khalid-v9 was merged 4 days ago
+1
+@kamran-khalid-v9
+Enhancement/boarding rules review pdf 26122025 enhancement
+#8095 by kamran-khalid-v9 was merged 4 days ago
+@kamran-khalid-v9
+Hotfix/8072 net settlement mandate add legal name enhancement
+#8089 by kamran-khalid-v9 was merged 4 days ago
+1
+@kamran-khalid-v9
+Updated response
+#8086 by kamran-khalid-v9 was merged 4 days ago
+@kamran-khalid-v9
+Added monthly_payment_collection for UPFRONT and IN_ARREARS enhancement
+#8085 by kamran-khalid-v9 was merged 4 days ago
+1
+@kamran-khalid-v9
+Updated response, Added message enhancement
+#8084 by kamran-khalid-v9 was merged 4 days ago
+@kamran-khalid-v9
+Hotfix/added error message to experian boarding rule 20260123
+#8060 by kamran-khalid-v9 was merged last week
+@kamran-khalid-v9
+Hotfix/added error message to experian boarding rule 20260123 enhancement
+#8059 by kamran-khalid-v9 was merged last week
+@kamran-khalid-v9
+7995 pdf generator bugs
+#8045 by kamran-khalid-v9 was merged 4 days ago
+1
+@kamran-khalid-v9
+Hotfix/7919 tenancy fees generation exclude non isv wrong package enhancement
+#7979 by kamran-khalid-v9 was merged last week
+1
+@kamran-khalid-v9
+Removed credit ratting from orders api enhancement
+#7922 by kamran-khalid-v9 was merged 2 weeks ago
+1
+@kamran-khalid-v9
+5676 re check of experian w2 enhancement
+#7916 by kamran-khalid-v9 was merged 2 weeks ago
+3
+@kamran-khalid-v9
+Added new short code for link_to_app_detection_page enhancement
+#7815 by kamran-khalid-v9 was merged 3 weeks ago
+1
+@kamran-khalid-v9
+7348 partner locations enhancement
+#7798 by kamran-khalid-v9 was merged last month
+2
+@kamran-khalid-v9
+Recapx/fill missing dob in cusotmer applicant table 20251219 enhancement
+#7755 by kamran-khalid-v9 was merged on Dec 22, 2025
+@kamran-khalid-v9
+Ordersapi/update services section 20251217 enhancement
+#7720 by kamran-khalid-v9 was merged on Dec 18, 2025
+1
+@kamran-khalid-v9
+Enhancement/order api 20251208 enhancement
+#7680 by kamran-khalid-v9 was merged on Dec 15, 2025
+1
+@kamran-khalid-v9
+7647 standard user graphs enhancement
+#7676 by kamran-khalid-v9 was merged on Dec 16, 2025
+7647
+1
+@kamran-khalid-v9
+7667 residual emails stop on flag bug
+#7674 by kamran-khalid-v9 was merged on Dec 15, 2025
+1
+@kamran-khalid-v9
+7667 residual emails stop on flag bug
+#7673 by kamran-khalid-v9 was merged on Dec 15, 2025
+1
+@kamran-khalid-v9
+Residual emails - stop on flag bug
+#7670 by kamran-khalid-v9 was merged on Dec 15, 2025
+1
+@kamran-khalid-v9
+Enhancement/order api 20251208 enhancement
+#7627 by kamran-khalid-v9 was merged on Dec 10, 2025
+@kamran-khalid-v9
+Enhancement/order api 20251208 enhancement
+#7583 by kamran-khalid-v9 was merged on Dec 8, 2025
+@kamran-khalid-v9
+Updated ListPartnerResidualController enhancement
+#7577 by kamran-khalid-v9 was merged on Dec 5, 2025
+1
+@kamran-khalid-v9
+Enhancement/update orders api 20251205 enhancement
+#7570 by kamran-khalid-v9 was merged on Dec 5, 2025
+@kamran-khalid-v9
+Updated DownloadPartnerMonthlyResidualCommissionController enhancement
+#7569 by kamran-khalid-v9 was merged on Dec 5, 2025
+1
+@kamran-khalid-v9
+Updated OrdersCustomerSandboxController enhancement
+#7550 by kamran-khalid-v9 was merged on Dec 4, 2025
+1
+@kamran-khalid-v9
+Ordersapi/update customer status webhook 20251203 enhancement
+#7548 by kamran-khalid-v9 was merged on Dec 4, 2025
+1
+@kamran-khalid-v9
+Added check for posProvider enhancement
+#7547 by kamran-khalid-v9 was merged on Dec 4, 2025
+1
+@kamran-khalid-v9
+Updated customer webhook part enhancement
+#7546 by kamran-khalid-v9 was merged on Dec 4, 2025
+1
+@kamran-khalid-v9
+Dev to Staging
+#7543 by kamran-khalid-v9 was merged on Dec 3, 2025
+Added sandbox webhook endpoint for orders customer status enhancement
+#7538 by kamran-khalid-v9 was merged on Dec 3, 2025
+1
+@kamran-khalid-v9
+Fixed order status issue
+#7532 by kamran-khalid-v9 was merged on Dec 3, 2025
+1
+@kamran-khalid-v9
+Fixed webhook message enhancement
+#7529 by kamran-khalid-v9 was merged on Dec 3, 2025
+1
+@kamran-khalid-v9
+Ordersapi/update customer status webhook 20251203
+#7528 by kamran-khalid-v9 was merged on Dec 3, 2025
+1
+@kamran-khalid-v9
+Updated PartnerCommissionPaymentService
+#7522 by kamran-khalid-v9 was merged on Dec 3, 2025
+@kamran-khalid-v9
+Enhancement/residual show history 20251202 enhancement
+#7519 by kamran-khalid-v9 was merged on Dec 5, 2025
+1
+@kamran-khalid-v9
+Hotfix/dispatch terminals everyday 20251202 enhancement
+#7515 by kamran-khalid-v9 was merged on Dec 2, 2025
+@kamran-khalid-v9
+Hotfix/dispatch terminals everyday 20251202
+#7514 by kamran-khalid-v9 was merged on Dec 2, 2025
+@kamran-khalid-v9
+Hotfix/dispatch terminals everyday 20251202 enhancement
+#7508 by kamran-khalid-v9 was merged on Dec 2, 2025
+@kamran-khalid-v9
+Ordersapi/created sandbox api 20251201 enhancement
+#7502 by kamran-khalid-v9 was merged on Dec 1, 2025
+@kamran-khalid-v9
+Hotfix/hide residual 20251201 enhancement
+#7500 by kamran-khalid-v9 was merged on Dec 1, 2025
+1
+@kamran-khalid-v9
+Hotfix/hide residual 20251201 enhancement
+#7499 by kamran-khalid-v9 was merged on Dec 1, 2025
+1
+@kamran-khalid-v9
+Hotfix/hide residual 20251201 enhancement
+#7497 by kamran-khalid-v9 was merged on Dec 1, 2025
+1
+@kamran-khalid-v9
+Hotfix/customer package pricing 20251128
+#7491 by kamran-khalid-v9 was merged on Nov 28, 2025
+@kamran-khalid-v9
+Hotfix/customer package pricing 20251128
+#7490 by kamran-khalid-v9 was merged on Nov 28, 2025
+@kamran-khalid-v9
+Hotfix/customer package pricing 20251128 enhancement
+#7487 by kamran-khalid-v9 was merged on Nov 28, 2025
+@kamran-khalid-v9
+Enhancement orders customer update webhook 20251127 enhancement
+#7481 by kamran-khalid-v9 was merged on Nov 28, 2025
+1
+@kamran-khalid-v9
+Hotfix/total daily cost 20251127 bug
+#7476 by kamran-khalid-v9 was merged on Nov 27, 2025
+@kamran-khalid-v9
+Updated CRGetCustomerProductController enhancement
+#7475 by kamran-khalid-v9 was merged on Nov 27, 2025
+@kamran-khalid-v9
+7448 dispatch terminal vt record issue enhancement
+#7463 by kamran-khalid-v9 was merged on Nov 27, 2025
+1
+@kamran-khalid-v9
+7448 dispatch terminal vt record issue enhancement
+#7462 by kamran-khalid-v9 was merged on Nov 27, 2025
+1
+@kamran-khalid-v9
+Updated ISVDipatchedTerminalDataWithPackageService enhancement
+#7461 by kamran-khalid-v9 was merged on Nov 27, 2025
+1
+@kamran-khalid-v9
+Exclude PCI, FasterPayments
+#7456 by kamran-khalid-v9 was merged on Nov 27, 2025
+@kamran-khalid-v9
+Hotfix/verofy products cost 20251126 enhancement
+#7445 by kamran-khalid-v9 was merged on Nov 26, 2025
+@kamran-khalid-v9
+Update CRGetCustomerProductController enhancement
+#7444 by kamran-khalid-v9 was merged on Nov 26, 2025
+@kamran-khalid-v9
+7393 residual switch off enhancement
+#7430 by kamran-khalid-v9 was merged on Nov 26, 2025
+1
+@kamran-khalid-v9
+Hotfix/sic codes apply ltd condition 20251125
+#7429 by kamran-khalid-v9 was closed on Nov 26, 2025
+@kamran-khalid-v9
+Hotfix/sic codes apply ltd condition 20251125
+#7415 by kamran-khalid-v9 was merged on Nov 25, 2025
+@kamran-khalid-v9
+Hotfix/sic codes apply ltd condition 20251125
+#7414 by kamran-khalid-v9 was merged on Nov 25, 2025
+Resolution mapping enhancement
+#7396 by kamran-khalid-v9 was merged on Nov 24, 2025
+1
+@kamran-khalid-v9
+7366 sic customer enhancement
+#7371 by kamran-khalid-v9 was merged on Nov 24, 2025
+1
+@kamran-khalid-v9
+7291 sic code referral
+#7361 by kamran-khalid-v9 was merged on Nov 20, 2025
+2
+7337 recapx create separate endpoints and store recapx data in DB
+#7345 by kamran-khalid-v9 was merged on Nov 20, 2025
+1
+@kamran-khalid-v9
+Removed not used namespace
+#7341 by kamran-khalid-v9 was merged on Nov 19, 2025
+1
+@kamran-khalid-v9
+7337 recapx create separate endpoints enhancement
+#7340 by kamran-khalid-v9 was merged on Nov 19, 2025
+1
+@kamran-khalid-v9
+7264 admin view of recap loans enhancement
+#7280 by kamran-khalid-v9 was merged on Nov 19, 2025
+4
+@kamran-khalid-v9
+Hotfix/update recapx settlement limit 20251117
+#7279 by kamran-khalid-v9 was merged on Nov 17, 2025
+@kamran-khalid-v9
+Hotfix/update recapx settlement limit 20251117
+#7278 by kamran-khalid-v9 was merged on Nov 17, 2025
+@kamran-khalid-v9
+Hotfix/update recapx settlement limit 20251117 enhancement
+#7277 by kamran-khalid-v9 was merged on Nov 17, 2025
+@kamran-khalid-v9
+Updated RecapxSettlementDataSftpUploadService
+#7276 by kamran-khalid-v9 was merged on Nov 17, 2025
+Hotfix/recapx only for production 20251114 enhancement
+#7274 by kamran-khalid-v9 was merged on Nov 14, 2025
+@kamran-khalid-v9
+Recapx will only work on production.
+#7273 by kamran-khalid-v9 was merged on Nov 14, 2025
+@kamran-khalid-v9
+Hotfix/settlement upload 20251113
+#7269 by kamran-khalid-v9 was merged on Nov 14, 2025
+@kamran-khalid-v9
+Hotfix/settlement upload 20251113
+#7268 by kamran-khalid-v9 was merged on Nov 14, 2025
+@kamran-khalid-v9
+Removed negative records
+#7254 by kamran-khalid-v9 was merged on Nov 14, 2025
+@kamran-khalid-v9
+Hotfix/settlement upload 20251113
+#7251 by kamran-khalid-v9 was merged on Nov 13, 2025
+@kamran-khalid-v9
+Recapx/fix settlement records 20251111
+#7210 by kamran-khalid-v9 was merged on Nov 12, 2025
+@kamran-khalid-v9
+Updated RecapxSettlementDataSftpUploadService
+#7201 by kamran-khalid-v9 was merged on Nov 11, 2025
+@kamran-khalid-v9
+Updated RecapMerchantOfferController enhancement
+#7197 by kamran-khalid-v9 was merged on Nov 11, 2025
+@kamran-khalid-v9
+Enable transaction srevice for split settlement
+#7192 by kamran-khalid-v9 was merged on Nov 11, 2025
+@kamran-khalid-v9
+Fixed record issue enhancement
+#7189 by kamran-khalid-v9 was merged on Nov 11, 2025
+1
+@kamran-khalid-v9
+Hotfix/recapx update directory structure 20251110 enhancement
+#7187 by kamran-khalid-v9 was merged on Nov 10, 2025
+1
+@kamran-khalid-v9
+Removed duplicate route key
+#7182 by kamran-khalid-v9 was merged on Nov 10, 2025
+Hotfix/formatted sort code 20251110 enhancement
+#7180 by kamran-khalid-v9 was merged on Nov 10, 2025
+@kamran-khalid-v9
+Hotfix/formatted sort code 20251110 enhancement
+#7179 by kamran-khalid-v9 was merged on Nov 10, 2025
+@kamran-khalid-v9
+Updated Kernel.php enhancement
+#7169 by kamran-khalid-v9 was merged on Nov 7, 2025
+@kamran-khalid-v9
+Updated VerofyToVtigerService enhancement
+#7167 by kamran-khalid-v9 was merged on Nov 7, 2025
+@kamran-khalid-v9
+Hotfix/vtiger chargeback 20251107
+#7161 by kamran-khalid-v9 was closed on Nov 7, 2025
+@kamran-khalid-v9
+Updated scheduler
+#7159 by kamran-khalid-v9 was merged on Nov 7, 2025
+@kamran-khalid-v9
+Updated VerofyToVtigerService bug
+#7158 by kamran-khalid-v9 was merged on Nov 7, 2025
+@kamran-khalid-v9
+7149 split settlement add merchant reference enhancement
+#7151 by kamran-khalid-v9 was merged on Nov 6, 2025
+1
+7139 add chargeback location enhancement
+#7145 by kamran-khalid-v9 was merged on Nov 6, 2025
+1
+@kamran-khalid-v9
+Added customer location in chargeback ticket enhancement
+#7144 by kamran-khalid-v9 was merged on Nov 6, 2025
+1
+@kamran-khalid-v9
+7133 dynamic final deadline and review deadline date add chargeback location
+#7138 by kamran-khalid-v9 was merged on Nov 6, 2025
+@kamran-khalid-v9
+Added bank holiday service enhancement
+#7136 by kamran-khalid-v9 was merged on Nov 6, 2025
+1
+@kamran-khalid-v9
+1
+Updated SplitSettlementService
+#7132 by kamran-khalid-v9 was merged on Nov 5, 2025
+@kamran-khalid-v9
+Updated SplitSettlementService enhancement
+#7124 by kamran-khalid-v9 was merged on Nov 7, 2025
+1
+@kamran-khalid-v9
+Fixed: Contract approval issue enhancement
+#7101 by kamran-khalid-v9 was merged on Nov 5, 2025
+1
+@kamran-khalid-v9
+Removed the old recapx-offers endpoint
+#7096 by kamran-khalid-v9 was merged on Nov 4, 2025
+@kamran-khalid-v9
+Fix/recap offers 20251104
+#7093 by kamran-khalid-v9 was merged on Nov 4, 2025
+@kamran-khalid-v9
+Moved route into customer block
+#7092 by kamran-khalid-v9 was merged on Nov 4, 2025
+@kamran-khalid-v9
+6679 receiving merchant percentage split enhancement
+#7058 by kamran-khalid-v9 was merged on Nov 4, 2025
+2
+@kamran-khalid-v9
+7044 implemnt consent token enhancement
+#7046 by kamran-khalid-v9 was merged on Oct 30, 2025
+1
+@kamran-khalid-v9
+7024 recap issues enhancement
+#7032 by kamran-khalid-v9 was merged on Oct 29, 2025
+1
+@kamran-khalid-v9
+Fixed business company number enhancement
+#7031 by kamran-khalid-v9 was merged on Oct 29, 2025
+1
+@kamran-khalid-v9
+Fixed business array
+#7030 by kamran-khalid-v9 was merged on Oct 29, 2025
+1
+@kamran-khalid-v9
+Moved company number up
+#7028 by kamran-khalid-v9 was merged on Oct 29, 2025
+1
+@kamran-khalid-v9
+Updated RecapxMerchantService
+#7027 by kamran-khalid-v9 was merged on Oct 29, 2025
+1
+@kamran-khalid-v9
+Hotfix/recap data error fixes 20251028 enhancement
+#7016 by kamran-khalid-v9 was merged on Oct 28, 2025
+1
+@kamran-khalid-v9
+Fixed address_line_1 enhancement
+#7014 by kamran-khalid-v9 was merged on Oct 28, 2025
+1
+@kamran-khalid-v9
+Fixed ownership enhancement
+#7013 by kamran-khalid-v9 was merged on Oct 28, 2025
+1
+@kamran-khalid-v9
+Hotfix/recap data error fixes 20251028 enhancement
+#7011 by kamran-khalid-v9 was merged on Oct 28, 2025
+1
+@kamran-khalid-v9
+Hotfix/recap data error fixes 20251028 enhancement
+#7010 by kamran-khalid-v9 was merged on Oct 28, 2025
+1
+@kamran-khalid-v9
+Hotfix/recap stg test 20251023
+#7004 by kamran-khalid-v9 was merged on Oct 28, 2025
+@kamran-khalid-v9
+Removed log
+#7001 by kamran-khalid-v9 was merged on Oct 27, 2025
+Applied partner check condition only for production enhancement
+#6999 by kamran-khalid-v9 was merged on Oct 27, 2025
+1
+@kamran-khalid-v9
+Update GetVerofyMoveFeesInvoiceController
+#6998 by kamran-khalid-v9 was merged on Oct 27, 2025
+@kamran-khalid-v9
+Update GetVerofyMoveFeesInvoiceController
+#6996 by kamran-khalid-v9 was merged on Oct 27, 2025
+@kamran-khalid-v9
+Hotfix/recap stg test 20251023 enhancement
+#6991 by kamran-khalid-v9 was merged on Oct 27, 2025
+1
+@kamran-khalid-v9
+Hotfix/recap stg test 20251023 enhancement
+#6978 by kamran-khalid-v9 was merged on Oct 23, 2025
+@kamran-khalid-v9
+6909 business hub upfront bugs enhancement
+#6913 by kamran-khalid-v9 was merged on Oct 17, 2025
+1
+@kamran-khalid-v9
+Fix/package pricing 20251016
+#6904 by kamran-khalid-v9 was merged on Oct 16, 2025
+@kamran-khalid-v9
+Fix/package pricing 20251016
+#6903 by kamran-khalid-v9 was merged on Oct 16, 2025
+@kamran-khalid-v9
+Fix/package pricing 20251016
+#6899 by kamran-khalid-v9 was merged on Oct 16, 2025
+@kamran-khalid-v9
+6885 fast payment fix partner payment issue
+#6891 by kamran-khalid-v9 was merged on Oct 16, 2025
+@kamran-khalid-v9
+6885 fast payment fix partner payment issue
+#6890 by kamran-khalid-v9 was merged on Oct 16, 2025
+@kamran-khalid-v9
+Updated Kernel
+#6889 by kamran-khalid-v9 was merged on Oct 16, 2025
+Updated CustomerStandardFeesService enhancement
+#6887 by kamran-khalid-v9 was merged on Oct 16, 2025
+1
+@kamran-khalid-v9
+Hotfix/commented recap cron jobs 20251014 enhancement
+#6862 by kamran-khalid-v9 was merged on Oct 14, 2025
+@kamran-khalid-v9
+Commented recap cron jobs enhancement
+#6861 by kamran-khalid-v9 was merged on Oct 14, 2025
+@kamran-khalid-v9
+Hotfix/package pricing 20251014
+#6856 by kamran-khalid-v9 was merged on Oct 14, 2025
+@kamran-khalid-v9
+Hotfix/package pricing 20251014
+#6855 by kamran-khalid-v9 was merged on Oct 14, 2025
+@kamran-khalid-v9
+Hotfix/package pricing 20251014 enhancement
+#6853 by kamran-khalid-v9 was merged on Oct 14, 2025
+@kamran-khalid-v9
+6844 isv update customer contract verofy cardlress
+#6852 by kamran-khalid-v9 was merged on Oct 14, 2025
+1
+@kamran-khalid-v9
+Hotfix/sftp port issue 20251013
+#6837 by kamran-khalid-v9 was merged on Oct 13, 2025
+@kamran-khalid-v9
+Updated filesystems
+#6836 by kamran-khalid-v9 was merged on Oct 13, 2025
+@kamran-khalid-v9
+Hotfix/poa update delay time 20251010
+#6825 by kamran-khalid-v9 was merged on Oct 13, 2025
+@kamran-khalid-v9
+Hotfix/poa update delay time 20251010
+#6820 by kamran-khalid-v9 was merged on Oct 10, 2025
+@kamran-khalid-v9
+6481 handle incoming offers enhancement
+#6811 by kamran-khalid-v9 was merged on Oct 30, 2025
+2
+@kamran-khalid-v9
+6795 vt pbl access before payment
+#6809 by kamran-khalid-v9 was merged on Oct 9, 2025
+@kamran-khalid-v9
+6795 vt pbl access before payment
+#6808 by kamran-khalid-v9 was merged on Oct 9, 2025
+@kamran-khalid-v9
+Updated permissions for VT + PBL access before payment
+#6806 by kamran-khalid-v9 was merged on Oct 9, 2025
+1
+@kamran-khalid-v9
+Fixed package pricing values issue enhancement
+#6804 by kamran-khalid-v9 was merged on Oct 9, 2025
+1
+@kamran-khalid-v9
+Commenting chargeback cron job
+#6798 by kamran-khalid-v9 was merged on Oct 9, 2025
+Removed default tracking if contract is not pbl
+#6790 by kamran-khalid-v9 was merged on Oct 9, 2025
+2
+@kamran-khalid-v9
+Hotfix/poa add 60 sec delay 2025108 enhancement
+#6780 by kamran-khalid-v9 was merged on Oct 8, 2025
+@kamran-khalid-v9
+Hotfix/chargeback poa customer ngtv 20251007 enhancement
+#6771 by kamran-khalid-v9 was merged on Oct 8, 2025
+@kamran-khalid-v9
+Hotfix/chargeback poa customer ngtv 20251007
+#6764 by kamran-khalid-v9 was merged on Oct 8, 2025
+Hotfix/update poa 20251002
+#6700 by kamran-khalid-v9 was merged on Oct 2, 2025
+@kamran-khalid-v9
+Removed logs
+#6699 by kamran-khalid-v9 was merged on Oct 2, 2025
+@kamran-khalid-v9
+Hotfix/update poa 20251002
+#6697 by kamran-khalid-v9 was merged on Oct 2, 2025
+WIP - 6479 generate merchant data enhancement
+#6677 by kamran-khalid-v9 was merged on Oct 7, 2025
+4
+@kamran-khalid-v9
+Removed log
+#6665 by kamran-khalid-v9 was merged on Sep 30, 2025
+@kamran-khalid-v9
+Hotfix/update poa 20250930 bug
+#6664 by kamran-khalid-v9 was merged on Sep 30, 2025
+@kamran-khalid-v9
+Added log
+#6659 by kamran-khalid-v9 was merged on Sep 30, 2025
+Updated CustomerDocumentProofOfAddressController
+#6658 by kamran-khalid-v9 was merged on Sep 30, 2025
+Update CustomerResource
+#6657 by kamran-khalid-v9 was merged on Sep 30, 2025
+Update field names
+#6652 by kamran-khalid-v9 was merged on Sep 29, 2025
+Hotfix/update boarding rules 20250926
+#6639 by kamran-khalid-v9 was merged on Sep 26, 2025
+@kamran-khalid-v9
+Hotfix/update boarding rules 20250926 enhancement
+#6638 by kamran-khalid-v9 was merged on Sep 26, 2025
+@kamran-khalid-v9
+Updated CustomerBankAccountResource
+#6629 by kamran-khalid-v9 was merged on Sep 25, 2025
+Updated Customer
+#6628 by kamran-khalid-v9 was merged on Sep 25, 2025
+@kamran-khalid-v9
+Updated CustomerDocumentProofOfAddressController
+#6626 by kamran-khalid-v9 was merged on Sep 25, 2025
+@kamran-khalid-v9
+Hotfix/poa update boarding rules 24092025
+#6614 by kamran-khalid-v9 was merged on Sep 25, 2025
+@kamran-khalid-v9
+Fixed exception
+#6604 by kamran-khalid-v9 was merged on Sep 24, 2025
+@kamran-khalid-v9
+Hotfix/poa updated customer 20250924 enhancement
+#6603 by kamran-khalid-v9 was merged on Sep 24, 2025
+@kamran-khalid-v9
+Hotfix/update uplift column properties 20250923 enhancement
+#6602 by kamran-khalid-v9 was closed on Sep 24, 2025
+@kamran-khalid-v9
+Updated CustomerDocumentProofOfAddressController enhancement
+#6598 by kamran-khalid-v9 was merged on Sep 24, 2025
+@kamran-khalid-v9
+Dev to Stg
+#6594 by kamran-khalid-v9 was merged on Sep 23, 2025
+@kamran-khalid-v9
+Hotfix/update uplift column properties 20250923 enhancement
+#6588 by kamran-khalid-v9 was merged on Sep 23, 2025
+@kamran-khalid-v9
+6554 package pricing enhancement
+#6574 by kamran-khalid-v9 was merged on Sep 29, 2025
+4
+@kamran-khalid-v9
+Updated CustomerCardRatesService
+#6563 by kamran-khalid-v9 was merged on Sep 18, 2025
+@kamran-khalid-v9
+Updated CustomerCardRatesService
+#6562 by kamran-khalid-v9 was merged on Sep 18, 2025
+@kamran-khalid-v9
+Hotfix/card rates 20250917 enhancement
+#6561 by kamran-khalid-v9 was merged on Sep 18, 2025
+1
+@kamran-khalid-v9
+Removed log
+#6560 by kamran-khalid-v9 was merged on Sep 18, 2025
+@kamran-khalid-v9
+Updated CustomerCardRatesService
+#6552 by kamran-khalid-v9 was merged on Sep 18, 2025
+@kamran-khalid-v9
+Updated UpliftProductCardRates
+#6548 by kamran-khalid-v9 was merged on Sep 17, 2025
+@kamran-khalid-v9
+Updated CustomerCardRatesService
+#6543 by kamran-khalid-v9 was merged on Sep 17, 2025
+@kamran-khalid-v9
+Updated CPDownloadInvoiceController
+#6527 by kamran-khalid-v9 was merged on Sep 16, 2025
+@kamran-khalid-v9
+Fixed collection error enhancement
+#6517 by kamran-khalid-v9 was merged on Sep 16, 2025
+@kamran-khalid-v9
+Added permission for invoice routes
+#6516 by kamran-khalid-v9 was merged on Sep 16, 2025
+@kamran-khalid-v9
+Upated CPDownloadInvoiceController
+#6515 by kamran-khalid-v9 was merged on Sep 16, 2025
+@kamran-khalid-v9
+Updated CustomerDocumentProofOfAddressController
+#6505 by kamran-khalid-v9 was merged on Sep 15, 2025
+1
+@kamran-khalid-v9
+Commented chargeback
+#6485 by kamran-khalid-v9 was merged on Sep 12, 2025
+@kamran-khalid-v9
+Created new route for customer invoices enhancement
+#6475 by kamran-khalid-v9 was merged on Sep 16, 2025
+1
+@kamran-khalid-v9
+Hotfix/poa update boarding rules 20250912
+#6472 by kamran-khalid-v9 was merged on Sep 15, 2025
+Hotfix/poa update boarding rules 20250912 enhancement
+#6471 by kamran-khalid-v9 was merged on Sep 12, 2025
+@kamran-khalid-v9
+1
+Updated the conditions
+#6462 by kamran-khalid-v9 was merged on Sep 11, 2025
+@kamran-khalid-v9
+Updated CRCardRatesPlusFeesController
+#6461 by kamran-khalid-v9 was merged on Sep 11, 2025
+@kamran-khalid-v9
+Fixed condition
+#6459 by kamran-khalid-v9 was merged on Sep 11, 2025
+Updated Customer.php
+#6457 by kamran-khalid-v9 was merged on Sep 11, 2025
+Updated CardRatesTypeModel enhancement
+#6456 by kamran-khalid-v9 was merged on Sep 11, 2025
+1
+@kamran-khalid-v9
+6448 uplift send uplift values to app enhancement
+#6449 by kamran-khalid-v9 was merged on Sep 10, 2025
+1
+@kamran-khalid-v9
+Updated the card rates enhancement
+#6447 by kamran-khalid-v9 was merged on Sep 10, 2025
+1
+@kamran-khalid-v9
+Fixed card rates issue enhancement
+#6441 by kamran-khalid-v9 was merged on Sep 10, 2025
+1
+@kamran-khalid-v9
+Hotfix/update site visit logic 20250910 enhancement
+#6440 by kamran-khalid-v9 was merged on Sep 10, 2025
+@kamran-khalid-v9
+Hotfix/update site visit logic 20250910 enhancement
+#6439 by kamran-khalid-v9 was merged on Sep 10, 2025
+@kamran-khalid-v9
+Updated PPToggleSellerDefaultPricingModelController enhancement
+#6434 by kamran-khalid-v9 was merged on Sep 9, 2025
+1
+@kamran-khalid-v9
+6386 blended blended rates are only for move and paylinks
+#6433 by kamran-khalid-v9 was merged on Sep 9, 2025
+1
+@kamran-khalid-v9
+Hotfix/dispatch terminal data query 20250909 enhancement
+#6423 by kamran-khalid-v9 was merged on Sep 9, 2025
+@kamran-khalid-v9
+6371 poa fix messageing event short code issu enhancement
+#6419 by kamran-khalid-v9 was merged on Sep 9, 2025
+1
+@kamran-khalid-v9
+6371 poa fix messageing event short code issu enhancement
+#6407 by kamran-khalid-v9 was merged on Sep 9, 2025
+1
+@kamran-khalid-v9
+6386 blended blended rates are only for move and paylinks enhancement
+#6387 by kamran-khalid-v9 was merged on Sep 8, 2025
+1
+@kamran-khalid-v9
+Updated partner messaging event enhancement
+#6384 by kamran-khalid-v9 was merged on Sep 8, 2025
+1
+@kamran-khalid-v9
+6371 poa fix messageing event short code issu enhancement
+#6383 by kamran-khalid-v9 was merged on Sep 8, 2025
+1
+@kamran-khalid-v9
+Update app flag for has_proof_of_trading_address enhancement
+#6382 by kamran-khalid-v9 was merged on Sep 8, 2025
+1
+@kamran-khalid-v9
+Updated UpdateCustomerRegistrationApplicationTrait enhancement
+#6379 by kamran-khalid-v9 was merged on Sep 8, 2025
+1
+@kamran-khalid-v9
+poa - partner messaging event enhancement
+#6377 by kamran-khalid-v9 was merged on Sep 8, 2025
+1
+@kamran-khalid-v9
+6371 poa fix messageing event short code issu enhancement
+#6376 by kamran-khalid-v9 was merged on Sep 8, 2025
+1
+@kamran-khalid-v9
+6371 poa fix messageing event short code issu enhancement
+#6375 by kamran-khalid-v9 was merged on Sep 8, 2025
+1
+@kamran-khalid-v9
+6371 poa fix messageing event short code issu
+#6372 by kamran-khalid-v9 was merged on Sep 8, 2025
+1
+@kamran-khalid-v9
+Updated Kernel enhancement
+#6366 by kamran-khalid-v9 was merged on Sep 5, 2025
+@kamran-khalid-v9
+6362 blended default values enhancement
+#6365 by kamran-khalid-v9 was merged on Sep 5, 2025
+1
+@kamran-khalid-v9
+Dev to Stg
+#6364 by kamran-khalid-v9 was merged on Sep 5, 2025
+@kamran-khalid-v9
+Dev to Stag
+#6363 by kamran-khalid-v9 was closed on Sep 5, 2025
+@kamran-khalid-v9
+Poa/update customer registration 20250905 enhancement
+#6360 by kamran-khalid-v9 was merged on Sep 5, 2025
+@kamran-khalid-v9
+Update vTiger sync cron job enhancement
+#6359 by kamran-khalid-v9 was merged on Sep 5, 2025
+@kamran-khalid-v9
+Hotfix/vtiger sync 20250904
+#6357 by kamran-khalid-v9 was merged on Sep 4, 2025
+@kamran-khalid-v9
+Hotfix/vtiger sync 20250904 enhancement
+#6356 by kamran-khalid-v9 was merged on Sep 4, 2025
+@kamran-khalid-v9
+Added pricing model codes enhancement
+#6349 by kamran-khalid-v9 was merged on Sep 4, 2025
+1
+@kamran-khalid-v9
+Fixed uplift value issue enhancement
+#6346 by kamran-khalid-v9 was merged on Sep 4, 2025
+1
+@kamran-khalid-v9
+6335 uplift update logic
+#6336 by kamran-khalid-v9 was merged on Sep 4, 2025
+1
+@kamran-khalid-v9
+Updated PPToggleExposePricingModelController to accept multiple templ… enhancement
+#6331 by kamran-khalid-v9 was merged on Sep 3, 2025
+1
+@kamran-khalid-v9
+Ordersapi linked verofy connect id 20250903 enhancement
+#6329 by kamran-khalid-v9 was merged on Sep 3, 2025
+Ordersapi linked verofy connect id 20250903 enhancement
+#6328 by kamran-khalid-v9 was merged on Sep 3, 2025
+@kamran-khalid-v9
+Added log to check verofy secret key
+#6320 by kamran-khalid-v9 was merged on Sep 3, 2025
+@kamran-khalid-v9
+Updated cron job
+#6316 by kamran-khalid-v9 was merged on Sep 3, 2025
+@kamran-khalid-v9
+Hotfix/updated securnity check poa 20250903
+#6306 by kamran-khalid-v9 was merged on Sep 2, 2025
+@kamran-khalid-v9
+Updated POAWebhookController enhancement
+#6305 by kamran-khalid-v9 was merged on Sep 2, 2025
+@kamran-khalid-v9
+Hotfix/update ids for chargeback to vtiger 20250902 enhancement
+#6303 by kamran-khalid-v9 was merged on Sep 2, 2025
+@kamran-khalid-v9
+Updated VerofyToVtigerService
+#6302 by kamran-khalid-v9 was merged on Sep 2, 2025
+@kamran-khalid-v9
+Updated APTogglePricingModelController
+#6297 by kamran-khalid-v9 was merged on Sep 2, 2025
+@kamran-khalid-v9
+Updated the cron job
+#6293 by kamran-khalid-v9 was merged on Sep 2, 2025
+@kamran-khalid-v9
+Assign multiple templates enhancement
+#6292 by kamran-khalid-v9 was merged on Sep 2, 2025
+@kamran-khalid-v9
+Added another log
+#6276 by kamran-khalid-v9 was merged on Sep 2, 2025
+@kamran-khalid-v9
+Updated time and added log enhancement
+#6275 by kamran-khalid-v9 was merged on Sep 2, 2025
+@kamran-khalid-v9
+Hotfix/orders api update 20250901 enhancement
+#6262 by kamran-khalid-v9 was merged on Sep 1, 2025
+@kamran-khalid-v9
+Updated order api, linked with customer uuid as verofy connect id enhancement
+#6261 by kamran-khalid-v9 was merged on Sep 1, 2025
+@kamran-khalid-v9
+Enabled chargeback cron job enhancement
+#6260 by kamran-khalid-v9 was merged on Sep 1, 2025
+@kamran-khalid-v9
+Hotfix/update chargeback for v tiger 20250901 enhancement
+#6259 by kamran-khalid-v9 was merged on Sep 1, 2025
+@kamran-khalid-v9
+Added chargeback_evidence_review_deadline and `chargeback_final_dea… enhancement
+#6258 by kamran-khalid-v9 was merged on Sep 1, 2025
+@kamran-khalid-v9
+Added log to check card rates
+#6204 by kamran-khalid-v9 was merged on Aug 28, 2025
+@kamran-khalid-v9
+6112 deductions pbl enhancement
+#6198 by kamran-khalid-v9 was merged on Sep 15, 2025
+5
+@kamran-khalid-v9
+Hotfix/log vtiger chase sms 20250826 enhancement
+#6195 by kamran-khalid-v9 was merged on Aug 27, 2025
+@kamran-khalid-v9
+Removed log from vTiger sms tracing enhancement
+#6194 by kamran-khalid-v9 was merged on Aug 27, 2025
+@kamran-khalid-v9
+Updated enum values enhancement
+#6193 by kamran-khalid-v9 was merged on Aug 27, 2025
+1
+@kamran-khalid-v9
+Updated vTiger chase sms service
+#6192 by kamran-khalid-v9 was merged on Aug 27, 2025
+@kamran-khalid-v9
+Updated customer chagnes enhancement
+#6188 by kamran-khalid-v9 was merged on Aug 26, 2025
+1
+@kamran-khalid-v9
+Hotfix/log vtiger chase sms 20250826
+#6187 by kamran-khalid-v9 was merged on Aug 26, 2025
+@kamran-khalid-v9
+Added customer primary contact name and update sms message
+#6186 by kamran-khalid-v9 was merged on Aug 26, 2025
+@kamran-khalid-v9
+Update my log with request array
+#6185 by kamran-khalid-v9 was merged on Aug 26, 2025
+@kamran-khalid-v9
+Implemented log to chase sms data
+#6184 by kamran-khalid-v9 was merged on Aug 26, 2025
+@kamran-khalid-v9
+6139 enum account activity statement enhancement
+#6181 by kamran-khalid-v9 was merged on Aug 26, 2025
+1
+@kamran-khalid-v9
+Hotfix/log poa web hook request 20250821 enhancement
+#6164 by kamran-khalid-v9 was merged on Aug 21, 2025
+@kamran-khalid-v9
+Hotfix/log poa web hook request 20250821
+#6162 by kamran-khalid-v9 was merged on Aug 21, 2025
+@kamran-khalid-v9
+1
+Added log to track request data
+#6161 by kamran-khalid-v9 was merged on Aug 21, 2025
+@kamran-khalid-v9
+Dev to Stag
+#6138 by kamran-khalid-v9 was merged on Aug 18, 2025
+6132 verofy finance stuck enhancement
+#6136 by kamran-khalid-v9 was merged on Aug 18, 2025
+1
+@kamran-khalid-v9
+6115 app values incorrect
+#6125 by kamran-khalid-v9 was merged on Aug 15, 2025
+@kamran-khalid-v9
+6115 app values incorrect
+#6120 by kamran-khalid-v9 was merged on Aug 15, 2025
+1
+@kamran-khalid-v9
+6085 isv monthly fix cardless tid issue
+#6104 by kamran-khalid-v9 was merged on Aug 14, 2025
+1
+@kamran-khalid-v9
+6085 isv monthly fix cardless tid issue enhancement
+#6097 by kamran-khalid-v9 was merged on Aug 13, 2025
+1
+@kamran-khalid-v9
+Add assign Tix for monthly verofy cardless payment method enhancement
+#6095 by kamran-khalid-v9 was merged on Aug 13, 2025
+1
+@kamran-khalid-v9
+6039 fix tenancy fee import template enhancement
+#6081 by kamran-khalid-v9 was merged on Aug 13, 2025
+1
+@kamran-khalid-v9
+Don't send default tracking if contract isn't PBL enhancement
+#6067 by kamran-khalid-v9 was merged on Aug 12, 2025
+2
+@kamran-khalid-v9
+Hotfix/create service logistics order exception enhancement
+#6027 by kamran-khalid-v9 was merged on Aug 6, 2025
+1
+@kamran-khalid-v9
+Fixed Create Service Logistics order exception enhancement
+#6026 by kamran-khalid-v9 was merged on Aug 6, 2025
+1
+@kamran-khalid-v9
+Fixed boarding rule exception
+#6023 by kamran-khalid-v9 was merged on Aug 5, 2025
+@kamran-khalid-v9
+Send default tracking steps enhancement
+#5997 by kamran-khalid-v9 was merged on Aug 6, 2025
+4
+@kamran-khalid-v9
+Skip finance agreement incase of upfront contracts. enhancement
+#5994 by kamran-khalid-v9 was merged on Aug 4, 2025
+1
+@kamran-khalid-v9
+Hotfix/partner tracking details fix 20250730 enhancement
+#5978 by kamran-khalid-v9 was merged on Jul 31, 2025
+2
+@kamran-khalid-v9
+Fixed partner permissions and tracking details
+#5975 by kamran-khalid-v9 was merged on Jul 30, 2025
+@kamran-khalid-v9
+Updated VerofyToVtigerService enhancement
+#5965 by kamran-khalid-v9 was merged on Jul 28, 2025
+@kamran-khalid-v9
+Hotfix/pbl bug fixes 20250725 enhancement
+#5954 by kamran-khalid-v9 was merged on Jul 30, 2025
+7 tasks done
+1
+@kamran-khalid-v9
+Hotfix/arrears fix fields data 20250724 enhancement
+#5950 by kamran-khalid-v9 was merged on Jul 25, 2025
+1
+@kamran-khalid-v9
+Updated bambora sub merchant fetch mechanism enhancement
+#5946 by kamran-khalid-v9 was merged on Jul 24, 2025
+1
+@kamran-khalid-v9
+Updated VerofyToVtigerService enhancement
+#5944 by kamran-khalid-v9 was merged on Jul 24, 2025
+@kamran-khalid-v9
+Updated VerofyToVtigerService
+#5939 by kamran-khalid-v9 was merged on Jul 23, 2025
+5933 arrears enhancement
+#5938 by kamran-khalid-v9 was merged on Jul 23, 2025
+1
+@kamran-khalid-v9
+Poa app api changes 2 20250723
+#5935 by kamran-khalid-v9 was merged on Jul 23, 2025
+@kamran-khalid-v9
+Poa app api changes 20250723 enhancement
+#5934 by kamran-khalid-v9 was merged on Jul 23, 2025
+@kamran-khalid-v9
+Commented PBL link for SL report enhancement
+#5932 by kamran-khalid-v9 was merged on Jul 22, 2025
+@kamran-khalid-v9
+5905 poa implement new enpoint in partner portal enhancement
+#5923 by kamran-khalid-v9 was merged on Jul 21, 2025
+1
+@kamran-khalid-v9
+Log the PBL creation in the tracing service enhancement
+#5907 by kamran-khalid-v9 was merged on Jul 21, 2025
+1
+@kamran-khalid-v9
+PBL update currency symbol
+#5901 by kamran-khalid-v9 was merged on Jul 18, 2025
+1
+@kamran-khalid-v9
+Updated VerofyToVtigerService
+#5896 by kamran-khalid-v9 was merged on Jul 16, 2025
+1
+@kamran-khalid-v9
+Updated customer application query enhancement
+#5894 by kamran-khalid-v9 was merged on Jul 16, 2025
+1
+@kamran-khalid-v9
+If pbl is not generated return empty tracking enhancement
+#5871 by kamran-khalid-v9 was merged on Jul 15, 2025
+@kamran-khalid-v9
+Updated CustomerPoaDocUploadController enhancement
+#5869 by kamran-khalid-v9 was merged on Jul 15, 2025
+1
+@kamran-khalid-v9
+5866 removed additional kyc enhancement
+#5868 by kamran-khalid-v9 was merged on Jul 15, 2025
+1
+@kamran-khalid-v9
+5856 poa separate upload doc functionality
+#5864 by kamran-khalid-v9 was merged on Jul 14, 2025
+1
+@kamran-khalid-v9
+5848 short code change vat enhancement
+#5863 by kamran-khalid-v9 was merged on Jul 14, 2025
+1
+@kamran-khalid-v9
+stg hotfix: 5848 short code change vat enhancement
+#5862 by kamran-khalid-v9 was merged on Jul 14, 2025
+1
+@kamran-khalid-v9
+5848 short code change vat enhancement
+#5849 by kamran-khalid-v9 was merged on Jul 14, 2025
+1
+@kamran-khalid-v9
+5824 proof of address message events enhancement
+#5847 by kamran-khalid-v9 was merged on Aug 18, 2025
+7
+@kamran-khalid-v9
+Updated ListPartnerCustomerTransactionController enhancement
+#5830 by kamran-khalid-v9 was merged on Jul 8, 2025
+1
+@kamran-khalid-v9
+Allowed app to upload proof of address doc 2
+#5825 by kamran-khalid-v9 was merged on Jul 8, 2025
+1
+@kamran-khalid-v9
+Updated commercial setup type
+#5732 by kamran-khalid-v9 was merged on Jun 19, 2025
+@kamran-khalid-v9
+Dev to Stag
+enhancement
+#5731 by kamran-khalid-v9 was merged on Jun 19, 2025
+@kamran-khalid-v9
+5719 message events verofy products
+#5730 by kamran-khalid-v9 was merged on Jun 19, 2025
+1
+@kamran-khalid-v9
+Implemented vat on the bases of partner vat flag enhancement
+#5725 by kamran-khalid-v9 was merged on Jun 19, 2025
+1
+@kamran-khalid-v9
+Add new flag is_partner_vat_registered enhancement
+#5713 by kamran-khalid-v9 was merged on Jun 18, 2025
+1
+@kamran-khalid-v9
+If pos provider id then we need to send false for has_standard_pricin… enhancement
+#5711 by kamran-khalid-v9 was merged on Jun 18, 2025
+1
+@kamran-khalid-v9
+5707 messaging service fill missing paraemeters for isv partners messaging events enhancement
+#5708 by kamran-khalid-v9 was merged on Jun 18, 2025
+1
+@kamran-khalid-v9
+5693 add seller name in tracking message enhancement
+#5694 by kamran-khalid-v9 was merged on Jun 18, 2025
+1
+@kamran-khalid-v9
+Commenting all SL messaging events enhancement
+#5692 by kamran-khalid-v9 was merged on Jun 18, 2025
+@kamran-khalid-v9
+Dev to Stg
+enhancement
+#5691 by kamran-khalid-v9 was merged on Jun 17, 2025
+@kamran-khalid-v9
+5689 manual payment change process enhancement
+#5690 by kamran-khalid-v9 was merged on Jun 17, 2025
+1
+@kamran-khalid-v9
+Dev to Staging
+#5680 by kamran-khalid-v9 was merged on Jun 17, 2025
+@kamran-khalid-v9
+5673 enhance contract payment processing logic based on payment method rules enhancement
+#5679 by kamran-khalid-v9 was merged on Jun 16, 2025
+2
+@kamran-khalid-v9
+Updated ISVPOSCustomersController enhancement
+#5678 by kamran-khalid-v9 was merged on Jun 16, 2025
+@kamran-khalid-v9
+Fixed DB messaging events enhancement
+#5666 by kamran-khalid-v9 was merged on Jun 13, 2025
+@kamran-khalid-v9
+Fixed direct debit messaging events enhancement
+#5664 by kamran-khalid-v9 was merged on Jun 13, 2025
+@kamran-khalid-v9
+Dev to Stage
+enhancement
+#5663 by kamran-khalid-v9 was merged on Jun 13, 2025
+@kamran-khalid-v9
+Fixed messaging event enhancement
+#5662 by kamran-khalid-v9 was merged on Jun 13, 2025
+@kamran-khalid-v9
+Hotfix/add new status dissolved 2 20250612 enhancement
+#5661 by kamran-khalid-v9 was merged on Jun 16, 2025
+1
+@kamran-khalid-v9
+Hotfix/add new status dissolved 1 20250612 enhancement
+#5660 by kamran-khalid-v9 was merged on Jun 12, 2025
+1
+@kamran-khalid-v9
+Hotfix/add new status dissolved 1 20250612 enhancement
+#5659 by kamran-khalid-v9 was closed on Jun 12, 2025
+• Draft
+1
+@kamran-khalid-v9
+5651 new email for daily go cardless enhancement
+#5654 by kamran-khalid-v9 was merged on Jun 13, 2025
+1
+@kamran-khalid-v9
+Removed signed at condition and bring all customer contracts
+#5650 by kamran-khalid-v9 was merged on Jun 11, 2025
+Removed signed at condition and bring all customer contracts
+#5649 by kamran-khalid-v9 was merged on Jun 11, 2025
+@kamran-khalid-v9
+Fix/over all status exception 20250611 enhancement
+#5648 by kamran-khalid-v9 was merged on Jun 11, 2025
+@kamran-khalid-v9
+Fixed overall status exception enhancement
+#5647 by kamran-khalid-v9 was merged on Jun 11, 2025
+@kamran-khalid-v9
+Updaed customer model enhancement
+#5641 by kamran-khalid-v9 was merged on Jun 11, 2025
+@kamran-khalid-v9
+Payment confirmation page filters 20250611 enhancement
+#5639 by kamran-khalid-v9 was merged on Jun 11, 2025
+@kamran-khalid-v9
+Updated POSBankTransferService
+#5636 by kamran-khalid-v9 was merged on Jun 10, 2025
+@kamran-khalid-v9
+Link debit card condtion only for ISV enhancement
+#5635 by kamran-khalid-v9 was merged on Jun 10, 2025
+@kamran-khalid-v9
+Updated POSVerofyCardlessService enhancement
+#5631 by kamran-khalid-v9 was merged on Jun 10, 2025
+1
+@kamran-khalid-v9
+Updated POSVerofyCardlessService enhancement
+#5625 by kamran-khalid-v9 was merged on Jun 10, 2025
+1
+@kamran-khalid-v9
+5613 services agreement enhancement
+#5614 by kamran-khalid-v9 was merged on Jun 10, 2025
+1
+@kamran-khalid-v9
+Updated label enhancement
+#5603 by kamran-khalid-v9 was merged on Jun 9, 2025
+1
+@kamran-khalid-v9
+Fixed messaging event
+#5592 by kamran-khalid-v9 was merged on Jun 6, 2025
+1
+@kamran-khalid-v9
+Fixed messaging event enhancement
+#5591 by kamran-khalid-v9 was merged on Jun 6, 2025
+1
+@kamran-khalid-v9
+Send partner packages enhancement
+#5589 by kamran-khalid-v9 was merged on Jun 6, 2025
+1
+@kamran-khalid-v9
+1
+5531 application audit log enhancement
+#5570 by kamran-khalid-v9 was merged on Jun 10, 2025
+2
+@kamran-khalid-v9
+Hotfix/verofy finace messaging events 20250604 enhancement
+#5568 by kamran-khalid-v9 was merged on Jun 4, 2025
+1
+@kamran-khalid-v9
+Hotfix/verofy finace messaging events 20250604 enhancement
+#5566 by kamran-khalid-v9 was merged on Jun 4, 2025
+1
+@kamran-khalid-v9
+Hotfix/merge verofy cardless and verofy finance 20250604 enhancement
+#5561 by kamran-khalid-v9 was merged on Jun 4, 2025
+1
+@kamran-khalid-v9
+Hotfix/merge verofy cardless and verofy finance 20250604 enhancement
+#5559 by kamran-khalid-v9 was merged on Jun 4, 2025
+1
+@kamran-khalid-v9
+Added customer awiating payment count in response enhancement
+#5551 by kamran-khalid-v9 was merged on Jun 3, 2025
+@kamran-khalid-v9
+Fix/update on going contract lenght value 2025063 enhancement
+#5550 by kamran-khalid-v9 was merged on Jun 3, 2025
+@kamran-khalid-v9
+Hotfix/update verofy finance package cost 20250603 enhancement
+#5543 by kamran-khalid-v9 was merged on Jun 3, 2025
+@kamran-khalid-v9
+Updated customer model for Verofy finance package following cost enhancement
+#5542 by kamran-khalid-v9 was merged on Jun 3, 2025
+@kamran-khalid-v9
+Updated resournce to remove extra spaces enhancement
+#5538 by kamran-khalid-v9 was merged on Jun 3, 2025
+1
+@kamran-khalid-v9
+Updated verofy finace enhancement
+#5530 by kamran-khalid-v9 was merged on Jun 2, 2025
+@kamran-khalid-v9
+Hotfix/update customer model 20250602
+#5529 by kamran-khalid-v9 was merged on Jun 2, 2025
+Allowed upfront + verofy finance enhancement
+#5528 by kamran-khalid-v9 was merged on Jun 2, 2025
+@kamran-khalid-v9
+Updated PosMonthlyPaymentType enhancement
+#5527 by kamran-khalid-v9 was merged on Jun 2, 2025
+@kamran-khalid-v9
+Updated PosPackageTypeDaily enhancement
+#5525 by kamran-khalid-v9 was merged on Jun 2, 2025
+@kamran-khalid-v9
+Hotfix/format messaging events 20250530 enhancement
+#5513 by kamran-khalid-v9 was merged on May 30, 2025
+@kamran-khalid-v9
+Hotfix/format messaging events 20250530
+#5512 by kamran-khalid-v9 was merged on May 30, 2025
+@kamran-khalid-v9
+Extended pbl expiry link enhancement
+#5505 by kamran-khalid-v9 was merged on May 30, 2025
+@kamran-khalid-v9
+Merge pull request #5503 from Verofy/hotfix/update-column-to-nullable… bug
+#5504 by kamran-khalid-v9 was merged on May 30, 2025
+@kamran-khalid-v9
+Updated column to nullable
+#5503 by kamran-khalid-v9 was merged on May 30, 2025
+@kamran-khalid-v9
+Update labels and hide link send status
+#5502 by kamran-khalid-v9 was merged on Jun 2, 2025
+1
+@kamran-khalid-v9
+Added daily_collection in response
+#5501 by kamran-khalid-v9 was merged on May 30, 2025
+@kamran-khalid-v9
+5495 update the pdf based on collection type from monthly to daily enhancement
+#5499 by kamran-khalid-v9 was merged on May 30, 2025
+1
+@kamran-khalid-v9
+Removed product code and fee enhancement
+#5487 by kamran-khalid-v9 was merged on May 29, 2025
+1
+@kamran-khalid-v9
+Removed product code and product fee enhancement
+#5486 by kamran-khalid-v9 was merged on May 29, 2025
+1
+@kamran-khalid-v9
+format currency amount
+#5485 by kamran-khalid-v9 was merged on May 29, 2025
+1
+@kamran-khalid-v9
+Removed code and price enhancement
+#5483 by kamran-khalid-v9 was merged on May 29, 2025
+1
+@kamran-khalid-v9
+Added product list to ISV_UPFRONT_CARD_PAYMENT_CUSTOMER_ACQUIRED enhancement
+#5482 by kamran-khalid-v9 was merged on May 29, 2025
+1
+@kamran-khalid-v9
+Display product list enhancement
+#5481 by kamran-khalid-v9 was merged on May 29, 2025
+1
+@kamran-khalid-v9
+5477 message events enhancement
+#5479 by kamran-khalid-v9 was merged on May 29, 2025
+1
+@kamran-khalid-v9
+5474 add flag from vtiger for dailymonthly collection send this flag to front end enhancement
+#5475 by kamran-khalid-v9 was merged on May 29, 2025
+1
+@kamran-khalid-v9
+Hotfix/update customer payment settings 28052025
+#5469 by kamran-khalid-v9 was merged on May 28, 2025
+@kamran-khalid-v9
+Hotfix/update customer payment settings 28052025 enhancement
+#5465 by kamran-khalid-v9 was merged on May 28, 2025
+@kamran-khalid-v9
+5459 message updates enhancement
+#5462 by kamran-khalid-v9 was merged on May 28, 2025
+1
+@kamran-khalid-v9
+5442 message event pbl to isv enhancement
+#5453 by kamran-khalid-v9 was merged on May 27, 2025
+1
+@kamran-khalid-v9
+Updated UpfrontCustomerPblConfirmationEvent enhancement
+#5451 by kamran-khalid-v9 was merged on May 27, 2025
+1
+@kamran-khalid-v9
+Updated order
+#5439 by kamran-khalid-v9 was merged on May 23, 2025
+1
+@kamran-khalid-v9
+Added verofy_finance_daily_cost enhancement
+#5438 by kamran-khalid-v9 was merged on May 23, 2025
+1
+@kamran-khalid-v9
+Update contract for dialy cost
+#5437 by kamran-khalid-v9 was merged on May 23, 2025
+1
+Added new package_daily_cost column enhancement
+#5436 by kamran-khalid-v9 was merged on May 23, 2025
+1
+@kamran-khalid-v9
+Hotfix/moved pbl messaging event 20250523
+#5434 by kamran-khalid-v9 was merged on May 23, 2025
+@kamran-khalid-v9
+moved messaging event
+#5433 by kamran-khalid-v9 was merged on May 23, 2025
+Removed customer id
+#5419 by kamran-khalid-v9 was merged on May 23, 2025
+@kamran-khalid-v9
+Hotfix/pbl email not rec 20250522
+#5418 by kamran-khalid-v9 was merged on May 23, 2025
+@kamran-khalid-v9
+Fixed pbl messaging event issue
+#5417 by kamran-khalid-v9 was merged on May 23, 2025
+@kamran-khalid-v9
+Fixed payment iq request id issue
+#5410 by kamran-khalid-v9 was merged on May 22, 2025
+1
+@kamran-khalid-v9
+Fixed http request issue
+#5407 by kamran-khalid-v9 was merged on May 22, 2025
+1
+Fixe seller name issue
+#5406 by kamran-khalid-v9 was merged on May 22, 2025
+1
+@kamran-khalid-v9
+Hotfix/pbl email not rec 20250522
+#5405 by kamran-khalid-v9 was merged on May 22, 2025
+1
+@kamran-khalid-v9
+Fixed manual pbl generation enhancement
+#5399 by kamran-khalid-v9 was merged on May 22, 2025
+@kamran-khalid-v9
+Updated IsvCustomerMonthlyFeeCollectionTrait for daily package enhancement
+#5397 by kamran-khalid-v9 was closed on Jun 17, 2025
+• Draft
+1
+@kamran-khalid-v9
+1688 new payment method enhancement
+#5395 by kamran-khalid-v9 was merged on May 22, 2025
+@kamran-khalid-v9
+Updated labels enhancement
+#5387 by kamran-khalid-v9 was merged on May 22, 2025
+1
+@kamran-khalid-v9
+5195 isv merchants services agreement 2 enhancement
+#5377 by kamran-khalid-v9 was merged on May 22, 2025
+1
+@kamran-khalid-v9
+5195 isv merchants services agreement enhancement
+#5376 by kamran-khalid-v9 was merged on May 21, 2025
+3
+@kamran-khalid-v9
+Updated PPShowCustomerApplicationTrackerController enhancement
+#5359 by kamran-khalid-v9 was merged on May 21, 2025
+1
+@kamran-khalid-v9
+5346 send notification to seller and admin enhancement
+#5356 by kamran-khalid-v9 was merged on May 20, 2025
+1
+@kamran-khalid-v9
+Fixed count issue
+#5344 by kamran-khalid-v9 was merged on May 19, 2025
+1
+@kamran-khalid-v9
+5319 pbl new event enhancement
+#5342 by kamran-khalid-v9 was merged on May 20, 2025
+3
+@kamran-khalid-v9
+Isv package price vtiger link 20250519 enhancement
+#5334 by kamran-khalid-v9 was merged on May 19, 2025
+@kamran-khalid-v9
+Created relationship for partner enhancement
+#5331 by kamran-khalid-v9 was merged on May 19, 2025
+@kamran-khalid-v9
+5312 daily collection send data to sattlement service enhancement
+#5314 by kamran-khalid-v9 was merged on May 16, 2025
+2
+@kamran-khalid-v9
+5283 verofy finance new option enhancement
+#5308 by kamran-khalid-v9 was merged on May 16, 2025
+1
+@kamran-khalid-v9
+5198 pricing template for isv verofy move 20250513 enhancement
+#5280 by kamran-khalid-v9 was merged on May 19, 2025
+9
+@kamran-khalid-v9
+Updated labels enhancement
+#5268 by kamran-khalid-v9 was merged on May 13, 2025
+1
+@kamran-khalid-v9
+Hotfix/update query pos permissions 20250513 enhancement
+#5264 by kamran-khalid-v9 was merged on May 13, 2025
+@kamran-khalid-v9
+Registerd cutomer for partner loyalty program enhancement
+#5259 by kamran-khalid-v9 was merged on May 13, 2025
+1
+@kamran-khalid-v9
+5243 new commercial type option enhancement
+#5251 by kamran-khalid-v9 was merged on May 13, 2025
+1
+@kamran-khalid-v9
+Added description type for External Finance and Upfront Cost + Extern… enhancement
+#5245 by kamran-khalid-v9 was merged on May 12, 2025
+1
+@kamran-khalid-v9
+Updated PosPaymentType enhancement
+#5241 by kamran-khalid-v9 was merged on May 12, 2025
+@kamran-khalid-v9
+5227 update package types enhancement
+#5236 by kamran-khalid-v9 was merged on May 12, 2025
+1
+@kamran-khalid-v9
+Updated PosPackageType names enhancement
+#5230 by kamran-khalid-v9 was merged on May 12, 2025
+1
+@kamran-khalid-v9
+Added partner name enhancement
+#5213 by kamran-khalid-v9 was merged on May 9, 2025
+Added check to skip if we don't have ISV products enhancement
+#5210 by kamran-khalid-v9 was merged on May 9, 2025
+1
+@kamran-khalid-v9
+Added isv product flag
+#5209 by kamran-khalid-v9 was merged on May 9, 2025
+@kamran-khalid-v9
+5168 payment methods vtiger enhancement
+#5208 by kamran-khalid-v9 was merged on May 12, 2025
+1
+@kamran-khalid-v9
+updated the monthly payment key enhancement
+#5203 by kamran-khalid-v9 was merged on May 8, 2025
+1
+@kamran-khalid-v9
+Updated monthly payment methods enhancement
+#5201 by kamran-khalid-v9 was merged on May 8, 2025
+@kamran-khalid-v9
+Updated monthly payment methods
+#5200 by kamran-khalid-v9 was merged on May 8, 2025
+@kamran-khalid-v9
+used uuid to fetch customer details enhancement
+#5196 by kamran-khalid-v9 was merged on May 8, 2025
+@kamran-khalid-v9
+Fixed data format bug enhancement
+#5193 by kamran-khalid-v9 was merged on May 7, 2025
+1
+@kamran-khalid-v9
+Updated price enhancement
+#5187 by kamran-khalid-v9 was merged on May 7, 2025
+@kamran-khalid-v9
+5180 sandbox orders api enhancement
+#5182 by kamran-khalid-v9 was merged on May 7, 2025
+2
+@kamran-khalid-v9
+Verofy Cardless | update ISV messaging event
+#5178 by kamran-khalid-v9 was merged on May 6, 2025
+1
+@kamran-khalid-v9
+5167 update payment methods enhancement
+#5176 by kamran-khalid-v9 was merged on May 7, 2025
+1
+@kamran-khalid-v9
+5161 orders api update services enhancement
+#5170 by kamran-khalid-v9 was closed on May 2, 2025
+1
+@kamran-khalid-v9
+Updated package and service_codes section enhancement
+#5162 by kamran-khalid-v9 was merged on May 1, 2025
+1
+@kamran-khalid-v9
+Skip POS customer from seller customer mind approved message event enhancement
+#5160 by kamran-khalid-v9 was merged on May 1, 2025
+1
+@kamran-khalid-v9
+5157 bespoke allow partner to select products enhancement
+#5158 by kamran-khalid-v9 was merged on May 1, 2025
+1
+@kamran-khalid-v9
+Fix seller exception enhancement
+#5153 by kamran-khalid-v9 was merged on Apr 30, 2025
+@kamran-khalid-v9
+Update orders API enhancement
+#5147 by kamran-khalid-v9 was merged on Apr 29, 2025
+@kamran-khalid-v9
+Add verofy product codes enhancement
+#5145 by kamran-khalid-v9 was merged on Apr 30, 2025
+1
+@kamran-khalid-v9
+Implemented verofy products code for orders api enhancement
+#5142 by kamran-khalid-v9 was merged on Apr 29, 2025
+1
+@kamran-khalid-v9
+5135 order api implement authentication enhancement
+#5136 by kamran-khalid-v9 was merged on Apr 29, 2025
+1
+@kamran-khalid-v9
+Updated logic enhancement
+#5134 by kamran-khalid-v9 was merged on Apr 28, 2025
+@kamran-khalid-v9
+5125 bespoke allow partner to update card rates enhancement
+#5132 by kamran-khalid-v9 was merged on Apr 28, 2025
+1
+@kamran-khalid-v9
+5111 messaging event finace customer acquiring enhancement
+#5117 by kamran-khalid-v9 was merged on Apr 25, 2025
+2
+@kamran-khalid-v9
+Hotfix/customer tracking 20250424
+#5116 by kamran-khalid-v9 was merged on Apr 25, 2025
+5098 bank transfer chase isv enhancement
+#5109 by kamran-khalid-v9 was merged on Apr 25, 2025
+1
+@kamran-khalid-v9
+Fixed payment iq request tracking issue enhancement
+#5101 by kamran-khalid-v9 was merged on Apr 25, 2025
+@kamran-khalid-v9
+Commented tracking part bug
+#5099 by kamran-khalid-v9 was merged on Apr 24, 2025
+@kamran-khalid-v9
+Hotfix/update total verofy prodcuts cost method 20250424
+#5092 by kamran-khalid-v9 was merged on Apr 24, 2025
+@kamran-khalid-v9
+Update the query to bring non paid customers enhancement
+#5091 by kamran-khalid-v9 was merged on Apr 24, 2025
+@kamran-khalid-v9
+Hotfix/update total verofy prodcuts cost method 20250424 enhancement
+#5087 by kamran-khalid-v9 was merged on Apr 24, 2025
+@kamran-khalid-v9
+5011 actions tracking enhancement
+#5081 by kamran-khalid-v9 was merged on Apr 24, 2025
+1
+@kamran-khalid-v9
+5079 chase daily event go card less enhancement
+#5080 by kamran-khalid-v9 was merged on Apr 24, 2025
+1
+@kamran-khalid-v9
+Updated the customer query for monthly verofy cardless enhancement
+#5072 by kamran-khalid-v9 was merged on Apr 23, 2025
+1
+@kamran-khalid-v9
+5034 paylinks status enhancement
+#5069 by kamran-khalid-v9 was merged on Apr 23, 2025
+1
+@kamran-khalid-v9
+Skipped monthly payment VEROFY_CARDLESS records enhancement
+#5058 by kamran-khalid-v9 was merged on Apr 23, 2025
+1
+@kamran-khalid-v9
+5050 chase isv enhancement
+#5055 by kamran-khalid-v9 was merged on Apr 23, 2025
+1
+@kamran-khalid-v9
+5032 message events card payment enhancement
+#5051 by kamran-khalid-v9 was merged on Apr 22, 2025
+1
+@kamran-khalid-v9
+4986 bank transfer mesage events enhancement
+#5041 by kamran-khalid-v9 was merged on Apr 22, 2025
+1
+@kamran-khalid-v9
+Added product list into customer pbl messaging event enhancement
+#5037 by kamran-khalid-v9 was merged on Apr 17, 2025
+@kamran-khalid-v9
+4973 up pbl create new messaging event for customer enhancement
+#5036 by kamran-khalid-v9 was merged on Apr 17, 2025
+1
+@kamran-khalid-v9
+4972 up pbl messaging event for admin enhancement
+#5031 by kamran-khalid-v9 was merged on Apr 17, 2025
+1
+@kamran-khalid-v9
+Hotfix/1518 new statuses 20250415
+#5025 by kamran-khalid-v9 was merged on Apr 16, 2025
+Hotfix/1518 new statuses 20250415
+#5017 by kamran-khalid-v9 was merged on Apr 16, 2025
+@kamran-khalid-v9
+Update customer over_all status filters
+#5016 by kamran-khalid-v9 was merged on Apr 15, 2025
+@kamran-khalid-v9
+5010 pbl feedback enhancement
+#5015 by kamran-khalid-v9 was merged on Apr 16, 2025
+1
+@kamran-khalid-v9
+Added commercial_setup_type for mobile app enhancement
+#5014 by kamran-khalid-v9 was merged on Apr 15, 2025
+1
+@kamran-khalid-v9
+Added customer setup type enhancement
+#5013 by kamran-khalid-v9 was merged on Apr 15, 2025
+1
+@kamran-khalid-v9
+Hotfix/update customer payment update query 20250414
+#5008 by kamran-khalid-v9 was merged on Apr 15, 2025
+@kamran-khalid-v9
+Update customer registration part for payment settings enhancement
+#5005 by kamran-khalid-v9 was merged on Apr 15, 2025
+1
+@kamran-khalid-v9
+Fixed bug enhancement
+#5002 by kamran-khalid-v9 was merged on Apr 15, 2025
+1
+@kamran-khalid-v9
+Updated customer prereg method enhancement
+#5000 by kamran-khalid-v9 was merged on Apr 15, 2025
+1
+@kamran-khalid-v9
+Hotfix/update customer payment update query 20250414 enhancement
+#4999 by kamran-khalid-v9 was merged on Apr 15, 2025
+1
+@kamran-khalid-v9
+Added customer payment settings enhancement
+#4996 by kamran-khalid-v9 was merged on Apr 14, 2025
+1
+@kamran-khalid-v9
+Hotfix/update customer payment update query 20250414 enhancement
+#4995 by kamran-khalid-v9 was merged on Apr 14, 2025
+1
+@kamran-khalid-v9
+4979 mp verofy cardless messaging event to customer and admin enhancement
+#4988 by kamran-khalid-v9 was merged on Apr 16, 2025
+2
+@kamran-khalid-v9
+4961 pos integration card payment enhancement
+#4976 by kamran-khalid-v9 was merged on Apr 14, 2025
+1
+@kamran-khalid-v9
+4957 update payment method so fetch contracts which are signed enhancement
+#4960 by kamran-khalid-v9 was merged on Apr 11, 2025
+3
+@kamran-khalid-v9
+4940 webhook update order creation and customer status enhancement
+#4941 by kamran-khalid-v9 was merged on Apr 10, 2025
+1
+@kamran-khalid-v9
+4917 add pbl functionality to generate url manually enhancement
+#4939 by kamran-khalid-v9 was merged on Apr 9, 2025
+1
+@kamran-khalid-v9
+Hotfix/update customer location for pbl 20250408
+#4929 by kamran-khalid-v9 was merged on Apr 9, 2025
+Fixed customer payment iq issue
+#4928 by kamran-khalid-v9 was merged on Apr 9, 2025
+@kamran-khalid-v9
+Fixed customer location for pbl generation
+#4920 by kamran-khalid-v9 was merged on Apr 8, 2025
+4910 partner portal modify customer and applciations apis enhancement
+#4916 by kamran-khalid-v9 was merged on Apr 9, 2025
+1
+@kamran-khalid-v9
+4897 enable pbl for staging - WIP enhancement
+#4898 by kamran-khalid-v9 was merged on Apr 8, 2025
+1
+@kamran-khalid-v9
+Implemented payment type base condition for over all status approved enhancement
+#4896 by kamran-khalid-v9 was merged on Apr 8, 2025
+1
+@kamran-khalid-v9
+4854 monthly payment approved order terminals once status is updated enhancement
+#4891 by kamran-khalid-v9 was merged on Apr 7, 2025
+2
+@kamran-khalid-v9
+4857 mp go cardless add customer detail page link into partner messaging event enhancement
+#4873 by kamran-khalid-v9 was merged on Apr 7, 2025
+1
+@kamran-khalid-v9
+4694 pos mp go cardless a message event should be sent each day until the status of monthly setup complete is clicked enhancement
+#4856 by kamran-khalid-v9 was merged on Apr 4, 2025
+4
+@kamran-khalid-v9
+4848 contract add new payment rules enhancement
+#4851 by kamran-khalid-v9 was merged on Apr 3, 2025
+1
+@kamran-khalid-v9
+Update monthly payment 20250403 enhancement
+#4850 by kamran-khalid-v9 was merged on Apr 3, 2025
+1
+@kamran-khalid-v9
+Updated montly payment contract
+#4847 by kamran-khalid-v9 was merged on Apr 2, 2025
+@kamran-khalid-v9
+4813 card payment and bank transfer mark contract payment done
+#4846 by kamran-khalid-v9 was closed on Apr 2, 2025
+4808 update contract once the monthly payment is done enhancement
+#4843 by kamran-khalid-v9 was merged on Apr 3, 2025
+2
+@kamran-khalid-v9
+4841 hotfix add cc email options for customes enhancement
+#4842 by kamran-khalid-v9 was merged on Apr 3, 2025
+1
+@kamran-khalid-v9
+Hotfix/add cc email 20250402 enhancement
+#4839 by kamran-khalid-v9 was merged on Apr 3, 2025
+1
+@kamran-khalid-v9
+Hotfix/add cc email 20250402 enhancement
+#4838 by kamran-khalid-v9 was closed on Apr 3, 2025
+1
+@kamran-khalid-v9
+Updated method to fetch monthly amount
+#4827 by kamran-khalid-v9 was merged on Apr 2, 2025
+1
+@kamran-khalid-v9
+4799 pos pbl update contract after payment completed enhancement
+#4807 by kamran-khalid-v9 was merged on Apr 2, 2025
+1
+@kamran-khalid-v9
+4797 pos customer tab pbl update customer contract for pbl enhancement
+#4798 by kamran-khalid-v9 was merged on Apr 2, 2025
+1
+@kamran-khalid-v9
+4758 pos customer tab send pbl link enhancement
+#4775 by kamran-khalid-v9 was merged on Apr 1, 2025
+2
+@kamran-khalid-v9
+Fixed command issue
+#4773 by kamran-khalid-v9 was merged on Mar 31, 2025
+4693 pos mp go cardless a message to the isv partner including merchant name montly amount product list enhancement
+#4752 by kamran-khalid-v9 was merged on Mar 31, 2025
+1
+@kamran-khalid-v9
+Added term length enhancement
+#4744 by kamran-khalid-v9 was merged on Mar 31, 2025
+1
+@kamran-khalid-v9
+Fixed query
+#4739 by kamran-khalid-v9 was merged on Mar 27, 2025
+@kamran-khalid-v9
+Update status and customer query enhancement
+#4738 by kamran-khalid-v9 was merged on Mar 27, 2025
+1
+@kamran-khalid-v9
+Updated response enhancement
+#4736 by kamran-khalid-v9 was merged on Mar 27, 2025
+1
+@kamran-khalid-v9
+Added POS product list for transaction api enhancement
+#4735 by kamran-khalid-v9 was merged on Mar 28, 2025
+1
+@kamran-khalid-v9
+4692 pos mp go cardless a message event needs to be sent to the merchant on acquiring approved enhancement
+#4727 by kamran-khalid-v9 was merged on Mar 27, 2025
+1
+@kamran-khalid-v9
+Updated customer status for orders api webhook enhancement
+#4713 by kamran-khalid-v9 was merged on Mar 27, 2025
+@kamran-khalid-v9
+4707 partner customer section send payment status for payment buttons enhancement
+#4708 by kamran-khalid-v9 was merged on Mar 26, 2025
+1
+@kamran-khalid-v9
+Added customers as well in email once the pbl payment is done enhancement
+#4702 by kamran-khalid-v9 was merged on Mar 26, 2025
+1
+@kamran-khalid-v9
+4695 paylinks add reference 20250326 enhancement
+#4700 by kamran-khalid-v9 was merged on Mar 26, 2025
+1
+@kamran-khalid-v9
+4695 paylinks add reference 20250326 enhancement
+#4699 by kamran-khalid-v9 was merged on Mar 26, 2025
+1
+@kamran-khalid-v9
+Added payment reference enhancement
+#4696 by kamran-khalid-v9 was merged on Mar 26, 2025
+1
+@kamran-khalid-v9
+Pbl upfront 4401 enhancement
+#4685 by kamran-khalid-v9 was merged on Mar 26, 2025
+1
+@kamran-khalid-v9
+4534 pos integration up pbl confirmation of payment made to isv admin enhancement
+#4666 by kamran-khalid-v9 was merged on Mar 25, 2025
+1
+@kamran-khalid-v9
+4657 partner customer section monthly payment made enhancement
+#4659 by kamran-khalid-v9 was merged on Mar 25, 2025
+1
+@kamran-khalid-v9
+4640 pos integration upfront pbl create manul payment link enhancement
+#4656 by kamran-khalid-v9 was merged on Mar 24, 2025
+1
+@kamran-khalid-v9
+commented code
+#4654 by kamran-khalid-v9 was merged on Mar 24, 2025
+@kamran-khalid-v9
+Updated products and services section in orders api
+#4651 by kamran-khalid-v9 was merged on Mar 24, 2025
+@kamran-khalid-v9
+4629 partner customer section create endpoint to fetch customers enhancement
+#4639 by kamran-khalid-v9 was merged on Mar 24, 2025
+2
+@kamran-khalid-v9
+4628 orders api add isv products enhancement
+#4634 by kamran-khalid-v9 was merged on Mar 21, 2025
+1
+@kamran-khalid-v9
+4574 pos integration up pbl implement verofy as payment collection enhancement
+#4590 by kamran-khalid-v9 was merged on Mar 20, 2025
+1
+@kamran-khalid-v9
+Removed main activity from partner and sole trander enhancement
+#4581 by kamran-khalid-v9 was merged on Mar 19, 2025
+1
+@kamran-khalid-v9
+4570 orders api schema changes enhancement
+#4571 by kamran-khalid-v9 was merged on Mar 19, 2025
+1
+@kamran-khalid-v9
+Fix/customer messaging issue 20250317
+#4567 by kamran-khalid-v9 was merged on Mar 18, 2025
+1
+Fix/customer messaging issue 20250317
+#4566 by kamran-khalid-v9 was merged on Mar 18, 2025
+1
+@kamran-khalid-v9
+Fix/customer messaging issue 20250317 enhancement
+#4563 by kamran-khalid-v9 was merged on Mar 18, 2025
+1
+@kamran-khalid-v9
+Updated the condition for default images
+#4560 by kamran-khalid-v9 was merged on Mar 17, 2025
+Implemented image into application tracker enhancement
+#4559 by kamran-khalid-v9 was merged on Mar 17, 2025
+@kamran-khalid-v9
+4401 pos integration upfront payment paylinks enhancement
+#4546 by kamran-khalid-v9 was merged on Mar 19, 2025
+4
+@kamran-khalid-v9
+4394 orders api data points services enhancement
+#4541 by kamran-khalid-v9 was merged on Mar 14, 2025
+1
+@kamran-khalid-v9
+4445 orders api data points monthly fee profile 2 enhancement
+#4526 by kamran-khalid-v9 was merged on Mar 14, 2025
+1
+@kamran-khalid-v9
+Add onging term length for front-side options
+#4523 by kamran-khalid-v9 was merged on Mar 13, 2025
+1
+@kamran-khalid-v9
+Fixed customer observer exception
+#4522 by kamran-khalid-v9 was merged on Mar 13, 2025
+@kamran-khalid-v9
+Fixed exception for pos id
+#4521 by kamran-khalid-v9 was merged on Mar 13, 2025
+@kamran-khalid-v9
+4445 orders api data points monthly fee profile enhancement
+#4512 by kamran-khalid-v9 was merged on Mar 13, 2025
+2
+@kamran-khalid-v9
+Fixed customer setting migration issue
+#4511 by kamran-khalid-v9 was merged on Mar 13, 2025
+@kamran-khalid-v9
+4444 orders api data points payment methods enhancement
+#4504 by kamran-khalid-v9 was merged on Mar 12, 2025
+1
+@kamran-khalid-v9
+1
+4394 orders api data points enhancement
+#4459 by kamran-khalid-v9 was merged on Mar 7, 2025
+1
+@kamran-khalid-v9
+Updated POS payment enums enhancement
+#4458 by kamran-khalid-v9 was merged on Mar 7, 2025
+1
+@kamran-khalid-v9
+Updated packages code and name enhancement
+#4451 by kamran-khalid-v9 was merged on Mar 7, 2025
+1
+@kamran-khalid-v9
+4429 additional statuses for terminating enhancement
+#4438 by kamran-khalid-v9 was merged on Mar 6, 2025
+1
+@kamran-khalid-v9
+4429 additional statuses for terminating enhancement
+#4437 by kamran-khalid-v9 was merged on Mar 6, 2025
+1
+@kamran-khalid-v9
+4429 additional statuses for terminating enhancement
+#4435 by kamran-khalid-v9 was merged on Mar 6, 2025
+1
+@kamran-khalid-v9
+4416 oders api create webhook for order api enhancement
+#4422 by kamran-khalid-v9 was merged on Mar 12, 2025
+1
+@kamran-khalid-v9
+1
+Hotfix/add transaction type column 20200305 enhancement
+#4421 by kamran-khalid-v9 was merged on Mar 5, 2025
+1
+@kamran-khalid-v9
+4395 orders api implement new status enhancement
+#4412 by kamran-khalid-v9 was merged on Mar 4, 2025
+1
+@kamran-khalid-v9
+4388 customer fraud report introduced transaction type enhancement
+#4389 by kamran-khalid-v9 was merged on Mar 5, 2025
+1
+@kamran-khalid-v9
+1
+Incase of partner and sole trader removed credit_rating enhancement
+#4384 by kamran-khalid-v9 was merged on Feb 28, 2025
+2
+@kamran-khalid-v9
+Fixed the value for "finance within period" and "total available"
+#4371 by kamran-khalid-v9 was merged on Feb 26, 2025
+Fixed the value for "finance within period" and "total available" enhancement
+#4370 by kamran-khalid-v9 was merged on Feb 26, 2025
+1
+@kamran-khalid-v9
+Hotfix/4309 monthly residual report
+#4346 by kamran-khalid-v9 was merged on Feb 25, 2025
+1
+@kamran-khalid-v9
+Fixed residual commission and arrears report enhancement
+#4345 by kamran-khalid-v9 was merged on Feb 25, 2025
+2
+@kamran-khalid-v9
+4330 crm update customer location enhancement
+#4332 by kamran-khalid-v9 was merged on Feb 25, 2025
+2
+@kamran-khalid-v9
+Hotfix/customer fraud report add new columns 20250219
+#4284 by kamran-khalid-v9 was merged on Feb 20, 2025
+@kamran-khalid-v9
+Hotfix/customer fraud report add new columns 20250219 enhancement
+#4275 by kamran-khalid-v9 was merged on Feb 20, 2025
+2
+@kamran-khalid-v9
+Updated service for previous fraud import report. enhancement
+#4273 by kamran-khalid-v9 was merged on Feb 19, 2025
+@kamran-khalid-v9
+Hotfix/arrears report update condition 20250217 enhancement
+#4248 by kamran-khalid-v9 was merged on Feb 18, 2025
+@kamran-khalid-v9
+Added new short code for current month enhancement
+#4247 by kamran-khalid-v9 was merged on Feb 18, 2025
+1
+@kamran-khalid-v9
+Hotfix/arrears report update condition 20250217
+#4240 by kamran-khalid-v9 was merged on Feb 18, 2025
+@kamran-khalid-v9
+arrears report Updated condition enhancement
+#4239 by kamran-khalid-v9 was merged on Feb 17, 2025
+@kamran-khalid-v9
+Added condition for runway welcome call to fetch customers after 2025…
+#4237 by kamran-khalid-v9 was merged on Feb 18, 2025
+@kamran-khalid-v9
+Added condition for runway welcome call to fetch customers after 2025… enhancement
+#4235 by kamran-khalid-v9 was merged on Feb 17, 2025
+@kamran-khalid-v9
+4146 implement base64 for driving license passport and proof of address enhancement
+#4147 by kamran-khalid-v9 was merged on Feb 10, 2025
+1
+@kamran-khalid-v9
+Implemented base64 image upload option for app enhancement
+#4142 by kamran-khalid-v9 was merged on Feb 7, 2025
+2
+@kamran-khalid-v9
+4112 onboarded customer details enhancement
+#4124 by kamran-khalid-v9 was merged on Feb 24, 2025
+4
+@kamran-khalid-v9
+Removed space and adjust header
+#4102 by kamran-khalid-v9 was merged on Feb 3, 2025
+@kamran-khalid-v9
+Removed space and adjust header enhancement
+#4100 by kamran-khalid-v9 was merged on Feb 3, 2025
+1
+@kamran-khalid-v9
+Runway/moved welcome tab to last position 20250203
+#4099 by kamran-khalid-v9 was merged on Feb 3, 2025
+@kamran-khalid-v9
+Moved runway welcome tab to last position enhancement
+#4098 by kamran-khalid-v9 was merged on Feb 3, 2025
+1
+@kamran-khalid-v9
+Update arrears query
+#4097 by kamran-khalid-v9 was merged on Feb 3, 2025
+@kamran-khalid-v9
+Added condition to check days as well enhancement
+#4063 by kamran-khalid-v9 was merged on Jan 29, 2025
+• Approved
+@kamran-khalid-v9
+Removed not used condition
+#4059 by kamran-khalid-v9 was merged on Jan 29, 2025
+• Approved
+Updated query for arrears settled records enhancement
+#4057 by kamran-khalid-v9 was merged on Jan 29, 2025
+• Approved
+@kamran-khalid-v9
+Handled exception w2 companies response enhancement
+#4043 by kamran-khalid-v9 was merged on Jan 29, 2025
+• Approved
+@kamran-khalid-v9
+Fixed runway status count
+#4032 by kamran-khalid-v9 was merged on Jan 28, 2025
+• Approved
+Runway/status count updates 20250128
+#4026 by kamran-khalid-v9 was merged on Jan 28, 2025
+• Approved
+@kamran-khalid-v9
+Updated runway customer overall status for welcome call
+#4025 by kamran-khalid-v9 was merged on Jan 28, 2025
+• Approved
+1
+@kamran-khalid-v9
+Add db query
+#4015 by kamran-khalid-v9 was merged on Jan 28, 2025
+• Approved
+Created index for 'is_in_arrears', 'deleted_at'
+#3992 by kamran-khalid-v9 was merged on Jan 27, 2025
+• Approved
+Updated column name
+#3991 by kamran-khalid-v9 was merged on Jan 27, 2025
+• Approved
+@kamran-khalid-v9
+Update arrears report column
+#3990 by kamran-khalid-v9 was merged on Jan 27, 2025
+@kamran-khalid-v9
+3960 manifest email segragation of tables enhancements 20250124 enhancement
+#3967 by kamran-khalid-v9 was merged on Jan 24, 2025
+• Approved
+2
+@kamran-khalid-v9
+3949 arrears settled would only have merchants in there that appeared last week and then are later not on an imported report enhancement
+#3952 by kamran-khalid-v9 was merged on Jan 23, 2025
+• Approved
+1
+@kamran-khalid-v9
+1
+3944 report arrears add new column and remove validations enhancement
+#3946 by kamran-khalid-v9 was merged on Jan 22, 2025
+• Approved
+1
+@kamran-khalid-v9
+1
+3918 welcome call runway enhancement
+#3943 by kamran-khalid-v9 was merged on Jan 24, 2025
+• Approved
+4
+@kamran-khalid-v9
+3877 messaging events issues with change of email and phone numbers enhancement
+#3912 by kamran-khalid-v9 was merged on Jan 24, 2025
+• Approved
+5
+@kamran-khalid-v9
+4
+Added pre reg error handler enhancement
+#3891 by kamran-khalid-v9 was merged on Jan 15, 2025
+1
+@kamran-khalid-v9
+Delete bespoke application enhancement
+#3889 by kamran-khalid-v9 was merged on Jan 15, 2025
+• Approved
+2
+@kamran-khalid-v9
+Formatted response enhancement
+#3885 by kamran-khalid-v9 was merged on Jan 15, 2025
+• Approved
+1
+@kamran-khalid-v9
+Fixed customer 2fa response issue
+#3876 by kamran-khalid-v9 was merged on Jan 14, 2025
+• Approved
+1
+@kamran-khalid-v9
+Hotfix/boarding rules doc 20250114
+#3871 by kamran-khalid-v9 was merged on Jan 14, 2025
+@kamran-khalid-v9
+Fixed boarding doc exception enhancement
+#3870 by kamran-khalid-v9 was merged on Jan 14, 2025
+• Approved
+1
+@kamran-khalid-v9
+Fix 2fa app data response
+#3865 by kamran-khalid-v9 was merged on Jan 14, 2025
+1
+@kamran-khalid-v9
+Added condition for customer documents bug Ready
+#3854 by kamran-khalid-v9 was merged on Jan 13, 2025
+• Approved
+1
+@kamran-khalid-v9
+Removed dafault array response
+#3853 by kamran-khalid-v9 was merged on Jan 13, 2025
+Added new flag for is_bespoke in response enhancement
+#3852 by kamran-khalid-v9 was merged on Jan 13, 2025
+• Approved
+2
+@kamran-khalid-v9
+Fixed boarding applicants exception
+#3851 by kamran-khalid-v9 was merged on Jan 13, 2025
+@kamran-khalid-v9
+Updated response for is_bespoke
+#3850 by kamran-khalid-v9 was merged on Jan 13, 2025
+• Approved
+2
+@kamran-khalid-v9
+Added is_bespoke for partner portal enhancement
+#3848 by kamran-khalid-v9 was merged on Jan 13, 2025
+• Approved
+2
+@kamran-khalid-v9
+Added seller id in case of admin portal enhancement
+#3824 by kamran-khalid-v9 was merged on Jan 10, 2025
+• Approved
+@kamran-khalid-v9
+1
+Added customer applicant data for mobile app enhancement Ready
+#3823 by kamran-khalid-v9 was merged on Jan 10, 2025
+• Approved
+1
+@kamran-khalid-v9
+Change field name
+#3818 by kamran-khalid-v9 was merged on Jan 10, 2025
+Updated bespoke response for admin portal
+#3816 by kamran-khalid-v9 was merged on Jan 10, 2025
+• Approved
+1
+@kamran-khalid-v9
+Created api for bespoke customer applications list enhancement
+#3805 by kamran-khalid-v9 was merged on Jan 9, 2025
+• Approved
+2
+@kamran-khalid-v9
+3
+Added is_spoke flag in customer applications table
+#3804 by kamran-khalid-v9 was merged on Jan 9, 2025
+• Approved
+1
+@kamran-khalid-v9
+Added a check so if there are customers then only return content grid enhancement
+#3803 by kamran-khalid-v9 was merged on Jan 9, 2025
+• Approved
+1
+@kamran-khalid-v9
+Added default max values for card rates
+#3795 by kamran-khalid-v9 was merged on Jan 8, 2025
+Bespoke/update card rates api enhancement
+#3793 by kamran-khalid-v9 was merged on Jan 8, 2025
+• Approved
+2
+@kamran-khalid-v9
+Hotfix/re import sl daily tickets 06012025 enhancement
+#3781 by kamran-khalid-v9 was merged on Jan 6, 2025
+• Approved
+1
+@kamran-khalid-v9
+Added missing field in case of refund enhancement
+#3780 by kamran-khalid-v9 was merged on Jan 7, 2025
+• Approved
+1
+@kamran-khalid-v9
+Created command for re-import sl daily tickets enhancement
+#3774 by kamran-khalid-v9 was closed on Jan 6, 2025
+1
+@kamran-khalid-v9
+Updated phone_number and email if user is already existing incase of … enhancement Ready
+#3752 by kamran-khalid-v9 was merged on Jan 3, 2025
+• Approved
+1
+@kamran-khalid-v9
+Added lease number to customer enhancement Ready
+#3749 by kamran-khalid-v9 was merged on Jan 3, 2025
+• Approved
+1
+@kamran-khalid-v9
+Created api to send all bank holidays in England and wales for curren… enhancement Ready
+#3745 by kamran-khalid-v9 was merged on Jan 3, 2025
+• Changes requested
+1
+@kamran-khalid-v9
+1
+Created new end-point to fetch partner products enhancement
+#3742 by kamran-khalid-v9 was merged on Dec 20, 2024
+1
+@kamran-khalid-v9
+Created new end point for bespoke customer applications enhancement
+#3717 by kamran-khalid-v9 was closed on Jan 23, 2025
+2
+@kamran-khalid-v9
+3624 bespoke upload document enhancement
+#3715 by kamran-khalid-v9 was merged on Dec 18, 2024
+1
+@kamran-khalid-v9
+3621 bespoke pricing - create partner and seller endpoints enhancement
+#3622 by kamran-khalid-v9 was merged on Dec 18, 2024
+2
+@kamran-khalid-v9
+1
+3576 verofy alerts issues enhancement Ready
+#3577 by kamran-khalid-v9 was merged on Dec 6, 2024
+• Approved
+1
+@kamran-khalid-v9
+3552 admin view of terminal payments enhancement
+#3575 by kamran-khalid-v9 was merged on Dec 11, 2024
+• Approved
+3
+@kamran-khalid-v9
+4
+Added order by audit_date_and_time in daily tickets enhancement
+#3551 by kamran-khalid-v9 was merged on Dec 4, 2024
+• Approved
+@kamran-khalid-v9
+Implemented oder by on customer fraud report enhancement
+#3532 by kamran-khalid-v9 was merged on Dec 3, 2024
+• Approved
+@kamran-khalid-v9
+3095 sl import create messaging events on the bases of outcome value enhancement
+#3523 by kamran-khalid-v9 was merged on Dec 5, 2024
+1
+@kamran-khalid-v9
+3289 sl redelivery messaging event enhancement
+#3290 by kamran-khalid-v9 was merged on Nov 12, 2024
+• Approved
+1
+@kamran-khalid-v9
+3270 sl imports redelivery enhancement
+#3271 by kamran-khalid-v9 was merged on Nov 12, 2024
+• Approved
+1
+@kamran-khalid-v9
+Fix/customer applicant phone number 20241108
+#3263 by kamran-khalid-v9 was merged on Nov 8, 2024
+• Approved
+Added is_cash_back_enable option in arrears report enhancement
+#3256 by kamran-khalid-v9 was merged on Nov 8, 2024
+• Approved
+1
+@kamran-khalid-v9
+3163 sl import daily tickets messaging event for swap terminal enhancement
+#3209 by kamran-khalid-v9 was merged on Nov 12, 2024
+• Approved
+1
+@kamran-khalid-v9
+14
+Update customer applicant enhancement
+#3193 by kamran-khalid-v9 was merged on Nov 6, 2024
+• Approved
+1
+@kamran-khalid-v9
+3172 ml create fraud report observer and sync enhancement
+#3174 by kamran-khalid-v9 was merged on Dec 13, 2024
+• Approved
+2
+@kamran-khalid-v9
+8
+3093 swap report 20241031 enhancement Ready
+#3139 by kamran-khalid-v9 was merged on Nov 4, 2024
+• Approved
+1
+@kamran-khalid-v9
+Fixed customer transaction issue
+#3135 by kamran-khalid-v9 was merged on Nov 1, 2024
+• Approved
+@kamran-khalid-v9
+3093 sl import swaps enhancement
+#3096 by kamran-khalid-v9 was merged on Oct 31, 2024
+• Approved
+5
+@kamran-khalid-v9
+Updated all related customers enhancement
+#3061 by kamran-khalid-v9 was merged on Oct 25, 2024
+• Approved
+1
+@kamran-khalid-v9
+Return all customers linked with same customer applicatn user enhancement
+#3041 by kamran-khalid-v9 was merged on Oct 24, 2024
+• Approved
+1
+@kamran-khalid-v9
+1
+Updated email filter enhancement
+#3018 by kamran-khalid-v9 was merged on Oct 28, 2024
+• Approved
+1
+@kamran-khalid-v9
+1
+Fixed customer transactions filter issue enhancement
+#3007 by kamran-khalid-v9 was merged on Oct 28, 2024
+• Approved
+1
+@kamran-khalid-v9
+Hotfix/change fraud report read mechansim 20241021 enhancement
+#2981 by kamran-khalid-v9 was merged on Oct 22, 2024
+1
+@kamran-khalid-v9
+Hotfix/change fraud report read mechansim 20241021
+#2978 by kamran-khalid-v9 was merged on Oct 22, 2024
+• Approved
+@kamran-khalid-v9
+Fix conflict
+#2939 by kamran-khalid-v9 was merged on Oct 21, 2024
+Hotfix/2922 change mechanism of reading email with reports
+#2938 by kamran-khalid-v9 was merged on Oct 21, 2024
+Changed mechanism of report file reading from outlook
+#2934 by kamran-khalid-v9 was merged on Oct 21, 2024
+1
+@kamran-khalid-v9
+1
+Hotfix/import fraud report 20241017
+#2907 by kamran-khalid-v9 was merged on Oct 17, 2024
+@kamran-khalid-v9
+Hotfix/import fraud report 20241017
+#2906 by kamran-khalid-v9 was merged on Oct 17, 2024
+@kamran-khalid-v9
+Fixed date and imported all missing fraud transactions
+#2905 by kamran-khalid-v9 was merged on Oct 17, 2024
+• Approved
+2863 fraud report import old xls sheets
+#2902 by kamran-khalid-v9 was merged on Oct 17, 2024
+• Approved
+2863 fraud report import old xls sheets
+#2901 by kamran-khalid-v9 was merged on Oct 17, 2024
+• Approved
+@kamran-khalid-v9
+2863 fraud report import old xls sheets enhancement
+#2897 by kamran-khalid-v9 was merged on Oct 17, 2024
+• Approved
+1
+@kamran-khalid-v9
+Fix/service logistics messaging event 20241015
+#2875 by kamran-khalid-v9 was merged on Oct 15, 2024
+Fixed service logistics email short code issue
+#2874 by kamran-khalid-v9 was merged on Oct 15, 2024
+Fix/added uk country code with phone number 20241014
+#2856 by kamran-khalid-v9 was merged on Oct 14, 2024
+@kamran-khalid-v9
+Added country code with UK phone number
+#2855 by kamran-khalid-v9 was merged on Oct 14, 2024
+@kamran-khalid-v9
+Fixed customer applicaiton filter issue
+#2840 by kamran-khalid-v9 was merged on Oct 11, 2024
+Fix/residual commission exception 2024111002
+#2833 by kamran-khalid-v9 was merged on Oct 11, 2024
+Fixed residual commision exception
+#2831 by kamran-khalid-v9 was merged on Oct 11, 2024
+Fix/cusotmer primary email issue 11102024
+#2824 by kamran-khalid-v9 was merged on Oct 11, 2024
+Removed extra parameter
+#2821 by kamran-khalid-v9 was merged on Oct 11, 2024
+Fixed customer primary email issue
+#2819 by kamran-khalid-v9 was merged on Oct 11, 2024
+Added message
+#2805 by kamran-khalid-v9 was merged on Oct 10, 2024
+Updated customer contact details on the base of is_main_applicant c… enhancement
+#2804 by kamran-khalid-v9 was merged on Oct 10, 2024
+@kamran-khalid-v9
+2750 message event residual calculated enhancement
+#2801 by kamran-khalid-v9 was merged on Dec 11, 2024
+• Approved
+1
+@kamran-khalid-v9
+1
+Fixed customer application filter enhancement
+#2733 by kamran-khalid-v9 was merged on Oct 8, 2024
+1
+@kamran-khalid-v9
+Updated service logistics short codes for messaging enhancement
+#2732 by kamran-khalid-v9 was merged on Oct 9, 2024
+@kamran-khalid-v9
+Added messages enhancement
+#2726 by kamran-khalid-v9 was merged on Oct 8, 2024
+@kamran-khalid-v9
+2514 admin edits edit contact details enhancement
+#2709 by kamran-khalid-v9 was merged on Oct 8, 2024
+1
+@kamran-khalid-v9
+Fixed last transaction value enhancement
+#2698 by kamran-khalid-v9 was merged on Oct 4, 2024
+@kamran-khalid-v9
+1
+2603 non transacting report enhancement
+#2657 by kamran-khalid-v9 was merged on Oct 3, 2024
+1
+@kamran-khalid-v9
+Added pagination for service logistics
+#2602 by kamran-khalid-v9 was merged on Oct 1, 2024
+@kamran-khalid-v9
+2557 service tickets email enhancement
+#2600 by kamran-khalid-v9 was merged on Oct 1, 2024
+1
+@kamran-khalid-v9
+Added name for non transacting route
+#2586 by kamran-khalid-v9 was merged on Sep 30, 2024
+2571 arrears import updates enhancement
+#2585 by kamran-khalid-v9 was merged on Sep 30, 2024
+1
+@kamran-khalid-v9
+Created relationship with customer
+#2573 by kamran-khalid-v9 was merged on Sep 27, 2024
+@kamran-khalid-v9
+Implemented non-transacting api for partner enhancement
+#2567 by kamran-khalid-v9 was merged on Sep 27, 2024
+1
+@kamran-khalid-v9
+Added events for partner and customer enhancement
+#2556 by kamran-khalid-v9 was merged on Sep 30, 2024
+1
+@kamran-khalid-v9
+Implemented arrears settled feature enhancement
+#2539 by kamran-khalid-v9 was merged on Sep 27, 2024
+1
+@kamran-khalid-v9
+Implemented partner weekly message alert enhancement
+#2526 by kamran-khalid-v9 was merged on Sep 30, 2024
+1
+@kamran-khalid-v9
+2425 fraud report import enhancement Ready
+#2461 by kamran-khalid-v9 was merged on Sep 24, 2024
+• Approved
+2
+@kamran-khalid-v9
+10
+Fixed condition to update customer
+#2459 by kamran-khalid-v9 was merged on Sep 18, 2024
+• Approved
+Fixed s3 bucket issue
+#2448 by kamran-khalid-v9 was merged on Sep 17, 2024
+• Approved
+Fixed file reading method
+#2446 by kamran-khalid-v9 was merged on Sep 17, 2024
+• Approved
+Enhancement updated file upload to s3 20240917 enhancement
+#2444 by kamran-khalid-v9 was merged on Sep 17, 2024
+• Approved
+@kamran-khalid-v9
+Updated file upload functionality
+#2443 by kamran-khalid-v9 was merged on Sep 17, 2024
+• Approved
+Created new end-point to update customer arrears flag enhancement
+#2401 by kamran-khalid-v9 was merged on Sep 13, 2024
+• Approved
+1
+@kamran-khalid-v9
+13
+Added log for user check
+#2391 by kamran-khalid-v9 was merged on Sep 11, 2024
+• Approved
+1
+Implemented arrears status and messaging event enhancement Ready
+#2361 by kamran-khalid-v9 was merged on Sep 11, 2024
+• Approved
+1
+@kamran-khalid-v9
+1
+2287 arrears report stage 2 enhancement Ready
+#2322 by kamran-khalid-v9 was merged on Sep 6, 2024
+• Approved
+1
+@kamran-khalid-v9
+24
+Arrears report feature enhancement Ready
+#2272 by kamran-khalid-v9 was merged on Aug 30, 2024
+• Approved
+1
+@kamran-khalid-v9
+1
+2168 daily import of sl report enhancement Ready
+#2233 by kamran-khalid-v9 was merged on Aug 27, 2024
+1
+@kamran-khalid-v9
+1
+Implemented duplication check for trading and legal address enhancement Ready
+#2189 by kamran-khalid-v9 was merged on Aug 16, 2024
+1
+@kamran-khalid-v9
+Added customer application update_at method in observer
+#2184 by kamran-khalid-v9 was merged on Aug 15, 2024
+• Approved
+@kamran-khalid-v9
+Fixed the condition
+#2175 by kamran-khalid-v9 was merged on Aug 13, 2024
+• Approved
+@kamran-khalid-v9
+Added customer dispatch_at bug Ready
+#2174 by kamran-khalid-v9 was merged on Aug 13, 2024
+• Approved
+1
+@kamran-khalid-v9
+Added condition for dispatched value bug Ready
+#2167 by kamran-khalid-v9 was merged on Aug 13, 2024
+• Approved
+1
+@kamran-khalid-v9
+Added check so if is_moto_active then only show bug Ready
+#2162 by kamran-khalid-v9 was merged on Aug 13, 2024
+1
+@kamran-khalid-v9
+Created default card rates endpoint enhancement
+#2157 by kamran-khalid-v9 was merged on Aug 12, 2024
+• Approved
+@kamran-khalid-v9
+2095 default rates for partner portal enhancement Ready
+#2156 by kamran-khalid-v9 was merged on Aug 12, 2024
+• Approved
+@kamran-khalid-v9
+Product order and applied type while inserting enhancement
+#2154 by kamran-khalid-v9 was merged on Aug 12, 2024
+• Approved
+@kamran-khalid-v9
+Applied filter
+#2149 by kamran-khalid-v9 was closed on Aug 14, 2024
+Fixed orderby in customer applications
+#2148 by kamran-khalid-v9 was merged on Aug 9, 2024
+• Approved
+Updated customer application orderby
+#2147 by kamran-khalid-v9 was merged on Aug 9, 2024
+• Approved
+Added standard fees
+#2144 by kamran-khalid-v9 was merged on Aug 9, 2024
+• Approved
+@kamran-khalid-v9
+Removed vat from the query
+#2142 by kamran-khalid-v9 was merged on Aug 9, 2024
+• Approved
+1
+@kamran-khalid-v9
+Fixed customer bank detail issue bug
+#2139 by kamran-khalid-v9 was merged on Aug 9, 2024
+• Approved
+1
+@kamran-khalid-v9
+Added product packs
+#2136 by kamran-khalid-v9 was merged on Aug 8, 2024
+• Approved
+@kamran-khalid-v9
+Added end-points names
+#2133 by kamran-khalid-v9 was merged on Aug 8, 2024
+• Approved
+2095 default rates for partner portal enhancement Ready
+#2130 by kamran-khalid-v9 was merged on Aug 8, 2024
+1
+@kamran-khalid-v9
+1
+Get all products with details enhancement
+#2096 by kamran-khalid-v9 was merged on Aug 6, 2024
+• Approved
+1
+@kamran-khalid-v9
+Redis Cache Tags alternative enhancement Ready
+#2091 by kamran-khalid-v9 was merged on Aug 6, 2024
+1
+@kamran-khalid-v9
+1
+Main portal - Refactor - 12 enhancement
+#2066 by kamran-khalid-v9 was merged on Aug 7, 2024
+1
+@kamran-khalid-v9
+Used default method for get partner details
+#2050 by kamran-khalid-v9 was merged on Jul 31, 2024
+• Approved
+Updated get accessable seller id method
+#2046 by kamran-khalid-v9 was merged on Jul 31, 2024
+Fixed appliction filter issue
+#2042 by kamran-khalid-v9 was merged on Jul 31, 2024
+• Approved
+@kamran-khalid-v9
+Added filter for has_sales_person
+#2033 by kamran-khalid-v9 was merged on Jul 30, 2024
+1933 partner portal created applications not displayed in applications tab
+#2031 by kamran-khalid-v9 was merged on Jul 30, 2024
+• Approved
+1
+Main service API - refactor 6 enhancement Ready
+#1984 by kamran-khalid-v9 was merged on Aug 2, 2024
+1
+@kamran-khalid-v9
+Refactor Customer Application Process enhancement Ready
+#1953 by kamran-khalid-v9 was merged on Jul 30, 2024
+• Approved
+1
+@kamran-khalid-v9
+1
+Main service API - refactor 8 enhancement Ready
+#1869 by kamran-khalid-v9 was merged on Jul 10, 2024
+• Approved
+1
+@kamran-khalid-v9
+Main service API - refactor 10 enhancement Ready
+#1861 by kamran-khalid-v9 was merged on Jul 9, 2024
+1
+@kamran-khalid-v9
+Main service API - refactor 6 enhancement Ready
+#1856 by kamran-khalid-v9 was merged on Jul 9, 2024
+• Approved
+1
+@kamran-khalid-v9
+Cherry pick to Dev
+#1851 by kamran-khalid-v9 was merged on Jul 5, 2024
+Main service API - refactor 9 enhancement
+#1849 by kamran-khalid-v9 was merged on Jul 5, 2024
+1
+@kamran-khalid-v9
+Refactor update customer boarding rule. enhancement Ready
+#1838 by kamran-khalid-v9 was merged on Jul 4, 2024
+• Approved
+1
+@kamran-khalid-v9
+Separated business logic and code into separate file. enhancement Ready
+#1831 by kamran-khalid-v9 was merged on Jul 2, 2024
+• Approved
+1
+@kamran-khalid-v9
+Create ResetKYCAndDeleteCustomer Controller. enhancement Ready
+#1820 by kamran-khalid-v9 was merged on Jul 2, 2024
+• Approved
+1
+@kamran-khalid-v9
+Refactor/customer login api 20240531 draft
+#1592 by kamran-khalid-v9 was closed on Feb 3, 2025
+@kamran-khalid-v9

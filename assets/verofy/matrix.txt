@@ -1,0 +1,9 @@
+Portal/Client	Onboarding	KYC	Payment	Reporting	Bespoke	Partner	Customer	Notification	Auth	Audit	File
+Admin Portal	✔	✔	✔	✔	✔	✔	✔	✔	✔	✔	✔
+Partner Portal	✔	✔	✔	✔	✔	✔	✔	✔	✔	✔	✔
+Customer Portal	✔	✔	✔	✔	✔	✔	✔	✔	✔	✔	✔
+Supplier Portal	✔	✔	✔	✔	✔	✔	✔	✔	✔	✔	✔
+ISV App	✔	✔	✔	✔	✔	✔	✔	✔	✔	✔	✔
+TMS App	✔	✔	✔	✔	✔	✔	✔	✔	✔	✔	✔
+Softpay App	✔	✔	✔	✔	✔	✔	✔	✔	✔	✔	✔
+Mobile App	✔	✔	✔	✔	✔	✔	✔	✔	✔	✔	✔

@@ -1165,6 +1165,18 @@ nav {
     height: auto;
 }
 
+.topology-diagram-card .mermaid {
+    overflow-x: auto;
+}
+
+.topology-diagram-card .mermaid svg {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
 .diagram-card.compact {
     margin-top: 12px;
     padding: 16px;

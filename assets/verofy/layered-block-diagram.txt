@@ -1,0 +1,14 @@
++-------------------+         +---------------------------------------------------------------+
+|   Portals/Apps    |         |           Main Service Feature Modules                        |
++-------------------+         +---------------------------------------------------------------+
+| Admin Portal      |-------> | Onboarding | KYC | Payment | Reporting | Transaction | Product |
+| Partner Portal    |-------> | Bespoke    | Partner | Customer | Notification | Commission   |
+| Customer Portal   |-------> | Auth       | Audit | File | Card Rates | Service Logistics    |
+| Supplier Portal   |         +---------------------------------------------------------------+
+| ISV App           |
+| TMS App           |
+| Softpay App       |
+| Mobile App        |
++-------------------+
+
+(Data flows: All modules connect to MySQL/Redis/S3 as needed)
