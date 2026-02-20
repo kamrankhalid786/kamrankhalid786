@@ -1189,12 +1189,12 @@ body.image-zoom-open {
     color: var(--text-muted);
 }
 
-.hero-meta-row a {
+.hero-meta-row a:not(.inline-link) {
     color: var(--text-primary);
     text-decoration: none;
 }
 
-.hero-meta-row a:hover {
+.hero-meta-row a:not(.inline-link):hover {
     color: var(--accent);
 }
 
@@ -1212,6 +1212,35 @@ body.image-zoom-open {
 .hero-meta-divider {
     color: var(--text-muted);
     font-size: 12px;
+}
+
+.hero-terminal-card {
+    margin-top: 28px;
+}
+
+.content-text-top-md {
+    margin-top: 16px;
+}
+
+.content-text-no-margin {
+    margin-bottom: 0;
+}
+
+.badge-muted {
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+}
+
+.table-scroll {
+    overflow-x: auto;
+}
+
+.stats-grid-wide {
+    min-width: 600px;
+}
+
+.sidebar-card-tight {
+    margin-bottom: 24px;
 }
 
 .metric-chips-tight {
@@ -2045,6 +2074,29 @@ body.image-zoom-open {
     text-align: center;
 }
 
+.stats-row-clean .verofy-stats-summary-table th,
+.stats-row-clean .verofy-stats-summary-table td {
+    text-align: left;
+}
+
+.stats-row-clean .stats-summary-table.verofy-stats-summary-table th:not(:first-child),
+.stats-row-clean .stats-summary-table.verofy-stats-summary-table td:not(:first-child) {
+    text-align: left;
+}
+
+.stats-row-clean .verofy-stats-summary-table th:nth-child(1),
+.stats-row-clean .verofy-stats-summary-table td:nth-child(1) {
+    width: 220px;
+    min-width: 220px;
+    white-space: nowrap;
+}
+
+.stats-row-clean .verofy-stats-summary-table th:nth-child(2),
+.stats-row-clean .verofy-stats-summary-table td:nth-child(2) {
+    width: 110px;
+    white-space: nowrap;
+}
+
 .stats-row-clean .stats-registry-table th:nth-child(1),
 .stats-row-clean .stats-registry-table td:nth-child(1) {
     width: 90px;
@@ -2192,6 +2244,114 @@ body.image-zoom-open {
 
 .evidence-card-wide {
     grid-column: 1 / -1;
+}
+
+.markdown-doc {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.markdown-doc h1,
+.markdown-doc h2,
+.markdown-doc h3 {
+    color: var(--text-primary);
+    margin-top: 0;
+    margin-bottom: 12px;
+    letter-spacing: -0.2px;
+}
+
+.markdown-doc h1 {
+    font-size: 28px;
+}
+
+.markdown-doc h2 {
+    font-size: 22px;
+    margin-top: 14px;
+}
+
+.markdown-doc h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.markdown-doc p {
+    color: var(--text-secondary);
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0 0 12px;
+}
+
+.markdown-doc code {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--text-primary);
+    background: rgba(51, 214, 159, 0.12);
+    border: 1px solid rgba(51, 214, 159, 0.3);
+    border-radius: 6px;
+    padding: 1px 6px;
+}
+
+.markdown-list {
+    margin: 0 0 12px 18px;
+    color: var(--text-secondary);
+}
+
+.markdown-list li {
+    margin-bottom: 6px;
+}
+
+.markdown-table-wrap {
+    margin: 10px 0 16px;
+    overflow-x: auto;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    background: rgba(11, 15, 20, 0.35);
+}
+
+.markdown-table {
+    width: 100%;
+    min-width: 760px;
+    border-collapse: collapse;
+}
+
+.markdown-table th,
+.markdown-table td {
+    text-align: left;
+    vertical-align: top;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border-subtle);
+    color: var(--text-secondary);
+    font-size: 13px;
+    line-height: 1.55;
+}
+
+.markdown-table th {
+    color: var(--text-primary);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    background: rgba(51, 214, 159, 0.08);
+}
+
+.markdown-table tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+.markdown-doc .markdown-table th:nth-child(4),
+.markdown-doc .markdown-table td:nth-child(4) {
+    width: 170px;
+    min-width: 170px;
+    white-space: nowrap;
+}
+
+.markdown-doc .markdown-table th:nth-child(3),
+.markdown-doc .markdown-table td:nth-child(3) {
+    width: 190px;
+    min-width: 190px;
+    white-space: nowrap;
 }
 
 .figma-flow-grid {
@@ -2767,6 +2927,14 @@ body.image-zoom-open {
     .stats-row-clean .stats-registry-table td:nth-child(4) {
         width: auto;
     }
+
+    .markdown-doc {
+        padding: 18px;
+    }
+
+    .markdown-table {
+        min-width: 640px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -2831,6 +2999,14 @@ body.image-zoom-open {
 
     .stats-table-clean table {
         min-width: 500px;
+    }
+
+    .markdown-doc {
+        padding: 14px;
+    }
+
+    .markdown-table {
+        min-width: 520px;
     }
 
     .stats-row-clean .stats-table-clean table {
