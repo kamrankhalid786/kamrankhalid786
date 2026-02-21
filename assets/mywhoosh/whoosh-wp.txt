@@ -1,0 +1,173 @@
+Jul 01, 2022
+Mohamed Nisar's avatar
+Merge branch 'staging' into 'production' 
+Mohamed Nisar authored Jul 1, 2022
+18ca0d0d
+Jun 29, 2022
+Kamran Khalid's avatar
+Updated url for production
+Kamran Khalid authored Jun 29, 2022
+e375339e
+Jun 17, 2022
+Kamran Khalid's avatar
+Removed console log message
+Kamran Khalid authored Jun 17, 2022
+7496bf2a
+Kamran Khalid's avatar
+Update log message
+Kamran Khalid authored Jun 17, 2022
+99b76c7b
+Kamran Khalid's avatar
+Updated else condition
+Kamran Khalid authored Jun 17, 2022
+ea9391f8
+Kamran Khalid's avatar
+Updated else condition
+Kamran Khalid authored Jun 17, 2022
+73b37ecb
+Kamran Khalid's avatar
+Updated event state
+Kamran Khalid authored Jun 17, 2022
+ffc70a16
+Kamran Khalid's avatar
+Updated state name
+Kamran Khalid authored Jun 17, 2022
+3c8c89ca
+Kamran Khalid's avatar
+Fixed condition
+Kamran Khalid authored Jun 17, 2022
+74296f68
+Kamran Khalid's avatar
+Added url state check for parameters
+Kamran Khalid authored Jun 17, 2022
+010347db
+Kamran Khalid's avatar
+Update event id
+Kamran Khalid authored Jun 17, 2022
+00c0d544
+Kamran Khalid's avatar
+Fixed back button issue
+Kamran Khalid authored Jun 17, 2022
+b0a9b324
+Kamran Khalid's avatar
+Debugging event day id filter
+Kamran Khalid authored Jun 17, 2022
+383e8968
+Kamran Khalid's avatar
+Remove log and appended iframe url
+Kamran Khalid authored Jun 17, 2022
+e65ef16f
+Kamran Khalid's avatar
+Fixed result url parameter issue
+Kamran Khalid authored Jun 17, 2022
+6841f9c0
+Jun 07, 2022
+Kamran Khalid's avatar
+Fixed login parameter
+Kamran Khalid authored Jun 7, 2022
+4adba7e8
+Kamran Khalid's avatar
+Added parameters in url
+Kamran Khalid authored Jun 7, 2022
+2281db76
+Mohamed Nisar's avatar
+Merge branch 'enhancement-signle-event-result-page-MYW2-2024-20220607' into 'staging' 
+Mohamed Nisar authored Jun 7, 2022
+36d8ec87
+Kamran Khalid's avatar
+Implementing event result single page
+Kamran Khalid authored Jun 7, 2022
+c5772f29
+Apr 28, 2022
+Mohamed Nisar's avatar
+Merge branch 'staging' into 'production' 
+Mohamed Nisar authored Apr 28, 2022
+faf0f4cc
+Apr 26, 2022
+Mehhfooz's avatar
+test pipeline
+Mehhfooz authored Apr 26, 2022
+f3a70cda
+Mehhfooz's avatar
+test pipeline
+Mehhfooz authored Apr 26, 2022
+057b0ba6
+Mehhfooz's avatar
+footer update
+Mehhfooz authored Apr 26, 2022
+e721720b
+Kamran Khalid's avatar
+Update condition
+Kamran Khalid authored Apr 26, 2022
+c54e781d
+Kamran Khalid's avatar
+Added log for debug
+Kamran Khalid authored Apr 26, 2022
+b24fddb4
+mehfooz's avatar
+Merge branch 'enhncement-login-functionality-202204026' into 'staging' 
+mehfooz authored Apr 26, 2022
+ec4fb5bf
+Kamran Khalid's avatar
+Updated url
+Kamran Khalid authored Apr 26, 2022
+673164d3
+Kamran Khalid's avatar
+Added data types
+Kamran Khalid authored Apr 26, 2022
+bb4502e4
+Kamran Khalid's avatar
+Added url in wp-config
+Kamran Khalid authored Apr 26, 2022
+07f0aee9
+Kamran Khalid's avatar
+Added gitignore
+Kamran Khalid authored Apr 26, 2022
+bd475cbf
+Kamran Khalid's avatar
+Added condition for session parameters
+Kamran Khalid authored Apr 26, 2022
+9fe8382f
+Kamran Khalid's avatar
+Add login functionality
+Kamran Khalid authored Apr 26, 2022
+7f99ad1e
+Apr 20, 2022
+mehfooz's avatar
+Merge branch 'development' into 'staging' 
+mehfooz authored Apr 20, 2022
+8bb87bfa
+mehfooz's avatar
+Merge branch 'feature-plugin-integration-20220420' into 'development' 
+mehfooz authored Apr 20, 2022
+07ae671c
+Kamran Khalid's avatar
+Updating slider
+Kamran Khalid authored Apr 20, 2022
+c1dd97e2
+Apr 19, 2022
+mehfooz's avatar
+Merge branch 'development' into 'staging' 
+mehfooz authored Apr 19, 2022
+22b6fbaa
+Apr 12, 2022
+Kim Little's avatar
+Add Uploads
+Kim Little authored Apr 12, 2022
+8cd9bebd
+Kim Little's avatar
+Initial commit
+Kim Little authored Apr 12, 2022
+e94f7716
+mehfooz's avatar
+Merge branch 'development' into 'staging' 
+mehfooz authored Apr 12, 2022
+3c1e14d7
+Mehhfooz's avatar
+test commit
+Mehhfooz authored Apr 12, 2022
+47e5380a
+Apr 12, 2022
+Dev GSS's avatar
+Initial commit
+Dev GSS authored Apr 12, 2022
