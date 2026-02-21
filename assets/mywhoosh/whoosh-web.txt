@@ -1,0 +1,644 @@
+Mar 22, 2024
+Kamran Khalid's avatar
+Merge branch 'Enhancement/Removed-TodayPlan-MYW2-21540-20240322' into 'integration' 
+Kamran Khalid authored Mar 22, 2024
+77315b82
+Kamran Khalid's avatar
+Removed todays plan #MYW2-21540
+Kamran Khalid authored Mar 22, 2024
+b9fddb21
+Mar 20, 2024
+Kamran Khalid's avatar
+Fixed UI for event detail and registration page #MYW2-21397
+Kamran Khalid authored Mar 21, 2024
+b3ddd7ab
+Jan 23, 2024
+Kamran Khalid's avatar
+Merge branch 'dev03' into 'MYW2_13182_rider_profile' 
+Kamran Khalid authored Jan 24, 2024
+7850cc84
+Kamran Khalid's avatar
+Implemented Java Apis #MYW2_13182
+Kamran Khalid authored Jan 24, 2024
+908aedea
+Kamran Khalid's avatar
+Implemented bar cart for overview page #MYW2_13182
+Kamran Khalid authored Jan 23, 2024
+1a93d9ab
+Kamran Khalid's avatar
+Added bard chart #MYW2_13182
+Kamran Khalid authored Jan 23, 2024
+99e63ac0
+Kamran Khalid's avatar
+Merge branch 'MYW2-17639-Rider-Profile-OverView-20230117' into 'MYW2_13182_rider_profile' 
+Kamran Khalid authored Jan 23, 2024
+67b39ed1
+Kamran Khalid's avatar
+Merge branch 'MYW2_13182_rider_profile' into 'MYW2-17639-Rider-Profile-OverView-20230117' 
+Kamran Khalid authored Jan 23, 2024
+8d4d6eca
+Jan 19, 2024
+Kamran Khalid's avatar
+Added overview MYW2-17639
+Kamran Khalid authored Jan 19, 2024
+009e595b
+Kamran Khalid's avatar
+Merge branch 'MYW2_13182_Rider_Profile_Cookie' into 'dev03' 
+Kamran Khalid authored Jan 19, 2024
+4d4f630e
+Jan 18, 2024
+Kamran Khalid's avatar
+Added uuid #MYW2_13182
+Kamran Khalid authored Jan 18, 2024
+4136fa5f
+Jan 17, 2024
+Kamran Khalid's avatar
+Merge branch 'MYW2_13182_Rider_Profile_Cookie' into 'dev03' 
+Kamran Khalid authored Jan 17, 2024
+3e6b2e66
+Kamran Khalid's avatar
+Fixed cookie issue #MYW2_13182
+Kamran Khalid authored Jan 17, 2024
+0ca1b7fe
+Kamran Khalid's avatar
+Created overview grid #MYW2-17639
+Kamran Khalid authored Jan 17, 2024
+8c0942a6
+Jan 16, 2024
+Kamran Khalid's avatar
+Merge branch 'MYW2_13182_Rider_Profile_Cookie' into 'dev03' 
+Kamran Khalid authored Jan 16, 2024
+4f08ea3d
+Kamran Khalid's avatar
+Updated cookie name #MYW2_13182
+Kamran Khalid authored Jan 16, 2024
+af482037
+Jan 15, 2024
+Kamran Khalid's avatar
+Set cookie for loing useg #MYW2-13182
+Kamran Khalid authored Jan 15, 2024
+8a7b4f74
+Apr 25, 2023
+Kamran Khalid's avatar
+Added text on create new page #MWW-299
+Kamran Khalid authored Apr 25, 2023
+319b45d2
+Apr 07, 2023
+Kamran Khalid's avatar
+Removed unnecessary code #MWW-293
+Kamran Khalid authored Apr 7, 2023
+326aa3c6
+Kamran Khalid's avatar
+Added tawk code #MWW-293
+Kamran Khalid authored Apr 7, 2023
+d81671af
+Kamran Khalid's avatar
+Removed tawk script #MWW-293
+Kamran Khalid authored Apr 7, 2023
+d7b941f6
+Kamran Khalid's avatar
+Update google tag and facebook pixel #MWW-293
+Kamran Khalid authored Apr 7, 2023
+59b75913
+Mar 22, 2023
+Kamran Khalid's avatar
+Added login on event detail page #MWW-123
+Kamran Khalid authored Mar 22, 2023
+463cc14e
+Kamran Khalid's avatar
+Added login link #MWW-123
+Kamran Khalid authored Mar 22, 2023
+68bc2006
+Kamran Khalid's avatar
+Updated label #MWW-123
+Kamran Khalid authored Mar 22, 2023
+dbfcf1c8
+Kamran Khalid's avatar
+Added price widget on event page #MWW-123
+Kamran Khalid authored Mar 22, 2023
+c809fd58
+Kamran Khalid's avatar
+Updated menu item #MWW-123
+Kamran Khalid authored Mar 22, 2023
+9fc2548d
+Kamran Khalid's avatar
+Updated menu items #MWW-123
+Kamran Khalid authored Mar 22, 2023
+79233d07
+Mar 21, 2023
+Kamran Khalid's avatar
+Updated new web event #MWW-24
+Kamran Khalid authored Mar 21, 2023
+f6ff7409
+Kamran Khalid's avatar
+Updated event page #MWW-24
+Kamran Khalid authored Mar 21, 2023
+248666fa
+Kamran Khalid's avatar
+Updated event images #MWW-24
+Kamran Khalid authored Mar 21, 2023
+c8a8e67a
+Mar 20, 2023
+Kamran Khalid's avatar
+Updated link #MWW-24
+Kamran Khalid authored Mar 20, 2023
+7e4006fa
+Mar 19, 2023
+Kamran Khalid's avatar
+Added per verification button #MWW-24
+Kamran Khalid authored Mar 19, 2023
+c2b090a0
+Mar 15, 2023
+Kamran Khalid's avatar
+updated image height #MWW-123
+Kamran Khalid authored Mar 15, 2023
+f59e1a60
+Kamran Khalid's avatar
+Added image resize #MWW-123
+Kamran Khalid authored Mar 15, 2023
+1bf703d2
+Kamran Khalid's avatar
+Fixed image issue #MWW-123
+Kamran Khalid authored Mar 15, 2023
+df8ff9c3
+Kamran Khalid's avatar
+#MWW-123 Merge branch 'staging-qa' into 'feature-event-pages-20230302' 
+Kamran Khalid authored Mar 15, 2023
+f8f02088
+Kamran Khalid's avatar
+Implementing new changes #MWW-123
+Kamran Khalid authored Mar 15, 2023
+582afed6
+Mar 13, 2023
+Kamran Khalid's avatar
+Feature event pages 20230302 MWW-123
+Kamran Khalid authored Mar 13, 2023 and Chandra Shekhar Reddy's avatar Chandra Shekhar Reddy committed Mar 13, 2023
+fff849c1
+Mar 08, 2023
+Kamran Khalid's avatar
+Updated event price page
+Kamran Khalid authored Mar 08, 2023
+24cda3f6
+Mar 07, 2023
+Kamran Khalid's avatar
+Added price, grade and condition to hide if data is empty #MWW-123
+Kamran Khalid authored Mar 07, 2023
+63b869cd
+Kamran Khalid's avatar
+Fixed event close date time
+Kamran Khalid authored Mar 07, 2023
+70cfbdfe
+Mar 03, 2023
+Kamran Khalid's avatar
+Updated route name
+Kamran Khalid authored Mar 03, 2023
+d14df245
+Kamran Khalid's avatar
+Fixed booked issue
+Kamran Khalid authored Mar 03, 2023
+6d329dec
+Mar 02, 2023
+Kamran Khalid's avatar
+Created event page, details page and registration page
+Kamran Khalid authored Mar 02, 2023
+d17d1dd5
+Feb 20, 2023
+Kamran Khalid's avatar
+Added comment for DOB changes
+Kamran Khalid authored Feb 20, 2023
+91de18ca
+Kamran Khalid's avatar
+Merge branch 'staging-qa' into 'staging' 
+Kamran Khalid authored Feb 20, 2023
+e1ae52c5
+Kamran Khalid's avatar
+Merge branch 'feature-upload-dob-certificatge-20230213' into 'staging-qa' 
+Kamran Khalid authored Feb 20, 2023
+c81aa7b0
+Kamran Khalid's avatar
+Day limit updated
+Kamran Khalid authored Feb 20, 2023
+5fb9b985
+Kamran Khalid's avatar
+Update age limit
+Kamran Khalid authored Feb 20, 2023
+273d7b81
+Feb 16, 2023
+Kamran Khalid's avatar
+Updated dob min and max limit
+Kamran Khalid authored Feb 16, 2023
+db3fccbe
+Feb 14, 2023
+Kamran Khalid's avatar
+Updated age limit
+Kamran Khalid authored Feb 14, 2023
+7b2f1e2b
+Kamran Khalid's avatar
+Updated age limit
+Kamran Khalid authored Feb 14, 2023
+a7bd4d52
+Kamran Khalid's avatar
+Removed extra div tag
+Kamran Khalid authored Feb 14, 2023
+82f2b1f7
+Kamran Khalid's avatar
+Applied dob check
+Kamran Khalid authored Feb 14, 2023
+73bcdd12
+Kamran Khalid's avatar
+Revert "Merge branch 'staging-qa' into 'feature-upload-dob-certificatge-20230213'" 
+Kamran Khalid authored Feb 14, 2023
+550a7257
+Feb 13, 2023
+Kamran Khalid's avatar
+Implemented dob
+Kamran Khalid authored Feb 13, 2023
+ca200bd2
+Feb 01, 2023
+Kamran Khalid's avatar
+Upload dob certificate
+Kamran Khalid authored Feb 01, 2023
+dd568596
+Jan 25, 2023
+Kamran Khalid's avatar
+Merge branch 'staging' into 'development' 
+Kamran Khalid authored Jan 25, 2023
+2ba64e86
+Kamran Khalid's avatar
+MWW-91-Updated footer address
+Kamran Khalid authored Jan 25, 2023
+0855c844
+Jan 06, 2023
+Kamran Khalid's avatar
+applied registration min and max date limit
+Kamran Khalid authored Jan 06, 2023
+10c5d807
+Dec 30, 2022
+Kamran Khalid's avatar
+Merge branch 'enhancement-upadte-asset-20221221' into 'staging' 
+Kamran Khalid authored Dec 30, 2022
+8044beca
+Kamran Khalid's avatar
+Fixed requirement popup layout
+Kamran Khalid authored Dec 30, 2022
+175bbe90
+Kamran Khalid's avatar
+Merge branch 'enhancement-upadte-asset-20221221' into 'staging' 
+Kamran Khalid authored Dec 30, 2022
+09a18b33
+Kamran Khalid's avatar
+Applied css on requirement popup
+Kamran Khalid authored Dec 30, 2022
+69b65445
+Kamran Khalid's avatar
+Merge branch 'enhancement-upadte-asset-20221221' into 'staging' 
+Kamran Khalid authored Dec 30, 2022
+97cc8e76
+Kamran Khalid's avatar
+Redirecting user to login screen
+Kamran Khalid authored Dec 30, 2022
+a68fbf47
+Dec 29, 2022
+Kamran Khalid's avatar
+Merge branch 'enhancement-upadte-asset-20221221' into 'staging' 
+Kamran Khalid authored Dec 29, 2022
+09fc0f97
+Kamran Khalid's avatar
+Merge branch 'enhancement-upadte-asset-20221221' of... 
+Kamran Khalid authored Dec 29, 2022
+e19ce530
+Kamran Khalid's avatar
+Updated event timing
+Kamran Khalid authored Dec 29, 2022
+7c081e79
+Kamran Khalid's avatar
+Merge branch 'staging' into 'enhancement-upadte-asset-20221221' 
+Kamran Khalid authored Dec 29, 2022
+21d5f5fb
+Kamran Khalid's avatar
+Optimized events page
+Kamran Khalid authored Dec 29, 2022
+1ef1b3b4
+Kamran Khalid's avatar
+Applied validation on client side for image #MWW-51
+Kamran Khalid authored Dec 29, 2022
+9e4913f8
+Kamran Khalid's avatar
+Updated event details #MWW-29
+Kamran Khalid authored Dec 29, 2022
+60f6dca0
+Kamran Khalid's avatar
+Updated space issue between price listing #MWW-32
+Kamran Khalid authored Dec 29, 2022
+5e4dc226
+Kamran Khalid's avatar
+Fixed image dimension issue #MWW-22
+Kamran Khalid authored Dec 29, 2022
+8f5c9fbe
+Kamran Khalid's avatar
+Add condition for no of laps #MWW-30
+Kamran Khalid authored Dec 29, 2022
+2a12c66d
+Kamran Khalid's avatar
+Fixed profile redirection issue #MWW-52
+Kamran Khalid authored Dec 29, 2022
+7a27f1bf
+Dec 28, 2022
+Kamran Khalid's avatar
+Fixed space and integer issue for registration #MWW-58
+Kamran Khalid authored Dec 28, 2022
+b5224022
+Dec 28, 2022
+Kamran Khalid's avatar
+Fixed space between buttons #MWW-59
+Kamran Khalid authored Dec 28, 2022
+fbd637e8
+Kamran Khalid's avatar
+Fixed home navigation #MWW-49
+Kamran Khalid authored Dec 28, 2022
+6aea719f
+Kamran Khalid's avatar
+Removed newsletter #MWW-50 
+Kamran Khalid authored Dec 28, 2022
+5619fb72
+Kamran Khalid's avatar
+Fixed link for verification email #MWW-56
+Kamran Khalid authored Dec 28, 2022
+bc623891
+Dec 27, 2022
+Kamran Khalid's avatar
+Fixed terms and condition checkbox #MWW-34
+Kamran Khalid authored Dec 27, 2022
+cfa0dae2
+Kamran Khalid's avatar
+Fixed profile image upload issue #MWW-41
+Kamran Khalid authored Dec 27, 2022
+0e2821da
+Dec 23, 2022
+Kamran Khalid's avatar
+Merge branch 'enhancement-upadte-asset-20221221' into 'staging' 
+Kamran Khalid authored Dec 23, 2022
+38c8d597
+Kamran Khalid's avatar
+Fixed font size on event listing page
+Kamran Khalid authored Dec 23, 2022
+6c47201b
+Kamran Khalid's avatar
+Merge branch 'enhancement-upadte-asset-20221221' into 'staging' 
+Kamran Khalid authored Dec 23, 2022
+2c488312
+Kamran Khalid's avatar
+Fixed table, menu and otp button
+Kamran Khalid authored Dec 23, 2022
+2b7cfd65
+Kamran Khalid's avatar
+Removed profile title from login and registration page
+Kamran Khalid authored Dec 23, 2022
+a334c373
+Dec 21, 2022
+Kamran Khalid's avatar
+Merge branch 'enhancement-upadte-asset-20221221' into 'staging' 
+Kamran Khalid authored Dec 21, 2022
+de863623
+Kamran Khalid's avatar
+Updated menu items
+Kamran Khalid authored Dec 21, 2022
+7f0fc756
+Kamran Khalid's avatar
+Merge branch 'enhancement-upadte-asset-20221221' into 'staging' 
+Kamran Khalid authored Dec 21, 2022
+ae8d71d1
+Kamran Khalid's avatar
+Updated assets url
+Kamran Khalid authored Dec 21, 2022
+cab50327
+Dec 16, 2022
+Kamran Khalid's avatar
+Removed old css files
+Kamran Khalid authored Dec 16, 2022
+15295158
+Kamran Khalid's avatar
+Updated content section of all pages
+Kamran Khalid authored Dec 16, 2022
+4dcb584c
+Dec 14, 2022
+Kamran Khalid's avatar
+Updated css file for join wizard
+Kamran Khalid authored Dec 14, 2022
+7339760c
+Kamran Khalid's avatar
+Update winning section
+Kamran Khalid authored Dec 14, 2022
+573eb2d9
+Kamran Khalid's avatar
+Implemented new design on event page
+Kamran Khalid authored Dec 14, 2022
+9afd886d
+Kamran Khalid's avatar
+Implemented new styling and js
+Kamran Khalid authored Dec 14, 2022
+011d6e6c
+Oct 10, 2022
+Kamran Khalid's avatar
+Added segment code in header
+Kamran Khalid authored Oct 10, 2022
+3e14aa4a
+Aug 31, 2022
+Kamran Khalid's avatar
+Removed popup
+Kamran Khalid authored Aug 31, 2022
+b4512743
+Aug 27, 2022
+Kamran Khalid's avatar
+Merge branch 'staging' into 'development' 
+Kamran Khalid authored Aug 27, 2022
+6ed840e7
+Kamran Khalid's avatar
+reverting old chagnes
+Kamran Khalid authored Aug 27, 2022
+f8f43551
+Aug 26, 2022
+Kamran Khalid's avatar
+Fixed images url
+Kamran Khalid authored Aug 27, 2022
+bcd4cfe3
+Kamran Khalid's avatar
+Resolved conflicts
+Kamran Khalid authored Aug 26, 2022
+00e7f9f3
+Kamran Khalid's avatar
+Merge branch 'staging' of https://gitlab.avrioc.io/mywhoosh/whoosh-web/whoosh_web into staging
+Kamran Khalid authored Aug 26, 2022
+af9cab15
+Kamran Khalid's avatar
+Merge branch 'development' of https://gitlab.avrioc.io/mywhoosh/whoosh-web/whoosh_web into staging 
+Kamran Khalid authored Aug 26, 2022
+b10570e8
+Kamran Khalid's avatar
+Merge branch 'enhancement-new-website-design-MYW2-2871-20220826' of... 
+Kamran Khalid authored Aug 26, 2022
+57f59ea6
+Kamran Khalid's avatar
+Merge branch 'master' of https://gitlab.avrioc.io/mywhoosh/whoosh-web/whoosh_web into staging
+Kamran Khalid authored Aug 26, 2022
+3d5a6048
+Kamran Khalid's avatar
+Merge branch 'staging' of https://gitlab.avrioc.io/mywhoosh/whoosh-web/whoosh_web into development
+Kamran Khalid authored Aug 26, 2022
+ed91e12c
+Kamran Khalid's avatar
+Updated the logo url
+Kamran Khalid authored Aug 26, 2022
+588d3895
+Kamran Khalid's avatar
+Updated stylesheet urls
+Kamran Khalid authored Aug 26, 2022
+6515fdc6
+Kamran Khalid's avatar
+Implemented new website design #MYW2-2871
+Kamran Khalid authored Aug 26, 2022
+c2c3cb77
+Aug 11, 2022
+Kamran Khalid's avatar
+Update footer address
+Kamran Khalid authored Aug 11, 2022
+d800b146
+Jul 04, 2022
+Kamran Khalid's avatar
+Added new link for top header menu
+Kamran Khalid authored Jul 04, 2022
+76378f74
+Jun 29, 2022
+Kamran Khalid's avatar
+Merge branch 'staging' into 'development' 
+Kamran Khalid authored Jun 29, 2022
+93683a88
+Kamran Khalid's avatar
+Added facebook pixel code
+Kamran Khalid authored Jun 29, 2022
+1101c93a
+May 25, 2022
+Kamran Khalid's avatar
+Updated Address in footer #MYW2-2085
+Kamran Khalid authored May 25, 2022
+1d4264fd
+May 13, 2022
+Kamran Khalid's avatar
+Updated logo
+Kamran Khalid authored May 13, 2022
+7ba68a2d
+Apr 28, 2022
+Kamran Khalid's avatar
+Made name into uppercase
+Kamran Khalid authored Apr 28, 2022
+0cfe245a
+Kamran Khalid's avatar
+Change label in top header button
+Kamran Khalid authored Apr 28, 2022
+16c42b9c
+Apr 27, 2022
+Kamran Khalid's avatar
+Updated css for dropdown
+Kamran Khalid authored Apr 27, 2022
+4ee9a777
+Kamran Khalid's avatar
+Added download button in top nav
+Kamran Khalid authored Apr 27, 2022
+9605ff51
+Kamran Khalid's avatar
+Added knowledge page
+Kamran Khalid authored Apr 27, 2022
+b9542a6a
+Kamran Khalid's avatar
+Added Sunday race club page
+Kamran Khalid authored Apr 27, 2022
+9006eb45
+Kamran Khalid's avatar
+Fixed navigation spacing
+Kamran Khalid authored Apr 27, 2022
+124bd725
+Apr 26, 2022
+Kamran Khalid's avatar
+Update style for social media
+Kamran Khalid authored Apr 26, 2022
+9f3fc7e7
+Kamran Khalid's avatar
+Updated wp URL
+Kamran Khalid authored Apr 26, 2022
+577e5ae7
+Kamran Khalid's avatar
+Fixed social media icon issue
+Kamran Khalid authored Apr 26, 2022
+13c2a2ea
+Kamran Khalid's avatar
+Updated header and footer style
+Kamran Khalid authored Apr 26, 2022
+be26c8ff
+Apr 25, 2022
+Kamran Khalid's avatar
+Passing name with parameters
+Kamran Khalid authored Apr 25, 2022
+19923b7b
+Kamran Khalid's avatar
+Added links in top header
+Kamran Khalid authored Apr 25, 2022
+7b36bec7
+Apr 22, 2022
+Kamran Khalid's avatar
+Added wp_url on home and profile page
+Kamran Khalid authored Apr 22, 2022
+9ff203ff
+Apr 07, 2022
+Kamran Khalid's avatar
+Updated event page
+Kamran Khalid authored Apr 07, 2022
+812319b6
+Kamran Khalid's avatar
+Removed accordion from event page
+Kamran Khalid authored Apr 07, 2022
+0a25a2fd
+Kamran Khalid's avatar
+Update header navigation and styling
+Kamran Khalid authored Apr 07, 2022
+adde88a4
+Mar 21, 2022
+Kamran Khalid's avatar
+Fix result page iframe header
+Kamran Khalid authored Mar 21, 2022
+65719198
+Mar 16, 2022
+Kamran Khalid's avatar
+Merge branch 'enhancement-refresh-result-page-202204016' into 'development' 
+Kamran Khalid authored Mar 16, 2022
+5ce314fd
+Kamran Khalid's avatar
+Refresh result page
+Kamran Khalid authored Mar 16, 2022
+4288e9d4
+Feb 03, 2022
+Kamran Khalid's avatar
+Updated video 
+Kamran Khalid authored Feb 03, 2022
+25083d14
+Kamran Khalid's avatar
+Updated home page video for mobile screen
+Kamran Khalid authored Feb 03, 2022
+a823053e
+Feb 01, 2022
+Kamran Khalid's avatar
+Update home page banner video
+Kamran Khalid authored Feb 01, 2022
+8443b002
+Dec 29, 2021
+Kamran Khalid's avatar
+Fixed winning icons
+Kamran Khalid authored Dec 29, 2021
+553463be
+Kamran Khalid's avatar
+Fixed allignment of winner icons
+Kamran Khalid authored Dec 29, 2021
+63171ebc
+Kamran Khalid's avatar
+Fixed taps in winner section 
+Kamran Khalid authored Dec 29, 2021
+a434900f
