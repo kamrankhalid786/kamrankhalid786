@@ -1,0 +1,194 @@
+Mar 21, 2023
+Kamran Khalid's avatar
+Updated new web event #MWW-24
+Kamran Khalid authored Mar 21, 2023
+f285f490
+Mar 15, 2023
+Kamran Khalid's avatar
+Change position #MWW-123
+Kamran Khalid authored Mar 15, 2023
+336a9fb9
+Kamran Khalid's avatar
+Added commit #MWW-123
+Kamran Khalid authored Mar 15, 2023
+484bb69b
+Kamran Khalid's avatar
+Merge branch 'fix-conflicts-20230315-MWW-123' of... 
+Kamran Khalid authored Mar 15, 2023
+1b195c76
+Kamran Khalid's avatar
+Run pipeline again #MWW-123
+Kamran Khalid authored Mar 15, 2023
+d916451c
+Kamran Khalid's avatar
+#MWW-123 Merge branch 'staging-qa' into 'fix-conflicts-20230315-MWW-123' 
+Kamran Khalid authored Mar 15, 2023
+0661c48d
+Kamran Khalid's avatar
+Updated prize field #MWW-123
+Kamran Khalid authored Mar 15, 2023
+453eec99
+Kamran Khalid's avatar
+Merge branch 'staging-qa' into staging #MWW-123
+Kamran Khalid authored Mar 15, 2023
+60084a85
+Kamran Khalid's avatar
+Merge branch 'staging-qa' into 'MYW2-6548-mandatory-dob' 
+Kamran Khalid authored Mar 15, 2023
+76178b25
+Mar 08, 2023
+Kamran Khalid's avatar
+Implemented service 22 to service 21 changes MWW-123
+Kamran Khalid authored Mar 8, 2023
+d7765553
+Feb 01, 2023
+Kamran Khalid's avatar
+Added DOB file link
+Kamran Khalid authored Feb 1, 2023
+413d9dcd
+Sep 30, 2022
+Kamran Khalid's avatar
+Merge branch 'enhancement-added-cat-in-events-MYW2-3503-20220930' into 'development' 
+Kamran Khalid authored Sep 30, 2022
+63ca93ed
+Kamran Khalid's avatar
+Added category on event page
+Kamran Khalid authored Sep 30, 2022
+efda7ad2
+Sep 23, 2022
+Kamran Khalid's avatar
+Added new category
+Kamran Khalid authored Sep 23, 2022
+1bfef32b
+Mar 17, 2022
+Kamran Khalid's avatar
+Fixed upload image in pages
+Kamran Khalid authored Mar 17, 2022
+afd709d4
+Mar 11, 2022
+Kamran Khalid's avatar
+Added dynamic routes through vuex state
+Kamran Khalid authored Mar 11, 2022
+c26e537c
+Kamran Khalid's avatar
+Implemented dynamic routes on event and dashboard page
+Kamran Khalid authored Mar 11, 2022
+42bf8f41
+Feb 25, 2022
+Kamran Khalid's avatar
+Fixed gender issue
+Kamran Khalid authored Feb 25, 2022
+6e290142
+Kamran Khalid's avatar
+Fixed gender issue in listing
+Kamran Khalid authored Feb 25, 2022
+0ab0117f
+Jan 14, 2022
+Kamran Khalid's avatar
+Optimized participants model
+Kamran Khalid authored Jan 14, 2022
+ac9e7548
+Kamran Khalid's avatar
+Added new field for participants limit and applied condition
+Kamran Khalid authored Jan 14, 2022
+6377de74
+Dec 28, 2021
+Kamran Khalid's avatar
+Change name of dashboard methods
+Kamran Khalid authored Dec 28, 2021
+60ebbc80
+Dec 27, 2021
+Kamran Khalid's avatar
+Updated events mode for participant 
+Kamran Khalid authored Dec 27, 2021
+723493f3
+Dec 26, 2021
+Kamran Khalid's avatar
+Added participants count and link with events
+Kamran Khalid authored Dec 26, 2021
+f1bd51ee
+Kamran Khalid's avatar
+Created dashboard of admin panel
+Kamran Khalid authored Dec 26, 2021
+1a4ba0fe
+Dec 22, 2021
+Kamran Khalid's avatar
+Moved RTE key in .env 
+Kamran Khalid authored Dec 22, 2021
+19210228
+Kamran Khalid's avatar
+Created profile page
+Kamran Khalid authored Dec 22, 2021
+1a772930
+Dec 21, 2021
+Kamran Khalid's avatar
+Updated the uploadHandler
+Kamran Khalid authored Dec 21, 2021
+c0075c4d
+Kamran Khalid's avatar
+Verified all pages and there fields
+Kamran Khalid authored Dec 21, 2021
+a2ddfb36
+Kamran Khalid's avatar
+Added code icon in rte
+Kamran Khalid authored Dec 21, 2021
+5ad02232
+Kamran Khalid's avatar
+Removed unnecessary icons from toolbar 
+Kamran Khalid authored Dec 21, 2021
+a842f86e
+Dec 20, 2021
+Kamran Khalid's avatar
+Integrated media in tinymce
+Kamran Khalid authored Dec 20, 2021
+ff34c8fc
+Dec 19, 2021
+Kamran Khalid's avatar
+Upgraded kothing editor to tinymce #MYW2-906 
+Kamran Khalid authored Dec 19, 2021
+d6eb4961
+Dec 16, 2021
+Kamran Khalid's avatar
+Moved config in separate file
+Kamran Khalid authored Dec 16, 2021
+d8fd2c54
+Kamran Khalid's avatar
+Fixed track issue
+Kamran Khalid authored Dec 16, 2021
+e78626ec
+Kamran Khalid's avatar
+Fixed track issue in api
+Kamran Khalid authored Dec 16, 2021
+1f89da29
+Kamran Khalid's avatar
+Fixed id issue on all links in event listing page
+Kamran Khalid authored Dec 16, 2021
+715384aa
+Kamran Khalid's avatar
+Fixed event_id issue on listing page
+Kamran Khalid authored Dec 16, 2021
+21bd67aa
+Dec 14, 2021
+Kamran Khalid's avatar
+Fixed pagination while search
+Kamran Khalid authored Dec 14, 2021
+a2239484
+Dec 13, 2021
+Kamran Khalid's avatar
+Fixed pagination issue in search
+Kamran Khalid authored Dec 13, 2021
+569c5241
+Dec 13, 2021
+Kamran Khalid's avatar
+Implemented pagination on events #MYW2-898
+Kamran Khalid authored Dec 13, 2021
+699c5579
+Nov 02, 2021
+Kamran Khalid's avatar
+Fixed delete issue in FAQ's
+Kamran Khalid authored Nov 02, 2021
+f80531ab
+Kamran Khalid's avatar
+Fix delete and reload issue on event and article
+Kamran Khalid authored Nov 02, 2021
+e0af9d3d

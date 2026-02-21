@@ -1,0 +1,50 @@
+<template data-menu-template="default">
+    <nav>
+        <div class="nav-container">
+            <a class="logo" href="{{ROOT}}/index.html">Kamran Khalid</a>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="{{ROOT}}/index.html" data-menu-key="home">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a href="{{ROOT}}/experience.html" data-menu-key="experience">Experience</a>
+                    <div class="nav-dropdown">
+                        <!-- <a href="{{ROOT}}/verofy.html" data-menu-key="verofy">Verofy</a> -->
+                        <a href="{{ROOT}}/proconvey.html" data-menu-key="proconvey">ProConvey</a>
+                    </div>
+                </li>
+                <li><a href="{{ROOT}}/education.html" data-menu-key="education">Education</a></li>
+                <!-- <li><a href="{{ROOT}}/recommendations.html" data-menu-key="recommendations">Recommendations</a></li> -->
+                <li class="nav-item dropdown">
+                    <a href="{{ROOT}}/community.html" data-menu-key="community">Community</a>
+                    <div class="nav-dropdown">
+                        <a href="{{ROOT}}/fintech-api-workshop.html" data-menu-key="fintech-api-workshop" title="GDG on Campus The University of Manchester - Manchester, United Kingdom">Engineering a Fintech Payment API</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</template>
+
+<template data-menu-template="fintech">
+    <nav>
+        <div class="nav-container">
+            <a class="logo" href="{{ROOT}}/index.html">Kamran Khalid</a>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="{{ROOT}}/index.html" data-menu-key="home">Home</a></li>
+                <li><a href="{{ROOT}}/community.html" data-menu-key="community">Community</a></li>
+                <li><a href="{{ROOT}}/education.html" data-menu-key="education">Education</a></li>
+                <li><a href="{{ROOT}}/experience.html" data-menu-key="experience">Experience</a></li>
+                <!-- <li><a href="{{ROOT}}/verofy.html" data-menu-key="verofy">Verofy</a></li> -->
+                <li><a href="{{ROOT}}/proconvey.html" data-menu-key="proconvey">ProConvey</a></li>
+                <!-- <li><a href="{{ROOT}}/recommendations.html" data-menu-key="recommendations">Recommendations</a></li> -->
+                <li><a href="{{ROOT}}/fintech-api.html" data-menu-key="fintech-api">Fintech API</a></li>
+                <li><a href="{{ROOT}}/fintech-api-workshop.html" data-menu-key="fintech-api-workshop">Engineering a Fintech Payment API</a></li>
+            </ul>
+        </div>
+    </nav>
+</template>

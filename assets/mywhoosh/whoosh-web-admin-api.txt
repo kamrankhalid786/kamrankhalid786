@@ -1,0 +1,131 @@
+Mar 15, 2023
+Kamran Khalid's avatar
+Fix price money #MWW-123
+Kamran Khalid authored Mar 15, 2023
+39ec1d4e
+Mar 08, 2023
+Kamran Khalid's avatar
+Implemented service 21 changes MWW-123
+Kamran Khalid authored Mar 8, 2023
+291ae92f
+Aug 25, 2022
+Kamran Khalid's avatar
+Removed sentry package
+Kamran Khalid authored Aug 25, 2022
+3e2f950c
+Mar 17, 2022
+Kamran Khalid's avatar
+Fix upload image in pages
+Kamran Khalid authored Mar 17, 2022
+552d977c
+Mar 11, 2022
+Kamran Khalid's avatar
+Removed model and handled through query builder
+Kamran Khalid authored Mar 11, 2022
+723416bd
+Kamran Khalid's avatar
+Added selected values only
+Kamran Khalid authored Mar 11, 2022
+38f9634b
+Kamran Khalid's avatar
+Moved routes method into separate controller
+Kamran Khalid authored Mar 11, 2022
+44de76fb
+Kamran Khalid's avatar
+Created api for dynamic route dropdown in event page
+Kamran Khalid authored Mar 11, 2022
+84fc6091
+Feb 25, 2022
+Kamran Khalid's avatar
+Fixed gender issue
+Kamran Khalid authored Feb 25, 2022
+0d351582
+Feb 14, 2022
+Kamran Khalid's avatar
+Fixed user auth issue
+Kamran Khalid authored Feb 14, 2022
+1495ac17
+Feb 11, 2022
+Kamran Khalid's avatar
+Fixed pages update issue
+Kamran Khalid authored Feb 11, 2022
+26eb7419
+Jan 14, 2022
+Kamran Khalid's avatar
+Added new field for participants limit and applied condition
+Kamran Khalid authored Jan 14, 2022
+428dadfc
+Dec 27, 2021
+Kamran Khalid's avatar
+Updated participants model
+Kamran Khalid authored Dec 27, 2021
+cb60476b
+Dec 26, 2021
+Kamran Khalid's avatar
+Added event count in api response
+Kamran Khalid authored Dec 26, 2021
+2e78a65e
+Kamran Khalid's avatar
+Created dashboard api
+Kamran Khalid authored Dec 26, 2021
+16671243
+Dec 22, 2021
+Kamran Khalid's avatar
+Created change password api
+Kamran Khalid authored Dec 22, 2021
+8c7a3dd5
+Dec 21, 2021
+Kamran Khalid's avatar
+Removed unnecessary code
+Kamran Khalid authored Dec 21, 2021
+14f3ec72
+Kamran Khalid's avatar
+Applied validation and changed route
+Kamran Khalid authored Dec 21, 2021
+e89ad1d5
+Dec 20, 2021
+Kamran Khalid's avatar
+Created tenymce api for image upload
+Kamran Khalid authored Dec 20, 2021
+2c1ed650
+Dec 16, 2021
+Kamran Khalid's avatar
+Fixed image issue in event meta
+Kamran Khalid authored Dec 16, 2021
+3557244e
+Kamran Khalid's avatar
+Fixed event_id issue in listing api
+Kamran Khalid authored Dec 16, 2021
+5ede5c60
+Dec 15, 2021
+Kamran Khalid's avatar
+Merge branch 'development' of... 
+Kamran Khalid authored Dec 15, 2021
+ed431bf2
+Kamran Khalid's avatar
+Implemented on players listing
+Kamran Khalid authored Dec 15, 2021
+a6067cdc
+Kamran Khalid's avatar
+Moved pagination in response trait class
+Kamran Khalid authored Dec 15, 2021
+b6de4d00
+Dec 14, 2021
+Kamran Khalid's avatar
+Updated event filter method
+Kamran Khalid authored Dec 14, 2021
+45122017
+Dec 13, 2021
+Kamran Khalid's avatar
+Implemented pagination on event listing page
+Kamran Khalid authored Dec 13, 2021
+db3237f5
+Nov 02, 2021
+Kamran Khalid's avatar
+Fix FAQ's delete issue
+Kamran Khalid authored Nov 2, 2021
+ac7dc9ae
+Kamran Khalid's avatar
+Updated message for article category delete
+Kamran Khalid authored Nov 2, 2021
+c27072e0

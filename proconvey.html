@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProConvey: Technical Contribution - Kamran Khalid</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="proconvey-mermaid.css">
+    <link rel="icon" type="image/jpeg" href="assets/profile.jpeg">
+    <script src="assets/js/menu-loader.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.0/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: "base",
+            themeVariables: {
+                background: "#111824",
+                primaryColor: "#222e44",
+                primaryTextColor: "#e6f0ff",
+                primaryBorderColor: "#33d69f",
+                lineColor: "#33d69f",
+                secondaryColor: "#182233",
+                tertiaryColor: "#0f151f",
+                fontFamily: "IBM Plex Mono, Space Grotesk, Segoe UI, Arial, sans-serif",
+                fontSize: "15px",
+                edgeLabelBackground: "#182233"
+            }
+        });
+    </script>
+</head>
+
+<body data-menu-root="." data-menu-active="experience,proconvey" data-menu-variant="default">
+    <div class="page-rail">
+        <div class="rail-progress" id="railProgress"></div>
+    </div>
+    <div id="site-menu"></div>
+
+    <!-- Section 1: Banner -->
+    <section class="page-hero" id="part-1-banner">
+        <div class="container hero-container">
+            <div class="hero-split-layout">
+                <div class="hero-main-pane">
+                    <span class="page-label">LegalTech · SaaS · AI</span>
+                    <h1 class="page-title">ProConvey</h1>
+                    <p class="page-subtitle hero-subtitle">
+                        ProConvey is a cloud‑based conveyancing portal for law firms and estate agents that digitises
+                        onboarding,
+                        compliance, and the end‑to‑end property transaction workflow.
+                    </p>
+                    <div class="hero-meta-clean">
+                        <div class="hero-meta-row"><span>Role</span>Primary Technical Architect & Senior Backend Lead</div>
+                        <div class="hero-meta-row"><span>Period</span>May 2023 – April 2024</div>
+                        <div class="hero-meta-row"><span>Focus</span>Backend architecture, compliance automation, grant‑critical
+                            delivery</div>
+                        <div class="hero-meta-row">
+                            <span>Organization</span>
+                            <span class="hero-meta-links">
+                                <a href="https://proconvey.co.uk/" target="_blank" rel="noopener">ProConvey Limited</a>
+                                <span class="hero-meta-divider">•</span>
+                                <a href="https://www.linkedin.com/company/proconvey/" target="_blank"
+                                    rel="noopener">LinkedIn</a>
+                                <span class="hero-meta-divider">•</span>
+                                <a href="https://github.com/kamrankhalid786?tab=overview&from=2023-12-01&to=2023-12-31"
+                                    target="_blank" rel="noopener">GitHub ’23</a>
+                                <span class="hero-meta-divider">•</span>
+                                <a href="https://github.com/kamrankhalid786?tab=overview&from=2024-12-01&to=2024-12-31"
+                                    target="_blank" rel="noopener">GitHub ’24</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-side-pane">
+                    <div class="hero-innovation-hook">
+                        <span class="hero-innovation-kicker">National Innovation Validation</span>
+                        <p>
+                            This delivery was validated through a <strong>£202,929 Innovate UK Smart Grant</strong>. These grants
+                            are highly competitive and often cited at around a <strong>5% success rate</strong>, providing national-level
+                            validation of innovation and technical leadership.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bottom-spacer"></div>
+    </section>
+
+    <!-- Section 2: ProConvey Details + Innovation + Impact -->
+    <section class="section proconvey-part-section part-two-section" id="part-2-proconvey">
+        <div class="container">
+            <div class="part-header">
+                <h2 class="part-title">ProConvey Details, Innovation & Impact</h2>
+                <p class="part-intro">
+                    This section covers product scope, external innovation validation, and measurable impact.
+                    Detailed implementation evidence appears in the leadership section below.
+                </p>
+            </div>
+            <div class="product-innovation-grid">
+                <article class="product-overview-panel">
+                    <h3 class="section-subtitle section-subtitle-tight">Product Overview</h3>
+                    <p class="section-intro">
+                        ProConvey digitizes onboarding, compliance, and case management to reduce manual paperwork, improve data accuracy,
+                        and accelerate the UK property transaction flow.
+                    </p>
+                    <div class="impact-inline-wrap">
+                        <div class="impact-compact-grid">
+                            <article class="impact-compact-item">
+                                <span class="impact-compact-value">80%</span>
+                                <span class="impact-compact-label">Reduction in standard legal inquiries.</span>
+                            </article>
+                            <article class="impact-compact-item">
+                                <span class="impact-compact-value">2,200+</span>
+                                <span class="impact-compact-label">Clients onboarded since launch.</span>
+                            </article>
+                            <article class="impact-compact-item">
+                                <span class="impact-compact-value">Weeks to Hours</span>
+                                <span class="impact-compact-label">Onboarding reduction through exchange-ready document packs.</span>
+                            </article>
+                            <article class="impact-compact-item">
+                                <span class="impact-compact-value">£850k+</span>
+                                <span class="impact-compact-label">Total funding enabled, including the £202,929 Innovate UK Smart Grant.</span>
+                            </article>
+                        </div>
+                    </div>
+                    <h3 class="section-subtitle">Conveyancing Software in Action</h3>
+                    <p class="content-text">
+                        Take a look at ProConvey in action and see how the platform streamlines onboarding and conveyancing workflows.
+                    </p>
+                    <div class="showcase-video">
+                        <button class="showcase-video-link" type="button" aria-label="Watch ProConvey demo video"
+                            onclick="openShowcaseVideo()">
+                            <img src="https://www.proconvey.co.uk/_next/image?url=%2Fimages%2FPhotos%2FProConvey-dashboard-video-placeholder.webp&w=1920&q=75"
+                                alt="ProConvey conveyancing software demo video">
+                            <span class="showcase-play">
+                                <span class="showcase-play-outer">
+                                    <span class="showcase-play-inner">
+                                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                                            <polygon points="6 3 20 12 6 21 6 3"></polygon>
+                                        </svg>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </div>
+                </article>
+                <article class="innovation-validation-card">
+                    <h3 class="section-subtitle innovation-validation-title section-subtitle-tight">Validation of Innovation</h3>
+                    <p class="section-intro innovation-validation-intro">
+                        <strong>ProConvey</strong> was awarded an <strong>Innovate UK Smart Grant (£202,929)</strong> for
+                        the project “Blockchain encrypted secure digital conveyancing platform” (2022/23, Project No. 10045054).
+                    </p>
+                    <p class="section-intro innovation-validation-intro">
+                        <strong>Continuation of this grant funding was strictly contingent on meeting rigorous technical and innovation milestones</strong>—milestones for which I was personally responsible as the Primary Technical Architect & Senior Backend Lead. My work directly enabled the successful delivery and validation of these requirements, ensuring the project’s national innovation status and its recognition by UKRI and Innovate UK.
+                    </p>
+                    <ul class="innovation-validation-list">
+                        <li><strong>Competition:</strong> Innovate UK Smart Grants: April 2022</li>
+                        <li><strong>Project Number:</strong> 10045054</li>
+                        <li><strong>Project Title:</strong> Blockchain encrypted secure digital conveyancing platform</li>
+                        <li><strong>Lead Participant:</strong> PRECONVEY LIMITED</li>
+                        <li><strong>Award Offered:</strong> £202,929</li>
+                        <li><strong>Project Status:</strong> Closed (Successfully delivered)</li>
+                    </ul>
+                    <div class="innovation-validation-links">
+                        <a href="https://www.ukri.org/publications/innovate-uk-funded-projects-since-2004/" target="_blank"
+                            rel="noopener">UKRI Grant Source</a>
+                        <span class="innovation-link-divider">•</span>
+                        <a href="https://www.legalfutures.co.uk/latest-news/former-conveyancer-raises-850000-for-onboarding-tool"
+                            target="_blank" rel="noopener">Press Coverage</a>
+                        <span class="innovation-link-divider">•</span>
+                        <a href="https://public.tableau.com/app/profile/itiuk/viz/IUKFundingMap/Home" target="_blank"
+                            rel="noopener">UKRI Funding DB</a>
+                    </div>
+                </article>
+            </div>
+
+            <article class="linkedin-updates-panel">
+                <h3 class="section-subtitle section-subtitle-tight">LinkedIn Product Updates</h3>
+                <p class="section-intro">
+                    Recent ProConvey public updates that reinforce live market traction and measurable transaction outcomes.
+                </p>
+                <div class="linkedin-posts-grid">
+                    <article class="linkedin-post-card">
+                        <div class="linkedin-embed">
+                            <a class="linkedin-post-link"
+                                href="https://www.linkedin.com/feed/update/urn:li:share:7413259007353622528/"
+                                target="_blank" rel="noopener">
+                                <img src="assets/proconvey/linkedin-1.png"
+                                    alt="Screenshot of ProConvey LinkedIn post reporting 4,665 conveyancing cases processed in 2025."
+                                    loading="lazy">
+                            </a>
+                        </div>
+                        <div class="linkedin-post-summary">
+                            <h4>4,665 conveyancing cases processed in 2025</h4>
+                            <p class="content-text">
+                                Sale, purchase, and remortgage cases managed through ProConvey with digital onboarding and fewer manual touchpoints.
+                            </p>
+                            <ul class="linkedin-stats-list">
+                                <li><strong>Sale cases:</strong> 2,200</li>
+                                <li><strong>Purchase cases:</strong> 1,987</li>
+                                <li><strong>Remortgage cases:</strong> 478</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="linkedin-post-card">
+                        <div class="linkedin-embed">
+                            <a class="linkedin-post-link"
+                                href="https://www.linkedin.com/feed/update/urn:li:share:7413263549403119616/"
+                                target="_blank" rel="noopener">
+                                <img src="assets/proconvey/linkedin-2.png"
+                                    alt="Screenshot of ProConvey LinkedIn post about Digital Sale Ready onboarding outcomes."
+                                    loading="lazy">
+                            </a>
+                        </div>
+                        <div class="linkedin-post-summary">
+                            <h4>Digital Sale Ready starts before offer acceptance</h4>
+                            <p class="content-text">
+                                Estate-agent onboarding enables ID verification, sale information capture, and form completion early, before SSTC.
+                            </p>
+                            <ul class="linkedin-stats-list">
+                                <li><strong>43% reduction</strong> in fall-throughs once under instruction</li>
+                                <li><strong>35% reduction</strong> in days from SSTC to exchange</li>
+                                <li><strong>21% increase</strong> in instructions for agents offering Digital Sale Ready</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Section 3: Leadership + Contribution -->
+    <section class="section proconvey-part-section part-three-section" id="part-3-leadership">
+        <div class="container">
+            <div class="part-header">
+                <h2 class="part-title">My Leadership & Contribution</h2>
+                <p class="part-intro">
+                    This section summarizes what I led, what I built, and the measurable outcomes delivered.
+                </p>
+            </div>
+            <h3 class="section-subtitle section-subtitle-tight">Innovation I Personally Engineered</h3>
+            <div class="narrative-card">
+                <p class="content-text">
+                    <strong>New digital concept (UK residential market):</strong> I defined and engineered the
+                    <strong>Exchange-Ready Pack</strong> to shift conveyancing from fragmented manual collection to structured,
+                    digital-first legal bundles.
+                </p>
+                <p class="content-text">
+                    <strong>Blockchain-encrypted logic:</strong> I implemented blockchain-encrypted logic to produce
+                    immutable conveyancing packs, addressing systemic process failures in UK transactions associated
+                    with an estimated <strong>£607 million annual cost</strong> to homebuyers.
+                </p>
+            </div>
+            <div class="leadership-grid">
+                <div class="leadership-story">
+                    <h3 class="section-subtitle">Leadership Summary</h3>
+                    <p class="content-text">
+                        I led backend architecture and milestone delivery, moving ProConvey from concept to a
+                        compliant, market-ready onboarding platform.
+                    </p>
+                    <p class="content-text">
+                        I owned the automated “exchange-ready” pack architecture, including TA6/TA7/TA10 form
+                        assembly, evidence orchestration, and compliant naming conventions for conveyancer-ready
+                        legal bundles.
+                    </p>
+                </div>
+                <div class="leadership-metrics">
+                    <h4 class="mini-title">Key Outcomes</h4>
+                    <div class="metric-chips metric-chips-tight">
+                        <div class="metric-chip">181 Merged PRs</div>
+                        <div class="metric-chip">10,531 Code Additions</div>
+                        <div class="metric-chip">5 Core Integrations</div>
+                        <div class="metric-chip">AI-Driven KYC/KYB Decisioning Delivered</div>
+                        <div class="metric-chip">TA6/TA7/TA10 Pack Automation Delivered</div>
+                        <div class="metric-chip">Innovate UK Grant Milestones Delivered</div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="section-subtitle">Implementation Summary</h3>
+            <div class="content-single">
+                <p class="content-text">
+                    I was the primary architect for the backend lifecycle and engineered the AI-driven KYC/KYB
+                    decisioning layer, automated Companies House and property-data retrieval, and mission-critical
+                    integrations across Yoti, Stripe, Sprift, Royal Mail AddressNow, and Companies House to maintain
+                    a legally compliant onboarding flow. I also led architectural refactors that reduced technical debt
+                    and improved platform scalability.
+                </p>
+            </div>
+            <div class="stack-icons stack-row" aria-label="ProConvey technology stack">
+                <div class="stack-icon" aria-label="Laravel"><img class="stack-logo" src="assets/tech/laravel.svg"
+                        alt="Laravel logo"></div>
+                <div class="stack-icon" aria-label="GraphQL"><img class="stack-logo" src="assets/tech/graphql.svg"
+                        alt="GraphQL logo"></div>
+                <div class="stack-icon" aria-label="React"><img class="stack-logo" src="assets/tech/react.svg"
+                        alt="React logo"></div>
+                <div class="stack-icon" aria-label="TypeScript"><img class="stack-logo" src="assets/tech/typescript.svg"
+                        alt="TypeScript logo"></div>
+                <div class="stack-icon" aria-label="Identity"><img class="stack-logo" src="assets/tech/identity.svg"
+                        alt="Identity icon"></div>
+                <div class="stack-icon" aria-label="Payments"><img class="stack-logo" src="assets/tech/payments.svg"
+                        alt="Payments icon"></div>
+                <div class="stack-icon" aria-label="Data sources"><img class="stack-logo"
+                        src="assets/tech/data-sources.svg" alt="Data sources icon"></div>
+            </div>
+
+            <h3 class="section-subtitle">Architecture & Process Blueprint</h3>
+            <p class="section-intro section-intro-compact">
+                System architecture and process blueprints are grouped together below so design decisions, product flow, and implementation evidence remain connected.
+            </p>
+            <div class="architecture-diagram-grid">
+                <div class="diagram-card">
+                    <div class="diagram-caption">High-Level Architecture Diagram</div>
+                    <div class="mermaid">
+                        flowchart LR
+                        A["Web Frontend (Next.js, React)"] -- API Calls --> B["API Backend (Laravel, PHP)"]
+                        C["Mobile App (Flutter)"] -- API Calls --> B
+                        B -- DB Queries --> D["MySQL Database"]
+                        B -- File Storage --> E["Minio/S3"]
+                        B -- Integrations --> F["Third-Party APIs (Yoti, Stripe, Royal Mail, Companies House)"]
+                    </div>
+                    <div class="diagram-attribution-line">Design by Kamran Khalid</div>
+                </div>
+
+            </div>
+
+            <h3 class="section-subtitle">Figma High-Level Flow Diagrams</h3>
+            <p class="section-intro section-intro-compact">
+                Figma-based process blueprints showing end-to-end conveyancing flows for seller and buyer journeys, with my
+                direct implementation contribution highlighted in each flow.
+            </p>
+            <div class="figma-flow-grid">
+                <figure class="figma-flow-card">
+                    <a class="figma-flow-link" href="assets/proconvey/flow-detail.jpg" target="_blank" rel="noopener">
+                        <img src="assets/proconvey/flow-detail.jpg"
+                            alt="Figma high-level conveyancing process diagram for seller journey, MVP Product 1.0">
+                    </a>
+                    <div class="diagram-attribution-line">Design by Kamran Khalid</div>
+                    <figcaption>
+                        <strong>Seller Flow (MVP / Product 1.0):</strong> High-level process from conveyancer sign-up through
+                        onboarding, pack completion, and download.
+                        <span class="figma-contribution-note"><strong>My contribution:</strong> I designed this flow and implemented
+                            the backend orchestration for onboarding, protocol pack completion, and final download delivery.</span>
+                    </figcaption>
+                </figure>
+                <figure class="figma-flow-card">
+                    <a class="figma-flow-link" href="assets/proconvey/high-level-flow.jpg" target="_blank" rel="noopener">
+                        <img src="assets/proconvey/high-level-flow.jpg"
+                            alt="Figma high-level conveyancing process diagram for buyer journey, MVP Product 1.1">
+                    </a>
+                    <div class="diagram-attribution-line">Design by Kamran Khalid</div>
+                    <figcaption>
+                        <strong>Buyer Flow (MVP / Product 1.1):</strong> High-level process for buyer onboarding, AML checks,
+                        protocol completion, and final pack delivery.
+                        <span class="figma-contribution-note"><strong>My contribution:</strong> I designed this flow and implemented
+                            AML/KYC orchestration, protocol automation, and completion delivery across the buyer journey.</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <p class="section-intro section-bridge-text">
+                These blueprints map directly to the feature implementation and PR evidence in the next section.
+            </p>
+
+            <h3 class="section-subtitle">Features Developed & Led (Technical Detail)</h3>
+            <div class="feature-stack feature-stack-clean">
+                <article class="feature-block">
+                    <div class="feature-heading-row">
+                        <h4>AI-Driven Compliance Logic (KYC/KYB)</h4>
+                        <div class="pr-evidence pr-evidence-corner">
+                            <span class="pr-evidence-label">Evidence PRs</span>
+                            <div class="pr-evidence-badges">
+                                <span class="pr-evidence-badge">#861 TA6/TA7 Population Workflow</span>
+                                <span class="pr-evidence-badge">#863 ID Check Skip Removal</span>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="feature-points">
+                        <li><strong>Purpose:</strong> Automates customer/business verification, reducing manual errors
+                            and speeding onboarding.</li>
+                        <li><strong>Importance:</strong> Directly impacts compliance, risk, and onboarding speed.</li>
+                        <li><strong>Uniqueness:</strong> Integrates multiple APIs with AI/business rules for automated
+                            legal checks.</li>
+                    </ul>
+                    <div class="official-feature-grid">
+                        <a class="official-feature" href="https://www.proconvey.co.uk/features/know-your-case-and-client"
+                            target="_blank" rel="noopener">
+                            <div class="official-header">
+                                <span class="official-badge">Official feature</span>
+                                <span class="official-link">Know Your Case and Client</span>
+                            </div>
+                            <p class="official-desc">Step‑by‑step KYC forms to capture comprehensive case and client
+                                information.</p>
+                        </a>
+                        <a class="official-feature" href="https://www.proconvey.co.uk/features/id-and-aml-checks"
+                            target="_blank" rel="noopener">
+                            <div class="official-header">
+                                <span class="official-badge">Official feature</span>
+                                <span class="official-link">ID & AML Checks</span>
+                            </div>
+                            <p class="official-desc">Integrated identity and AML checks for compliant onboarding.</p>
+                        </a>
+                    </div>
+                    <div class="diagram-card">
+                        <div class="diagram-caption">Compliance Logic Sequence</div>
+                        <div class="mermaid">
+                            sequenceDiagram
+                            participant User
+                            participant Frontend
+                            participant API
+                            participant CompaniesHouse
+                            participant Sprift
+                            participant AIEngine
+                            participant DB
+                            User->>Frontend: Submit onboarding form
+                            Frontend->>API: Send onboarding data
+                            API->>CompaniesHouse: Fetch company data
+                            API->>Sprift: Fetch property data
+                            API->>AIEngine: Run compliance logic
+                            AIEngine->>DB: Update status
+                        </div>
+                    </div>
+                </article>
+                <article class="feature-block">
+                    <div class="feature-heading-row">
+                        <h4>Protocol Pack Automation (TA6, TA7, TA10)</h4>
+                        <div class="pr-evidence pr-evidence-corner">
+                            <span class="pr-evidence-label">Evidence PRs</span>
+                            <div class="pr-evidence-badges">
+                                <span class="pr-evidence-badge">#1054 Categorized Pack Documents</span>
+                                <span class="pr-evidence-badge">#1208 Pack ZIP Naming Convention</span>
+                                <span class="pr-evidence-badge">#1216 Pack Sub-Directory Structure</span>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="feature-points">
+                        <li><strong>Purpose:</strong> Aggregates legal forms into digital bundles for conveyancers.</li>
+                        <li><strong>Importance:</strong> Reduces onboarding from weeks to hours.</li>
+                        <li><strong>Uniqueness:</strong> Dynamic aggregation, PDF generation, and digital delivery.</li>
+                    </ul>
+                    <div class="official-feature-grid">
+                        <a class="official-feature" href="https://www.proconvey.co.uk/features/the-law-society-ta-forms"
+                            target="_blank" rel="noopener">
+                            <div class="official-header">
+                                <span class="official-badge">Official feature</span>
+                                <span class="official-link">The Law Society TA Forms</span>
+                            </div>
+                            <p class="official-desc">Digitised TA6/TA7/TA9/TA10 with guided completion and review.</p>
+                        </a>
+                        <a class="official-feature"
+                            href="https://www.proconvey.co.uk/features/contract-ready-conveyancing-packs" target="_blank"
+                            rel="noopener">
+                            <div class="official-header">
+                                <span class="official-badge">Official feature</span>
+                                <span class="official-link">Contract‑Ready Packs</span>
+                            </div>
+                            <p class="official-desc">Organised packs with standardised naming and delivery.</p>
+                        </a>
+                    </div>
+                    <div class="diagram-card">
+                        <div class="diagram-caption">Protocol Pack Automation Flow</div>
+                        <div class="mermaid">
+                            flowchart LR
+                            A["User completes forms"] --> B["Aggregate TA6/TA10"]
+                            B --> C["Generate PDF bundle"]
+                            C --> D["Attach to case"]
+                            D --> E["Notify conveyancer"]
+                        </div>
+                    </div>
+                </article>
+                <article class="feature-block">
+                    <div class="feature-heading-row">
+                        <h4>Yoti IDV Integration</h4>
+                        <div class="pr-evidence pr-evidence-corner">
+                            <span class="pr-evidence-label">Evidence PRs</span>
+                            <div class="pr-evidence-badges">
+                                <span class="pr-evidence-badge">#1155 Yoti Redirect Implementation</span>
+                                <span class="pr-evidence-badge">#1163 Sign Redirect Flow Review</span>
+                                <span class="pr-evidence-badge">#1036 Yoti Address Proof Integration</span>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="feature-points">
+                        <li><strong>Purpose:</strong> Secure identity verification for legally binding onboarding.</li>
+                        <li><strong>Importance:</strong> Reduces fraud and improves compliance.</li>
+                        <li><strong>Uniqueness:</strong> Webhook-driven automation with real-time session completion.
+                        </li>
+                    </ul>
+                    <a class="official-feature" href="https://www.proconvey.co.uk/features/id-and-aml-checks"
+                        target="_blank" rel="noopener">
+                        <div class="official-header">
+                            <span class="official-badge">Official feature</span>
+                            <span class="official-link">ID & AML Checks</span>
+                        </div>
+                        <p class="official-desc">Yoti Sign & IDV integration for legally binding onboarding.</p>
+                    </a>
+                    <div class="diagram-card">
+                        <div class="diagram-caption">Yoti IDV Integration Flow</div>
+                        <div class="mermaid">
+                            flowchart LR
+                            A[API Backend] --> B[Start Yoti IDV Session]
+                            B --> C[Yoti Platform]
+                            C -- Webhook --> D[Webhook Job]
+                            D --> E[Update Status]
+                        </div>
+                    </div>
+                </article>
+                <article class="feature-block">
+                    <div class="feature-heading-row">
+                        <h4>Sprift Property Data Automation</h4>
+                        <div class="pr-evidence pr-evidence-corner">
+                            <span class="pr-evidence-label">Evidence PRs</span>
+                            <div class="pr-evidence-badges">
+                                <span class="pr-evidence-badge">#972 Laravel Jobs for Sprift APIs</span>
+                                <span class="pr-evidence-badge">#551 Sprift API Summary Data Mapping</span>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="feature-points">
+                        <li><strong>Purpose:</strong> Enriches properties with data and images from Sprift.</li>
+                        <li><strong>Importance:</strong> Improves accuracy and reduces manual entry.</li>
+                        <li><strong>Uniqueness:</strong> Async jobs with API-driven enrichment.</li>
+                    </ul>
+                    <a class="official-feature" href="https://www.proconvey.co.uk/features/know-your-case-and-client"
+                        target="_blank" rel="noopener">
+                        <div class="official-header">
+                            <span class="official-badge">Official feature</span>
+                            <span class="official-link">Know Your Case and Client</span>
+                        </div>
+                        <p class="official-desc">Property and client data enrichment with automated validation.</p>
+                    </a>
+                    <div class="diagram-card">
+                        <div class="diagram-caption">Sprift Data Enrichment Flow</div>
+                        <div class="mermaid">
+                            flowchart LR
+                            A[Property created] --> B[SpriftDataJob]
+                            B --> C[Fetch data]
+                            C --> D[Update property]
+                            D --> E[Fetch images]
+                        </div>
+                    </div>
+                </article>
+                <article class="feature-block">
+                    <div class="feature-heading-row">
+                        <h4>Stripe Payments & Webhooks</h4>
+                        <div class="pr-evidence pr-evidence-corner">
+                            <span class="pr-evidence-label">Evidence PRs</span>
+                            <div class="pr-evidence-badges">
+                                <span class="pr-evidence-badge">#938 Payment on Account Workflow</span>
+                                <span class="pr-evidence-badge">#413 Payment Screen Update</span>
+                                <span class="pr-evidence-badge">#274 Invite-Flow Payment Feature</span>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="feature-points">
+                        <li><strong>Purpose:</strong> Event-driven payments and webhook handling.</li>
+                        <li><strong>Importance:</strong> Reliable financial tracking and payment flow.</li>
+                        <li><strong>Uniqueness:</strong> Custom webhook jobs and state synchronization.</li>
+                    </ul>
+                    <a class="official-feature" href="https://www.proconvey.co.uk/features/payment-on-account"
+                        target="_blank" rel="noopener">
+                        <div class="official-header">
+                            <span class="official-badge">Official feature</span>
+                            <span class="official-link">Payment on Account</span>
+                        </div>
+                        <p class="official-desc">Stripe payments with automated tracking and receipts.</p>
+                    </a>
+                    <div class="diagram-card">
+                        <div class="diagram-caption">Stripe Payment Sequence</div>
+                        <div class="mermaid">
+                            sequenceDiagram
+                            participant User
+                            participant Frontend
+                            participant API
+                            participant Stripe
+                            User->>Frontend: Initiate payment
+                            Frontend->>API: Create intent
+                            API->>Stripe: Payment intent
+                            Stripe-->>API: Confirmation
+                        </div>
+                    </div>
+                </article>
+                <article class="feature-block">
+                    <div class="feature-heading-row">
+                        <h4>Overview PDF Generation</h4>
+                        <div class="pr-evidence pr-evidence-corner">
+                            <span class="pr-evidence-label">Evidence PRs</span>
+                            <div class="pr-evidence-badges">
+                                <span class="pr-evidence-badge">#1451 Overview Module Delivery (PCV01-753)</span>
+                                <span class="pr-evidence-badge">#1297 Overview PDF Delivery Pipeline</span>
+                                <span class="pr-evidence-badge">#1017 Overview PDF Workflow Delivery</span>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="feature-points">
+                        <li><strong>Purpose:</strong> On-demand PDF summaries for properties and cases.</li>
+                        <li><strong>Importance:</strong> Improves client experience and documentation quality.</li>
+                        <li><strong>Uniqueness:</strong> Dynamic aggregation and rendering pipeline.</li>
+                    </ul>
+                    <a class="official-feature" href="https://www.proconvey.co.uk/features/case-overviews"
+                        target="_blank" rel="noopener">
+                        <div class="official-header">
+                            <span class="official-badge">Official feature</span>
+                            <span class="official-link">Case Overviews</span>
+                        </div>
+                        <p class="official-desc">Single view with downloadable PDF summaries.</p>
+                    </a>
+                    <div class="diagram-card">
+                        <div class="diagram-caption">Overview PDF Generation Flow</div>
+                        <div class="mermaid">
+                            flowchart LR
+                            A[Case data] --> B[Aggregate data]
+                            B --> C[Render PDF]
+                            C --> D[Attach to case]
+                        </div>
+                    </div>
+                </article>
+                <article class="feature-block">
+                    <div class="feature-heading-row">
+                        <h4>Notification & Email Automation</h4>
+                        <div class="pr-evidence pr-evidence-corner">
+                            <span class="pr-evidence-label">Evidence PRs</span>
+                            <div class="pr-evidence-badges">
+                                <span class="pr-evidence-badge">#1021 Conveyancer Notifications + Case Owner</span>
+                                <span class="pr-evidence-badge">#1402 Payment Email Automation</span>
+                                <span class="pr-evidence-badge">#708 Onboarding Letters</span>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="feature-points">
+                        <li><strong>Purpose:</strong> Automated communications for onboarding and payments.</li>
+                        <li><strong>Importance:</strong> Reduces manual follow-ups and improves transparency.</li>
+                        <li><strong>Uniqueness:</strong> Event-driven templates with multi-channel delivery.</li>
+                    </ul>
+                    <div class="official-feature-grid">
+                        <a class="official-feature" href="https://www.proconvey.co.uk/features/onboarding-letters"
+                            target="_blank" rel="noopener">
+                            <div class="official-header">
+                                <span class="official-badge">Official feature</span>
+                                <span class="official-link">Onboarding Letters</span>
+                            </div>
+                            <p class="official-desc">Template-driven letters with automated delivery.</p>
+                        </a>
+                        <a class="official-feature" href="https://www.proconvey.co.uk/features/evidence-uploads"
+                            target="_blank" rel="noopener">
+                            <div class="official-header">
+                                <span class="official-badge">Official feature</span>
+                                <span class="official-link">Evidence Uploads</span>
+                            </div>
+                            <p class="official-desc">Secure uploads with progress tracking and reminders.</p>
+                        </a>
+                    </div>
+                    <div class="diagram-card">
+                        <div class="diagram-caption">Notification Automation Flow</div>
+                        <div class="mermaid">
+                            flowchart LR
+                            A[Event occurs] --> B[Select template]
+                            B --> C[Send email/SMS]
+                            C --> D[User notified]
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <h3 class="section-subtitle">Personal Attribution Evidence</h3>
+            <div class="evidence-grid">
+                <figure class="evidence-card">
+                    <img src="assets/proconvey/github-contribution-2023.png"
+                        alt="GitHub contribution heatmap and activity summary for 2023 showing 272 contributions and ProConvey repository activity">
+                    <figcaption>
+                        <strong>2023 Contribution Evidence:</strong> GitHub activity shows
+                        <strong>272 contributions</strong> with focused delivery on the ProConvey repository.
+                        <div class="evidence-links">
+                            <a href="https://github.com/kamrankhalid786?tab=overview&from=2023-12-01&to=2023-12-31"
+                                target="_blank" rel="noopener">GitHub ’23</a>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure class="evidence-card">
+                    <img src="assets/proconvey/github-contribution-2024.png"
+                        alt="GitHub contribution heatmap and activity summary for 2024 showing 421 contributions and ProConvey repository activity">
+                    <figcaption>
+                        <strong>2024 Contribution Evidence:</strong> GitHub activity shows
+                        <strong>421 contributions</strong> with sustained implementation output in the ProConvey codebase.
+                        <div class="evidence-links">
+                            <a href="https://github.com/kamrankhalid786?tab=overview&from=2024-12-01&to=2024-12-31"
+                                target="_blank" rel="noopener">GitHub ’24</a>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure class="evidence-card evidence-card-wide">
+                    <img src="assets/proconvey/kamran-github-contribution-proconvey.jpg"
+                        alt="GitHub contributors page for ProConvey repository highlighting Kamran Khalid as the number 2 contributor with 10,531 additions">
+                    <figcaption>
+                        <strong>Repository Contributor Proof:</strong> ProConvey contributors view highlights Kamran Khalid as
+                        <strong>#2 contributor</strong>, with <strong>10,531 code additions</strong> and high sustained commit activity.
+                    </figcaption>
+                </figure>
+            </div>
+
+            <h3 class="section-subtitle">PR & Commit Stats</h3>
+            <div class="stats-row stats-row-clean">
+                <article class="stats-table stats-table-clean stats-card">
+                    <h4 class="mini-title">Contribution Summary (2023–2024)</h4>
+                    <div class="table-wrap">
+                        <table class="stats-summary-table">
+                            <thead>
+                                <tr>
+                                    <th>Year</th>
+                                    <th>PRs Merged</th>
+                                    <th>Commits</th>
+                                    <th>Contributions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2023</td>
+                                    <td>40</td>
+                                    <td>150+</td>
+                                    <td>272</td>
+                                </tr>
+                                <tr>
+                                    <td>2024</td>
+                                    <td>141</td>
+                                    <td>200+</td>
+                                    <td>421</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+                <article class="stats-table stats-table-clean stats-card">
+                    <h4 class="mini-title">High-Value Technical Pull Request Registry</h4>
+                    <div class="table-wrap">
+                        <table class="stats-registry-table">
+                            <thead>
+                                <tr>
+                                    <th>PR Number</th>
+                                    <th>Title</th>
+                                    <th>Technical Scope</th>
+                                    <th>Business Goal Alignment</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>#1451</td>
+                                    <td>Overview Module Delivery #PCV01-753</td>
+                                    <td>Implemented overview rendering and data orchestration for case/property summary reliability.</td>
+                                    <td>Improved overview accuracy and reduced manual support follow-ups during onboarding.</td>
+                                </tr>
+                                <tr>
+                                    <td>#1402</td>
+                                    <td>Payment Email Automation #PCS-726</td>
+                                    <td>Implemented payment email template and delivery workflow orchestration in the automated notification pipeline.</td>
+                                    <td>Improved payment communication reliability and reduced payment confirmation delays.</td>
+                                </tr>
+                                <tr>
+                                    <td>#1208</td>
+                                    <td>Implemented new naming convention for naming pack zip</td>
+                                    <td>Standardized pack ZIP naming for protocol bundle generation and downstream processing.</td>
+                                    <td>Improved exchange-ready pack consistency for conveyancers and reduced document handling friction.</td>
+                                </tr>
+                                <tr>
+                                    <td>#1155</td>
+                                    <td>Yoti Redirect Integration #PCS-556</td>
+                                    <td>Implemented Yoti redirect/session flow integration for identity verification completion.</td>
+                                    <td>Increased compliant onboarding completion and reduced manual ID follow-up.</td>
+                                </tr>
+                                <tr>
+                                    <td>#1054</td>
+                                    <td>Document Type Categorization for Packs</td>
+                                    <td>Introduced document categorization rules for protocol pack assembly.</td>
+                                    <td>Accelerated pack preparation and improved legal bundle structure quality.</td>
+                                </tr>
+                                <tr>
+                                    <td>#1021</td>
+                                    <td>Conveyancer Notifications and Case Ownership</td>
+                                    <td>Implemented event-driven notifications with case-owner context for workflow updates.</td>
+                                    <td>Improved stakeholder visibility and reduced missed actions during onboarding.</td>
+                                </tr>
+                                <tr>
+                                    <td>#1017</td>
+                                    <td>Overview PDF Workflow Delivery</td>
+                                    <td>Implemented overview PDF generation pipeline refinements and output stability improvements.</td>
+                                    <td>Improved downloadable case summary quality for client and conveyancer workflows.</td>
+                                </tr>
+                                <tr>
+                                    <td>#972</td>
+                                    <td>Implemented Laravel jobs for sprift apis</td>
+                                    <td>Built asynchronous Laravel jobs to fetch/enrich property data from Sprift APIs.</td>
+                                    <td>Improved property data completeness and reduced manual entry effort.</td>
+                                </tr>
+                                <tr>
+                                    <td>#938</td>
+                                    <td>Payment on Account Workflow #PCS-466</td>
+                                    <td>Implemented payment-on-account flow reliability and transaction-state synchronization.</td>
+                                    <td>Improved payment success reliability and reduced reconciliation overhead.</td>
+                                </tr>
+                                <tr>
+                                    <td>#863</td>
+                                    <td>Mandatory ID Check Flow</td>
+                                    <td>Enforced mandatory ID-check progression by removing skip path in verification flow.</td>
+                                    <td>Strengthened compliance controls and reduced verification bypass risk.</td>
+                                </tr>
+                                <tr>
+                                    <td>#861</td>
+                                    <td>TA6 and TA7 Population Workflow</td>
+                                    <td>Implemented TA6/TA7 data population logic across protocol form workflows.</td>
+                                    <td>Improved protocol form accuracy and reduced rework before exchange.</td>
+                                </tr>
+                                <tr>
+                                    <td>#551</td>
+                                    <td>Sprift API Summary Data Mapping</td>
+                                    <td>Added core Sprift API mapping and summary-field population foundation.</td>
+                                    <td>Enabled scalable data enrichment patterns for faster, more accurate case setup.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+            </div>
+
+            <h3 class="section-subtitle">External Validation</h3>
+            <article class="quote-card founder-quote-card">
+                <div class="quote-meta">
+                    <div class="quote-name">Chris Scantlebury</div>
+                    <div class="quote-title">Founder @ ProConvey · September 5, 2025</div>
+                </div>
+                <p class="content-text quote-text">
+                    “Kamran was always on prompt and available. He worked flexibly and could handle multiple projects at
+                    the same time.
+                    His attention to detail was fantastic, and he was just a great person to have on the team. We’d
+                    recommend Kamran anywhere.”
+                </p>
+            </article>
+
+            <h3 class="section-subtitle">UK Benefit</h3>
+            <div class="narrative-card">
+                <p class="content-text">
+                    From Manchester, this architecture contributes directly to UK Future Economy outcomes by modernizing
+                    legal-tech operations,
+                    improving onboarding productivity for property transactions, and strengthening digital compliance
+                    capability in a high-friction industry. This strengthens the digital economy outside London and
+                    reinforces Manchester’s role as a high-value UK technology hub.
+                </p>
+            </div>
+
+            <h3 class="section-subtitle">Importance & Uniqueness</h3>
+            <ul class="clean-list">
+                <li>The system couples compliance decisioning, external data retrieval, and workflow orchestration into
+                    one auditable backend pipeline.</li>
+                <li>Exchange-ready document automation transformed legal operations from manual bundling to standardized
+                    digital delivery.</li>
+                <li>Modular backend architecture reduced technical debt while supporting sustained product scaling and
+                    regulated onboarding quality.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">© 2026 Kamran Khalid. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/kamran-khalid-4310973a/" class="social-link" target="_blank"
+                        aria-label="LinkedIn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg>
+                    </a>
+                    <a href="https://medium.com/@kamrankhalid06" class="social-link" target="_blank"
+                        aria-label="Medium">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M3 6.5C3 5.67 3.67 5 4.5 5h15c.83 0 1.5.67 1.5 1.5v11c0 .83-.67 1.5-1.5 1.5h-15C3.67 19 3 18.33 3 17.5v-11zm4.5 9.5c1.93 0 3.5-2.24 3.5-5s-1.57-5-3.5-5-3.5 2.24-3.5 5 1.57 5 3.5 5zm7 0c1.52 0 2.75-2.24 2.75-5s-1.23-5-2.75-5-2.75 2.24-2.75 5 1.23 5 2.75 5zm4.25-.39c.55 0 1-.95 1-2.11s-.45-2.11-1-2.11-1 .95-1 2.11.45 2.11 1 2.11z" />
+                        </svg>
+                    </a>
+                    <a href="mailto:contact@kamrankhalid.com" class="social-link" aria-label="Email">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z" />
+                        </svg>
+                    </a>
+                    <span class="social-divider"></span>
+                    <div class="social-group">
+                        <span class="social-label personal">Personal</span>
+                        <a href="https://github.com/kamrankhalid786" class="social-link" target="_blank"
+                            aria-label="GitHub Personal" title="GitHub Personal">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="social-group">
+                        <span class="social-label pro">Pro (Last 2 Years)</span>
+                        <a href="https://github.com/kamran-khalid-v9" class="social-link" target="_blank"
+                            aria-label="GitHub Pro" title="GitHub Pro">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+
+        function openShowcaseVideo() {
+            var modal = document.getElementById('showcaseVideoModal');
+            if (!modal) return;
+            modal.classList.add('active');
+            modal.style.display = 'flex';
+            modal.setAttribute('aria-hidden', 'false');
+        }
+
+        function closeShowcaseVideo() {
+            var modal = document.getElementById('showcaseVideoModal');
+            if (!modal) return;
+            modal.classList.remove('active');
+            modal.style.display = 'none';
+            modal.setAttribute('aria-hidden', 'true');
+        }
+    </script>
+
+    <div id="showcaseVideoModal" class="video-modal" aria-hidden="true">
+        <div class="video-modal-content">
+            <button class="video-modal-close" type="button" onclick="closeShowcaseVideo()">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M18 6 6 18"></path>
+                    <path d="m6 6 12 12"></path>
+                </svg>
+            </button>
+            <div class="video-modal-frame">
+                <iframe src="https://www.youtube.com/embed/-fce5ifNpG4" allowfullscreen
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

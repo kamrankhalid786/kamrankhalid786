@@ -1,0 +1,176 @@
+.mermaid text.actor,
+.mermaid text.actor > tspan {
+    fill: #e6f0ff !important;
+    stroke: none !important;
+}
+.mermaid .actor text,
+.mermaid .actor > text,
+.mermaid .actor > g > text,
+.mermaid .actor > g > g > text,
+.mermaid .actor > g > g > g > text,
+.mermaid .actor > g > g > g > g > text,
+.mermaid .actor > g > g > g > g > g > text,
+.mermaid .actor > g > g > g > g > g > g > text,
+.mermaid .actor > g > g > g > g > g > g > g > text,
+.mermaid .actor > g > g > g > g > g > g > g > g > text {
+    fill: #e6f0ff !important;
+    color: #e6f0ff !important;
+    font-family: 'IBM Plex Mono', 'Space Grotesk', 'Segoe UI', Arial, sans-serif !important;
+    font-size: 16px !important;
+    text-shadow: 0 1px 2px #11182455;
+}
+.mermaid .actor,
+.mermaid .actor rect,
+.mermaid .actor > rect,
+.mermaid .actor > g > rect,
+.mermaid .actor > g > g > rect,
+.mermaid .actor > g > g > g > rect {
+    fill: #222e44 !important;
+    stroke: #33d69f !important;
+}
+.mermaid .actor text,
+.mermaid .actor > text,
+.mermaid .actor > g > text,
+.mermaid .actor > g > g > text,
+.mermaid .actor > g > g > g > text {
+    fill: #e6f0ff !important;
+    color: #e6f0ff !important;
+    font-family: 'IBM Plex Mono', 'Space Grotesk', 'Segoe UI', Arial, sans-serif !important;
+    font-size: 16px !important;
+    text-shadow: 0 1px 2px #11182455;
+}
+.mermaid .actor rect {
+    fill: #222e44 !important;
+    stroke: #33d69f !important;
+}
+/* Mermaid dark mode override for proconvey.html only */
+.mermaid .node text,
+.mermaid .nodeLabel,
+.mermaid .label,
+.mermaid .label text,
+.mermaid .edgeLabel,
+.mermaid .edgeLabel tspan,
+.mermaid .label tspan,
+.mermaid .actor text,
+.mermaid .messageText,
+.mermaid .titleText,
+.mermaid .sectionTitle,
+.mermaid .sectionTitle text,
+.mermaid .sectionTitle tspan,
+.mermaid .sectionTitleLabel,
+.mermaid .sectionTitleLabel tspan {
+    fill: #e6f0ff !important;
+    color: #e6f0ff !important;
+    font-family: 'IBM Plex Mono', 'Space Grotesk', 'Segoe UI', Arial, sans-serif !important;
+    font-size: 16px !important;
+    text-shadow: 0 1px 2px #11182455;
+}
+
+.mermaid .node rect,
+.mermaid .node polygon,
+.mermaid .node ellipse,
+.mermaid .actor,
+.mermaid .section,
+.mermaid .sectionTitle {
+    fill: #222e44 !important;
+    stroke: #33d69f !important;
+    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.18));
+}
+
+.mermaid .edgePath path,
+.mermaid .messageLine0,
+.mermaid .messageLine1,
+.mermaid .link,
+.mermaid .arrowheadPath {
+    stroke: #33d69f !important;
+    fill: #33d69f !important;
+}
+
+.mermaid .edgeLabel {
+    background: #182233 !important;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+.mermaid .edgeLabel {
+    fill: #e6f0ff !important;
+    font-family: var(--mermaid-font-family) !important;
+    font-size: var(--mermaid-font-size) !important;
+}
+
+.mermaid .edgeLabel {
+    background: var(--mermaid-edge-label-bg) !important;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.mermaid .actor {
+    fill: #22314a !important;
+    stroke: #33d69f !important;
+}
+
+.mermaid .messageLine0,
+.mermaid .messageLine1 {
+    stroke: #33d69f !important;
+}
+
+.diagram-caption {
+    font-size: 0.98em;
+    color: var(--accent);
+    font-family: 'IBM Plex Mono', monospace;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+
+/* Consistent Mermaid Styling */
+.mermaid svg {
+    font-family: 'IBM Plex Mono', 'Space Grotesk', 'Segoe UI', Arial, sans-serif !important;
+}
+
+.mermaid .node rect,
+.mermaid .node polygon,
+.mermaid .node ellipse,
+.mermaid .actor,
+.mermaid .section {
+    fill: #222e44 !important;
+    stroke: #33d69f !important;
+}
+
+.mermaid .edgePath path,
+.mermaid .messageLine0,
+.mermaid .messageLine1,
+.mermaid .link,
+.mermaid .arrowheadPath {
+    stroke: #33d69f !important;
+    fill: #33d69f !important;
+}
+
+.mermaid .node text,
+.mermaid .nodeLabel,
+.mermaid .label,
+.mermaid .label text,
+.mermaid .edgeLabel,
+.mermaid .edgeLabel tspan,
+.mermaid .messageText,
+.mermaid .actor text {
+    fill: #e6f0ff !important;
+    color: #e6f0ff !important;
+    font-size: 15px !important;
+}
+
+.mermaid .edgeLabel {
+    background: #182233 !important;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+/* Hero Section Tweaks */
+.hero-container {
+    position: relative;
+}
+.hero-subtitle {
+    margin-bottom: 2.5em;
+    max-width: 700px;
+}
+.hero-bottom-spacer {
+    height: 32px;
+}
