@@ -1,0 +1,75 @@
+Jan 19, 2024
+Kamran Khalid's avatar
+Merge branch 'MYW2_13182_Cookie_Set' into 'dev03' 
+Kamran Khalid authored Jan 19, 2024
+13a31ec3
+Kamran Khalid's avatar
+Set cookie #MYW2_13182
+Kamran Khalid authored Jan 19, 2024
+bed25507
+Jan 18, 2024
+Kamran Khalid's avatar
+Added uuid in login response #MYW2_13182
+Kamran Khalid authored Jan 18, 2024
+b35b16ff
+Mar 21, 2023
+Kamran Khalid's avatar
+Updated new web event #MWW-24
+Kamran Khalid authored Mar 21, 2023
+74b296f3
+Mar 07, 2023
+Kamran Khalid's avatar
+Added price and grade #MWW-123
+Kamran Khalid authored Mar 7, 2023
+8e7bf918
+Feb 01, 2023
+Kamran Khalid's avatar
+Upload dob certificate
+Kamran Khalid authored Feb 1, 2023
+bfe2fd82
+Jan 05, 2023
+Kamran Khalid's avatar
+Fixed forget password #MWW-64
+Kamran Khalid authored Jan 5, 2023
+7ba1edb1
+Jan 02, 2023
+Kamran Khalid's avatar
+Show only fit and gpx files
+Kamran Khalid authored Jan 2, 2023
+d8f05c26
+Dec 29, 2022
+Kamran Khalid's avatar
+Merge branch 'development' into 'staging' 
+Kamran Khalid authored Dec 29, 2022
+56a135d4
+Kamran Khalid's avatar
+Optimized events query
+Kamran Khalid authored Dec 29, 2022
+8f7439a3
+Kamran Khalid's avatar
+Merge branch 'development' into 'staging' 
+Kamran Khalid authored Dec 29, 2022
+06849eae
+Kamran Khalid's avatar
+Updating event listing query 
+Kamran Khalid authored Dec 29, 2022
+c1ff170a
+Kamran Khalid's avatar
+Fixed participants count issue #MWW-35
+Kamran Khalid authored Dec 29, 2022
+125093ce
+Dec 28, 2022
+Kamran Khalid's avatar
+Fixed profile upload issue
+Kamran Khalid authored Dec 28, 2022
+d07ae9a8
+Aug 25, 2022
+Kamran Khalid's avatar
+Removed sentry package
+Kamran Khalid authored Aug 25, 2022
+5921b712
+Jan 07, 2022
+Kamran Khalid's avatar
+Added check for production and Fixed value to skip Otp
+Kamran Khalid authored Jan 7, 2022
+7bf74b09

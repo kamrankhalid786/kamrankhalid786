@@ -1,0 +1,588 @@
+Dec 29, 2022
+Kamran Khalid's avatar
+Added route type in web events
+Kamran Khalid authored Dec 29, 2022
+f78becf8
+Nov 15, 2022
+Kamran Khalid's avatar
+Updated bots listing count
+Kamran Khalid authored Nov 15, 2022
+399bf0fa
+Kamran Khalid's avatar
+Implemented orderby and pagination limit
+Kamran Khalid authored Nov 15, 2022
+b5125683
+Nov 04, 2022
+Kamran Khalid's avatar
+Removed return statement
+Kamran Khalid authored Nov 4, 2022
+19f37abf
+Kamran Khalid's avatar
+Updated category insertion method
+Kamran Khalid authored Nov 4, 2022
+99cf8319
+Kamran Khalid's avatar
+Added event category fields
+Kamran Khalid authored Nov 4, 2022
+01cd812c
+Nov 02, 2022
+Kamran Khalid's avatar
+Removed gender label
+Kamran Khalid authored Nov 2, 2022
+2a070f99
+Kamran Khalid's avatar
+Added gender in api response
+Kamran Khalid authored Nov 2, 2022
+7c0910b4
+Kamran Khalid's avatar
+Added weightage on event page
+Kamran Khalid authored Nov 2, 2022
+a31182b0
+Oct 27, 2022
+Kamran Khalid's avatar
+Moved mode in constructor
+Kamran Khalid authored Oct 27, 2022
+dfc4cadd
+Kamran Khalid's avatar
+Fixed event category in existing events
+Kamran Khalid authored Oct 27, 2022
+a9261da0
+Oct 25, 2022
+Kamran Khalid's avatar
+Updated array name
+Kamran Khalid authored Oct 25, 2022
+781fd5d8
+Kamran Khalid's avatar
+Pagination for event bots crud
+Kamran Khalid authored Oct 25, 2022
+5ccfedf8
+Kamran Khalid's avatar
+Stored event category in DB
+Kamran Khalid authored Oct 25, 2022
+f30950c7
+Oct 21, 2022
+Kamran Khalid's avatar
+Imported new csv files
+Kamran Khalid authored Oct 21, 2022
+ac9bf5b1
+Oct 18, 2022
+Kamran Khalid's avatar
+Updated model name
+Kamran Khalid authored Oct 18, 2022
+91755d65
+Oct 17, 2022
+Kamran Khalid's avatar
+Create api for data
+Kamran Khalid authored Oct 17, 2022
+be829a41
+Kamran Khalid's avatar
+Updated saved method
+Kamran Khalid authored Oct 17, 2022
+58556e54
+Kamran Khalid's avatar
+Fixed type mistake
+Kamran Khalid authored Oct 17, 2022
+9333f2c6
+Kamran Khalid's avatar
+Updated crud methods
+Kamran Khalid authored Oct 17, 2022
+dcaad057
+Kamran Khalid's avatar
+Updated deleted and store method
+Kamran Khalid authored Oct 17, 2022
+907f7b85
+Kamran Khalid's avatar
+Created bots crud and enabled for events
+Kamran Khalid authored Oct 17, 2022
+38c99629
+Oct 10, 2022
+Kamran Khalid's avatar
+send silent push on bot updates in event
+Kamran Khalid authored Oct 10, 2022
+dbc70361
+Oct 04, 2022
+Kamran Khalid's avatar
+Fixed reward route id
+Kamran Khalid authored Oct 4, 2022
+b928a6c2
+Sep 30, 2022
+Kamran Khalid's avatar
+Merge branch 'enhancement-add-wind-effect-MYW2-3494-20220930' into 'development' 
+Kamran Khalid authored Sep 30, 2022
+a05b3c7d
+Kamran Khalid's avatar
+Added wind effect
+Kamran Khalid authored Sep 30, 2022
+446185d9
+Sep 29, 2022
+Kamran Khalid's avatar
+Merge branch 'development' into 'staging' 
+Kamran Khalid authored Sep 29, 2022
+ab61305f
+Sep 27, 2022
+Kamran Khalid's avatar
+Moved wind effect in day section
+Kamran Khalid authored Sep 27, 2022
+1cab1281
+Sep 26, 2022
+Kamran Khalid's avatar
+Moved firework in days section
+Kamran Khalid authored Sep 26, 2022
+b935a75c
+Kamran Khalid's avatar
+Merge branch 'enhancement-wind-effect-MYW2-3078-20220922' of... 
+Kamran Khalid authored Sep 26, 2022
+197e63cf
+Sep 24, 2022
+Kamran Khalid's avatar
+Added garage lock functionality on event days
+Kamran Khalid authored Sep 24, 2022
+dd650b17
+Sep 22, 2022
+Kamran Khalid's avatar
+Added wind effect in event
+Kamran Khalid authored Sep 22, 2022
+f26d60f2
+Sep 21, 2022
+Kamran Khalid's avatar
+Merge branch 'MYWMP-313-bots-api-for-free-rides' into 'development' 
+Kamran Khalid authored Sep 21, 2022
+6f3fe174
+Sep 15, 2022
+Kamran Khalid's avatar
+Updated the method parameter
+Kamran Khalid authored Sep 15, 2022
+534c53d0
+Kamran Khalid's avatar
+Commented header api key
+Kamran Khalid authored Sep 15, 2022
+87bc3c03
+Kamran Khalid's avatar
+Fixed ec2 remove instance
+Kamran Khalid authored Sep 15, 2022
+b664c039
+Kamran Khalid's avatar
+Added firework option for events
+Kamran Khalid authored Sep 15, 2022
+150f5d72
+Sep 12, 2022
+Kamran Khalid's avatar
+Fixed player personal struct
+Kamran Khalid authored Sep 12, 2022
+3191a04f
+Sep 06, 2022
+Kamran Khalid's avatar
+Merge branch 'high-res-image-upload-enhancements' into 'development' 
+Kamran Khalid authored Sep 6, 2022
+487d9931
+Aug 31, 2022
+Kamran Khalid's avatar
+Merge branch 'bots-api-enhancements' into 'development' 
+Kamran Khalid authored Aug 31, 2022
+422b9a90
+Aug 31, 2022
+Kamran Khalid's avatar
+Merge branch 'MYWMP-313-bots-api-for-free-rides' into 'development' 
+Kamran Khalid authored Aug 31, 2022
+58912346
+Aug 30, 2022
+Kamran Khalid's avatar
+Merge branch 'MYW2-2880-high-resoulution-image-upload-pc-mobile' into 'development-sprint' 
+Kamran Khalid authored Aug 30, 2022
+2992e262
+Aug 25, 2022
+Kamran Khalid's avatar
+Added garage lock field
+Kamran Khalid authored Aug 25, 2022
+dee6d830
+Aug 24, 2022
+Kamran Khalid's avatar
+Refactor filter trait
+Kamran Khalid authored Aug 24, 2022
+955783a0
+Kamran Khalid's avatar
+Fixed library search filter #MYW2-2993
+Kamran Khalid authored Aug 24, 2022
+b7ca9d9a
+Aug 11, 2022
+Kamran Khalid's avatar
+Created a consumer to read queue messages
+Kamran Khalid authored Aug 11, 2022
+bdd41d9f
+Jul 08, 2022
+Kamran Khalid's avatar
+Fixed sponsor issue
+Kamran Khalid authored Jul 09, 2022
+3f5dd2c1
+Jul 04, 2022
+Kamran Khalid's avatar
+Updated field in game settings 
+Kamran Khalid authored Jul 04, 2022
+18619b43
+Jun 29, 2022
+Kamran Khalid's avatar
+Removed resize image parameter
+Kamran Khalid authored Jun 29, 2022
+a4d98720
+Jun 24, 2022
+Kamran Khalid's avatar
+Merge branch 'development' into 'staging' 
+Kamran Khalid authored Jun 24, 2022
+7d622e79
+Kamran Khalid's avatar
+Merge branch 'bug-fixed-rewards-in-event-MYW2-1983-20220624' into 'development' 
+Kamran Khalid authored Jun 24, 2022
+193fd0c9
+Kamran Khalid's avatar
+Fixed event rewards #MYW2-1983
+Kamran Khalid authored Jun 24, 2022
+1f897272
+Jun 21, 2022
+Kamran Khalid's avatar
+Merge branch 'enhancement-add-new-field-in-game-settings-MYW2-2329-20220621' into 'development' 
+Kamran Khalid authored Jun 21, 2022
+79c85b11
+Kamran Khalid's avatar
+Added new file in game settings #MYW2-2329
+Kamran Khalid authored Jun 21, 2022
+e95322e9
+Jun 17, 2022
+Kamran Khalid's avatar
+Updated Jersey api for collection update
+Kamran Khalid authored Jun 17, 2022
+bf58159f
+Kamran Khalid's avatar
+Merge branch 'development' into 'staging' 
+Kamran Khalid authored Jun 17, 2022
+1e30485c
+Kamran Khalid's avatar
+Updated method parameters
+Kamran Khalid authored Jun 17, 2022
+318ffb9e
+Kamran Khalid's avatar
+Updated jersey uploading path
+Kamran Khalid authored Jun 17, 2022
+c7305a23
+Jun 16, 2022
+Kamran Khalid's avatar
+Removed repeated code
+Kamran Khalid authored Jun 16, 2022
+52ca3eba
+Kamran Khalid's avatar
+API to update existing collection
+Kamran Khalid authored Jun 16, 2022
+992a6a3e
+Kamran Khalid's avatar
+Applied validation for image
+Kamran Khalid authored Jun 16, 2022
+4cfe14ae
+Jun 15, 2022
+Kamran Khalid's avatar
+Jersey management 
+Kamran Khalid authored Jun 15, 2022
+9f26376b
+Jun 08, 2022
+Kamran Khalid's avatar
+Change start and end data time format
+Kamran Khalid authored Jun 08, 2022
+79f35bfe
+Jun 06, 2022
+Kamran Khalid's avatar
+Reading and write maintenance record from JSON S3
+Kamran Khalid authored Jun 06, 2022
+b329aaf7
+Jun 01, 2022
+Kamran Khalid's avatar
+Fixed event listing issue.
+Kamran Khalid authored Jun 01, 2022
+3c67769a
+May 30, 2022
+Kamran Khalid's avatar
+Add sponsor logo while creating and updating logo MYW2-1508
+Kamran Khalid authored May 30, 2022
+a56b30f3
+Mar 24, 2022
+Kamran Khalid's avatar
+Used defined value
+Kamran Khalid authored Mar 24, 2022
+9f369465
+Kamran Khalid's avatar
+Merge branch 'enhancement-add-centemeter-in-routes-20220323' of... 
+Kamran Khalid authored Mar 24, 2022
+8b9a1841
+Kamran Khalid's avatar
+Change variable name
+Kamran Khalid authored Mar 24, 2022
+3bc8b835
+Kamran Khalid's avatar
+Implemented number of centimeter in existing functionality
+Kamran Khalid authored Mar 24, 2022
+803db7e5
+Mar 23, 2022
+Kamran Khalid's avatar
+Added centimeter field in map routes
+Kamran Khalid authored Mar 23, 2022
+17721910
+Mar 21, 2022
+Kamran Khalid's avatar
+Removed day-night mode from event details
+Kamran Khalid authored Mar 21, 2022
+f5911562
+Mar 18, 2022
+Kamran Khalid's avatar
+Set default value in case of edit
+Kamran Khalid authored Mar 18, 2022
+37ac6d9b
+Kamran Khalid's avatar
+Added day night mode in event day
+Kamran Khalid authored Mar 18, 2022
+f8a95f6e
+Kamran Khalid's avatar
+Refactor JSON method
+Kamran Khalid authored Mar 18, 2022
+6ed47376
+Kamran Khalid's avatar
+Removed not used options from JSON
+Kamran Khalid authored Mar 18, 2022
+cb14210f
+Kamran Khalid's avatar
+Removed not used json collections 
+Kamran Khalid authored Mar 18, 2022
+f5de0d41
+Kamran Khalid's avatar
+Loading all dropdowns through api
+Kamran Khalid authored Mar 18, 2022
+d3e217f4
+Mar 17, 2022
+Kamran Khalid's avatar
+Merge branch 'enhancement-updated-event-shift-values-20220317' into 'development' 
+Kamran Khalid authored Mar 17, 2022
+73ef67af
+Kamran Khalid's avatar
+Updated event shift values and name
+Kamran Khalid authored Mar 17, 2022
+a0743e27
+Mar 15, 2022
+Kamran Khalid's avatar
+Added unique check for event route value
+Kamran Khalid authored Mar 15, 2022
+97477c23
+Mar 11, 2022
+Kamran Khalid's avatar
+Added event shift in events
+Kamran Khalid authored Mar 11, 2022
+8b1e8df7
+Mar 09, 2022
+Kamran Khalid's avatar
+Removed event shift
+Kamran Khalid authored Mar 09, 2022
+03c767df
+Kamran Khalid's avatar
+Added enable segment in event
+Kamran Khalid authored Mar 09, 2022
+f8e8d0f1
+Kamran Khalid's avatar
+Updated value in filter
+Kamran Khalid authored Mar 09, 2022
+9b17731d
+Kamran Khalid's avatar
+Update variable name
+Kamran Khalid authored Mar 09, 2022
+1a064adc
+Kamran Khalid's avatar
+Added new feature event times
+Kamran Khalid authored Mar 09, 2022
+9bc08304
+Feb 28, 2022
+Kamran Khalid's avatar
+Merge branch 'enhancement-increase-pagination-limit-20220228' into 'development' 
+Kamran Khalid authored Feb 28, 2022
+0025c7b1
+Kamran Khalid's avatar
+Increase limit of pagination on library page
+Kamran Khalid authored Feb 28, 2022
+e032fff9
+Feb 24, 2022
+Kamran Khalid's avatar
+Implemented helper method for distance conversion
+Kamran Khalid authored Feb 24, 2022
+997de8bc
+Kamran Khalid's avatar
+Change value with boolean
+Kamran Khalid authored Feb 24, 2022
+4a8e4b79
+Kamran Khalid's avatar
+Removed old controller and models
+Kamran Khalid authored Feb 24, 2022
+fb3d2125
+Feb 23, 2022
+Kamran Khalid's avatar
+Fixed multiple laps event
+Kamran Khalid authored Feb 23, 2022
+6f15d9fe
+Kamran Khalid's avatar
+Applied unique on value
+Kamran Khalid authored Feb 23, 2022
+fa655255
+Kamran Khalid's avatar
+Added mutator for spline path value
+Kamran Khalid authored Feb 23, 2022
+085720f1
+Kamran Khalid's avatar
+Added empty string in case of empty spline path
+Kamran Khalid authored Feb 23, 2022
+18480487
+Feb 22, 2022
+Kamran Khalid's avatar
+Add jerseys through csv
+Kamran Khalid authored Feb 22, 2022
+836e5afe
+Kamran Khalid's avatar
+Removed validation form spline path
+Kamran Khalid authored Feb 22, 2022
+9868540c
+Feb 17, 2022
+Kamran Khalid's avatar
+Updated logger method
+Kamran Khalid authored Feb 17, 2022
+54f84f1c
+Kamran Khalid's avatar
+Update logger method
+Kamran Khalid authored Feb 17, 2022
+7633d04b
+Kamran Khalid's avatar
+Update log exception method
+Kamran Khalid authored Feb 17, 2022
+3e8d198e
+Kamran Khalid's avatar
+Implemented log on rewards crud
+Kamran Khalid authored Feb 17, 2022
+211151ea
+Feb 16, 2022
+Kamran Khalid's avatar
+Added virtual gate check
+Kamran Khalid authored Feb 16, 2022
+c1210a30
+Kamran Khalid's avatar
+Updated list of gates default value as array
+Kamran Khalid authored Feb 16, 2022
+e4a1313d
+Kamran Khalid's avatar
+Added multiple laps functionality #MYW2-1259
+Kamran Khalid authored Feb 16, 2022
+9a7eed70
+Feb 11, 2022
+Kamran Khalid's avatar
+Added log and observer
+Kamran Khalid authored Feb 11, 2022
+f1db70b8
+Feb 09, 2022
+Kamran Khalid's avatar
+Updated map route method
+Kamran Khalid authored Feb 09, 2022
+19aae85f
+Feb 07, 2022
+Kamran Khalid's avatar
+Created API for map route
+Kamran Khalid authored Feb 07, 2022
+29ed68fd
+Jan 31, 2022
+Kamran Khalid's avatar
+Created map route api
+Kamran Khalid authored Jan 31, 2022
+e0dcaaa7
+Jan 14, 2022
+Kamran Khalid's avatar
+Updated field name
+Kamran Khalid authored Jan 14, 2022
+9c61d165
+Kamran Khalid's avatar
+Added participant limit
+Kamran Khalid authored Jan 14, 2022
+3e27b30f
+Kamran Khalid's avatar
+Added two new columns in events CRUD
+Kamran Khalid authored Jan 14, 2022
+15f15e07
+Kamran Khalid's avatar
+Added participant field in api
+Kamran Khalid authored Jan 14, 2022
+2fd74155
+Jan 12, 2022
+Kamran Khalid's avatar
+Added multiple maintenance sections
+Kamran Khalid authored Jan 12, 2022
+14495d24
+Jan 11, 2022
+Kamran Khalid's avatar
+Added button_text and message_type fields
+Kamran Khalid authored Jan 11, 2022
+095afc40
+Jan 10, 2022
+Kamran Khalid's avatar
+Change variable name
+Kamran Khalid authored Jan 10, 2022
+6f83cc87
+Kamran Khalid's avatar
+Created filters for route library
+Kamran Khalid authored Jan 10, 2022
+bda43356
+Jan 06, 2022
+Kamran Khalid's avatar
+Added new count and column in players listing
+Kamran Khalid authored Jan 06, 2022
+2badb4c7
+Jan 05, 2022
+Kamran Khalid's avatar
+Create only single record
+Kamran Khalid authored Jan 05, 2022
+af88a7af
+Jan 04, 2022
+Kamran Khalid's avatar
+Convert datetime to utc and added title
+Kamran Khalid authored Jan 04, 2022
+58870f63
+Jan 04, 2022
+Kamran Khalid's avatar
+Removed with relationship while sending response
+Kamran Khalid authored Jan 04, 2022
+8a0dfb7a
+Kamran Khalid's avatar
+Removed created_at and updated_at
+Kamran Khalid authored Jan 04, 2022
+4e023e90
+Kamran Khalid's avatar
+Applied validation on message and is_maintenance field
+Kamran Khalid authored Jan 04, 2022
+0fd3aa31
+Kamran Khalid's avatar
+Implemented validation and created listing method
+Kamran Khalid authored Jan 04, 2022
+c467238d
+Jan 03, 2022
+Kamran Khalid's avatar
+Inserted all records with user id
+Kamran Khalid authored Jan 03, 2022
+752ca9f4
+Kamran Khalid's avatar
+Enhancement - Maintenance setting
+Kamran Khalid authored Jan 03, 2022
+e8ff2d00
+Kamran Khalid's avatar
+Implemented dashboard stats and listing
+Kamran Khalid authored Jan 03, 2022
+66df7855
+Nov 25, 2021
+Kamran Khalid's avatar
+Updated cron jobs documentation
+Kamran Khalid authored Nov 25, 2021
+6c7e93a5
+Nov 03, 2021
+Kamran Khalid's avatar
+Fixed event listing memory issue
+Kamran Khalid authored Nov 03, 2021
+a3957400
+Oct 31, 2021
+Kamran Khalid's avatar
+Crud operation for Mp Setting
+Kamran Khalid authored Oct 31, 2021
