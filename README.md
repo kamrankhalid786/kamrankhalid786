@@ -20,7 +20,7 @@ I actively contribute to the PHP/Laravel ecosystem and the wider UK tech communi
 
 * <a href="https://medium.com/@kamrankhalid06" target="_blank" rel="noopener"><img src="https://img.icons8.com/color/48/000000/medium-monogram.png" alt="Medium" width="18" style="vertical-align:middle;"/></a> <strong>Writing:</strong> I publish practical backend and architecture articles on Stackademic and <em>JavaScript in Plain English</em>, and maintain runnable examples in my <a href="https://github.com/kamrankhalid786/medium-articles" target="_blank" rel="noopener">medium-articles</a> repository.
 * <a href="https://gdg.community.dev/events/details/google-gdg-manchester-presents-gdg-manchester-meetup/" target="_blank" rel="noopener"><img src="https://img.icons8.com/color/48/000000/microphone.png" alt="Speaking" width="18" style="vertical-align:middle;"/></a> <strong>Speaking:</strong> Guest speaker at the University of Manchester and GDG Manchester on secure API design and real-world backend architecture.
-* <a href="https://www.developerweek.com/" target="_blank" rel="noopener"><img src="https://img.icons8.com/color/48/000000/handshake.png" alt="Mentoring" width="18" style="vertical-align:middle;"/></a> <strong>Mentoring:</strong> Official mentor at DeveloperWeek USA 2025, supporting engineers with real production challenges.
+* <a href="https://www.developerweek.com/" target="_blank" rel="noopener"><img src="https://img.icons8.com/color/48/000000/handshake.png" alt="Mentoring" width="18" style="vertical-align:middle;"/></a> <strong>Mentoring:</strong> Mentor at DeveloperWeek USA 2025, supporting engineers with real production challenges.
 
 
 ## Tech Focus
