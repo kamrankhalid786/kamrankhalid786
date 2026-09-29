@@ -1,17 +1,17 @@
 ## Senior Backend Architect & Technical Leader
 
-I build reliable backend systems and turn complex requirements into software that actually works. With over 12 years of hands-on experience, I focus on scalability, security, and long-term maintainability in production systems.
+I build reliable backend systems and turn complex requirements into software that actually works. With 15 years of hands-on experience, I focus on scalability, security, and long-term maintainability in production systems.
 
 ## What I do
 
 * **Fintech (Verofy®)** <a href="https://verofy.com/" target="_blank" rel="noopener"><img src="https://img.icons8.com/color/48/000000/internet--v1.png" alt="Web" width="18" style="vertical-align:middle;"/></a> <a href="https://www.linkedin.com/company/verofy/" target="_blank" rel="noopener"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="18" style="vertical-align:middle;"/></a>  
-    Backend Lead working on payment and onboarding systems for **Verofy® Enterprise payments platform®**, an **FCA-regulated Payment Institution**. My work supports secure onboarding, transaction processing, and internal decision logic used by UK SMEs.
+    Backend Lead working on payment and onboarding systems for **Verofy® & PayFacLite®**, an **FCA-regulated Payment Institution**. My work supports secure onboarding, transaction processing, and internal decision logic used by UK SMEs.
 
 * **Innovate UK (ProConvey)** <a href="https://www.proconvey.co.uk/" target="_blank" rel="noopener"><img src="https://img.icons8.com/color/48/000000/internet--v1.png" alt="Web" width="18" style="vertical-align:middle;"/></a> <a href="https://www.linkedin.com/company/proconvey/" target="_blank" rel="noopener"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="18" style="vertical-align:middle;"/></a>  
-    Lead architect on an Innovate UK Smart Grant–funded platform that reduced routine legal enquiries by around 80% through secure, automated workflows.
+    Lead architect on an Innovate UK Smart Grant–funded platform that reduced routine legal enquiries by around 70% through secure, automated workflows.
 
 * **Global events (MyWhoosh)** <a href="https://mywhoosh.com/" target="_blank" rel="noopener"><img src="https://img.icons8.com/color/48/000000/internet--v1.png" alt="Web" width="18" style="vertical-align:middle;"/></a> <a href="https://www.linkedin.com/company/mywhoosh/" target="_blank" rel="noopener"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="18" style="vertical-align:middle;"/></a>  
-    Designed the verification architecture for the UCI Cycling Esports World Championships, supporting real-time participation across 100+ countries.
+    Built the pre-verification pipeline and registration services for the $1M MyWhoosh Championship. MyWhoosh later hosted the UCI Cycling Esports World Championships.
 
 
 ## Community & Teaching
